@@ -14,7 +14,7 @@
       }
     },
     "address": "https://fdroid-revanced.github.io/repo",
-    "timestamp": 1784502479000,
+    "timestamp": 1784502650000,
     "categories": {
       "Multimedia": {
         "name": {
@@ -46,12 +46,12 @@
         "preferredSigner": "990aa515644a3f1528c122f2ce9ceb19f404912532394579ebedaea32c99cde9"
       },
       "versions": {
-        "6346c22aa85c2ad7ec902b1487336ea847d546bda56167dc82fd6c29f0daed06": {
+        "57bbf59363bbe5bd3702fd3635611b257510a4f2c18d6224d599f7387017f3d5": {
           "added": 1784501795000,
           "file": {
             "name": "/at.gv.oe.app_5.5.0_revanced.apk",
-            "sha256": "6346c22aa85c2ad7ec902b1487336ea847d546bda56167dc82fd6c29f0daed06",
-            "size": 55516526
+            "sha256": "57bbf59363bbe5bd3702fd3635611b257510a4f2c18d6224d599f7387017f3d5",
+            "size": 55565737
           },
           "manifest": {
             "nativecode": [
@@ -477,11 +477,11 @@
         "preferredSigner": "990aa515644a3f1528c122f2ce9ceb19f404912532394579ebedaea32c99cde9"
       },
       "versions": {
-        "d29d6909f2e3c2d8bdacc3e1b0c0f915aecc0f12a032ad59d03b59ab345c9ddb": {
+        "510ccab652afd10e4e385f1b4e031b6179d2662330a0feb20f62a7e287cd126f": {
           "added": 1784501799000,
           "file": {
             "name": "/com.bandcamp.android_3.3.6_revanced.apk",
-            "sha256": "d29d6909f2e3c2d8bdacc3e1b0c0f915aecc0f12a032ad59d03b59ab345c9ddb",
+            "sha256": "510ccab652afd10e4e385f1b4e031b6179d2662330a0feb20f62a7e287cd126f",
             "size": 15069645
           },
           "manifest": {
@@ -590,12 +590,12 @@
         "preferredSigner": "990aa515644a3f1528c122f2ce9ceb19f404912532394579ebedaea32c99cde9"
       },
       "versions": {
-        "eddb9cfc9499a98d258b4c500d8a0267304c7e0eb59398803a40830f83541f38": {
+        "8aa172de1e1fdf44dd2b9e569cdda1f420b45b07f82c1c22a21e9e2bfdbae756": {
           "added": 1784501800000,
           "file": {
             "name": "/com.nis.app_6.12.26_revanced.apk",
-            "sha256": "eddb9cfc9499a98d258b4c500d8a0267304c7e0eb59398803a40830f83541f38",
-            "size": 44930110
+            "sha256": "8aa172de1e1fdf44dd2b9e569cdda1f420b45b07f82c1c22a21e9e2bfdbae756",
+            "size": 44889150
           },
           "manifest": {
             "nativecode": [
@@ -945,6 +945,108 @@
               },
               {
                 "name": "android.permission.CHANGE_WIFI_MULTICAST_STATE"
+              }
+            ]
+          }
+        }
+      }
+    },
+    "com.rubenmayayo.reddit.revanced": {
+      "metadata": {
+        "added": 1784502646000,
+        "categories": [
+          "Multimedia"
+        ],
+        "lastUpdated": 1784502646000,
+        "authorName": "ReVanced (patched)",
+        "name": {
+          "en-US": "Boost"
+        },
+        "description": {
+          "en-US": "ReVanced-patched build of com.rubenmayayo.reddit.\n\nPatches applied:\n- INFO: \"Disable ads\" succeeded\n- INFO: \"Fix /s/ links\" succeeded\n- INFO: \"Fix Redgifs API\" succeeded\n- INFO: \"Fix missing audio in video downloads\" succeeded\n- INFO: \"Change package name\" succeeded\n"
+        },
+        "icon": {
+          "en-US": {
+            "name": "/icons/com.rubenmayayo.reddit.revanced.210011212.png",
+            "sha256": "b8c5e9aa87b975d6e63402d9140b560deb626c5a1d8c5215961d42bc1600894c",
+            "size": 3193
+          }
+        },
+        "preferredSigner": "990aa515644a3f1528c122f2ce9ceb19f404912532394579ebedaea32c99cde9"
+      },
+      "versions": {
+        "356ffd2eeeea3c34430138e804e8a8727bfb8f4bd182ff2263b60aa8ef0a073d": {
+          "added": 1784502646000,
+          "file": {
+            "name": "/com.rubenmayayo.reddit_1.12.12_revanced.apk",
+            "sha256": "356ffd2eeeea3c34430138e804e8a8727bfb8f4bd182ff2263b60aa8ef0a073d",
+            "size": 19024989
+          },
+          "manifest": {
+            "nativecode": [
+              "arm64-v8a",
+              "armeabi",
+              "armeabi-v7a",
+              "mips",
+              "mips64",
+              "x86",
+              "x86_64"
+            ],
+            "versionName": "1.12.12",
+            "versionCode": 210011212,
+            "usesSdk": {
+              "minSdkVersion": 21,
+              "targetSdkVersion": 32
+            },
+            "signer": {
+              "sha256": [
+                "990aa515644a3f1528c122f2ce9ceb19f404912532394579ebedaea32c99cde9"
+              ]
+            },
+            "usesPermission": [
+              {
+                "name": "android.permission.INTERNET"
+              },
+              {
+                "name": "android.permission.ACCESS_NETWORK_STATE"
+              },
+              {
+                "name": "android.permission.ACCESS_WIFI_STATE"
+              },
+              {
+                "name": "android.permission.RECEIVE_BOOT_COMPLETED"
+              },
+              {
+                "name": "android.permission.WRITE_EXTERNAL_STORAGE",
+                "maxSdkVersion": 29
+              },
+              {
+                "name": "com.android.vending.BILLING"
+              },
+              {
+                "name": "com.android.launcher.permission.INSTALL_SHORTCUT"
+              },
+              {
+                "name": "com.google.android.c2dm.permission.RECEIVE"
+              },
+              {
+                "name": "com.google.android.gms.permission.AD_ID"
+              },
+              {
+                "name": "com.applovin.array.apphub.permission.BIND_APPHUB_SERVICE"
+              },
+              {
+                "name": "android.permission.WAKE_LOCK"
+              },
+              {
+                "name": "com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE"
+              },
+              {
+                "name": "android.permission.FOREGROUND_SERVICE"
+              },
+              {
+                "name": "android.permission.READ_EXTERNAL_STORAGE",
+                "maxSdkVersion": 29
               }
             ]
           }

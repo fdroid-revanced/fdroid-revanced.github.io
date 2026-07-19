@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <fdroid>
-	<repo icon="icon.png" name="ReVanced F-Droid" pubkey="308203843082026ca0030201020209008ff6b12b8bb8dec1300d06092a864886f70d01010c0500306f310b30090603550406130255533110300e06035504081307556e6b6e6f776e3110300e06035504071307556e6b6e6f776e31143012060355040a130b726576616e636564626f743110300e060355040b1307462d44726f6964311430120603550403130b726576616e636564626f743020170d3236303731393139353930315a180f32303533313230343139353930315a306f310b30090603550406130255533110300e06035504081307556e6b6e6f776e3110300e06035504071307556e6b6e6f776e31143012060355040a130b726576616e636564626f743110300e060355040b1307462d44726f6964311430120603550403130b726576616e636564626f7430820122300d06092a864886f70d01010105000382010f003082010a0282010100d751c3d499c555da6646cf761066fcc62e6e5841b14dbcf13863c830bda61fdb29eaba3c7d4e13932e4776ec38f3b61f658e7324989de9500d51a12dfc16b1750183686ecf2c470902bb89dc458636dfc3242f003aa7aa94198b8c5fd9160974f2146f1a43a1c819b6c77a3223349a7875c37804ce85a18000f49542f9aa7da1b2f7519182e8abae5a7b813a79ea0c9526d116e38d088ae533e0998ddd3fc5fcc673d6a855a62220c3d2f411a413f6560e902009b264ed631f130c9575b4e5fff8884e598cd2a02ab808efec9a62dc103fcc63f5b8e92ef1697e8654b4f8f3065936e1ffd4822271d83398ad957061e2349dc0c856f361708dc06b2656eb58970203010001a321301f301d0603551d0e041604143e7dcf8a11387332fc45f05389fbf70649df821d300d06092a864886f70d01010c050003820101002107522f45f6163562fbe8e1cea447942928bbb35c8881dce239f27b47592a6292e8f4ab45bd05b9ad002df5345cd69c781916e3c5c9b62439118e9f233c47061af8cf5835aa7747315ddc04998adabd331e813a2a31b495ba0e3c0b94d1dae306423e57f1390c9a09c2a1c2fad186b00127259fddbfc1c3dcf1176da37408f59001dabc9f26e5c6320346bf9e6e6644a80d0880187afe88880a7ab7d67909493ec99c4e3f0eda8a4d0b023f0165037965e14a4411a69a7eab977ca00eff97d812456fa2cff5a6f6308e80298b0f321c2518078c498f6e699accf13255d0815ef71db57e1c6f67e26c087c3bd77ffa8daefb5a162811ef569192d446be958e4c" timestamp="1784502479" url="https://fdroid-revanced.github.io/repo" version="20002">
+	<repo icon="icon.png" name="ReVanced F-Droid" pubkey="308203843082026ca0030201020209008ff6b12b8bb8dec1300d06092a864886f70d01010c0500306f310b30090603550406130255533110300e06035504081307556e6b6e6f776e3110300e06035504071307556e6b6e6f776e31143012060355040a130b726576616e636564626f743110300e060355040b1307462d44726f6964311430120603550403130b726576616e636564626f743020170d3236303731393139353930315a180f32303533313230343139353930315a306f310b30090603550406130255533110300e06035504081307556e6b6e6f776e3110300e06035504071307556e6b6e6f776e31143012060355040a130b726576616e636564626f743110300e060355040b1307462d44726f6964311430120603550403130b726576616e636564626f7430820122300d06092a864886f70d01010105000382010f003082010a0282010100d751c3d499c555da6646cf761066fcc62e6e5841b14dbcf13863c830bda61fdb29eaba3c7d4e13932e4776ec38f3b61f658e7324989de9500d51a12dfc16b1750183686ecf2c470902bb89dc458636dfc3242f003aa7aa94198b8c5fd9160974f2146f1a43a1c819b6c77a3223349a7875c37804ce85a18000f49542f9aa7da1b2f7519182e8abae5a7b813a79ea0c9526d116e38d088ae533e0998ddd3fc5fcc673d6a855a62220c3d2f411a413f6560e902009b264ed631f130c9575b4e5fff8884e598cd2a02ab808efec9a62dc103fcc63f5b8e92ef1697e8654b4f8f3065936e1ffd4822271d83398ad957061e2349dc0c856f361708dc06b2656eb58970203010001a321301f301d0603551d0e041604143e7dcf8a11387332fc45f05389fbf70649df821d300d06092a864886f70d01010c050003820101002107522f45f6163562fbe8e1cea447942928bbb35c8881dce239f27b47592a6292e8f4ab45bd05b9ad002df5345cd69c781916e3c5c9b62439118e9f233c47061af8cf5835aa7747315ddc04998adabd331e813a2a31b495ba0e3c0b94d1dae306423e57f1390c9a09c2a1c2fad186b00127259fddbfc1c3dcf1176da37408f59001dabc9f26e5c6320346bf9e6e6644a80d0880187afe88880a7ab7d67909493ec99c4e3f0eda8a4d0b023f0165037965e14a4411a69a7eab977ca00eff97d812456fa2cff5a6f6308e80298b0f321c2518078c498f6e699accf13255d0815ef71db57e1c6f67e26c087c3bd77ffa8daefb5a162811ef569192d446be958e4c" timestamp="1784502650" url="https://fdroid-revanced.github.io/repo" version="20002">
 		<description>Unofficial F-Droid simple-binary repository of ReVanced-patched applications, built by revancedbot on GitHub Actions.</description>
 	</repo>
 	<application id="com.onelouder.baconreader.revanced">
@@ -67,7 +67,7 @@ Patches applied:
 			<version>3.3.6</version>
 			<versioncode>220489</versioncode>
 			<apkname>com.bandcamp.android_3.3.6_revanced.apk</apkname>
-			<hash type="sha256">d29d6909f2e3c2d8bdacc3e1b0c0f915aecc0f12a032ad59d03b59ab345c9ddb</hash>
+			<hash type="sha256">510ccab652afd10e4e385f1b4e031b6179d2662330a0feb20f62a7e287cd126f</hash>
 			<size>15069645</size>
 			<sdkver>24</sdkver>
 			<targetSdkVersion>36</targetSdkVersion>
@@ -76,6 +76,47 @@ Patches applied:
 			<permissions>ACCESS_ADSERVICES_AD_ID,ACCESS_ADSERVICES_ATTRIBUTION,ACCESS_COARSE_LOCATION,ACCESS_FINE_LOCATION,ACCESS_NETWORK_STATE,ACCESS_WIFI_STATE,FOREGROUND_SERVICE,FOREGROUND_SERVICE_MEDIA_PLAYBACK,INTERNET,POST_NOTIFICATIONS,READ_EXTERNAL_STORAGE,REORDER_TASKS,WAKE_LOCK,WRITE_EXTERNAL_STORAGE,com.android.vending.BILLING,com.bandcamp.android.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION,com.google.android.c2dm.permission.RECEIVE,com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE,com.google.android.gms.permission.AD_ID</permissions>
 			<uses-permission maxSdkVersion="18" name="android.permission.WRITE_EXTERNAL_STORAGE"/>
 			<nativecode>arm64-v8a,armeabi-v7a,x86,x86_64</nativecode>
+		</package>
+	</application>
+	<application id="com.rubenmayayo.reddit.revanced">
+		<id>com.rubenmayayo.reddit.revanced</id>
+		<added>2026-07-19</added>
+		<lastupdated>2026-07-19</lastupdated>
+		<name>Boost</name>
+		<summary></summary>
+		<icon>com.rubenmayayo.reddit.revanced.210011212.png</icon>
+		<desc>ReVanced-patched build of com.rubenmayayo.reddit.
+
+Patches applied:
+- INFO: &quot;Disable ads&quot; succeeded
+- INFO: &quot;Fix /s/ links&quot; succeeded
+- INFO: &quot;Fix Redgifs API&quot; succeeded
+- INFO: &quot;Fix missing audio in video downloads&quot; succeeded
+- INFO: &quot;Change package name&quot; succeeded
+</desc>
+		<license>Unknown</license>
+		<categories>Multimedia</categories>
+		<category>Multimedia</category>
+		<web></web>
+		<source></source>
+		<tracker></tracker>
+		<author>ReVanced (patched)</author>
+		<marketversion></marketversion>
+		<marketvercode>210011212</marketvercode>
+		<package>
+			<version>1.12.12</version>
+			<versioncode>210011212</versioncode>
+			<apkname>com.rubenmayayo.reddit_1.12.12_revanced.apk</apkname>
+			<hash type="sha256">356ffd2eeeea3c34430138e804e8a8727bfb8f4bd182ff2263b60aa8ef0a073d</hash>
+			<size>19024989</size>
+			<sdkver>21</sdkver>
+			<targetSdkVersion>32</targetSdkVersion>
+			<added>2026-07-19</added>
+			<sig>5837ab34622f0917305f6d32bc00ab0a</sig>
+			<permissions>ACCESS_NETWORK_STATE,ACCESS_WIFI_STATE,FOREGROUND_SERVICE,INTERNET,READ_EXTERNAL_STORAGE,RECEIVE_BOOT_COMPLETED,WAKE_LOCK,WRITE_EXTERNAL_STORAGE,com.android.launcher.permission.INSTALL_SHORTCUT,com.android.vending.BILLING,com.applovin.array.apphub.permission.BIND_APPHUB_SERVICE,com.google.android.c2dm.permission.RECEIVE,com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE,com.google.android.gms.permission.AD_ID</permissions>
+			<uses-permission maxSdkVersion="29" name="android.permission.READ_EXTERNAL_STORAGE"/>
+			<uses-permission maxSdkVersion="29" name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+			<nativecode>arm64-v8a,armeabi,armeabi-v7a,mips,mips64,x86,x86_64</nativecode>
 		</package>
 	</application>
 	<application id="at.gv.oe.app.revanced">
@@ -104,8 +145,8 @@ Patches applied:
 			<version>5.5.0</version>
 			<versioncode>2026052703</versioncode>
 			<apkname>at.gv.oe.app_5.5.0_revanced.apk</apkname>
-			<hash type="sha256">6346c22aa85c2ad7ec902b1487336ea847d546bda56167dc82fd6c29f0daed06</hash>
-			<size>55516526</size>
+			<hash type="sha256">57bbf59363bbe5bd3702fd3635611b257510a4f2c18d6224d599f7387017f3d5</hash>
+			<size>55565737</size>
 			<sdkver>31</sdkver>
 			<targetSdkVersion>35</targetSdkVersion>
 			<added>2026-07-19</added>
@@ -174,8 +215,8 @@ Patches applied:
 			<version>6.12.26</version>
 			<versioncode>5070839</versioncode>
 			<apkname>com.nis.app_6.12.26_revanced.apk</apkname>
-			<hash type="sha256">eddb9cfc9499a98d258b4c500d8a0267304c7e0eb59398803a40830f83541f38</hash>
-			<size>44930110</size>
+			<hash type="sha256">8aa172de1e1fdf44dd2b9e569cdda1f420b45b07f82c1c22a21e9e2bfdbae756</hash>
+			<size>44889150</size>
 			<sdkver>24</sdkver>
 			<targetSdkVersion>36</targetSdkVersion>
 			<added>2026-07-19</added>

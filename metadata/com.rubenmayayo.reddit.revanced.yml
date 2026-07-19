@@ -1,0 +1,13 @@
+Categories:
+  - Multimedia
+License: Unknown
+AuthorName: ReVanced (patched)
+Description: |
+  ReVanced-patched build of com.rubenmayayo.reddit.
+
+  Patches applied:
+  - INFO: "Disable ads" succeeded
+  - INFO: "Fix /s/ links" succeeded
+  - INFO: "Fix Redgifs API" succeeded
+  - INFO: "Fix missing audio in video downloads" succeeded
+  - INFO: "Change package name" succeeded
