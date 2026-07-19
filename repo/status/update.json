@@ -11,9 +11,13 @@
   ],
   "disabled": [],
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
   "endTimestamp": 1784499837464,
 =======
   "endTimestamp": 1784499855450,
+>>>>>>> Stashed changes
+=======
+  "endTimestamp": 1784499872062,
 >>>>>>> Stashed changes
   "failedBuilds": {},
   "jarsigner": "/home/runner/.local/share/mise/installs/java/temurin-21.0.7+6.0.LTS/bin/jarsigner",
@@ -56,6 +60,7 @@
   ],
   "stages": {
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     "delete_disabled_builds": 1784499827152,
     "index.make repo": 1784499835290,
     "prepare_apps repo": 1784499835288,
@@ -75,6 +80,17 @@
     "scan_repo_files": 1784499853262
   },
   "startTimestamp": 1784499843000,
+>>>>>>> Stashed changes
+=======
+    "delete_disabled_builds": 1784499861529,
+    "index.make repo": 1784499869890,
+    "prepare_apps repo": 1784499869889,
+    "process_apks": 1784499861529,
+    "read_added_date_from_all_apks": 1784499869889,
+    "remove_apks": 1784499869888,
+    "scan_repo_files": 1784499869887
+  },
+  "startTimestamp": 1784499861000,
 >>>>>>> Stashed changes
   "subcommand": "update"
 }

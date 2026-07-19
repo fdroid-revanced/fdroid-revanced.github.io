@@ -1,9 +1,13 @@
 {
   "repo": {
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     "timestamp": 1784499835000,
 =======
     "timestamp": 1784499853000,
+>>>>>>> Stashed changes
+=======
+    "timestamp": 1784499869000,
 >>>>>>> Stashed changes
     "version": 20002,
     "name": "ReVanced F-Droid",
@@ -179,7 +183,7 @@
         "features": [
           "android.hardware.camera"
         ],
-        "hash": "b344a8c9049c7051fa1eb69c27e7dad66b30dae195e60478f504258a21ee7121",
+        "hash": "3beb66b65a269e43e590a02782fc8102f8cfacc58f553f743ad09a9660dd7e16",
         "hashType": "sha256",
         "minSdkVersion": 31,
         "nativecode": [
@@ -191,7 +195,7 @@
         "packageName": "at.gv.oe.app.revanced",
         "sig": "5837ab34622f0917305f6d32bc00ab0a",
         "signer": "990aa515644a3f1528c122f2ce9ceb19f404912532394579ebedaea32c99cde9",
-        "size": 55545257,
+        "size": 55508334,
         "targetSdkVersion": 35,
         "uses-permission": [
           [
@@ -604,13 +608,13 @@
       {
         "added": 1784495274000,
         "apkName": "com.onelouder.baconreader_6.1.4_revanced.apk",
-        "hash": "d6d4f623b8ea6ece94f5a912785ade8e3f23f05c904dfe38f1542bf8766cf49d",
+        "hash": "5d4eb1798e2ba91f6c5e311a0ba4758baf2d48f46afa2525f5984be2cf57d5f2",
         "hashType": "sha256",
         "minSdkVersion": 22,
         "packageName": "com.onelouder.baconreader.revanced",
         "sig": "5837ab34622f0917305f6d32bc00ab0a",
         "signer": "990aa515644a3f1528c122f2ce9ceb19f404912532394579ebedaea32c99cde9",
-        "size": 21006185,
+        "size": 20940649,
         "targetSdkVersion": 31,
         "uses-permission": [
           [
