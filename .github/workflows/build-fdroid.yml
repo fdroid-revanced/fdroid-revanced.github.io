@@ -11,8 +11,10 @@ on:
         type: boolean
         default: false
 
+# Serialize builds: a new schedule/dispatch waits; never cancel a run already in progress.
+# (GitHub still collapses multiple *pending* runs in the same group to the latest one.)
 concurrency:
-  group: build-fdroid
+  group: ${{ github.workflow }}
   cancel-in-progress: false
 
 permissions:
