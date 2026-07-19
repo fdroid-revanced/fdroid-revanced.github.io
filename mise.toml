@@ -1,14 +1,14 @@
-# Toolchain for this F-Droid tree (revancedbot via mise go: backend).
+# Toolchain for this F-Droid tree. revancedbot is invoked via go run (not mise go:).
 
 [tools]
 java = "temurin-21.0.7+6.0.LTS"
 go = "1.25.6"
 uv = "0.8.4"
 "pipx:fdroidserver" = "2.4.5"
-"go:github.com/lucasew/revancedbot/cmd/revancedbot" = "latest"
 
 [tasks.build-repo]
 description = "Full revancedbot pipeline (needs REVANCEDBOT_SIGNING)"
 run = '''
-revancedbot run . --cache "${REVANCEDBOT_CACHE:-$HOME/.cache/revancedbot}"
+go run github.com/lucasew/revancedbot/cmd/revancedbot@latest -- run . \
+  --cache "${REVANCEDBOT_CACHE:-$HOME/.cache/revancedbot}"
 '''

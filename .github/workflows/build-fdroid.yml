@@ -31,11 +31,8 @@ jobs:
           sudo apt-get update
           sudo apt-get install -y --no-install-recommends aapt apksigner
 
-      - name: Setup mise (java, go, fdroid, revancedbot)
+      - name: Setup mise (java, go, fdroidserver)
         uses: jdx/mise-action@6d1e696aa24c1aa1bcc1adea0212707c71ab78a8 # v3
-
-      - name: Check revancedbot
-        run: revancedbot -v || revancedbot version || true
 
       - name: Require signing secret
         env:
@@ -55,9 +52,9 @@ jobs:
           CACHE="${RUNNER_TEMP}/revancedbot-cache"
           if [ "${{ inputs.smoke }}" = "true" ]; then
             echo "Smoke: one package via revancedbot smoke"
-            revancedbot smoke . --cache "$CACHE" --max 1
+            go run github.com/lucasew/revancedbot/cmd/revancedbot@latest -- smoke . --cache "$CACHE" --max 1
           else
-            revancedbot run . --cache "$CACHE"
+            go run github.com/lucasew/revancedbot/cmd/revancedbot@latest -- run . --cache "$CACHE"
           fi
 
       - name: Publish to main (GitHub Pages source)
