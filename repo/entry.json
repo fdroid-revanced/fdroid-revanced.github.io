@@ -1,6 +1,7 @@
 {
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
   "timestamp": 1784499835000,
   "version": 20002,
   "index": {
@@ -12,6 +13,13 @@
   "index": {
     "name": "/index-v2.json",
     "sha256": "2e905a0639c84c7004c2bbe922422cc31a9e961b4c694f0a596d04d5652b1d0f",
+>>>>>>> Stashed changes
+=======
+  "timestamp": 1784499883000,
+  "version": 20002,
+  "index": {
+    "name": "/index-v2.json",
+    "sha256": "308a4c4328b138a96dd1042ea81c75d67922676ec59a6bd2cc49c45ab19ab6d6",
 >>>>>>> Stashed changes
     "size": 33737,
     "numPackages": 8
