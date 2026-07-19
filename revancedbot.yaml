@@ -14,7 +14,4 @@ downloaders:
 browser:
   cdp_url: ""
 
-pool_io: 4
-pool_cpu: 0
-pool_internet: 4
 log_level: info
