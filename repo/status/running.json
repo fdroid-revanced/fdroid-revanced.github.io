@@ -10,7 +10,11 @@
     "-c"
   ],
   "disabled": [],
+<<<<<<< Updated upstream
   "endTimestamp": 1784499837464,
+=======
+  "endTimestamp": 1784499855450,
+>>>>>>> Stashed changes
   "failedBuilds": {},
   "jarsigner": "/home/runner/.local/share/mise/installs/java/temurin-21.0.7+6.0.LTS/bin/jarsigner",
   "keytool": "/home/runner/.local/share/mise/installs/java/temurin-21.0.7+6.0.LTS/bin/keytool",
@@ -22,7 +26,9 @@
     "com.onelouder.baconreader.revanced",
     "com.pandora.android.revanced",
     "com.sec.android.app.fm.revanced",
-    "eu.faircode.netguard.revanced"
+    "eu.faircode.netguard.revanced",
+    "ml.docilealligator.infinityforreddit.plus.revanced",
+    "ml.docilealligator.infinityforreddit.revanced"
   ],
   "noPackages": [
     "at.gv.oe.app.revanced",
@@ -32,7 +38,9 @@
     "com.onelouder.baconreader.revanced",
     "com.pandora.android.revanced",
     "com.sec.android.app.fm.revanced",
-    "eu.faircode.netguard.revanced"
+    "eu.faircode.netguard.revanced",
+    "ml.docilealligator.infinityforreddit.plus.revanced",
+    "ml.docilealligator.infinityforreddit.revanced"
   ],
   "noUpdateCheck": [
     "at.gv.oe.app.revanced",
@@ -42,9 +50,12 @@
     "com.onelouder.baconreader.revanced",
     "com.pandora.android.revanced",
     "com.sec.android.app.fm.revanced",
-    "eu.faircode.netguard.revanced"
+    "eu.faircode.netguard.revanced",
+    "ml.docilealligator.infinityforreddit.plus.revanced",
+    "ml.docilealligator.infinityforreddit.revanced"
   ],
   "stages": {
+<<<<<<< Updated upstream
     "delete_disabled_builds": 1784499827152,
     "index.make repo": 1784499835290,
     "prepare_apps repo": 1784499835288,
@@ -54,5 +65,16 @@
     "scan_repo_files": 1784499835287
   },
   "startTimestamp": 1784499827000,
+=======
+    "delete_disabled_builds": 1784499843429,
+    "index.make repo": 1784499853275,
+    "prepare_apps repo": 1784499853274,
+    "process_apks": 1784499843429,
+    "read_added_date_from_all_apks": 1784499853273,
+    "remove_apks": 1784499853262,
+    "scan_repo_files": 1784499853262
+  },
+  "startTimestamp": 1784499843000,
+>>>>>>> Stashed changes
   "subcommand": "update"
 }
