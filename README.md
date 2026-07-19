@@ -30,7 +30,7 @@ https://fdroid-revanced.github.io/repo
 Pipeline (on `ubuntu-latest`):
 
 1. Install Java, Go, `fdroid`, `aapt`, `apksigner` via mise
-2. `go run github.com/lucasew/revancedbot/cmd/revancedbot@latest -- run .` with secret `REVANCEDBOT_SIGNING`
+2. `GOPROXY=direct go run github.com/lucasew/revancedbot/cmd/revancedbot@main -- run .` with secret `REVANCEDBOT_SIGNING`
 3. Commit `repo/` + `metadata/` to `main` (Pages)
 
 Signing is one pasteable blob from:
@@ -52,7 +52,7 @@ revancedbot keys generate
 ```bash
 mise install   # java, go, fdroidserver
 export REVANCEDBOT_SIGNING='…'   # same secret
-mise run build-repo   # go run …@latest under the hood
+mise run build-repo   # go run …@main under the hood (GOPROXY=direct)
 ```
 
 Requires host `aapt` and `apksigner` (or Android build-tools on `PATH` / `ANDROID_HOME`).

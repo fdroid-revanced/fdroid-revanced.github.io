@@ -52,9 +52,9 @@ jobs:
           CACHE="${RUNNER_TEMP}/revancedbot-cache"
           if [ "${{ inputs.smoke }}" = "true" ]; then
             echo "Smoke: one package via revancedbot smoke"
-            go run github.com/lucasew/revancedbot/cmd/revancedbot@latest -- smoke . --cache "$CACHE" --max 1
+            GOPROXY=direct go run github.com/lucasew/revancedbot/cmd/revancedbot@main -- smoke . --cache "$CACHE" --max 1
           else
-            go run github.com/lucasew/revancedbot/cmd/revancedbot@latest -- run . --cache "$CACHE"
+            GOPROXY=direct go run github.com/lucasew/revancedbot/cmd/revancedbot@main -- run . --cache "$CACHE"
           fi
 
       - name: Publish to main (GitHub Pages source)
