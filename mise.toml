@@ -1,20 +1,14 @@
-# Toolchain for building this F-Droid tree with revancedbot.
-# revancedbot itself is installed from source until stable releases are pinned.
+# Toolchain for this F-Droid tree (revancedbot via mise go: backend).
 
 [tools]
 java = "temurin-21.0.7+6.0.LTS"
 go = "1.25.6"
 uv = "0.8.4"
 "pipx:fdroidserver" = "2.4.5"
-
-[tasks.install-revancedbot]
-description = "Install revancedbot CLI from GitHub main"
-run = "go install github.com/lucasew/revancedbot/cmd/revancedbot@main"
+"go:github.com/lucasew/revancedbot/cmd/revancedbot" = "latest"
 
 [tasks.build-repo]
 description = "Full revancedbot pipeline (needs REVANCEDBOT_SIGNING)"
-depends = ["install-revancedbot"]
 run = '''
-export PATH="$(go env GOPATH)/bin:$PATH"
 revancedbot run . --cache "${REVANCEDBOT_CACHE:-$HOME/.cache/revancedbot}"
 '''
