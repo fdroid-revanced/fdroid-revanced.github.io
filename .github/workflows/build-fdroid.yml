@@ -1,7 +1,8 @@
 name: Build F-Droid repo
 
-# Worker only — do not attach schedule here. Enqueue via "Enqueue F-Droid build"
-# so many triggers stack in a variable without starting runners / dropping pending.
+# Worker only — schedule/human spam go through "Enqueue F-Droid build".
+# No concurrency group: multiple workers may start (setup + warmup in parallel),
+# then softprops/turnstyle serializes the actual pipeline after caches are warm.
 on:
   workflow_dispatch:
     inputs:
@@ -10,20 +11,15 @@ on:
         type: boolean
         default: false
 
-# At most one build runs; one extra may sit pending. Depth beyond that lives in
-# repo variable FDROID_BUILD_QUEUE and is drained by re-dispatch at the end.
-concurrency:
-  group: build-fdroid-worker
-  cancel-in-progress: false
-
 permissions:
   contents: write
-  actions: write
+  actions: write # drain re-dispatch + turnstyle list runs
   variables: write
 
 jobs:
   build:
     runs-on: ubuntu-latest
+    # Includes time spent waiting at turnstyle after warmup (hosted max 6h).
     timeout-minutes: 360
     steps:
       - name: Checkout
@@ -46,21 +42,41 @@ jobs:
             exit 1
           fi
 
+      - name: Warm up revancedbot (download + compile before queue wait)
+        id: warmup
+        run: |
+          set -euo pipefail
+          RB="${RUNNER_TEMP}/revancedbot"
+          echo "Building revancedbot into ${RB}"
+          # Prefetch module + build cache while we are still free to race others.
+          GOPROXY=direct go build -o "$RB" github.com/lucasew/revancedbot/cmd/revancedbot@main
+          "$RB" version || "$RB" -v || true
+          echo "path=${RB}" >> "$GITHUB_OUTPUT"
+
+      - name: FIFO turnstyle (wait for earlier builds — after env is warm)
+        uses: softprops/turnstyle@afaccda0f3c0136fb7cb4a734b9b96be03599948 # v3.3.2
+        with:
+          poll-interval-seconds: 30
+          same-branch-only: true
+          queue-name: build-fdroid
+        # No abort-after-seconds → wait until prior runs finish (within job timeout).
+
       - name: Build F-Droid tree
         env:
           REVANCEDBOT_SIGNING: ${{ secrets.REVANCEDBOT_SIGNING }}
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           SMOKE: ${{ inputs.smoke == true }}
+          RB: ${{ steps.warmup.outputs.path }}
         run: |
           set -euo pipefail
           CACHE="${RUNNER_TEMP}/revancedbot-cache"
-          echo "event=${{ github.event_name }} smoke=${SMOKE}"
+          echo "event=${{ github.event_name }} smoke=${SMOKE} bin=${RB}"
           if [ "${SMOKE}" = "true" ]; then
             echo "Smoke: one random package via revancedbot smoke"
-            GOPROXY=direct go run github.com/lucasew/revancedbot/cmd/revancedbot@main smoke . --cache "$CACHE" --max 1
+            "$RB" smoke . --cache "$CACHE" --max 1
           else
             echo "Full pipeline via revancedbot run"
-            GOPROXY=direct go run github.com/lucasew/revancedbot/cmd/revancedbot@main run . --cache "$CACHE"
+            "$RB" run . --cache "$CACHE"
           fi
 
       - name: Publish to main (GitHub Pages source)
@@ -83,7 +99,6 @@ jobs:
           git commit -m "chore: update F-Droid repo $(date -u +%Y-%m-%dT%H:%MZ)"
           git push
 
-      # Always drain: this run consumed one queued unit; kick another worker if more remain.
       - name: Drain build queue
         if: always()
         env:
