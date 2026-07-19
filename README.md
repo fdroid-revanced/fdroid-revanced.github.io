@@ -30,7 +30,7 @@ https://fdroid-revanced.github.io/repo
 Pipeline (on `ubuntu-latest`):
 
 1. Install Java, Go, `fdroid`, `aapt`, `apksigner` via mise
-2. `GOPROXY=direct go run github.com/lucasew/revancedbot/cmd/revancedbot@main -- run .` with secret `REVANCEDBOT_SIGNING`
+2. `GOPROXY=direct go run github.com/lucasew/revancedbot/cmd/revancedbot@main run .` with secret `REVANCEDBOT_SIGNING`
 3. Commit `repo/` + `metadata/` to `main` (Pages)
 
 Signing is one pasteable blob from:

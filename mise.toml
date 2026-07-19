@@ -1,6 +1,7 @@
 # Toolchain for this F-Droid tree. revancedbot via go run @main (not mise go:).
 # GOPROXY=direct: proxy.golang.org can lag on untagged @main/@latest and served a
 # tip that still had a go.mod replace, which go run rejects.
+# Do not put `--` after go run pkg@ver — it drops program args (cobra prints help).
 
 [tools]
 java = "temurin-21.0.7+6.0.LTS"
@@ -11,6 +12,6 @@ uv = "0.8.4"
 [tasks.build-repo]
 description = "Full revancedbot pipeline (needs REVANCEDBOT_SIGNING)"
 run = '''
-GOPROXY=direct go run github.com/lucasew/revancedbot/cmd/revancedbot@main -- run . \
+GOPROXY=direct go run github.com/lucasew/revancedbot/cmd/revancedbot@main run . \
   --cache "${REVANCEDBOT_CACHE:-$HOME/.cache/revancedbot}"
 '''

@@ -52,9 +52,9 @@ jobs:
           CACHE="${RUNNER_TEMP}/revancedbot-cache"
           if [ "${{ inputs.smoke }}" = "true" ]; then
             echo "Smoke: one package via revancedbot smoke"
-            GOPROXY=direct go run github.com/lucasew/revancedbot/cmd/revancedbot@main -- smoke . --cache "$CACHE" --max 1
+            GOPROXY=direct go run github.com/lucasew/revancedbot/cmd/revancedbot@main smoke . --cache "$CACHE" --max 1
           else
-            GOPROXY=direct go run github.com/lucasew/revancedbot/cmd/revancedbot@main -- run . --cache "$CACHE"
+            GOPROXY=direct go run github.com/lucasew/revancedbot/cmd/revancedbot@main run . --cache "$CACHE"
           fi
 
       - name: Publish to main (GitHub Pages source)
@@ -63,7 +63,12 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           rm -f config.yml
-          git add -A repo metadata
+          if [ ! -d repo ]; then
+            echo "::error::Build produced no repo/ directory — nothing to publish"
+            ls -la
+            exit 1
+          fi
+          git add -A -- repo metadata
           if git diff --staged --quiet; then
             echo "No changes to publish"
             exit 0
