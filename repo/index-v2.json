@@ -14,7 +14,7 @@
       }
     },
     "address": "https://fdroid-revanced.github.io/repo",
-    "timestamp": 1784503018000,
+    "timestamp": 1784503149000,
     "categories": {
       "Multimedia": {
         "name": {
@@ -477,12 +477,12 @@
         "preferredSigner": "990aa515644a3f1528c122f2ce9ceb19f404912532394579ebedaea32c99cde9"
       },
       "versions": {
-        "510ccab652afd10e4e385f1b4e031b6179d2662330a0feb20f62a7e287cd126f": {
+        "b47e8b1740cbed4d74a5c36ac17dfbc71c820d17534841a7115ba33eb0333b30": {
           "added": 1784501799000,
           "file": {
             "name": "/com.bandcamp.android_3.3.6_revanced.apk",
-            "sha256": "510ccab652afd10e4e385f1b4e031b6179d2662330a0feb20f62a7e287cd126f",
-            "size": 15069645
+            "sha256": "b47e8b1740cbed4d74a5c36ac17dfbc71c820d17534841a7115ba33eb0333b30",
+            "size": 15061453
           },
           "manifest": {
             "nativecode": [
@@ -1066,12 +1066,12 @@
         "preferredSigner": "990aa515644a3f1528c122f2ce9ceb19f404912532394579ebedaea32c99cde9"
       },
       "versions": {
-        "dee52d5ab5b9c6b9d213089b88e8af8a222393cb511a1295e9d8f1d734f364ca": {
+        "1d2f13def2a552d0febd7b30304e59d9853393ad2773359f3f0888bfb5723cb8": {
           "added": 1784502476000,
           "file": {
             "name": "/de.simon.openinghours_1.1.02.2_revanced.apk",
-            "sha256": "dee52d5ab5b9c6b9d213089b88e8af8a222393cb511a1295e9d8f1d734f364ca",
-            "size": 30606183
+            "sha256": "1d2f13def2a552d0febd7b30304e59d9853393ad2773359f3f0888bfb5723cb8",
+            "size": 30618471
           },
           "manifest": {
             "nativecode": [
@@ -1171,12 +1171,12 @@
         "preferredSigner": "990aa515644a3f1528c122f2ce9ceb19f404912532394579ebedaea32c99cde9"
       },
       "versions": {
-        "31aa2cb239ced497d8d38e7a6c48cb79698d1ec53247116584f563e488dcd952": {
+        "ac7e065a69c07f38d421b23a75f2d553fb5917f254941a24610a67ee566abd27": {
           "added": 1784501803000,
           "file": {
             "name": "/com.sec.android.app.fm_12.4.00.7_revanced.apk",
-            "sha256": "31aa2cb239ced497d8d38e7a6c48cb79698d1ec53247116584f563e488dcd952",
-            "size": 5991725
+            "sha256": "ac7e065a69c07f38d421b23a75f2d553fb5917f254941a24610a67ee566abd27",
+            "size": 5983533
           },
           "manifest": {
             "nativecode": [

@@ -1,6 +1,6 @@
 {
   "repo": {
-    "timestamp": 1784503018000,
+    "timestamp": 1784503149000,
     "version": 20002,
     "name": "ReVanced F-Droid",
     "icon": "icon.png",
@@ -610,7 +610,7 @@
       {
         "added": 1784501799000,
         "apkName": "com.bandcamp.android_3.3.6_revanced.apk",
-        "hash": "510ccab652afd10e4e385f1b4e031b6179d2662330a0feb20f62a7e287cd126f",
+        "hash": "b47e8b1740cbed4d74a5c36ac17dfbc71c820d17534841a7115ba33eb0333b30",
         "hashType": "sha256",
         "minSdkVersion": 24,
         "nativecode": [
@@ -622,7 +622,7 @@
         "packageName": "com.bandcamp.android.revanced",
         "sig": "5837ab34622f0917305f6d32bc00ab0a",
         "signer": "990aa515644a3f1528c122f2ce9ceb19f404912532394579ebedaea32c99cde9",
-        "size": 15069645,
+        "size": 15061453,
         "targetSdkVersion": 36,
         "uses-permission": [
           [
@@ -1154,7 +1154,7 @@
       {
         "added": 1784502476000,
         "apkName": "de.simon.openinghours_1.1.02.2_revanced.apk",
-        "hash": "dee52d5ab5b9c6b9d213089b88e8af8a222393cb511a1295e9d8f1d734f364ca",
+        "hash": "1d2f13def2a552d0febd7b30304e59d9853393ad2773359f3f0888bfb5723cb8",
         "hashType": "sha256",
         "minSdkVersion": 34,
         "nativecode": [
@@ -1163,7 +1163,7 @@
         "packageName": "com.samsung.android.themedesigner.revanced",
         "sig": "5837ab34622f0917305f6d32bc00ab0a",
         "signer": "990aa515644a3f1528c122f2ce9ceb19f404912532394579ebedaea32c99cde9",
-        "size": 30606183,
+        "size": 30618471,
         "targetSdkVersion": 35,
         "uses-permission": [
           [
@@ -1260,7 +1260,7 @@
           "com.samsung.feature.device_category_phone",
           "com.samsung.feature.samsung_experience_mobile"
         ],
-        "hash": "31aa2cb239ced497d8d38e7a6c48cb79698d1ec53247116584f563e488dcd952",
+        "hash": "ac7e065a69c07f38d421b23a75f2d553fb5917f254941a24610a67ee566abd27",
         "hashType": "sha256",
         "minSdkVersion": 33,
         "nativecode": [
@@ -1270,7 +1270,7 @@
         "packageName": "com.sec.android.app.fm.revanced",
         "sig": "5837ab34622f0917305f6d32bc00ab0a",
         "signer": "990aa515644a3f1528c122f2ce9ceb19f404912532394579ebedaea32c99cde9",
-        "size": 5991725,
+        "size": 5983533,
         "targetSdkVersion": 35,
         "uses-permission": [
           [
