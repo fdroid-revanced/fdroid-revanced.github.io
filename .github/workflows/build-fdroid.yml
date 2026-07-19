@@ -11,20 +11,28 @@ on:
         type: boolean
         default: false
 
-# Serialize builds: a new schedule/dispatch waits; never cancel a run already in progress.
-# (GitHub still collapses multiple *pending* runs in the same group to the latest one.)
-concurrency:
-  group: ${{ github.workflow }}
-  cancel-in-progress: false
+# No `concurrency:` group — GitHub only keeps 1 in-progress + 1 pending and drops
+# older pending runs. FIFO is enforced below with turnstyle so every dispatch/schedule
+# stays in the Actions queue and runs in order.
 
 permissions:
   contents: write
+  actions: read # turnstyle lists other runs of this workflow
 
 jobs:
   build:
     runs-on: ubuntu-latest
+    # Includes time spent waiting in the FIFO queue (GitHub-hosted max is 6h).
     timeout-minutes: 360
     steps:
+      - name: FIFO queue (wait for earlier builds)
+        uses: softprops/turnstyle@afaccda0f3c0136fb7cb4a734b9b96be03599948 # v3.3.2
+        with:
+          poll-interval-seconds: 30
+          same-branch-only: true
+          queue-name: build-fdroid
+        # No abort-after-seconds → wait until prior runs finish (within job timeout).
+
       - name: Checkout
         uses: actions/checkout@9c091bb21b7c1c1d1991bb908d89e4e9dddfe3e0 # v7
 
@@ -74,6 +82,8 @@ jobs:
             ls -la
             exit 1
           fi
+          # Re-sync: earlier queue members may have pushed while we waited.
+          git pull --rebase --autostash origin "${{ github.ref_name }}"
           git add -A -- repo metadata
           if git diff --staged --quiet; then
             echo "No changes to publish"
