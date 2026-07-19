@@ -1,9 +1,8 @@
 name: Build F-Droid repo
 
+# Worker only — do not attach schedule here. Enqueue via "Enqueue F-Droid build"
+# so many triggers stack in a variable without starting runners / dropping pending.
 on:
-  schedule:
-    # Every 8h: ~N/K runs/week (N~87, K~4) → ~1 week expected refresh per app
-    - cron: "0 */8 * * *"
   workflow_dispatch:
     inputs:
       smoke:
@@ -11,28 +10,22 @@ on:
         type: boolean
         default: false
 
-# No `concurrency:` group — GitHub only keeps 1 in-progress + 1 pending and drops
-# older pending runs. FIFO is enforced below with turnstyle so every dispatch/schedule
-# stays in the Actions queue and runs in order.
+# At most one build runs; one extra may sit pending. Depth beyond that lives in
+# repo variable FDROID_BUILD_QUEUE and is drained by re-dispatch at the end.
+concurrency:
+  group: build-fdroid-worker
+  cancel-in-progress: false
 
 permissions:
   contents: write
-  actions: read # turnstyle lists other runs of this workflow
+  actions: write
+  variables: write
 
 jobs:
   build:
     runs-on: ubuntu-latest
-    # Includes time spent waiting in the FIFO queue (GitHub-hosted max is 6h).
     timeout-minutes: 360
     steps:
-      - name: FIFO queue (wait for earlier builds)
-        uses: softprops/turnstyle@afaccda0f3c0136fb7cb4a734b9b96be03599948 # v3.3.2
-        with:
-          poll-interval-seconds: 30
-          same-branch-only: true
-          queue-name: build-fdroid
-        # No abort-after-seconds → wait until prior runs finish (within job timeout).
-
       - name: Checkout
         uses: actions/checkout@9c091bb21b7c1c1d1991bb908d89e4e9dddfe3e0 # v7
 
@@ -57,8 +50,7 @@ jobs:
         env:
           REVANCEDBOT_SIGNING: ${{ secrets.REVANCEDBOT_SIGNING }}
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          # schedule has no inputs; only workflow_dispatch + checkbox → smoke
-          SMOKE: ${{ github.event_name == 'workflow_dispatch' && inputs.smoke == true }}
+          SMOKE: ${{ inputs.smoke == true }}
         run: |
           set -euo pipefail
           CACHE="${RUNNER_TEMP}/revancedbot-cache"
@@ -82,8 +74,7 @@ jobs:
             ls -la
             exit 1
           fi
-          # Re-sync: earlier queue members may have pushed while we waited.
-          git pull --rebase --autostash origin "${{ github.ref_name }}"
+          git pull --rebase --autostash origin "${{ github.ref_name }}" || true
           git add -A -- repo metadata
           if git diff --staged --quiet; then
             echo "No changes to publish"
@@ -91,3 +82,33 @@ jobs:
           fi
           git commit -m "chore: update F-Droid repo $(date -u +%Y-%m-%dT%H:%MZ)"
           git push
+
+      # Always drain: this run consumed one queued unit; kick another worker if more remain.
+      - name: Drain build queue
+        if: always()
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          SMOKE: ${{ inputs.smoke == true }}
+        run: |
+          set -euo pipefail
+          REPO="${{ github.repository }}"
+          DEPTH="$(gh variable get FDROID_BUILD_QUEUE -R "$REPO" 2>/dev/null || echo 0)"
+          case "$DEPTH" in
+            ''|*[!0-9]*) DEPTH=0 ;;
+          esac
+          echo "queue depth before consume=$DEPTH"
+          if [ "$DEPTH" -gt 0 ]; then
+            NEW=$((DEPTH - 1))
+            gh variable set FDROID_BUILD_QUEUE -R "$REPO" --body "$NEW"
+            echo "queue depth after consume=$NEW"
+            if [ "$NEW" -gt 0 ]; then
+              echo "Dispatching next worker ($NEW remaining after this kick)"
+              if [ "${SMOKE}" = "true" ]; then
+                gh workflow run build-fdroid.yml -R "$REPO" -f smoke=true
+              else
+                gh workflow run build-fdroid.yml -R "$REPO" -f smoke=false
+              fi
+            fi
+          else
+            echo "Queue empty — no further workers"
+          fi

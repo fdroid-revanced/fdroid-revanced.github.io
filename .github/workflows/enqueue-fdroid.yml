@@ -1,0 +1,63 @@
+name: Enqueue F-Droid build
+
+# Stacks N builds without starting N runners. Depth is stored in repo variable
+# FDROID_BUILD_QUEUE; the worker workflow drains one unit per completed run.
+on:
+  schedule:
+    - cron: "0 */8 * * *"
+  workflow_dispatch:
+    inputs:
+      count:
+        description: "How many full builds to enqueue"
+        type: number
+        default: 1
+      smoke:
+        description: "Smoke mode for the builds (one random package each)"
+        type: boolean
+        default: false
+
+permissions:
+  actions: write
+  variables: write
+
+jobs:
+  enqueue:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - name: Enqueue and kick worker
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          set -euo pipefail
+          REPO="${{ github.repository }}"
+          COUNT="${{ inputs.count }}"
+          if [ -z "${COUNT}" ] || [ "${COUNT}" = "null" ]; then
+            COUNT=1
+          fi
+          # number input can be float-ish; force int
+          COUNT="$(printf '%.0f' "$COUNT")"
+          if [ "$COUNT" -lt 1 ]; then
+            COUNT=1
+          fi
+          SMOKE="${{ inputs.smoke }}"
+          if [ "${{ github.event_name }}" = "schedule" ]; then
+            SMOKE=false
+          fi
+
+          DEPTH="$(gh variable get FDROID_BUILD_QUEUE -R "$REPO" 2>/dev/null || echo 0)"
+          case "$DEPTH" in
+            ''|*[!0-9]*) DEPTH=0 ;;
+          esac
+          NEW=$((DEPTH + COUNT))
+          gh variable set FDROID_BUILD_QUEUE -R "$REPO" --body "$NEW"
+          echo "Enqueued +$COUNT → FDROID_BUILD_QUEUE=$NEW (was $DEPTH)"
+
+          # One kick is enough; worker re-dispatches while queue > 0 after each finish.
+          # concurrency on the worker may drop extra pending starts; the variable is source of truth.
+          if [ "${SMOKE}" = "true" ]; then
+            gh workflow run build-fdroid.yml -R "$REPO" -f smoke=true
+          else
+            gh workflow run build-fdroid.yml -R "$REPO" -f smoke=false
+          fi
+          echo "Kicked Build F-Droid repo worker"

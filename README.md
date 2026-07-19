@@ -45,7 +45,7 @@ revancedbot keys generate
 1. **Secret** `REVANCEDBOT_SIGNING` — from `revancedbot keys generate` (same key forever for app updates).
 2. **GitHub Pages**: Settings → Pages → Deploy from branch **`main`** / root (or whatever this org uses for `*.github.io`).
 3. **Actions** write permission: Settings → Actions → General → Workflow permissions → **Read and write**.
-4. Run workflow **Build F-Droid repo** manually first (`workflow_dispatch`). Optional **smoke** input builds one package only.
+4. Run workflow **Enqueue F-Droid build** to stack work (`count` = how many full builds). Optional **smoke**. The **Build F-Droid repo** worker drains the queue one run at a time (no runner waiters).
 
 ## Local rebuild
 
@@ -59,4 +59,4 @@ Requires host `aapt` and `apksigner` (or Android build-tools on `PATH` / `ANDROI
 
 ## Schedule
 
-Default cron: **every 8 hours** (`0 */8 * * *` UTC). Full rebuild each run; packages that fail download/patch are soft-skipped.
+Default cron: **every 8 hours** (`0 */8 * * *` UTC) via **Enqueue F-Droid build** (+1 to the queue). Workers run serially; spam enqueue to stack as many builds as you want without losing them. Soft-skips on download/patch failure still apply.
