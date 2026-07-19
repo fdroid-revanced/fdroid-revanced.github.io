@@ -1,6 +1,6 @@
 {
   "repo": {
-    "timestamp": 1784503580000,
+    "timestamp": 1784503658000,
     "version": 20002,
     "name": "ReVanced F-Droid",
     "icon": "icon.png",
@@ -323,7 +323,7 @@
       {
         "added": 1784501796000,
         "apkName": "at.willhaben_8.52.0_revanced.apk",
-        "hash": "28ad03697297ce84302f4ef7e592a478c7c5e3463727dc2a2bc8a319661336d0",
+        "hash": "a5dddc071bcc737e71bf307d9cb537c07ce9588a61f288b127adc2b50a46fdb2",
         "hashType": "sha256",
         "minSdkVersion": 26,
         "nativecode": [
@@ -335,7 +335,7 @@
         "packageName": "at.willhaben.revanced",
         "sig": "5837ab34622f0917305f6d32bc00ab0a",
         "signer": "990aa515644a3f1528c122f2ce9ceb19f404912532394579ebedaea32c99cde9",
-        "size": 23655433,
+        "size": 23618569,
         "targetSdkVersion": 37,
         "uses-permission": [
           [
