@@ -1,0 +1,79 @@
+name: Build F-Droid repo
+
+on:
+  schedule:
+    # Saturday 02:00 UTC (SPEC default)
+    - cron: "0 2 * * 6"
+  workflow_dispatch:
+    inputs:
+      smoke:
+        description: "Smoke mode (one package only, faster)"
+        type: boolean
+        default: false
+
+concurrency:
+  group: build-fdroid
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    timeout-minutes: 360
+    steps:
+      - name: Checkout
+        uses: actions/checkout@9c091bb21b7c1c1d1991bb908d89e4e9dddfe3e0 # v7
+
+      - name: Install host Android tools
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y --no-install-recommends aapt apksigner
+
+      - name: Setup mise
+        uses: jdx/mise-action@6d1e696aa24c1aa1bcc1adea0212707c71ab78a8 # v3
+
+      - name: Install revancedbot
+        run: |
+          go install github.com/lucasew/revancedbot/cmd/revancedbot@main
+          echo "$(go env GOPATH)/bin" >> "$GITHUB_PATH"
+          revancedbot --version || revancedbot -v || true
+
+      - name: Require signing secret
+        env:
+          REVANCEDBOT_SIGNING: ${{ secrets.REVANCEDBOT_SIGNING }}
+        run: |
+          if [ -z "${REVANCEDBOT_SIGNING}" ]; then
+            echo "::error::Set repository secret REVANCEDBOT_SIGNING (output of: revancedbot keys generate)"
+            exit 1
+          fi
+
+      - name: Build F-Droid tree
+        env:
+          REVANCEDBOT_SIGNING: ${{ secrets.REVANCEDBOT_SIGNING }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          set -euo pipefail
+          CACHE="${RUNNER_TEMP}/revancedbot-cache"
+          if [ "${{ inputs.smoke }}" = "true" ]; then
+            echo "Smoke: one package via revancedbot smoke"
+            revancedbot smoke . --cache "$CACHE" --max 1
+          else
+            revancedbot run . --cache "$CACHE"
+          fi
+
+      - name: Publish to main (GitHub Pages source)
+        run: |
+          set -euo pipefail
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          # Never commit generated fdroid config (absolute keystore path)
+          rm -f config.yml
+          git add -A repo metadata
+          if git diff --staged --quiet; then
+            echo "No changes to publish"
+            exit 0
+          fi
+          git commit -m "chore: update F-Droid repo $(date -u +%Y-%m-%dT%H:%MZ)"
+          git push

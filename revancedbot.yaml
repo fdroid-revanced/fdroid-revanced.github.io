@@ -1,0 +1,20 @@
+# Authority for revancedbot (this F-Droid simple-binary root).
+# Deployed site: https://fdroid-revanced.github.io/
+
+repo_name: ReVanced F-Droid
+repo_url: https://fdroid-revanced.github.io/repo
+repo_description: >
+  Unofficial F-Droid simple-binary repository of ReVanced-patched
+  applications, built by revancedbot on GitHub Actions.
+
+downloaders:
+  - apkpure
+  - apkmirror
+
+browser:
+  cdp_url: ""
+
+pool_io: 4
+pool_cpu: 0
+pool_internet: 4
+log_level: info
