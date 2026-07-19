@@ -29,7 +29,7 @@ https://fdroid-revanced.github.io/repo
 
 Pipeline (on `ubuntu-latest`):
 
-1. Install Java, `fdroid`, `aapt`, `apksigner`, and `revancedbot`
+1. Install Java, `fdroid`, `aapt`, `apksigner`, and `revancedbot` (mise `go:` backend)
 2. `revancedbot run .` with secret `REVANCEDBOT_SIGNING`
 3. Commit `repo/` + `metadata/` to `main` (Pages)
 
@@ -50,8 +50,7 @@ revancedbot keys generate
 ## Local rebuild
 
 ```bash
-mise install
-mise run install-revancedbot
+mise install   # java, go, fdroidserver, revancedbot (go: backend)
 export REVANCEDBOT_SIGNING='…'   # same secret
 mise run build-repo
 ```
