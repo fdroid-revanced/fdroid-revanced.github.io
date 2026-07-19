@@ -1,6 +1,6 @@
 {
   "repo": {
-    "timestamp": 1784502280000,
+    "timestamp": 1784502398000,
     "version": 20002,
     "name": "ReVanced F-Droid",
     "icon": "icon.png",
@@ -210,7 +210,7 @@
         "features": [
           "android.hardware.camera"
         ],
-        "hash": "3beb66b65a269e43e590a02782fc8102f8cfacc58f553f743ad09a9660dd7e16",
+        "hash": "6346c22aa85c2ad7ec902b1487336ea847d546bda56167dc82fd6c29f0daed06",
         "hashType": "sha256",
         "minSdkVersion": 31,
         "nativecode": [
@@ -222,7 +222,7 @@
         "packageName": "at.gv.oe.app.revanced",
         "sig": "5837ab34622f0917305f6d32bc00ab0a",
         "signer": "990aa515644a3f1528c122f2ce9ceb19f404912532394579ebedaea32c99cde9",
-        "size": 55508334,
+        "size": 55516526,
         "targetSdkVersion": 35,
         "uses-permission": [
           [
@@ -581,7 +581,7 @@
       {
         "added": 1784501799000,
         "apkName": "com.bandcamp.android_3.3.6_revanced.apk",
-        "hash": "31d3807bc814dc27c5fbf8fda36182fd921c90b7cd23459679f95caa2ecd85b4",
+        "hash": "d29d6909f2e3c2d8bdacc3e1b0c0f915aecc0f12a032ad59d03b59ab345c9ddb",
         "hashType": "sha256",
         "minSdkVersion": 24,
         "nativecode": [
@@ -1229,7 +1229,7 @@
       {
         "added": 1784501803000,
         "apkName": "eu.faircode.netguard_2.335_revanced.apk",
-        "hash": "924b18e44d67fb3cc96ebef7a1174f067c3a95a28d7668c4ba360cc656bfe04a",
+        "hash": "ec40edc014755912c766ee842565db34ba7248d220fc909c4dcff27eb9e10369",
         "hashType": "sha256",
         "minSdkVersion": 22,
         "nativecode": [
@@ -1241,7 +1241,7 @@
         "packageName": "eu.faircode.netguard.revanced",
         "sig": "5837ab34622f0917305f6d32bc00ab0a",
         "signer": "990aa515644a3f1528c122f2ce9ceb19f404912532394579ebedaea32c99cde9",
-        "size": 3465002,
+        "size": 3469098,
         "targetSdkVersion": 35,
         "uses-permission": [
           [
