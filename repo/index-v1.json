@@ -1,6 +1,6 @@
 {
   "repo": {
-    "timestamp": 1784494807000,
+    "timestamp": 1784495275000,
     "version": 20002,
     "name": "ReVanced F-Droid",
     "icon": "icon.png",
@@ -12,6 +12,24 @@
     "uninstall": []
   },
   "apps": [
+    {
+      "authorName": "ReVanced (patched)",
+      "categories": [
+        "Multimedia"
+      ],
+      "suggestedVersionCode": "183",
+      "description": "ReVanced-patched build of com.onelouder.baconreader.\n\nPatches applied:\n- INFO: \"Fix Redgifs API\" succeeded\n- INFO: \"Change package name\" succeeded\n",
+      "license": "Unknown",
+      "added": 1784495274000,
+      "icon": "com.onelouder.baconreader.revanced.183.png",
+      "packageName": "com.onelouder.baconreader.revanced",
+      "lastUpdated": 1784495274000,
+      "localized": {
+        "en-US": {
+          "name": "BaconReader"
+        }
+      }
+    },
     {
       "authorName": "ReVanced (patched)",
       "categories": [
@@ -82,6 +100,24 @@
           "name": "Pandora"
         }
       }
+    },
+    {
+      "authorName": "ReVanced (patched)",
+      "categories": [
+        "Multimedia"
+      ],
+      "suggestedVersionCode": "4622",
+      "description": "ReVanced-patched build of com.andrewshu.android.reddit.\n\nPatches applied:\n- INFO: \"Change package name\" succeeded\n",
+      "license": "Unknown",
+      "added": 1784495271000,
+      "icon": "com.andrewshu.android.reddit.revanced.4622.png",
+      "packageName": "com.andrewshu.android.reddit.revanced",
+      "lastUpdated": 1784495271000,
+      "localized": {
+        "en-US": {
+          "name": "rif is fun"
+        }
+      }
     }
   ],
   "packages": {
@@ -92,7 +128,7 @@
         "features": [
           "android.hardware.camera"
         ],
-        "hash": "9a582d02f46aed9040507970b858a1776b13fa9ccfff4c8ee9ab3bd9daf0bec0",
+        "hash": "a4a2aaf397f00f469c660837bd7807835a9abdc27ae386ed524a01a93e2e28cf",
         "hashType": "sha256",
         "minSdkVersion": 31,
         "nativecode": [
@@ -104,7 +140,7 @@
         "packageName": "at.gv.oe.app.revanced",
         "sig": "5837ab34622f0917305f6d32bc00ab0a",
         "signer": "990aa515644a3f1528c122f2ce9ceb19f404912532394579ebedaea32c99cde9",
-        "size": 55491950,
+        "size": 55508334,
         "targetSdkVersion": 35,
         "uses-permission": [
           [
@@ -170,6 +206,110 @@
         ],
         "versionCode": 2026052703,
         "versionName": "5.5.0"
+      }
+    ],
+    "com.andrewshu.android.reddit.revanced": [
+      {
+        "added": 1784495271000,
+        "apkName": "com.andrewshu.android.reddit_5.6.22_revanced.apk",
+        "hash": "9188af2103d79865ff606121f7ca26722e8ad913ddd687239186d7e87dbdd535",
+        "hashType": "sha256",
+        "minSdkVersion": 21,
+        "nativecode": [
+          "arm64-v8a",
+          "armeabi-v7a",
+          "x86",
+          "x86_64"
+        ],
+        "packageName": "com.andrewshu.android.reddit.revanced",
+        "sig": "5837ab34622f0917305f6d32bc00ab0a",
+        "signer": "990aa515644a3f1528c122f2ce9ceb19f404912532394579ebedaea32c99cde9",
+        "size": 14145393,
+        "targetSdkVersion": 33,
+        "uses-permission": [
+          [
+            "android.permission.INTERNET",
+            null
+          ],
+          [
+            "android.permission.ACCESS_NETWORK_STATE",
+            null
+          ],
+          [
+            "android.permission.RECEIVE_BOOT_COMPLETED",
+            null
+          ],
+          [
+            "android.permission.VIBRATE",
+            null
+          ],
+          [
+            "android.permission.NFC",
+            null
+          ],
+          [
+            "android.permission.READ_SYNC_SETTINGS",
+            null
+          ],
+          [
+            "android.permission.WRITE_SYNC_SETTINGS",
+            null
+          ],
+          [
+            "android.permission.WAKE_LOCK",
+            null
+          ],
+          [
+            "android.permission.POST_NOTIFICATIONS",
+            null
+          ],
+          [
+            "android.permission.GET_ACCOUNTS",
+            22
+          ],
+          [
+            "android.permission.READ_EXTERNAL_STORAGE",
+            32
+          ],
+          [
+            "android.permission.WRITE_EXTERNAL_STORAGE",
+            29
+          ],
+          [
+            "android.permission.MANAGE_ACCOUNTS",
+            22
+          ],
+          [
+            "android.permission.AUTHENTICATE_ACCOUNTS",
+            22
+          ],
+          [
+            "android.permission.USE_CREDENTIALS",
+            22
+          ],
+          [
+            "com.google.android.c2dm.permission.RECEIVE",
+            null
+          ],
+          [
+            "com.google.android.gms.permission.AD_ID",
+            null
+          ],
+          [
+            "com.applovin.array.apphub.permission.BIND_APPHUB_SERVICE",
+            null
+          ],
+          [
+            "android.permission.FOREGROUND_SERVICE",
+            null
+          ],
+          [
+            "com.andrewshu.android.reddit.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION",
+            null
+          ]
+        ],
+        "versionCode": 4622,
+        "versionName": "5.6.22"
       }
     ],
     "com.bandcamp.android.revanced": [
@@ -407,6 +547,84 @@
         ],
         "versionCode": 5070839,
         "versionName": "6.12.26"
+      }
+    ],
+    "com.onelouder.baconreader.revanced": [
+      {
+        "added": 1784495274000,
+        "apkName": "com.onelouder.baconreader_6.1.4_revanced.apk",
+        "hash": "d6d4f623b8ea6ece94f5a912785ade8e3f23f05c904dfe38f1542bf8766cf49d",
+        "hashType": "sha256",
+        "minSdkVersion": 22,
+        "packageName": "com.onelouder.baconreader.revanced",
+        "sig": "5837ab34622f0917305f6d32bc00ab0a",
+        "signer": "990aa515644a3f1528c122f2ce9ceb19f404912532394579ebedaea32c99cde9",
+        "size": 21006185,
+        "targetSdkVersion": 31,
+        "uses-permission": [
+          [
+            "com.android.vending.BILLING",
+            null
+          ],
+          [
+            "android.permission.FOREGROUND_SERVICE",
+            null
+          ],
+          [
+            "android.permission.VIBRATE",
+            null
+          ],
+          [
+            "android.permission.CAMERA",
+            null
+          ],
+          [
+            "android.permission.WRITE_EXTERNAL_STORAGE",
+            28
+          ],
+          [
+            "android.permission.RECEIVE_BOOT_COMPLETED",
+            null
+          ],
+          [
+            "android.permission.ACCESS_NETWORK_STATE",
+            null
+          ],
+          [
+            "android.permission.NFC",
+            null
+          ],
+          [
+            "android.permission.ACCESS_WIFI_STATE",
+            null
+          ],
+          [
+            "android.permission.WAKE_LOCK",
+            22
+          ],
+          [
+            "android.permission.INTERNET",
+            null
+          ],
+          [
+            "com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE",
+            null
+          ],
+          [
+            "com.google.android.gms.permission.AD_ID",
+            null
+          ],
+          [
+            "com.google.android.c2dm.permission.RECEIVE",
+            null
+          ],
+          [
+            "android.permission.READ_EXTERNAL_STORAGE",
+            28
+          ]
+        ],
+        "versionCode": 183,
+        "versionName": "6.1.4"
       }
     ],
     "com.pandora.android.revanced": [

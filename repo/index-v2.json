@@ -14,7 +14,7 @@
       }
     },
     "address": "https://fdroid-revanced.github.io/repo",
-    "timestamp": 1784494807000,
+    "timestamp": 1784495275000,
     "categories": {
       "Multimedia": {
         "name": {
@@ -41,12 +41,12 @@
         "preferredSigner": "990aa515644a3f1528c122f2ce9ceb19f404912532394579ebedaea32c99cde9"
       },
       "versions": {
-        "9a582d02f46aed9040507970b858a1776b13fa9ccfff4c8ee9ab3bd9daf0bec0": {
+        "a4a2aaf397f00f469c660837bd7807835a9abdc27ae386ed524a01a93e2e28cf": {
           "added": 1784493616000,
           "file": {
             "name": "/at.gv.oe.app_5.5.0_revanced.apk",
-            "sha256": "9a582d02f46aed9040507970b858a1776b13fa9ccfff4c8ee9ab3bd9daf0bec0",
-            "size": 55491950
+            "sha256": "a4a2aaf397f00f469c660837bd7807835a9abdc27ae386ed524a01a93e2e28cf",
+            "size": 55508334
           },
           "manifest": {
             "nativecode": [
@@ -116,6 +116,127 @@
               },
               {
                 "name": "at.gv.oe.app.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+              }
+            ]
+          }
+        }
+      }
+    },
+    "com.andrewshu.android.reddit.revanced": {
+      "metadata": {
+        "added": 1784495271000,
+        "categories": [
+          "Multimedia"
+        ],
+        "lastUpdated": 1784495271000,
+        "authorName": "ReVanced (patched)",
+        "name": {
+          "en-US": "rif is fun"
+        },
+        "description": {
+          "en-US": "ReVanced-patched build of com.andrewshu.android.reddit.\n\nPatches applied:\n- INFO: \"Change package name\" succeeded\n"
+        },
+        "icon": {
+          "en-US": {
+            "name": "/icons/com.andrewshu.android.reddit.revanced.4622.png",
+            "sha256": "623ef7ee7b24bde48d3ff0bc28350a1a3859d7b6672dc3e5780164a802d1a243",
+            "size": 3541
+          }
+        },
+        "preferredSigner": "990aa515644a3f1528c122f2ce9ceb19f404912532394579ebedaea32c99cde9"
+      },
+      "versions": {
+        "9188af2103d79865ff606121f7ca26722e8ad913ddd687239186d7e87dbdd535": {
+          "added": 1784495271000,
+          "file": {
+            "name": "/com.andrewshu.android.reddit_5.6.22_revanced.apk",
+            "sha256": "9188af2103d79865ff606121f7ca26722e8ad913ddd687239186d7e87dbdd535",
+            "size": 14145393
+          },
+          "manifest": {
+            "nativecode": [
+              "arm64-v8a",
+              "armeabi-v7a",
+              "x86",
+              "x86_64"
+            ],
+            "versionName": "5.6.22",
+            "versionCode": 4622,
+            "usesSdk": {
+              "minSdkVersion": 21,
+              "targetSdkVersion": 33
+            },
+            "signer": {
+              "sha256": [
+                "990aa515644a3f1528c122f2ce9ceb19f404912532394579ebedaea32c99cde9"
+              ]
+            },
+            "usesPermission": [
+              {
+                "name": "android.permission.INTERNET"
+              },
+              {
+                "name": "android.permission.ACCESS_NETWORK_STATE"
+              },
+              {
+                "name": "android.permission.RECEIVE_BOOT_COMPLETED"
+              },
+              {
+                "name": "android.permission.VIBRATE"
+              },
+              {
+                "name": "android.permission.NFC"
+              },
+              {
+                "name": "android.permission.READ_SYNC_SETTINGS"
+              },
+              {
+                "name": "android.permission.WRITE_SYNC_SETTINGS"
+              },
+              {
+                "name": "android.permission.WAKE_LOCK"
+              },
+              {
+                "name": "android.permission.POST_NOTIFICATIONS"
+              },
+              {
+                "name": "android.permission.GET_ACCOUNTS",
+                "maxSdkVersion": 22
+              },
+              {
+                "name": "android.permission.READ_EXTERNAL_STORAGE",
+                "maxSdkVersion": 32
+              },
+              {
+                "name": "android.permission.WRITE_EXTERNAL_STORAGE",
+                "maxSdkVersion": 29
+              },
+              {
+                "name": "android.permission.MANAGE_ACCOUNTS",
+                "maxSdkVersion": 22
+              },
+              {
+                "name": "android.permission.AUTHENTICATE_ACCOUNTS",
+                "maxSdkVersion": 22
+              },
+              {
+                "name": "android.permission.USE_CREDENTIALS",
+                "maxSdkVersion": 22
+              },
+              {
+                "name": "com.google.android.c2dm.permission.RECEIVE"
+              },
+              {
+                "name": "com.google.android.gms.permission.AD_ID"
+              },
+              {
+                "name": "com.applovin.array.apphub.permission.BIND_APPHUB_SERVICE"
+              },
+              {
+                "name": "android.permission.FOREGROUND_SERVICE"
+              },
+              {
+                "name": "com.andrewshu.android.reddit.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
               }
             ]
           }
@@ -368,6 +489,103 @@
               },
               {
                 "name": "com.nis.app.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+              }
+            ]
+          }
+        }
+      }
+    },
+    "com.onelouder.baconreader.revanced": {
+      "metadata": {
+        "added": 1784495274000,
+        "categories": [
+          "Multimedia"
+        ],
+        "lastUpdated": 1784495274000,
+        "authorName": "ReVanced (patched)",
+        "name": {
+          "en-US": "BaconReader"
+        },
+        "description": {
+          "en-US": "ReVanced-patched build of com.onelouder.baconreader.\n\nPatches applied:\n- INFO: \"Fix Redgifs API\" succeeded\n- INFO: \"Change package name\" succeeded\n"
+        },
+        "icon": {
+          "en-US": {
+            "name": "/icons/com.onelouder.baconreader.revanced.183.png",
+            "sha256": "7630b835e5191e2f2a17c1a70cd8acebded3b8171fccdd5d3c102d99e3f8a4ea",
+            "size": 3697
+          }
+        },
+        "preferredSigner": "990aa515644a3f1528c122f2ce9ceb19f404912532394579ebedaea32c99cde9"
+      },
+      "versions": {
+        "d6d4f623b8ea6ece94f5a912785ade8e3f23f05c904dfe38f1542bf8766cf49d": {
+          "added": 1784495274000,
+          "file": {
+            "name": "/com.onelouder.baconreader_6.1.4_revanced.apk",
+            "sha256": "d6d4f623b8ea6ece94f5a912785ade8e3f23f05c904dfe38f1542bf8766cf49d",
+            "size": 21006185
+          },
+          "manifest": {
+            "versionName": "6.1.4",
+            "versionCode": 183,
+            "usesSdk": {
+              "minSdkVersion": 22,
+              "targetSdkVersion": 31
+            },
+            "signer": {
+              "sha256": [
+                "990aa515644a3f1528c122f2ce9ceb19f404912532394579ebedaea32c99cde9"
+              ]
+            },
+            "usesPermission": [
+              {
+                "name": "com.android.vending.BILLING"
+              },
+              {
+                "name": "android.permission.FOREGROUND_SERVICE"
+              },
+              {
+                "name": "android.permission.VIBRATE"
+              },
+              {
+                "name": "android.permission.CAMERA"
+              },
+              {
+                "name": "android.permission.WRITE_EXTERNAL_STORAGE",
+                "maxSdkVersion": 28
+              },
+              {
+                "name": "android.permission.RECEIVE_BOOT_COMPLETED"
+              },
+              {
+                "name": "android.permission.ACCESS_NETWORK_STATE"
+              },
+              {
+                "name": "android.permission.NFC"
+              },
+              {
+                "name": "android.permission.ACCESS_WIFI_STATE"
+              },
+              {
+                "name": "android.permission.WAKE_LOCK",
+                "maxSdkVersion": 22
+              },
+              {
+                "name": "android.permission.INTERNET"
+              },
+              {
+                "name": "com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE"
+              },
+              {
+                "name": "com.google.android.gms.permission.AD_ID"
+              },
+              {
+                "name": "com.google.android.c2dm.permission.RECEIVE"
+              },
+              {
+                "name": "android.permission.READ_EXTERNAL_STORAGE",
+                "maxSdkVersion": 28
               }
             ]
           }

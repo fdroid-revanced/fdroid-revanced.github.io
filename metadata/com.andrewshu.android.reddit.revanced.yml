@@ -1,0 +1,9 @@
+Categories:
+  - Multimedia
+License: Unknown
+AuthorName: ReVanced (patched)
+Description: |
+  ReVanced-patched build of com.andrewshu.android.reddit.
+
+  Patches applied:
+  - INFO: "Change package name" succeeded

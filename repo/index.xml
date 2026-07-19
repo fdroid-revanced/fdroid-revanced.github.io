@@ -1,8 +1,46 @@
 <?xml version="1.0" encoding="utf-8"?>
 <fdroid>
-	<repo icon="icon.png" name="ReVanced F-Droid" pubkey="308203843082026ca0030201020209008ff6b12b8bb8dec1300d06092a864886f70d01010c0500306f310b30090603550406130255533110300e06035504081307556e6b6e6f776e3110300e06035504071307556e6b6e6f776e31143012060355040a130b726576616e636564626f743110300e060355040b1307462d44726f6964311430120603550403130b726576616e636564626f743020170d3236303731393139353930315a180f32303533313230343139353930315a306f310b30090603550406130255533110300e06035504081307556e6b6e6f776e3110300e06035504071307556e6b6e6f776e31143012060355040a130b726576616e636564626f743110300e060355040b1307462d44726f6964311430120603550403130b726576616e636564626f7430820122300d06092a864886f70d01010105000382010f003082010a0282010100d751c3d499c555da6646cf761066fcc62e6e5841b14dbcf13863c830bda61fdb29eaba3c7d4e13932e4776ec38f3b61f658e7324989de9500d51a12dfc16b1750183686ecf2c470902bb89dc458636dfc3242f003aa7aa94198b8c5fd9160974f2146f1a43a1c819b6c77a3223349a7875c37804ce85a18000f49542f9aa7da1b2f7519182e8abae5a7b813a79ea0c9526d116e38d088ae533e0998ddd3fc5fcc673d6a855a62220c3d2f411a413f6560e902009b264ed631f130c9575b4e5fff8884e598cd2a02ab808efec9a62dc103fcc63f5b8e92ef1697e8654b4f8f3065936e1ffd4822271d83398ad957061e2349dc0c856f361708dc06b2656eb58970203010001a321301f301d0603551d0e041604143e7dcf8a11387332fc45f05389fbf70649df821d300d06092a864886f70d01010c050003820101002107522f45f6163562fbe8e1cea447942928bbb35c8881dce239f27b47592a6292e8f4ab45bd05b9ad002df5345cd69c781916e3c5c9b62439118e9f233c47061af8cf5835aa7747315ddc04998adabd331e813a2a31b495ba0e3c0b94d1dae306423e57f1390c9a09c2a1c2fad186b00127259fddbfc1c3dcf1176da37408f59001dabc9f26e5c6320346bf9e6e6644a80d0880187afe88880a7ab7d67909493ec99c4e3f0eda8a4d0b023f0165037965e14a4411a69a7eab977ca00eff97d812456fa2cff5a6f6308e80298b0f321c2518078c498f6e699accf13255d0815ef71db57e1c6f67e26c087c3bd77ffa8daefb5a162811ef569192d446be958e4c" timestamp="1784494807" url="https://fdroid-revanced.github.io/repo" version="20002">
+	<repo icon="icon.png" name="ReVanced F-Droid" pubkey="308203843082026ca0030201020209008ff6b12b8bb8dec1300d06092a864886f70d01010c0500306f310b30090603550406130255533110300e06035504081307556e6b6e6f776e3110300e06035504071307556e6b6e6f776e31143012060355040a130b726576616e636564626f743110300e060355040b1307462d44726f6964311430120603550403130b726576616e636564626f743020170d3236303731393139353930315a180f32303533313230343139353930315a306f310b30090603550406130255533110300e06035504081307556e6b6e6f776e3110300e06035504071307556e6b6e6f776e31143012060355040a130b726576616e636564626f743110300e060355040b1307462d44726f6964311430120603550403130b726576616e636564626f7430820122300d06092a864886f70d01010105000382010f003082010a0282010100d751c3d499c555da6646cf761066fcc62e6e5841b14dbcf13863c830bda61fdb29eaba3c7d4e13932e4776ec38f3b61f658e7324989de9500d51a12dfc16b1750183686ecf2c470902bb89dc458636dfc3242f003aa7aa94198b8c5fd9160974f2146f1a43a1c819b6c77a3223349a7875c37804ce85a18000f49542f9aa7da1b2f7519182e8abae5a7b813a79ea0c9526d116e38d088ae533e0998ddd3fc5fcc673d6a855a62220c3d2f411a413f6560e902009b264ed631f130c9575b4e5fff8884e598cd2a02ab808efec9a62dc103fcc63f5b8e92ef1697e8654b4f8f3065936e1ffd4822271d83398ad957061e2349dc0c856f361708dc06b2656eb58970203010001a321301f301d0603551d0e041604143e7dcf8a11387332fc45f05389fbf70649df821d300d06092a864886f70d01010c050003820101002107522f45f6163562fbe8e1cea447942928bbb35c8881dce239f27b47592a6292e8f4ab45bd05b9ad002df5345cd69c781916e3c5c9b62439118e9f233c47061af8cf5835aa7747315ddc04998adabd331e813a2a31b495ba0e3c0b94d1dae306423e57f1390c9a09c2a1c2fad186b00127259fddbfc1c3dcf1176da37408f59001dabc9f26e5c6320346bf9e6e6644a80d0880187afe88880a7ab7d67909493ec99c4e3f0eda8a4d0b023f0165037965e14a4411a69a7eab977ca00eff97d812456fa2cff5a6f6308e80298b0f321c2518078c498f6e699accf13255d0815ef71db57e1c6f67e26c087c3bd77ffa8daefb5a162811ef569192d446be958e4c" timestamp="1784495275" url="https://fdroid-revanced.github.io/repo" version="20002">
 		<description>Unofficial F-Droid simple-binary repository of ReVanced-patched applications, built by revancedbot on GitHub Actions.</description>
 	</repo>
+	<application id="com.onelouder.baconreader.revanced">
+		<id>com.onelouder.baconreader.revanced</id>
+		<added>2026-07-19</added>
+		<lastupdated>2026-07-19</lastupdated>
+		<name>BaconReader</name>
+		<summary></summary>
+		<icon>com.onelouder.baconreader.revanced.183.png</icon>
+		<desc>ReVanced-patched build of com.onelouder.baconreader.
+
+Patches applied:
+- INFO: &quot;Fix Redgifs API&quot; succeeded
+- INFO: &quot;Change package name&quot; succeeded
+</desc>
+		<license>Unknown</license>
+		<categories>Multimedia</categories>
+		<category>Multimedia</category>
+		<web></web>
+		<source></source>
+		<tracker></tracker>
+		<author>ReVanced (patched)</author>
+		<marketversion></marketversion>
+		<marketvercode>183</marketvercode>
+		<package>
+			<version>6.1.4</version>
+			<versioncode>183</versioncode>
+			<apkname>com.onelouder.baconreader_6.1.4_revanced.apk</apkname>
+			<hash type="sha256">d6d4f623b8ea6ece94f5a912785ade8e3f23f05c904dfe38f1542bf8766cf49d</hash>
+			<size>21006185</size>
+			<sdkver>22</sdkver>
+			<targetSdkVersion>31</targetSdkVersion>
+			<added>2026-07-19</added>
+			<sig>5837ab34622f0917305f6d32bc00ab0a</sig>
+			<permissions>ACCESS_NETWORK_STATE,ACCESS_WIFI_STATE,CAMERA,FOREGROUND_SERVICE,INTERNET,NFC,READ_EXTERNAL_STORAGE,RECEIVE_BOOT_COMPLETED,VIBRATE,WAKE_LOCK,WRITE_EXTERNAL_STORAGE,com.android.vending.BILLING,com.google.android.c2dm.permission.RECEIVE,com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE,com.google.android.gms.permission.AD_ID</permissions>
+			<uses-permission maxSdkVersion="28" name="android.permission.READ_EXTERNAL_STORAGE"/>
+			<uses-permission maxSdkVersion="22" name="android.permission.WAKE_LOCK"/>
+			<uses-permission maxSdkVersion="28" name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+		</package>
+	</application>
 	<application id="com.bandcamp.android.revanced">
 		<id>com.bandcamp.android.revanced</id>
 		<added>2026-07-19</added>
@@ -66,8 +104,8 @@ Patches applied:
 			<version>5.5.0</version>
 			<versioncode>2026052703</versioncode>
 			<apkname>at.gv.oe.app_5.5.0_revanced.apk</apkname>
-			<hash type="sha256">9a582d02f46aed9040507970b858a1776b13fa9ccfff4c8ee9ab3bd9daf0bec0</hash>
-			<size>55491950</size>
+			<hash type="sha256">a4a2aaf397f00f469c660837bd7807835a9abdc27ae386ed524a01a93e2e28cf</hash>
+			<size>55508334</size>
 			<sdkver>31</sdkver>
 			<targetSdkVersion>35</targetSdkVersion>
 			<added>2026-07-19</added>
@@ -149,6 +187,47 @@ Patches applied:
 			<permissions>ACCESS_NETWORK_STATE,ACCESS_WIFI_STATE,BLUETOOTH,BLUETOOTH_ADMIN,BLUETOOTH_CONNECT,FOREGROUND_SERVICE,FOREGROUND_SERVICE_CONNECTED_DEVICE,FOREGROUND_SERVICE_MEDIA_PLAYBACK,GET_ACCOUNTS,INTERNET,POST_NOTIFICATIONS,READ_EXTERNAL_STORAGE,READ_PHONE_STATE,RECEIVE_BOOT_COMPLETED,WAKE_LOCK,WRITE_EXTERNAL_STORAGE,com.amazon.privacypass.ATTEST,com.android.launcher.permission.INSTALL_SHORTCUT,com.android.providers.tv.permission.READ_EPG_DATA,com.android.providers.tv.permission.WRITE_EPG_DATA,com.android.vending.BILLING,com.google.android.c2dm.permission.RECEIVE,com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE,com.google.android.gms.permission.AD_ID,com.google.android.providers.gsf.permission.READ_GSERVICES,com.pandora.android.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION</permissions>
 			<uses-permission maxSdkVersion="32" name="android.permission.READ_EXTERNAL_STORAGE"/>
 			<uses-permission maxSdkVersion="32" name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+			<nativecode>arm64-v8a,armeabi-v7a,x86,x86_64</nativecode>
+		</package>
+	</application>
+	<application id="com.andrewshu.android.reddit.revanced">
+		<id>com.andrewshu.android.reddit.revanced</id>
+		<added>2026-07-19</added>
+		<lastupdated>2026-07-19</lastupdated>
+		<name>rif is fun</name>
+		<summary></summary>
+		<icon>com.andrewshu.android.reddit.revanced.4622.png</icon>
+		<desc>ReVanced-patched build of com.andrewshu.android.reddit.
+
+Patches applied:
+- INFO: &quot;Change package name&quot; succeeded
+</desc>
+		<license>Unknown</license>
+		<categories>Multimedia</categories>
+		<category>Multimedia</category>
+		<web></web>
+		<source></source>
+		<tracker></tracker>
+		<author>ReVanced (patched)</author>
+		<marketversion></marketversion>
+		<marketvercode>4622</marketvercode>
+		<package>
+			<version>5.6.22</version>
+			<versioncode>4622</versioncode>
+			<apkname>com.andrewshu.android.reddit_5.6.22_revanced.apk</apkname>
+			<hash type="sha256">9188af2103d79865ff606121f7ca26722e8ad913ddd687239186d7e87dbdd535</hash>
+			<size>14145393</size>
+			<sdkver>21</sdkver>
+			<targetSdkVersion>33</targetSdkVersion>
+			<added>2026-07-19</added>
+			<sig>5837ab34622f0917305f6d32bc00ab0a</sig>
+			<permissions>ACCESS_NETWORK_STATE,AUTHENTICATE_ACCOUNTS,FOREGROUND_SERVICE,GET_ACCOUNTS,INTERNET,MANAGE_ACCOUNTS,NFC,POST_NOTIFICATIONS,READ_EXTERNAL_STORAGE,READ_SYNC_SETTINGS,RECEIVE_BOOT_COMPLETED,USE_CREDENTIALS,VIBRATE,WAKE_LOCK,WRITE_EXTERNAL_STORAGE,WRITE_SYNC_SETTINGS,com.andrewshu.android.reddit.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION,com.applovin.array.apphub.permission.BIND_APPHUB_SERVICE,com.google.android.c2dm.permission.RECEIVE,com.google.android.gms.permission.AD_ID</permissions>
+			<uses-permission maxSdkVersion="22" name="android.permission.AUTHENTICATE_ACCOUNTS"/>
+			<uses-permission maxSdkVersion="22" name="android.permission.GET_ACCOUNTS"/>
+			<uses-permission maxSdkVersion="22" name="android.permission.MANAGE_ACCOUNTS"/>
+			<uses-permission maxSdkVersion="32" name="android.permission.READ_EXTERNAL_STORAGE"/>
+			<uses-permission maxSdkVersion="22" name="android.permission.USE_CREDENTIALS"/>
+			<uses-permission maxSdkVersion="29" name="android.permission.WRITE_EXTERNAL_STORAGE"/>
 			<nativecode>arm64-v8a,armeabi-v7a,x86,x86_64</nativecode>
 		</package>
 	</application>
