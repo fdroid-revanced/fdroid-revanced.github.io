@@ -1,6 +1,6 @@
 {
   "repo": {
-    "timestamp": 1784504603000,
+    "timestamp": 1784504727000,
     "version": 20002,
     "name": "ReVanced F-Droid",
     "icon": "icon.png",
@@ -245,7 +245,7 @@
         "features": [
           "android.hardware.camera"
         ],
-        "hash": "d14b368549de97e3bd75b11f83a5f0040e03317d19faad808a6155ec9496e627",
+        "hash": "28c14331493041ef8e6ca17a94cb81979e6a8e12215e2f8bf3c17d98023018bd",
         "hashType": "sha256",
         "minSdkVersion": 31,
         "nativecode": [
@@ -257,7 +257,7 @@
         "packageName": "at.gv.oe.app.revanced",
         "sig": "5837ab34622f0917305f6d32bc00ab0a",
         "signer": "990aa515644a3f1528c122f2ce9ceb19f404912532394579ebedaea32c99cde9",
-        "size": 55524718,
+        "size": 55532910,
         "targetSdkVersion": 35,
         "uses-permission": [
           [
@@ -329,7 +329,7 @@
       {
         "added": 1784501796000,
         "apkName": "at.willhaben_8.52.0_revanced.apk",
-        "hash": "89d90c3e7a6208d18e5c04af646e6932cdb5179c948215088fc63ccb352e88bb",
+        "hash": "0bf95e200835e74bac3e7bd3937c67c14b9294e25add52fa36ae92a26dcb8518",
         "hashType": "sha256",
         "minSdkVersion": 26,
         "nativecode": [
@@ -341,7 +341,7 @@
         "packageName": "at.willhaben.revanced",
         "sig": "5837ab34622f0917305f6d32bc00ab0a",
         "signer": "990aa515644a3f1528c122f2ce9ceb19f404912532394579ebedaea32c99cde9",
-        "size": 23639049,
+        "size": 23643145,
         "targetSdkVersion": 37,
         "uses-permission": [
           [
