@@ -7,7 +7,7 @@ on:
   workflow_dispatch:
     inputs:
       smoke:
-        description: "Smoke mode (one package only, faster)"
+        description: "Smoke mode (one random package only, faster)"
         type: boolean
         default: false
 
@@ -47,13 +47,17 @@ jobs:
         env:
           REVANCEDBOT_SIGNING: ${{ secrets.REVANCEDBOT_SIGNING }}
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          # schedule has no inputs; only workflow_dispatch + checkbox → smoke
+          SMOKE: ${{ github.event_name == 'workflow_dispatch' && inputs.smoke == true }}
         run: |
           set -euo pipefail
           CACHE="${RUNNER_TEMP}/revancedbot-cache"
-          if [ "${{ inputs.smoke }}" = "true" ]; then
-            echo "Smoke: one package via revancedbot smoke"
+          echo "event=${{ github.event_name }} smoke=${SMOKE}"
+          if [ "${SMOKE}" = "true" ]; then
+            echo "Smoke: one random package via revancedbot smoke"
             GOPROXY=direct go run github.com/lucasew/revancedbot/cmd/revancedbot@main smoke . --cache "$CACHE" --max 1
           else
+            echo "Full pipeline via revancedbot run"
             GOPROXY=direct go run github.com/lucasew/revancedbot/cmd/revancedbot@main run . --cache "$CACHE"
           fi
 
