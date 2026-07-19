@@ -1,7 +1,8 @@
 name: Build F-Droid repo
 
-# Worker. Multiple dispatches start in parallel (setup + warmup), then
-# softprops/turnstyle serializes the pipeline. No concurrency: group.
+# Workers setup+warmup in parallel, then turnstyle. After winning the lock, hard-reset
+# to origin so SeedStage sees the latest happy-path tree, then run the bot and publish
+# with retry (backup tree — never leave partial push).
 on:
   workflow_dispatch:
     inputs:
@@ -42,7 +43,6 @@ jobs:
       - name: Warm up revancedbot (module + compile cache before queue wait)
         run: |
           set -euo pipefail
-          # No bare `--` after pkg@ver (drops args). `help` is enough to fetch+compile.
           GOPROXY=direct go run github.com/lucasew/revancedbot/cmd/revancedbot@main help
 
       - name: FIFO turnstyle (wait for earlier builds — after env is warm)
@@ -51,6 +51,24 @@ jobs:
           poll-interval-seconds: 30
           same-branch-only: true
           queue-name: build-fdroid
+
+      - name: Sync working tree to origin (seed must see latest happy path)
+        run: |
+          set -euo pipefail
+          git fetch origin "${{ github.ref_name }}"
+          git reset --hard "origin/${{ github.ref_name }}"
+          git clean -fd
+          # Abort if live tree is outside happy path (bot will also sanitize/regen JSON).
+          if [ -d repo ]; then
+            while IFS= read -r -d '' f; do
+              if ! python3 -c "import json,sys; json.load(open(sys.argv[1]))" "$f" 2>/dev/null; then
+                echo "::warning::Removing corrupt JSON before build: $f"
+                rm -f "$f"
+              fi
+            done < <(find repo -type f -name '*.json' -print0 2>/dev/null || true)
+          fi
+          # Leftover atomic publish dirs
+          rm -rf .repo.new .repo.old .metadata.new .metadata.old
 
       - name: Build F-Droid tree
         env:
@@ -68,6 +86,23 @@ jobs:
             echo "Full pipeline via revancedbot run"
             GOPROXY=direct go run github.com/lucasew/revancedbot/cmd/revancedbot@main run . --cache "$CACHE"
           fi
+          # Happy-path gate on published working tree
+          if [ ! -d repo ] || [ ! -d metadata ]; then
+            echo "::error::Build finished without repo/ + metadata/"
+            ls -la
+            exit 1
+          fi
+          if ! find repo -type f \( -name 'index-v1.json' -o -name 'index-v2.json' -o -name 'index.xml' \) | grep -q .; then
+            echo "::error::Build finished without F-Droid index artifacts under repo/"
+            find repo -maxdepth 2 -type f | head -50
+            exit 1
+          fi
+          while IFS= read -r -d '' f; do
+            if ! python3 -c "import json,sys; json.load(open(sys.argv[1]))" "$f"; then
+              echo "::error::Invalid JSON after build (abort): $f"
+              exit 1
+            fi
+          done < <(find repo -type f -name '*.json' -print0)
 
       - name: Publish to main (GitHub Pages source)
         run: |
@@ -75,16 +110,43 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           rm -f config.yml
-          if [ ! -d repo ]; then
-            echo "::error::Build produced no repo/ directory — nothing to publish"
-            ls -la
+          if [ ! -d repo ] || [ ! -d metadata ]; then
+            echo "::error::Nothing to publish (missing repo/ or metadata/)"
             exit 1
           fi
-          git pull --rebase --autostash origin "${{ github.ref_name }}" || true
-          git add -A -- repo metadata
-          if git diff --staged --quiet; then
-            echo "No changes to publish"
-            exit 0
-          fi
-          git commit -m "chore: update F-Droid repo $(date -u +%Y-%m-%dT%H:%MZ)"
-          git push
+
+          # Snapshot this run's tree; re-apply after any reset on push race.
+          BACKUP="${RUNNER_TEMP}/publish-snapshot"
+          rm -rf "$BACKUP"
+          mkdir -p "$BACKUP"
+          cp -a repo metadata "$BACKUP/"
+
+          commit_and_push() {
+            git add -A -- repo metadata
+            if git diff --staged --quiet; then
+              echo "No changes to publish"
+              return 0
+            fi
+            git commit -m "chore: update F-Droid repo $(date -u +%Y-%m-%dT%H:%MZ)"
+            git push origin "HEAD:${{ github.ref_name }}"
+          }
+
+          restore_snapshot() {
+            rm -rf repo metadata
+            cp -a "$BACKUP/repo" "$BACKUP/metadata" .
+          }
+
+          for attempt in 1 2 3 4 5; do
+            echo "Publish attempt $attempt"
+            if commit_and_push; then
+              echo "Publish ok"
+              exit 0
+            fi
+            echo "Push rejected — resync and re-apply snapshot"
+            git fetch origin "${{ github.ref_name }}"
+            git reset --hard "origin/${{ github.ref_name }}"
+            git clean -fd
+            restore_snapshot
+          done
+          echo "::error::Publish failed after retries"
+          exit 1
