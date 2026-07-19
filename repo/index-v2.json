@@ -14,7 +14,7 @@
       }
     },
     "address": "https://fdroid-revanced.github.io/repo",
-    "timestamp": 1784501716000,
+    "timestamp": 1784501726000,
     "categories": {
       "Multimedia": {
         "name": {
@@ -31,11 +31,11 @@
   "packages": {
     "at.gv.oe.app.revanced": {
       "metadata": {
-        "added": 1784501705000,
+        "added": 1784501714000,
         "categories": [
           "Multimedia"
         ],
-        "lastUpdated": 1784501705000,
+        "lastUpdated": 1784501714000,
         "authorName": "ReVanced (patched)",
         "name": {
           "en-US": "ID Austria"
@@ -46,12 +46,12 @@
         "preferredSigner": "990aa515644a3f1528c122f2ce9ceb19f404912532394579ebedaea32c99cde9"
       },
       "versions": {
-        "3beb66b65a269e43e590a02782fc8102f8cfacc58f553f743ad09a9660dd7e16": {
-          "added": 1784501705000,
+        "83972e831fafa559cdf37792512eed38d2607390a73c1b4b197d892ddee775fa": {
+          "added": 1784501714000,
           "file": {
             "name": "/at.gv.oe.app_5.5.0_revanced.apk",
-            "sha256": "3beb66b65a269e43e590a02782fc8102f8cfacc58f553f743ad09a9660dd7e16",
-            "size": 55508334
+            "sha256": "83972e831fafa559cdf37792512eed38d2607390a73c1b4b197d892ddee775fa",
+            "size": 55467315
           },
           "manifest": {
             "nativecode": [
@@ -129,11 +129,11 @@
     },
     "at.willhaben.revanced": {
       "metadata": {
-        "added": 1784501706000,
+        "added": 1784501715000,
         "categories": [
           "Multimedia"
         ],
-        "lastUpdated": 1784501706000,
+        "lastUpdated": 1784501715000,
         "authorName": "ReVanced (patched)",
         "name": {
           "en-US": "willhaben"
@@ -145,7 +145,7 @@
       },
       "versions": {
         "ea6d3ed60d7c2c79bbb03464a19955bbcdbbf94f2b3b045b31c1be39ae9a17cf": {
-          "added": 1784501706000,
+          "added": 1784501715000,
           "file": {
             "name": "/at.willhaben_8.52.0_revanced.apk",
             "sha256": "ea6d3ed60d7c2c79bbb03464a19955bbcdbbf94f2b3b045b31c1be39ae9a17cf",
@@ -240,11 +240,11 @@
     },
     "ch.protonvpn.android.revanced": {
       "metadata": {
-        "added": 1784501708000,
+        "added": 1784501717000,
         "categories": [
           "Multimedia"
         ],
-        "lastUpdated": 1784501708000,
+        "lastUpdated": 1784501717000,
         "authorName": "ReVanced (patched)",
         "name": {
           "en-US": "Proton VPN"
@@ -263,7 +263,7 @@
       },
       "versions": {
         "b6bf26700f1ae15cea309697f8176681ad73e8c1b42adc16626f79cb92dbbe22": {
-          "added": 1784501708000,
+          "added": 1784501717000,
           "file": {
             "name": "/ch.protonvpn.android_5.19.43.0_revanced.apk",
             "sha256": "b6bf26700f1ae15cea309697f8176681ad73e8c1b42adc16626f79cb92dbbe22",
@@ -334,11 +334,11 @@
     },
     "com.andrewshu.android.reddit.revanced": {
       "metadata": {
-        "added": 1784501709000,
+        "added": 1784501718000,
         "categories": [
           "Multimedia"
         ],
-        "lastUpdated": 1784501709000,
+        "lastUpdated": 1784501718000,
         "authorName": "ReVanced (patched)",
         "name": {
           "en-US": "rif is fun"
@@ -357,7 +357,7 @@
       },
       "versions": {
         "d25409f195c23d11d7e4eb1d947232d3add36618f8de78246842012ee7c6ade1": {
-          "added": 1784501709000,
+          "added": 1784501718000,
           "file": {
             "name": "/com.andrewshu.android.reddit_5.6.22_revanced.apk",
             "sha256": "d25409f195c23d11d7e4eb1d947232d3add36618f8de78246842012ee7c6ade1",
@@ -455,11 +455,11 @@
     },
     "com.bandcamp.android.revanced": {
       "metadata": {
-        "added": 1784501710000,
+        "added": 1784501719000,
         "categories": [
           "Multimedia"
         ],
-        "lastUpdated": 1784501710000,
+        "lastUpdated": 1784501719000,
         "authorName": "ReVanced (patched)",
         "name": {
           "en-US": "Bandcamp"
@@ -477,12 +477,12 @@
         "preferredSigner": "990aa515644a3f1528c122f2ce9ceb19f404912532394579ebedaea32c99cde9"
       },
       "versions": {
-        "31d3807bc814dc27c5fbf8fda36182fd921c90b7cd23459679f95caa2ecd85b4": {
-          "added": 1784501710000,
+        "822217f930687afc4e812ffc1a10c6f32c65cd9a59096c77a93f6355c850ffb5": {
+          "added": 1784501719000,
           "file": {
             "name": "/com.bandcamp.android_3.3.6_revanced.apk",
-            "sha256": "31d3807bc814dc27c5fbf8fda36182fd921c90b7cd23459679f95caa2ecd85b4",
-            "size": 15069645
+            "sha256": "822217f930687afc4e812ffc1a10c6f32c65cd9a59096c77a93f6355c850ffb5",
+            "size": 15073741
           },
           "manifest": {
             "nativecode": [
@@ -568,11 +568,11 @@
     },
     "com.nis.app.revanced": {
       "metadata": {
-        "added": 1784501711000,
+        "added": 1784501721000,
         "categories": [
           "Multimedia"
         ],
-        "lastUpdated": 1784501711000,
+        "lastUpdated": 1784501721000,
         "authorName": "ReVanced (patched)",
         "name": {
           "en-US": "inshorts"
@@ -590,12 +590,12 @@
         "preferredSigner": "990aa515644a3f1528c122f2ce9ceb19f404912532394579ebedaea32c99cde9"
       },
       "versions": {
-        "9e027d50842dfc6d21b8c880b9c214600f71ef8c401c3a38eb2352aa37747a1b": {
-          "added": 1784501711000,
+        "864b643a6b0a638e0978a08d4d63c61bc990b14f78806e3c84ac39f4fda74394": {
+          "added": 1784501721000,
           "file": {
             "name": "/com.nis.app_6.12.26_revanced.apk",
-            "sha256": "9e027d50842dfc6d21b8c880b9c214600f71ef8c401c3a38eb2352aa37747a1b",
-            "size": 44946494
+            "sha256": "864b643a6b0a638e0978a08d4d63c61bc990b14f78806e3c84ac39f4fda74394",
+            "size": 44934206
           },
           "manifest": {
             "nativecode": [
@@ -707,11 +707,11 @@
     },
     "com.onelouder.baconreader.revanced": {
       "metadata": {
-        "added": 1784501712000,
+        "added": 1784501722000,
         "categories": [
           "Multimedia"
         ],
-        "lastUpdated": 1784501712000,
+        "lastUpdated": 1784501722000,
         "authorName": "ReVanced (patched)",
         "name": {
           "en-US": "BaconReader"
@@ -730,7 +730,7 @@
       },
       "versions": {
         "5d4eb1798e2ba91f6c5e311a0ba4758baf2d48f46afa2525f5984be2cf57d5f2": {
-          "added": 1784501712000,
+          "added": 1784501722000,
           "file": {
             "name": "/com.onelouder.baconreader_6.1.4_revanced.apk",
             "sha256": "5d4eb1798e2ba91f6c5e311a0ba4758baf2d48f46afa2525f5984be2cf57d5f2",
@@ -804,11 +804,11 @@
     },
     "com.pandora.android.revanced": {
       "metadata": {
-        "added": 1784501714000,
+        "added": 1784501723000,
         "categories": [
           "Multimedia"
         ],
-        "lastUpdated": 1784501714000,
+        "lastUpdated": 1784501723000,
         "authorName": "ReVanced (patched)",
         "name": {
           "en-US": "Pandora"
@@ -827,7 +827,7 @@
       },
       "versions": {
         "75b17f9fbe1e0e0cabd16b7dfcd4bb44e72467d2fa6cbcd490759dbd9c04737f": {
-          "added": 1784501714000,
+          "added": 1784501723000,
           "file": {
             "name": "/com.pandora.android_2607.1_revanced.apk",
             "sha256": "75b17f9fbe1e0e0cabd16b7dfcd4bb44e72467d2fa6cbcd490759dbd9c04737f",
@@ -953,11 +953,11 @@
     },
     "com.sec.android.app.fm.revanced": {
       "metadata": {
-        "added": 1784501714000,
+        "added": 1784501724000,
         "categories": [
           "Multimedia"
         ],
-        "lastUpdated": 1784501714000,
+        "lastUpdated": 1784501724000,
         "authorName": "ReVanced (patched)",
         "name": {
           "en-US": "Radio"
@@ -969,7 +969,7 @@
       },
       "versions": {
         "31aa2cb239ced497d8d38e7a6c48cb79698d1ec53247116584f563e488dcd952": {
-          "added": 1784501714000,
+          "added": 1784501724000,
           "file": {
             "name": "/com.sec.android.app.fm_12.4.00.7_revanced.apk",
             "sha256": "31aa2cb239ced497d8d38e7a6c48cb79698d1ec53247116584f563e488dcd952",
@@ -1133,11 +1133,11 @@
     },
     "eu.faircode.netguard.revanced": {
       "metadata": {
-        "added": 1784501715000,
+        "added": 1784501725000,
         "categories": [
           "Multimedia"
         ],
-        "lastUpdated": 1784501715000,
+        "lastUpdated": 1784501725000,
         "authorName": "ReVanced (patched)",
         "name": {
           "en-US": "NetGuard"
@@ -1156,7 +1156,7 @@
       },
       "versions": {
         "924b18e44d67fb3cc96ebef7a1174f067c3a95a28d7668c4ba360cc656bfe04a": {
-          "added": 1784501715000,
+          "added": 1784501725000,
           "file": {
             "name": "/eu.faircode.netguard_2.335_revanced.apk",
             "sha256": "924b18e44d67fb3cc96ebef7a1174f067c3a95a28d7668c4ba360cc656bfe04a",
@@ -1227,11 +1227,11 @@
     },
     "ml.docilealligator.infinityforreddit.plus.revanced": {
       "metadata": {
-        "added": 1784501716000,
+        "added": 1784501726000,
         "categories": [
           "fdroid"
         ],
-        "lastUpdated": 1784501716000,
+        "lastUpdated": 1784501726000,
         "name": {
           "en-US": "Infinity+"
         },
@@ -1246,7 +1246,7 @@
       },
       "versions": {
         "e453340915c3ab991d9559f0638a6d4be65b3dca5aa0defa7fe6cfe9d8d01f74": {
-          "added": 1784501716000,
+          "added": 1784501726000,
           "file": {
             "name": "/ml.docilealligator.infinityforreddit_8.3.0-beta3_revanced.apk",
             "sha256": "e453340915c3ab991d9559f0638a6d4be65b3dca5aa0defa7fe6cfe9d8d01f74",
