@@ -1,0 +1,141 @@
+{
+  "repo": {
+    "name": {
+      "en-US": "ReVanced F-Droid"
+    },
+    "description": {
+      "en-US": "Unofficial F-Droid simple-binary repository of ReVanced-patched applications, built by revancedbot on GitHub Actions."
+    },
+    "icon": {
+      "en-US": {
+        "name": "/icons/icon.png",
+        "sha256": "95767b725fd0fbab24c82fb7f1c3559f44cf14ce6e1a89172496c22e2b027171",
+        "size": 715
+      }
+    },
+    "address": "https://fdroid-revanced.github.io/repo",
+    "timestamp": 1784493255000,
+    "categories": {
+      "Multimedia": {
+        "name": {
+          "en-US": "Multimedia"
+        }
+      }
+    }
+  },
+  "packages": {
+    "com.bandcamp.android.revanced": {
+      "metadata": {
+        "added": 1784493255000,
+        "categories": [
+          "Multimedia"
+        ],
+        "lastUpdated": 1784493255000,
+        "authorName": "ReVanced (patched)",
+        "name": {
+          "en-US": "Bandcamp"
+        },
+        "description": {
+          "en-US": "ReVanced-patched build of com.bandcamp.android.\n\nPatches applied:\n- INFO: \"Remove play limits\" succeeded\n- INFO: \"Change package name\" succeeded\n"
+        },
+        "icon": {
+          "en-US": {
+            "name": "/icons/com.bandcamp.android.revanced.220489.png",
+            "sha256": "08f3907a7b776d9034bcbcdc90d5fd600f4c14addd2b2e9c92e1ff723a08f5e3",
+            "size": 631
+          }
+        },
+        "preferredSigner": "990aa515644a3f1528c122f2ce9ceb19f404912532394579ebedaea32c99cde9"
+      },
+      "versions": {
+        "460c0fe227f1392872c9372b67aa563390e770fb0823802fb9d3c45d279b3667": {
+          "added": 1784493255000,
+          "file": {
+            "name": "/com.bandcamp.android_3.3.6_revanced.apk",
+            "sha256": "460c0fe227f1392872c9372b67aa563390e770fb0823802fb9d3c45d279b3667",
+            "size": 14700889
+          },
+          "manifest": {
+            "nativecode": [
+              "arm64-v8a",
+              "armeabi-v7a",
+              "x86",
+              "x86_64"
+            ],
+            "versionName": "3.3.6",
+            "versionCode": 220489,
+            "usesSdk": {
+              "minSdkVersion": 24,
+              "targetSdkVersion": 36
+            },
+            "signer": {
+              "sha256": [
+                "990aa515644a3f1528c122f2ce9ceb19f404912532394579ebedaea32c99cde9"
+              ]
+            },
+            "usesPermission": [
+              {
+                "name": "android.permission.INTERNET"
+              },
+              {
+                "name": "android.permission.ACCESS_NETWORK_STATE"
+              },
+              {
+                "name": "android.permission.WRITE_EXTERNAL_STORAGE",
+                "maxSdkVersion": 18
+              },
+              {
+                "name": "android.permission.READ_EXTERNAL_STORAGE"
+              },
+              {
+                "name": "android.permission.WAKE_LOCK"
+              },
+              {
+                "name": "android.permission.ACCESS_COARSE_LOCATION"
+              },
+              {
+                "name": "android.permission.ACCESS_FINE_LOCATION"
+              },
+              {
+                "name": "android.permission.FOREGROUND_SERVICE"
+              },
+              {
+                "name": "android.permission.FOREGROUND_SERVICE_MEDIA_PLAYBACK"
+              },
+              {
+                "name": "android.permission.POST_NOTIFICATIONS"
+              },
+              {
+                "name": "android.permission.ACCESS_WIFI_STATE"
+              },
+              {
+                "name": "com.google.android.c2dm.permission.RECEIVE"
+              },
+              {
+                "name": "com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE"
+              },
+              {
+                "name": "com.google.android.gms.permission.AD_ID"
+              },
+              {
+                "name": "com.android.vending.BILLING"
+              },
+              {
+                "name": "android.permission.ACCESS_ADSERVICES_ATTRIBUTION"
+              },
+              {
+                "name": "android.permission.ACCESS_ADSERVICES_AD_ID"
+              },
+              {
+                "name": "android.permission.REORDER_TASKS"
+              },
+              {
+                "name": "com.bandcamp.android.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+              }
+            ]
+          }
+        }
+      }
+    }
+  }
+}

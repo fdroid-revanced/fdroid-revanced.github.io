@@ -1,0 +1,136 @@
+{
+  "repo": {
+    "timestamp": 1784493255000,
+    "version": 20002,
+    "name": "ReVanced F-Droid",
+    "icon": "icon.png",
+    "address": "https://fdroid-revanced.github.io/repo",
+    "description": "Unofficial F-Droid simple-binary repository of ReVanced-patched applications, built by revancedbot on GitHub Actions."
+  },
+  "requests": {
+    "install": [],
+    "uninstall": []
+  },
+  "apps": [
+    {
+      "authorName": "ReVanced (patched)",
+      "categories": [
+        "Multimedia"
+      ],
+      "suggestedVersionCode": "220489",
+      "description": "ReVanced-patched build of com.bandcamp.android.\n\nPatches applied:\n- INFO: \"Remove play limits\" succeeded\n- INFO: \"Change package name\" succeeded\n",
+      "license": "Unknown",
+      "added": 1784493255000,
+      "icon": "com.bandcamp.android.revanced.220489.png",
+      "packageName": "com.bandcamp.android.revanced",
+      "lastUpdated": 1784493255000,
+      "localized": {
+        "en-US": {
+          "name": "Bandcamp"
+        }
+      }
+    }
+  ],
+  "packages": {
+    "com.bandcamp.android.revanced": [
+      {
+        "added": 1784493255000,
+        "apkName": "com.bandcamp.android_3.3.6_revanced.apk",
+        "hash": "460c0fe227f1392872c9372b67aa563390e770fb0823802fb9d3c45d279b3667",
+        "hashType": "sha256",
+        "minSdkVersion": 24,
+        "nativecode": [
+          "arm64-v8a",
+          "armeabi-v7a",
+          "x86",
+          "x86_64"
+        ],
+        "packageName": "com.bandcamp.android.revanced",
+        "sig": "5837ab34622f0917305f6d32bc00ab0a",
+        "signer": "990aa515644a3f1528c122f2ce9ceb19f404912532394579ebedaea32c99cde9",
+        "size": 14700889,
+        "targetSdkVersion": 36,
+        "uses-permission": [
+          [
+            "android.permission.INTERNET",
+            null
+          ],
+          [
+            "android.permission.ACCESS_NETWORK_STATE",
+            null
+          ],
+          [
+            "android.permission.WRITE_EXTERNAL_STORAGE",
+            18
+          ],
+          [
+            "android.permission.READ_EXTERNAL_STORAGE",
+            null
+          ],
+          [
+            "android.permission.WAKE_LOCK",
+            null
+          ],
+          [
+            "android.permission.ACCESS_COARSE_LOCATION",
+            null
+          ],
+          [
+            "android.permission.ACCESS_FINE_LOCATION",
+            null
+          ],
+          [
+            "android.permission.FOREGROUND_SERVICE",
+            null
+          ],
+          [
+            "android.permission.FOREGROUND_SERVICE_MEDIA_PLAYBACK",
+            null
+          ],
+          [
+            "android.permission.POST_NOTIFICATIONS",
+            null
+          ],
+          [
+            "android.permission.ACCESS_WIFI_STATE",
+            null
+          ],
+          [
+            "com.google.android.c2dm.permission.RECEIVE",
+            null
+          ],
+          [
+            "com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE",
+            null
+          ],
+          [
+            "com.google.android.gms.permission.AD_ID",
+            null
+          ],
+          [
+            "com.android.vending.BILLING",
+            null
+          ],
+          [
+            "android.permission.ACCESS_ADSERVICES_ATTRIBUTION",
+            null
+          ],
+          [
+            "android.permission.ACCESS_ADSERVICES_AD_ID",
+            null
+          ],
+          [
+            "android.permission.REORDER_TASKS",
+            null
+          ],
+          [
+            "com.bandcamp.android.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION",
+            null
+          ]
+        ],
+        "versionCode": 220489,
+        "versionName": "3.3.6"
+      }
+    ]
+  }
+}

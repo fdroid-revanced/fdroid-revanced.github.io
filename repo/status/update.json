@@ -1,0 +1,37 @@
+{
+  "/etc/issue.net": "Ubuntu 24.04.4 LTS",
+  "antiFeatures": {},
+  "apksigner": "/home/runner/work/_temp/revancedbot-cache/shims/apksigner",
+  "archivePolicy0": [],
+  "commandLine": [
+    "/home/runner/.local/share/mise/installs/pipx-fdroidserver/2.4.5/bin/fdroid update",
+    "--pretty",
+    "--delete-unknown",
+    "-c"
+  ],
+  "disabled": [],
+  "endTimestamp": 1784493258836,
+  "failedBuilds": {},
+  "jarsigner": "/home/runner/.local/share/mise/installs/java/temurin-21.0.7+6.0.LTS/bin/jarsigner",
+  "keytool": "/home/runner/.local/share/mise/installs/java/temurin-21.0.7+6.0.LTS/bin/keytool",
+  "needsUpdate": [
+    "com.bandcamp.android.revanced"
+  ],
+  "noPackages": [
+    "com.bandcamp.android.revanced"
+  ],
+  "noUpdateCheck": [
+    "com.bandcamp.android.revanced"
+  ],
+  "stages": {
+    "delete_disabled_builds": 1784493254679,
+    "index.make repo": 1784493255963,
+    "prepare_apps repo": 1784493255962,
+    "process_apks": 1784493254679,
+    "read_added_date_from_all_apks": 1784493255961,
+    "remove_apks": 1784493255961,
+    "scan_repo_files": 1784493255961
+  },
+  "startTimestamp": 1784493254000,
+  "subcommand": "update"
+}
