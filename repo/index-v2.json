@@ -14,7 +14,7 @@
       }
     },
     "address": "https://fdroid-revanced.github.io/repo",
-    "timestamp": 1784504480000,
+    "timestamp": 1784504603000,
     "categories": {
       "Multimedia": {
         "name": {
@@ -46,12 +46,12 @@
         "preferredSigner": "990aa515644a3f1528c122f2ce9ceb19f404912532394579ebedaea32c99cde9"
       },
       "versions": {
-        "6e7743b5e7628afe6273ee4baff90c9ddd78578c19344d2f6d4f44ec137c6309": {
+        "d14b368549de97e3bd75b11f83a5f0040e03317d19faad808a6155ec9496e627": {
           "added": 1784501795000,
           "file": {
             "name": "/at.gv.oe.app_5.5.0_revanced.apk",
-            "sha256": "6e7743b5e7628afe6273ee4baff90c9ddd78578c19344d2f6d4f44ec137c6309",
-            "size": 55500142
+            "sha256": "d14b368549de97e3bd75b11f83a5f0040e03317d19faad808a6155ec9496e627",
+            "size": 55524718
           },
           "manifest": {
             "nativecode": [
@@ -262,12 +262,12 @@
         "preferredSigner": "990aa515644a3f1528c122f2ce9ceb19f404912532394579ebedaea32c99cde9"
       },
       "versions": {
-        "90b9fe3ff2292d86c53b7061898314e68b3a515532b3e704e5454349ca6629eb": {
+        "5cd2fd212c4503f61371912a965d4118ac38a625d6246c6f932dd01470dc0540": {
           "added": 1784501797000,
           "file": {
             "name": "/ch.protonvpn.android_5.19.43.0_revanced.apk",
-            "sha256": "90b9fe3ff2292d86c53b7061898314e68b3a515532b3e704e5454349ca6629eb",
-            "size": 59469624
+            "sha256": "5cd2fd212c4503f61371912a965d4118ac38a625d6246c6f932dd01470dc0540",
+            "size": 59543352
           },
           "manifest": {
             "nativecode": [
@@ -477,12 +477,12 @@
         "preferredSigner": "990aa515644a3f1528c122f2ce9ceb19f404912532394579ebedaea32c99cde9"
       },
       "versions": {
-        "356711b6029aee433f67acf68fd2c2e373289557f9ae1df9a96fd927b61a90ef": {
+        "1cf3c0a3b00dcc34fcb2506ac4b5caaae73f3fc07090d2121b5521afb49f5d06": {
           "added": 1784501799000,
           "file": {
             "name": "/com.bandcamp.android_3.3.6_revanced.apk",
-            "sha256": "356711b6029aee433f67acf68fd2c2e373289557f9ae1df9a96fd927b61a90ef",
-            "size": 15073741
+            "sha256": "1cf3c0a3b00dcc34fcb2506ac4b5caaae73f3fc07090d2121b5521afb49f5d06",
+            "size": 15081933
           },
           "manifest": {
             "nativecode": [

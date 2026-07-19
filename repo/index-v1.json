@@ -1,6 +1,6 @@
 {
   "repo": {
-    "timestamp": 1784504480000,
+    "timestamp": 1784504603000,
     "version": 20002,
     "name": "ReVanced F-Droid",
     "icon": "icon.png",
@@ -245,7 +245,7 @@
         "features": [
           "android.hardware.camera"
         ],
-        "hash": "6e7743b5e7628afe6273ee4baff90c9ddd78578c19344d2f6d4f44ec137c6309",
+        "hash": "d14b368549de97e3bd75b11f83a5f0040e03317d19faad808a6155ec9496e627",
         "hashType": "sha256",
         "minSdkVersion": 31,
         "nativecode": [
@@ -257,7 +257,7 @@
         "packageName": "at.gv.oe.app.revanced",
         "sig": "5837ab34622f0917305f6d32bc00ab0a",
         "signer": "990aa515644a3f1528c122f2ce9ceb19f404912532394579ebedaea32c99cde9",
-        "size": 55500142,
+        "size": 55524718,
         "targetSdkVersion": 35,
         "uses-permission": [
           [
@@ -437,7 +437,7 @@
       {
         "added": 1784501797000,
         "apkName": "ch.protonvpn.android_5.19.43.0_revanced.apk",
-        "hash": "90b9fe3ff2292d86c53b7061898314e68b3a515532b3e704e5454349ca6629eb",
+        "hash": "5cd2fd212c4503f61371912a965d4118ac38a625d6246c6f932dd01470dc0540",
         "hashType": "sha256",
         "minSdkVersion": 26,
         "nativecode": [
@@ -452,7 +452,7 @@
         "packageName": "ch.protonvpn.android.revanced",
         "sig": "5837ab34622f0917305f6d32bc00ab0a",
         "signer": "990aa515644a3f1528c122f2ce9ceb19f404912532394579ebedaea32c99cde9",
-        "size": 59469624,
+        "size": 59543352,
         "targetSdkVersion": 35,
         "uses-permission": [
           [
@@ -616,7 +616,7 @@
       {
         "added": 1784501799000,
         "apkName": "com.bandcamp.android_3.3.6_revanced.apk",
-        "hash": "356711b6029aee433f67acf68fd2c2e373289557f9ae1df9a96fd927b61a90ef",
+        "hash": "1cf3c0a3b00dcc34fcb2506ac4b5caaae73f3fc07090d2121b5521afb49f5d06",
         "hashType": "sha256",
         "minSdkVersion": 24,
         "nativecode": [
@@ -628,7 +628,7 @@
         "packageName": "com.bandcamp.android.revanced",
         "sig": "5837ab34622f0917305f6d32bc00ab0a",
         "signer": "990aa515644a3f1528c122f2ce9ceb19f404912532394579ebedaea32c99cde9",
-        "size": 15073741,
+        "size": 15081933,
         "targetSdkVersion": 36,
         "uses-permission": [
           [
