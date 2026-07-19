@@ -14,7 +14,7 @@
       }
     },
     "address": "https://fdroid-revanced.github.io/repo",
-    "timestamp": 1784503749000,
+    "timestamp": 1784503837000,
     "categories": {
       "Multimedia": {
         "name": {
@@ -144,12 +144,12 @@
         "preferredSigner": "990aa515644a3f1528c122f2ce9ceb19f404912532394579ebedaea32c99cde9"
       },
       "versions": {
-        "a5dddc071bcc737e71bf307d9cb537c07ce9588a61f288b127adc2b50a46fdb2": {
+        "89d90c3e7a6208d18e5c04af646e6932cdb5179c948215088fc63ccb352e88bb": {
           "added": 1784501796000,
           "file": {
             "name": "/at.willhaben_8.52.0_revanced.apk",
-            "sha256": "a5dddc071bcc737e71bf307d9cb537c07ce9588a61f288b127adc2b50a46fdb2",
-            "size": 23618569
+            "sha256": "89d90c3e7a6208d18e5c04af646e6932cdb5179c948215088fc63ccb352e88bb",
+            "size": 23639049
           },
           "manifest": {
             "nativecode": [
@@ -477,12 +477,12 @@
         "preferredSigner": "990aa515644a3f1528c122f2ce9ceb19f404912532394579ebedaea32c99cde9"
       },
       "versions": {
-        "72b79fb741d6b4c55c4d064656bc651570c0a517384e2044377d0ef51c7e24e0": {
+        "356711b6029aee433f67acf68fd2c2e373289557f9ae1df9a96fd927b61a90ef": {
           "added": 1784501799000,
           "file": {
             "name": "/com.bandcamp.android_3.3.6_revanced.apk",
-            "sha256": "72b79fb741d6b4c55c4d064656bc651570c0a517384e2044377d0ef51c7e24e0",
-            "size": 15069645
+            "sha256": "356711b6029aee433f67acf68fd2c2e373289557f9ae1df9a96fd927b61a90ef",
+            "size": 15073741
           },
           "manifest": {
             "nativecode": [
