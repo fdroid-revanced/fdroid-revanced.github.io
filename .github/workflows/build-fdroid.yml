@@ -45,12 +45,18 @@ jobs:
           set -euo pipefail
           GOPROXY=direct go run github.com/lucasew/revancedbot/cmd/revancedbot@main help
 
+      # softprops/turnstyle is NOT a global mutex. It polls the Actions API and
+      # waits until older runs of *this workflow* (lower run id) leave
+      # queued/in_progress. Do not set queue-name unless the run title contains
+      # that exact substring — we used queue-name: build-fdroid before and it
+      # matched zero runs (title is "Build F-Droid repo"), so every waiter passed.
       - name: FIFO turnstyle (wait for earlier builds — after env is warm)
         uses: softprops/turnstyle@afaccda0f3c0136fb7cb4a734b9b96be03599948 # v3.3.2
         with:
           poll-interval-seconds: 30
           same-branch-only: true
-          queue-name: build-fdroid
+          # Wait for the whole "build" job of older runs to finish (not just this step).
+          job-to-wait-for: build
 
       - name: Sync working tree to origin (seed must see latest happy path)
         run: |
