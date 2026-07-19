@@ -1,9 +1,9 @@
+AuthorName: ''
 Categories:
-  - Multimedia
-License: Unknown
-AuthorName: ReVanced (patched)
-Description: |
-  ReVanced-patched build of ml.docilealligator.infinityforreddit.plus.
-
-  Patches applied:
-  - INFO: "Change package name" succeeded
+- fdroid
+CurrentVersionCode: 2147483647
+IssueTracker: ''
+Name: Infinity+
+SourceCode: ''
+Summary: ''
+WebSite: ''
