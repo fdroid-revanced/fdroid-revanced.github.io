@@ -3,6 +3,7 @@
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     "timestamp": 1784499835000,
 =======
     "timestamp": 1784499853000,
@@ -12,6 +13,9 @@
 >>>>>>> Stashed changes
 =======
     "timestamp": 1784499883000,
+>>>>>>> Stashed changes
+=======
+    "timestamp": 1784499947000,
 >>>>>>> Stashed changes
     "version": 20002,
     "name": "ReVanced F-Droid",
@@ -148,6 +152,24 @@
       "categories": [
         "Multimedia"
       ],
+      "suggestedVersionCode": "605194300",
+      "description": "ReVanced-patched build of ch.protonvpn.android.\n\nPatches applied:\n- INFO: \"Remove delay\" succeeded\n- INFO: \"Unlock split tunneling\" succeeded\n- INFO: \"Change package name\" succeeded\n",
+      "license": "Unknown",
+      "added": 1784499941000,
+      "icon": "ch.protonvpn.android.revanced.605194300.png",
+      "packageName": "ch.protonvpn.android.revanced",
+      "lastUpdated": 1784499941000,
+      "localized": {
+        "en-US": {
+          "name": "Proton VPN"
+        }
+      }
+    },
+    {
+      "authorName": "ReVanced (patched)",
+      "categories": [
+        "Multimedia"
+      ],
       "suggestedVersionCode": "1240007000",
       "description": "ReVanced-patched build of com.sec.android.app.fm.\n\nPatches applied:\n- INFO: \"Bypass device checks\" succeeded\n- INFO: \"Fix crashes\" succeeded\n- INFO: \"Change package name\" succeeded\n",
       "license": "Unknown",
@@ -175,6 +197,23 @@
       "localized": {
         "en-US": {
           "name": "rif is fun"
+        }
+      }
+    },
+    {
+      "authorName": "ReVanced (patched)",
+      "categories": [
+        "Multimedia"
+      ],
+      "suggestedVersionCode": "613261",
+      "description": "ReVanced-patched build of at.willhaben.\n\nPatches applied:\n- INFO: \"Change package name\" succeeded\n",
+      "license": "Unknown",
+      "added": 1784499939000,
+      "packageName": "at.willhaben.revanced",
+      "lastUpdated": 1784499939000,
+      "localized": {
+        "en-US": {
+          "name": "willhaben"
         }
       }
     }
@@ -265,6 +304,189 @@
         ],
         "versionCode": 2026052703,
         "versionName": "5.5.0"
+      }
+    ],
+    "at.willhaben.revanced": [
+      {
+        "added": 1784499939000,
+        "apkName": "at.willhaben_8.52.0_revanced.apk",
+        "hash": "ea6d3ed60d7c2c79bbb03464a19955bbcdbbf94f2b3b045b31c1be39ae9a17cf",
+        "hashType": "sha256",
+        "minSdkVersion": 26,
+        "nativecode": [
+          "arm64-v8a",
+          "armeabi-v7a",
+          "x86",
+          "x86_64"
+        ],
+        "packageName": "at.willhaben.revanced",
+        "sig": "5837ab34622f0917305f6d32bc00ab0a",
+        "signer": "990aa515644a3f1528c122f2ce9ceb19f404912532394579ebedaea32c99cde9",
+        "size": 23647299,
+        "targetSdkVersion": 37,
+        "uses-permission": [
+          [
+            "android.permission.INTERNET",
+            null
+          ],
+          [
+            "android.permission.ACCESS_NETWORK_STATE",
+            null
+          ],
+          [
+            "android.permission.ACCESS_WIFI_STATE",
+            null
+          ],
+          [
+            "android.permission.ACCESS_COARSE_LOCATION",
+            null
+          ],
+          [
+            "android.permission.ACCESS_FINE_LOCATION",
+            null
+          ],
+          [
+            "android.permission.REORDER_TASKS",
+            null
+          ],
+          [
+            "android.permission.CAMERA",
+            null
+          ],
+          [
+            "android.permission.FLASHLIGHT",
+            null
+          ],
+          [
+            "android.permission.VIBRATE",
+            null
+          ],
+          [
+            "com.google.android.gms.permission.AD_ID",
+            null
+          ],
+          [
+            "android.permission.POST_NOTIFICATIONS",
+            null
+          ],
+          [
+            "android.permission.USE_BIOMETRIC",
+            null
+          ],
+          [
+            "android.permission.USE_FINGERPRINT",
+            null
+          ],
+          [
+            "android.permission.WAKE_LOCK",
+            null
+          ],
+          [
+            "android.permission.RECEIVE_BOOT_COMPLETED",
+            null
+          ],
+          [
+            "android.permission.FOREGROUND_SERVICE",
+            null
+          ],
+          [
+            "com.google.android.c2dm.permission.RECEIVE",
+            null
+          ],
+          [
+            "com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE",
+            null
+          ],
+          [
+            "android.permission.ACCESS_ADSERVICES_ATTRIBUTION",
+            null
+          ],
+          [
+            "android.permission.ACCESS_ADSERVICES_AD_ID",
+            null
+          ],
+          [
+            "at.willhaben.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION",
+            null
+          ]
+        ],
+        "versionCode": 613261,
+        "versionName": "8.52.0"
+      }
+    ],
+    "ch.protonvpn.android.revanced": [
+      {
+        "added": 1784499941000,
+        "apkName": "ch.protonvpn.android_5.19.43.0_revanced.apk",
+        "hash": "b6bf26700f1ae15cea309697f8176681ad73e8c1b42adc16626f79cb92dbbe22",
+        "hashType": "sha256",
+        "minSdkVersion": 26,
+        "nativecode": [
+          "arm64-v8a",
+          "armeabi",
+          "armeabi-v7a",
+          "mips",
+          "mips64",
+          "x86",
+          "x86_64"
+        ],
+        "packageName": "ch.protonvpn.android.revanced",
+        "sig": "5837ab34622f0917305f6d32bc00ab0a",
+        "signer": "990aa515644a3f1528c122f2ce9ceb19f404912532394579ebedaea32c99cde9",
+        "size": 59490104,
+        "targetSdkVersion": 35,
+        "uses-permission": [
+          [
+            "android.permission.INTERNET",
+            null
+          ],
+          [
+            "android.permission.ACCESS_NETWORK_STATE",
+            null
+          ],
+          [
+            "android.permission.RECEIVE_BOOT_COMPLETED",
+            null
+          ],
+          [
+            "android.permission.FOREGROUND_SERVICE",
+            null
+          ],
+          [
+            "android.permission.QUERY_ALL_PACKAGES",
+            null
+          ],
+          [
+            "android.permission.WAKE_LOCK",
+            null
+          ],
+          [
+            "android.permission.POST_NOTIFICATIONS",
+            null
+          ],
+          [
+            "android.permission.FOREGROUND_SERVICE_SYSTEM_EXEMPTED",
+            null
+          ],
+          [
+            "android.permission.USE_BIOMETRIC",
+            null
+          ],
+          [
+            "android.permission.USE_FINGERPRINT",
+            null
+          ],
+          [
+            "ch.protonvpn.android.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION",
+            null
+          ],
+          [
+            "android.permission.CAMERA",
+            null
+          ]
+        ],
+        "versionCode": 605194300,
+        "versionName": "5.19.43.0"
       }
     ],
     "com.andrewshu.android.reddit.revanced": [
@@ -379,7 +601,7 @@
       {
         "added": 1784493255000,
         "apkName": "com.bandcamp.android_3.3.6_revanced.apk",
-        "hash": "0dc79278033fed255504f2787bebb21397f5184230470508c2d8d45ce561913b",
+        "hash": "31d3807bc814dc27c5fbf8fda36182fd921c90b7cd23459679f95caa2ecd85b4",
         "hashType": "sha256",
         "minSdkVersion": 24,
         "nativecode": [
@@ -702,7 +924,7 @@
       {
         "added": 1784494807000,
         "apkName": "com.pandora.android_2607.1_revanced.apk",
-        "hash": "e8463e5154d0865f2dc56252884bad00c22df5c9ed1ede8f721db676c346891e",
+        "hash": "75b17f9fbe1e0e0cabd16b7dfcd4bb44e72467d2fa6cbcd490759dbd9c04737f",
         "hashType": "sha256",
         "minSdkVersion": 24,
         "nativecode": [
@@ -714,7 +936,7 @@
         "packageName": "com.pandora.android.revanced",
         "sig": "5837ab34622f0917305f6d32bc00ab0a",
         "signer": "990aa515644a3f1528c122f2ce9ceb19f404912532394579ebedaea32c99cde9",
-        "size": 75849221,
+        "size": 75873856,
         "targetSdkVersion": 35,
         "uses-permission": [
           [

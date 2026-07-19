@@ -13,6 +13,7 @@
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
   "endTimestamp": 1784499837464,
 =======
   "endTimestamp": 1784499855450,
@@ -23,11 +24,16 @@
 =======
   "endTimestamp": 1784499885520,
 >>>>>>> Stashed changes
+=======
+  "endTimestamp": 1784499949224,
+>>>>>>> Stashed changes
   "failedBuilds": {},
   "jarsigner": "/home/runner/.local/share/mise/installs/java/temurin-21.0.7+6.0.LTS/bin/jarsigner",
   "keytool": "/home/runner/.local/share/mise/installs/java/temurin-21.0.7+6.0.LTS/bin/keytool",
   "needsUpdate": [
     "at.gv.oe.app.revanced",
+    "at.willhaben.revanced",
+    "ch.protonvpn.android.revanced",
     "com.andrewshu.android.reddit.revanced",
     "com.bandcamp.android.revanced",
     "com.nis.app.revanced",
@@ -40,6 +46,8 @@
   ],
   "noPackages": [
     "at.gv.oe.app.revanced",
+    "at.willhaben.revanced",
+    "ch.protonvpn.android.revanced",
     "com.andrewshu.android.reddit.revanced",
     "com.bandcamp.android.revanced",
     "com.nis.app.revanced",
@@ -52,6 +60,8 @@
   ],
   "noUpdateCheck": [
     "at.gv.oe.app.revanced",
+    "at.willhaben.revanced",
+    "ch.protonvpn.android.revanced",
     "com.andrewshu.android.reddit.revanced",
     "com.bandcamp.android.revanced",
     "com.nis.app.revanced",
@@ -63,6 +73,7 @@
     "ml.docilealligator.infinityforreddit.revanced"
   ],
   "stages": {
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
@@ -107,6 +118,17 @@
     "scan_repo_files": 1784499883562
   },
   "startTimestamp": 1784499876000,
+>>>>>>> Stashed changes
+=======
+    "delete_disabled_builds": 1784499938206,
+    "index.make repo": 1784499947260,
+    "prepare_apps repo": 1784499947259,
+    "process_apks": 1784499938474,
+    "read_added_date_from_all_apks": 1784499947259,
+    "remove_apks": 1784499947258,
+    "scan_repo_files": 1784499947258
+  },
+  "startTimestamp": 1784499937000,
 >>>>>>> Stashed changes
   "subcommand": "update"
 }
