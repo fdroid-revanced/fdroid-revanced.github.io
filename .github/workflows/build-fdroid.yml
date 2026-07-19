@@ -39,15 +39,11 @@ jobs:
             exit 1
           fi
 
-      - name: Warm up revancedbot (download + compile before queue wait)
-        id: warmup
+      - name: Warm up revancedbot (module + compile cache before queue wait)
         run: |
           set -euo pipefail
-          RB="${RUNNER_TEMP}/revancedbot"
-          echo "Building revancedbot into ${RB}"
-          GOPROXY=direct go build -o "$RB" github.com/lucasew/revancedbot/cmd/revancedbot@main
-          "$RB" version || "$RB" -v || true
-          echo "path=${RB}" >> "$GITHUB_OUTPUT"
+          # No bare `--` after pkg@ver (drops args). `help` is enough to fetch+compile.
+          GOPROXY=direct go run github.com/lucasew/revancedbot/cmd/revancedbot@main help
 
       - name: FIFO turnstyle (wait for earlier builds — after env is warm)
         uses: softprops/turnstyle@afaccda0f3c0136fb7cb4a734b9b96be03599948 # v3.3.2
@@ -61,17 +57,16 @@ jobs:
           REVANCEDBOT_SIGNING: ${{ secrets.REVANCEDBOT_SIGNING }}
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           SMOKE: ${{ inputs.smoke == true }}
-          RB: ${{ steps.warmup.outputs.path }}
         run: |
           set -euo pipefail
           CACHE="${RUNNER_TEMP}/revancedbot-cache"
-          echo "event=${{ github.event_name }} smoke=${SMOKE} bin=${RB}"
+          echo "event=${{ github.event_name }} smoke=${SMOKE}"
           if [ "${SMOKE}" = "true" ]; then
             echo "Smoke: one random package via revancedbot smoke"
-            "$RB" smoke . --cache "$CACHE" --max 1
+            GOPROXY=direct go run github.com/lucasew/revancedbot/cmd/revancedbot@main smoke . --cache "$CACHE" --max 1
           else
             echo "Full pipeline via revancedbot run"
-            "$RB" run . --cache "$CACHE"
+            GOPROXY=direct go run github.com/lucasew/revancedbot/cmd/revancedbot@main run . --cache "$CACHE"
           fi
 
       - name: Publish to main (GitHub Pages source)
