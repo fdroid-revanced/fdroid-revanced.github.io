@@ -1,6 +1,6 @@
 {
   "repo": {
-    "timestamp": 1784493255000,
+    "timestamp": 1784493617000,
     "version": 20002,
     "name": "ReVanced F-Droid",
     "icon": "icon.png",
@@ -29,14 +29,118 @@
           "name": "Bandcamp"
         }
       }
+    },
+    {
+      "authorName": "ReVanced (patched)",
+      "categories": [
+        "Multimedia"
+      ],
+      "suggestedVersionCode": "2026052703",
+      "description": "ReVanced-patched build of at.gv.oe.app.\n\nPatches applied:\n- INFO: \"Remove device integrity checks\" succeeded\n- INFO: \"Spoof signature\" succeeded\n- INFO: \"Change package name\" succeeded\n",
+      "license": "Unknown",
+      "added": 1784493616000,
+      "packageName": "at.gv.oe.app.revanced",
+      "lastUpdated": 1784493616000,
+      "localized": {
+        "en-US": {
+          "name": "ID Austria"
+        }
+      }
     }
   ],
   "packages": {
+    "at.gv.oe.app.revanced": [
+      {
+        "added": 1784493616000,
+        "apkName": "at.gv.oe.app_5.5.0_revanced.apk",
+        "features": [
+          "android.hardware.camera"
+        ],
+        "hash": "2add3fe8eba27bcec8d22743093c0cb36423d92edb3994f4386f32402eeb8fb1",
+        "hashType": "sha256",
+        "minSdkVersion": 31,
+        "nativecode": [
+          "arm64-v8a",
+          "armeabi-v7a",
+          "x86",
+          "x86_64"
+        ],
+        "packageName": "at.gv.oe.app.revanced",
+        "sig": "5837ab34622f0917305f6d32bc00ab0a",
+        "signer": "990aa515644a3f1528c122f2ce9ceb19f404912532394579ebedaea32c99cde9",
+        "size": 55504238,
+        "targetSdkVersion": 35,
+        "uses-permission": [
+          [
+            "android.permission.INTERNET",
+            null
+          ],
+          [
+            "android.permission.POST_NOTIFICATIONS",
+            null
+          ],
+          [
+            "android.permission.CAMERA",
+            null
+          ],
+          [
+            "android.permission.ACCESS_NETWORK_STATE",
+            null
+          ],
+          [
+            "com.google.android.c2dm.permission.RECEIVE",
+            null
+          ],
+          [
+            "android.permission.WAKE_LOCK",
+            null
+          ],
+          [
+            "android.permission.VIBRATE",
+            null
+          ],
+          [
+            "android.permission.USE_FINGERPRINT",
+            null
+          ],
+          [
+            "android.permission.USE_BIOMETRIC",
+            null
+          ],
+          [
+            "android.permission.REQUEST_PASSWORD_COMPLEXITY",
+            null
+          ],
+          [
+            "android.permission.MANAGE_DEVICE_POLICY_LOCK_CREDENTIALS",
+            null
+          ],
+          [
+            "android.permission.FLASHLIGHT",
+            null
+          ],
+          [
+            "android.permission.RECEIVE_BOOT_COMPLETED",
+            null
+          ],
+          [
+            "android.permission.FOREGROUND_SERVICE",
+            null
+          ],
+          [
+            "at.gv.oe.app.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION",
+            null
+          ]
+        ],
+        "versionCode": 2026052703,
+        "versionName": "5.5.0"
+      }
+    ],
     "com.bandcamp.android.revanced": [
       {
         "added": 1784493255000,
         "apkName": "com.bandcamp.android_3.3.6_revanced.apk",
-        "hash": "460c0fe227f1392872c9372b67aa563390e770fb0823802fb9d3c45d279b3667",
+        "hash": "0dc79278033fed255504f2787bebb21397f5184230470508c2d8d45ce561913b",
         "hashType": "sha256",
         "minSdkVersion": 24,
         "nativecode": [
@@ -48,7 +152,7 @@
         "packageName": "com.bandcamp.android.revanced",
         "sig": "5837ab34622f0917305f6d32bc00ab0a",
         "signer": "990aa515644a3f1528c122f2ce9ceb19f404912532394579ebedaea32c99cde9",
-        "size": 14700889,
+        "size": 15069645,
         "targetSdkVersion": 36,
         "uses-permission": [
           [

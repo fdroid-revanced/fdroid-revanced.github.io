@@ -10,28 +10,31 @@
     "-c"
   ],
   "disabled": [],
-  "endTimestamp": 1784493258836,
+  "endTimestamp": 1784493619909,
   "failedBuilds": {},
   "jarsigner": "/home/runner/.local/share/mise/installs/java/temurin-21.0.7+6.0.LTS/bin/jarsigner",
   "keytool": "/home/runner/.local/share/mise/installs/java/temurin-21.0.7+6.0.LTS/bin/keytool",
   "needsUpdate": [
+    "at.gv.oe.app.revanced",
     "com.bandcamp.android.revanced"
   ],
   "noPackages": [
+    "at.gv.oe.app.revanced",
     "com.bandcamp.android.revanced"
   ],
   "noUpdateCheck": [
+    "at.gv.oe.app.revanced",
     "com.bandcamp.android.revanced"
   ],
   "stages": {
-    "delete_disabled_builds": 1784493254679,
-    "index.make repo": 1784493255963,
-    "prepare_apps repo": 1784493255962,
-    "process_apks": 1784493254679,
-    "read_added_date_from_all_apks": 1784493255961,
-    "remove_apks": 1784493255961,
-    "scan_repo_files": 1784493255961
+    "delete_disabled_builds": 1784493615756,
+    "index.make repo": 1784493617737,
+    "prepare_apps repo": 1784493617736,
+    "process_apks": 1784493615756,
+    "read_added_date_from_all_apks": 1784493617736,
+    "remove_apks": 1784493617735,
+    "scan_repo_files": 1784493617735
   },
-  "startTimestamp": 1784493254000,
+  "startTimestamp": 1784493615000,
   "subcommand": "update"
 }
