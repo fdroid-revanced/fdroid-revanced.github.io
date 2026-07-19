@@ -1,0 +1,10 @@
+Categories:
+  - Multimedia
+License: Unknown
+AuthorName: ReVanced (patched)
+Description: |
+  ReVanced-patched build of eu.faircode.netguard.
+
+  Patches applied:
+  - INFO: "Remove broadcasts restriction" succeeded
+  - INFO: "Change package name" succeeded

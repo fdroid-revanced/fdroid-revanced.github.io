@@ -14,7 +14,7 @@
       }
     },
     "address": "https://fdroid-revanced.github.io/repo",
-    "timestamp": 1784495275000,
+    "timestamp": 1784495645000,
     "categories": {
       "Multimedia": {
         "name": {
@@ -41,12 +41,12 @@
         "preferredSigner": "990aa515644a3f1528c122f2ce9ceb19f404912532394579ebedaea32c99cde9"
       },
       "versions": {
-        "a4a2aaf397f00f469c660837bd7807835a9abdc27ae386ed524a01a93e2e28cf": {
+        "b344a8c9049c7051fa1eb69c27e7dad66b30dae195e60478f504258a21ee7121": {
           "added": 1784493616000,
           "file": {
             "name": "/at.gv.oe.app_5.5.0_revanced.apk",
-            "sha256": "a4a2aaf397f00f469c660837bd7807835a9abdc27ae386ed524a01a93e2e28cf",
-            "size": 55508334
+            "sha256": "b344a8c9049c7051fa1eb69c27e7dad66b30dae195e60478f504258a21ee7121",
+            "size": 55545257
           },
           "manifest": {
             "nativecode": [
@@ -616,12 +616,12 @@
         "preferredSigner": "990aa515644a3f1528c122f2ce9ceb19f404912532394579ebedaea32c99cde9"
       },
       "versions": {
-        "ccbbe5d628048c80684a60e653e84efd0b1a280646d21789ccc95178bbcc7d47": {
+        "e8463e5154d0865f2dc56252884bad00c22df5c9ed1ede8f721db676c346891e": {
           "added": 1784494807000,
           "file": {
             "name": "/com.pandora.android_2607.1_revanced.apk",
-            "sha256": "ccbbe5d628048c80684a60e653e84efd0b1a280646d21789ccc95178bbcc7d47",
-            "size": 75828741
+            "sha256": "e8463e5154d0865f2dc56252884bad00c22df5c9ed1ede8f721db676c346891e",
+            "size": 75849221
           },
           "manifest": {
             "nativecode": [
@@ -735,6 +735,100 @@
               },
               {
                 "name": "android.permission.CHANGE_WIFI_MULTICAST_STATE"
+              }
+            ]
+          }
+        }
+      }
+    },
+    "eu.faircode.netguard.revanced": {
+      "metadata": {
+        "added": 1784495645000,
+        "categories": [
+          "Multimedia"
+        ],
+        "lastUpdated": 1784495645000,
+        "authorName": "ReVanced (patched)",
+        "name": {
+          "en-US": "NetGuard"
+        },
+        "description": {
+          "en-US": "ReVanced-patched build of eu.faircode.netguard.\n\nPatches applied:\n- INFO: \"Remove broadcasts restriction\" succeeded\n- INFO: \"Change package name\" succeeded\n"
+        },
+        "icon": {
+          "en-US": {
+            "name": "/icons/eu.faircode.netguard.revanced.2026052101.png",
+            "sha256": "fc7b9e7c8276d08047267503b4b41047f1690525a4b7072132810dd7b016d0c8",
+            "size": 1463
+          }
+        },
+        "preferredSigner": "990aa515644a3f1528c122f2ce9ceb19f404912532394579ebedaea32c99cde9"
+      },
+      "versions": {
+        "924b18e44d67fb3cc96ebef7a1174f067c3a95a28d7668c4ba360cc656bfe04a": {
+          "added": 1784495645000,
+          "file": {
+            "name": "/eu.faircode.netguard_2.335_revanced.apk",
+            "sha256": "924b18e44d67fb3cc96ebef7a1174f067c3a95a28d7668c4ba360cc656bfe04a",
+            "size": 3465002
+          },
+          "manifest": {
+            "nativecode": [
+              "arm64-v8a",
+              "armeabi-v7a",
+              "x86",
+              "x86_64"
+            ],
+            "versionName": "2.335",
+            "versionCode": 2026052101,
+            "usesSdk": {
+              "minSdkVersion": 22,
+              "targetSdkVersion": 35
+            },
+            "signer": {
+              "sha256": [
+                "990aa515644a3f1528c122f2ce9ceb19f404912532394579ebedaea32c99cde9"
+              ]
+            },
+            "usesPermission": [
+              {
+                "name": "android.permission.ACCESS_NETWORK_STATE"
+              },
+              {
+                "name": "android.permission.READ_PHONE_STATE"
+              },
+              {
+                "name": "android.permission.ACCESS_WIFI_STATE"
+              },
+              {
+                "name": "android.permission.RECEIVE_BOOT_COMPLETED"
+              },
+              {
+                "name": "android.permission.WAKE_LOCK"
+              },
+              {
+                "name": "com.android.vending.BILLING"
+              },
+              {
+                "name": "android.permission.INTERNET"
+              },
+              {
+                "name": "android.permission.VIBRATE"
+              },
+              {
+                "name": "android.permission.FOREGROUND_SERVICE"
+              },
+              {
+                "name": "android.permission.POST_NOTIFICATIONS"
+              },
+              {
+                "name": "android.permission.FOREGROUND_SERVICE_SPECIAL_USE"
+              },
+              {
+                "name": "eu.faircode.netguard.permission.ADMIN"
+              },
+              {
+                "name": "eu.faircode.netguard.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
               }
             ]
           }

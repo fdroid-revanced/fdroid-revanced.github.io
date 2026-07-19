@@ -1,6 +1,6 @@
 {
   "repo": {
-    "timestamp": 1784495275000,
+    "timestamp": 1784495645000,
     "version": 20002,
     "name": "ReVanced F-Droid",
     "icon": "icon.png",
@@ -88,6 +88,24 @@
       "categories": [
         "Multimedia"
       ],
+      "suggestedVersionCode": "2026052101",
+      "description": "ReVanced-patched build of eu.faircode.netguard.\n\nPatches applied:\n- INFO: \"Remove broadcasts restriction\" succeeded\n- INFO: \"Change package name\" succeeded\n",
+      "license": "Unknown",
+      "added": 1784495645000,
+      "icon": "eu.faircode.netguard.revanced.2026052101.png",
+      "packageName": "eu.faircode.netguard.revanced",
+      "lastUpdated": 1784495645000,
+      "localized": {
+        "en-US": {
+          "name": "NetGuard"
+        }
+      }
+    },
+    {
+      "authorName": "ReVanced (patched)",
+      "categories": [
+        "Multimedia"
+      ],
       "suggestedVersionCode": "26071004",
       "description": "ReVanced-patched build of com.pandora.android.\n\nPatches applied:\n- INFO: \"Disable Audio Ads\" succeeded\n- INFO: \"Enable unlimited skips\" succeeded\n- INFO: \"Change package name\" succeeded\n",
       "license": "Unknown",
@@ -128,7 +146,7 @@
         "features": [
           "android.hardware.camera"
         ],
-        "hash": "a4a2aaf397f00f469c660837bd7807835a9abdc27ae386ed524a01a93e2e28cf",
+        "hash": "b344a8c9049c7051fa1eb69c27e7dad66b30dae195e60478f504258a21ee7121",
         "hashType": "sha256",
         "minSdkVersion": 31,
         "nativecode": [
@@ -140,7 +158,7 @@
         "packageName": "at.gv.oe.app.revanced",
         "sig": "5837ab34622f0917305f6d32bc00ab0a",
         "signer": "990aa515644a3f1528c122f2ce9ceb19f404912532394579ebedaea32c99cde9",
-        "size": 55508334,
+        "size": 55545257,
         "targetSdkVersion": 35,
         "uses-permission": [
           [
@@ -631,7 +649,7 @@
       {
         "added": 1784494807000,
         "apkName": "com.pandora.android_2607.1_revanced.apk",
-        "hash": "ccbbe5d628048c80684a60e653e84efd0b1a280646d21789ccc95178bbcc7d47",
+        "hash": "e8463e5154d0865f2dc56252884bad00c22df5c9ed1ede8f721db676c346891e",
         "hashType": "sha256",
         "minSdkVersion": 24,
         "nativecode": [
@@ -643,7 +661,7 @@
         "packageName": "com.pandora.android.revanced",
         "sig": "5837ab34622f0917305f6d32bc00ab0a",
         "signer": "990aa515644a3f1528c122f2ce9ceb19f404912532394579ebedaea32c99cde9",
-        "size": 75828741,
+        "size": 75849221,
         "targetSdkVersion": 35,
         "uses-permission": [
           [
@@ -771,6 +789,82 @@
         ],
         "versionCode": 26071004,
         "versionName": "2607.1"
+      }
+    ],
+    "eu.faircode.netguard.revanced": [
+      {
+        "added": 1784495645000,
+        "apkName": "eu.faircode.netguard_2.335_revanced.apk",
+        "hash": "924b18e44d67fb3cc96ebef7a1174f067c3a95a28d7668c4ba360cc656bfe04a",
+        "hashType": "sha256",
+        "minSdkVersion": 22,
+        "nativecode": [
+          "arm64-v8a",
+          "armeabi-v7a",
+          "x86",
+          "x86_64"
+        ],
+        "packageName": "eu.faircode.netguard.revanced",
+        "sig": "5837ab34622f0917305f6d32bc00ab0a",
+        "signer": "990aa515644a3f1528c122f2ce9ceb19f404912532394579ebedaea32c99cde9",
+        "size": 3465002,
+        "targetSdkVersion": 35,
+        "uses-permission": [
+          [
+            "android.permission.ACCESS_NETWORK_STATE",
+            null
+          ],
+          [
+            "android.permission.READ_PHONE_STATE",
+            null
+          ],
+          [
+            "android.permission.ACCESS_WIFI_STATE",
+            null
+          ],
+          [
+            "android.permission.RECEIVE_BOOT_COMPLETED",
+            null
+          ],
+          [
+            "android.permission.WAKE_LOCK",
+            null
+          ],
+          [
+            "com.android.vending.BILLING",
+            null
+          ],
+          [
+            "android.permission.INTERNET",
+            null
+          ],
+          [
+            "android.permission.VIBRATE",
+            null
+          ],
+          [
+            "android.permission.FOREGROUND_SERVICE",
+            null
+          ],
+          [
+            "android.permission.POST_NOTIFICATIONS",
+            null
+          ],
+          [
+            "android.permission.FOREGROUND_SERVICE_SPECIAL_USE",
+            null
+          ],
+          [
+            "eu.faircode.netguard.permission.ADMIN",
+            null
+          ],
+          [
+            "eu.faircode.netguard.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION",
+            null
+          ]
+        ],
+        "versionCode": 2026052101,
+        "versionName": "2.335"
       }
     ]
   }
