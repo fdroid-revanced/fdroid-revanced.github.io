@@ -10,7 +10,7 @@
     "-c"
   ],
   "disabled": [],
-  "endTimestamp": 1784502400917,
+  "endTimestamp": 1784502481202,
   "failedBuilds": {},
   "jarsigner": "/home/runner/.local/share/mise/installs/java/temurin-21.0.7+6.0.LTS/bin/jarsigner",
   "keytool": "/home/runner/.local/share/mise/installs/java/temurin-21.0.7+6.0.LTS/bin/keytool",
@@ -23,7 +23,9 @@
     "com.nis.app.revanced",
     "com.onelouder.baconreader.revanced",
     "com.pandora.android.revanced",
+    "com.samsung.android.themedesigner.revanced",
     "com.sec.android.app.fm.revanced",
+    "de.simon.openinghours.revanced",
     "eu.faircode.netguard.revanced",
     "ml.docilealligator.infinityforreddit.plus.revanced",
     "ml.docilealligator.infinityforreddit.revanced"
@@ -37,7 +39,9 @@
     "com.nis.app.revanced",
     "com.onelouder.baconreader.revanced",
     "com.pandora.android.revanced",
+    "com.samsung.android.themedesigner.revanced",
     "com.sec.android.app.fm.revanced",
+    "de.simon.openinghours.revanced",
     "eu.faircode.netguard.revanced",
     "ml.docilealligator.infinityforreddit.plus.revanced",
     "ml.docilealligator.infinityforreddit.revanced"
@@ -51,20 +55,22 @@
     "com.nis.app.revanced",
     "com.onelouder.baconreader.revanced",
     "com.pandora.android.revanced",
+    "com.samsung.android.themedesigner.revanced",
     "com.sec.android.app.fm.revanced",
+    "de.simon.openinghours.revanced",
     "eu.faircode.netguard.revanced",
     "ml.docilealligator.infinityforreddit.plus.revanced",
     "ml.docilealligator.infinityforreddit.revanced"
   ],
   "stages": {
-    "delete_disabled_builds": 1784502387573,
-    "index.make repo": 1784502398748,
-    "prepare_apps repo": 1784502398747,
-    "process_apks": 1784502387573,
-    "read_added_date_from_all_apks": 1784502398747,
-    "remove_apks": 1784502398746,
-    "scan_repo_files": 1784502398745
+    "delete_disabled_builds": 1784502466467,
+    "index.make repo": 1784502479022,
+    "prepare_apps repo": 1784502479021,
+    "process_apks": 1784502466467,
+    "read_added_date_from_all_apks": 1784502479021,
+    "remove_apks": 1784502479007,
+    "scan_repo_files": 1784502479006
   },
-  "startTimestamp": 1784502387000,
+  "startTimestamp": 1784502466000,
   "subcommand": "update"
 }

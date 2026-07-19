@@ -1,6 +1,6 @@
 {
   "repo": {
-    "timestamp": 1784502398000,
+    "timestamp": 1784502479000,
     "version": 20002,
     "name": "ReVanced F-Droid",
     "icon": "icon.png",
@@ -183,6 +183,17 @@
           "name": "rif is fun"
         }
       }
+    },
+    {
+      "categories": [
+        "fdroid"
+      ],
+      "suggestedVersionCode": "2147483647",
+      "license": "Unknown",
+      "name": "Theme Park",
+      "added": 1784502476000,
+      "packageName": "com.samsung.android.themedesigner.revanced",
+      "lastUpdated": 1784502476000
     },
     {
       "authorName": "ReVanced (patched)",
@@ -1038,6 +1049,107 @@
         "versionName": "2607.1"
       }
     ],
+    "com.samsung.android.themedesigner.revanced": [
+      {
+        "added": 1784502476000,
+        "apkName": "de.simon.openinghours_1.1.02.2_revanced.apk",
+        "hash": "dee52d5ab5b9c6b9d213089b88e8af8a222393cb511a1295e9d8f1d734f364ca",
+        "hashType": "sha256",
+        "minSdkVersion": 34,
+        "nativecode": [
+          "arm64-v8a"
+        ],
+        "packageName": "com.samsung.android.themedesigner.revanced",
+        "sig": "5837ab34622f0917305f6d32bc00ab0a",
+        "signer": "990aa515644a3f1528c122f2ce9ceb19f404912532394579ebedaea32c99cde9",
+        "size": 30606183,
+        "targetSdkVersion": 35,
+        "uses-permission": [
+          [
+            "android.permission.REMOVE_TASKS",
+            null
+          ],
+          [
+            "android.permission.REAL_GET_TASKS",
+            null
+          ],
+          [
+            "com.samsung.android.permission.MODIFY_THEME",
+            null
+          ],
+          [
+            "com.sec.spp.permission.TOKEN_b83b7eed0e4004902a519d74aa7030d7a38b97d58187f27185ced4602f013f22d23b065dd64785693edc7182d9aec55662bae62c3f06b5877a25c9c6632133b25652280cbdc9f85e8d573703b21ffb89d8a485478ef8c9996d176c591dc5ad8931c04389d8f1b4d19482a0332be593c0b8e6b67f9180617fc6f7a384db50d980",
+            null
+          ],
+          [
+            "com.sec.android.diagmonagent.permission.DIAGMON",
+            null
+          ],
+          [
+            "com.samsung.systemui.permission.KEYGUARD_IMAGE",
+            null
+          ],
+          [
+            "android.permission.PACKAGE_USAGE_STATS",
+            null
+          ],
+          [
+            "android.permission.QUERY_ALL_PACKAGES",
+            null
+          ],
+          [
+            "com.samsung.android.stickercenter.permission.sticker.READ",
+            null
+          ],
+          [
+            "android.permission.INTERNET",
+            null
+          ],
+          [
+            "com.samsung.android.stickercenter.service.ACCESS",
+            null
+          ],
+          [
+            "android.permission.SET_WALLPAPER",
+            null
+          ],
+          [
+            "android.permission.GET_INTENT_SENDER_INTENT",
+            null
+          ],
+          [
+            "android.permission.READ_WALLPAPER_INTERNAL",
+            null
+          ],
+          [
+            "com.wssnps.permission.COM_WSSNPS",
+            null
+          ],
+          [
+            "android.permission.ACCESS_NETWORK_STATE",
+            null
+          ],
+          [
+            "android.permission.WAKE_LOCK",
+            null
+          ],
+          [
+            "android.permission.RECEIVE_BOOT_COMPLETED",
+            null
+          ],
+          [
+            "android.permission.FOREGROUND_SERVICE",
+            null
+          ],
+          [
+            "com.samsung.android.themedesigner.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION",
+            null
+          ]
+        ],
+        "versionCode": 110202000,
+        "versionName": "1.1.02.2"
+      }
+    ],
     "com.sec.android.app.fm.revanced": [
       {
         "added": 1784501803000,
@@ -1229,7 +1341,7 @@
       {
         "added": 1784501803000,
         "apkName": "eu.faircode.netguard_2.335_revanced.apk",
-        "hash": "ec40edc014755912c766ee842565db34ba7248d220fc909c4dcff27eb9e10369",
+        "hash": "3bf0586423f73e940cf9e07d4103b97c2fd6a588beb7af30bfa54e1a9a1fde2b",
         "hashType": "sha256",
         "minSdkVersion": 22,
         "nativecode": [

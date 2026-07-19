@@ -14,7 +14,7 @@
       }
     },
     "address": "https://fdroid-revanced.github.io/repo",
-    "timestamp": 1784502398000,
+    "timestamp": 1784502479000,
     "categories": {
       "Multimedia": {
         "name": {
@@ -951,6 +951,107 @@
         }
       }
     },
+    "com.samsung.android.themedesigner.revanced": {
+      "metadata": {
+        "added": 1784502476000,
+        "categories": [
+          "fdroid"
+        ],
+        "lastUpdated": 1784502476000,
+        "name": {
+          "en-US": "Theme Park"
+        },
+        "preferredSigner": "990aa515644a3f1528c122f2ce9ceb19f404912532394579ebedaea32c99cde9"
+      },
+      "versions": {
+        "dee52d5ab5b9c6b9d213089b88e8af8a222393cb511a1295e9d8f1d734f364ca": {
+          "added": 1784502476000,
+          "file": {
+            "name": "/de.simon.openinghours_1.1.02.2_revanced.apk",
+            "sha256": "dee52d5ab5b9c6b9d213089b88e8af8a222393cb511a1295e9d8f1d734f364ca",
+            "size": 30606183
+          },
+          "manifest": {
+            "nativecode": [
+              "arm64-v8a"
+            ],
+            "versionName": "1.1.02.2",
+            "versionCode": 110202000,
+            "usesSdk": {
+              "minSdkVersion": 34,
+              "targetSdkVersion": 35
+            },
+            "signer": {
+              "sha256": [
+                "990aa515644a3f1528c122f2ce9ceb19f404912532394579ebedaea32c99cde9"
+              ]
+            },
+            "usesPermission": [
+              {
+                "name": "android.permission.REMOVE_TASKS"
+              },
+              {
+                "name": "android.permission.REAL_GET_TASKS"
+              },
+              {
+                "name": "com.samsung.android.permission.MODIFY_THEME"
+              },
+              {
+                "name": "com.sec.spp.permission.TOKEN_b83b7eed0e4004902a519d74aa7030d7a38b97d58187f27185ced4602f013f22d23b065dd64785693edc7182d9aec55662bae62c3f06b5877a25c9c6632133b25652280cbdc9f85e8d573703b21ffb89d8a485478ef8c9996d176c591dc5ad8931c04389d8f1b4d19482a0332be593c0b8e6b67f9180617fc6f7a384db50d980"
+              },
+              {
+                "name": "com.sec.android.diagmonagent.permission.DIAGMON"
+              },
+              {
+                "name": "com.samsung.systemui.permission.KEYGUARD_IMAGE"
+              },
+              {
+                "name": "android.permission.PACKAGE_USAGE_STATS"
+              },
+              {
+                "name": "android.permission.QUERY_ALL_PACKAGES"
+              },
+              {
+                "name": "com.samsung.android.stickercenter.permission.sticker.READ"
+              },
+              {
+                "name": "android.permission.INTERNET"
+              },
+              {
+                "name": "com.samsung.android.stickercenter.service.ACCESS"
+              },
+              {
+                "name": "android.permission.SET_WALLPAPER"
+              },
+              {
+                "name": "android.permission.GET_INTENT_SENDER_INTENT"
+              },
+              {
+                "name": "android.permission.READ_WALLPAPER_INTERNAL"
+              },
+              {
+                "name": "com.wssnps.permission.COM_WSSNPS"
+              },
+              {
+                "name": "android.permission.ACCESS_NETWORK_STATE"
+              },
+              {
+                "name": "android.permission.WAKE_LOCK"
+              },
+              {
+                "name": "android.permission.RECEIVE_BOOT_COMPLETED"
+              },
+              {
+                "name": "android.permission.FOREGROUND_SERVICE"
+              },
+              {
+                "name": "com.samsung.android.themedesigner.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+              }
+            ]
+          }
+        }
+      }
+    },
     "com.sec.android.app.fm.revanced": {
       "metadata": {
         "added": 1784501803000,
@@ -1155,11 +1256,11 @@
         "preferredSigner": "990aa515644a3f1528c122f2ce9ceb19f404912532394579ebedaea32c99cde9"
       },
       "versions": {
-        "ec40edc014755912c766ee842565db34ba7248d220fc909c4dcff27eb9e10369": {
+        "3bf0586423f73e940cf9e07d4103b97c2fd6a588beb7af30bfa54e1a9a1fde2b": {
           "added": 1784501803000,
           "file": {
             "name": "/eu.faircode.netguard_2.335_revanced.apk",
-            "sha256": "ec40edc014755912c766ee842565db34ba7248d220fc909c4dcff27eb9e10369",
+            "sha256": "3bf0586423f73e940cf9e07d4103b97c2fd6a588beb7af30bfa54e1a9a1fde2b",
             "size": 3469098
           },
           "manifest": {
