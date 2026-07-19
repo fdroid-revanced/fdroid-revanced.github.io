@@ -1,6 +1,6 @@
 {
   "repo": {
-    "timestamp": 1784499137000,
+    "timestamp": 1784499835000,
     "version": 20002,
     "name": "ReVanced F-Droid",
     "icon": "icon.png",
@@ -247,7 +247,7 @@
       {
         "added": 1784495271000,
         "apkName": "com.andrewshu.android.reddit_5.6.22_revanced.apk",
-        "hash": "9188af2103d79865ff606121f7ca26722e8ad913ddd687239186d7e87dbdd535",
+        "hash": "d25409f195c23d11d7e4eb1d947232d3add36618f8de78246842012ee7c6ade1",
         "hashType": "sha256",
         "minSdkVersion": 21,
         "nativecode": [
@@ -259,7 +259,7 @@
         "packageName": "com.andrewshu.android.reddit.revanced",
         "sig": "5837ab34622f0917305f6d32bc00ab0a",
         "signer": "990aa515644a3f1528c122f2ce9ceb19f404912532394579ebedaea32c99cde9",
-        "size": 14145393,
+        "size": 14153585,
         "targetSdkVersion": 33,
         "uses-permission": [
           [
