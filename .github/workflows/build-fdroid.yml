@@ -2,8 +2,8 @@ name: Build F-Droid repo
 
 on:
   schedule:
-    # Saturday 02:00 UTC (SPEC default)
-    - cron: "0 2 * * 6"
+    # Every 8h: ~N/K runs/week (N~87, K~4) → ~1 week expected refresh per app
+    - cron: "0 */8 * * *"
   workflow_dispatch:
     inputs:
       smoke:

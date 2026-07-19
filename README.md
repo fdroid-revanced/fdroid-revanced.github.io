@@ -59,4 +59,4 @@ Requires host `aapt` and `apksigner` (or Android build-tools on `PATH` / `ANDROI
 
 ## Schedule
 
-Default cron: **Saturday 02:00 UTC**. Full rebuild every run; packages that fail download/patch are skipped.
+Default cron: **every 8 hours** (`0 */8 * * *` UTC). Full rebuild each run; packages that fail download/patch are soft-skipped.
