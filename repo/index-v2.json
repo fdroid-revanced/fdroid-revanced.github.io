@@ -14,7 +14,7 @@
       }
     },
     "address": "https://fdroid-revanced.github.io/repo",
-    "timestamp": 1784502650000,
+    "timestamp": 1784502844000,
     "categories": {
       "Multimedia": {
         "name": {
@@ -46,12 +46,12 @@
         "preferredSigner": "990aa515644a3f1528c122f2ce9ceb19f404912532394579ebedaea32c99cde9"
       },
       "versions": {
-        "57bbf59363bbe5bd3702fd3635611b257510a4f2c18d6224d599f7387017f3d5": {
+        "6e7743b5e7628afe6273ee4baff90c9ddd78578c19344d2f6d4f44ec137c6309": {
           "added": 1784501795000,
           "file": {
             "name": "/at.gv.oe.app_5.5.0_revanced.apk",
-            "sha256": "57bbf59363bbe5bd3702fd3635611b257510a4f2c18d6224d599f7387017f3d5",
-            "size": 55565737
+            "sha256": "6e7743b5e7628afe6273ee4baff90c9ddd78578c19344d2f6d4f44ec137c6309",
+            "size": 55500142
           },
           "manifest": {
             "nativecode": [
@@ -826,12 +826,12 @@
         "preferredSigner": "990aa515644a3f1528c122f2ce9ceb19f404912532394579ebedaea32c99cde9"
       },
       "versions": {
-        "e395a31de81708cf56eb5b9dd4a86700f2141962e5c3bea8266429b3a51210ec": {
+        "759474e8e05a29112015e0f718db1c75df45159fc11c133b4ddd06e296911804": {
           "added": 1784501802000,
           "file": {
             "name": "/com.pandora.android_2607.1_revanced.apk",
-            "sha256": "e395a31de81708cf56eb5b9dd4a86700f2141962e5c3bea8266429b3a51210ec",
-            "size": 75939333
+            "sha256": "759474e8e05a29112015e0f718db1c75df45159fc11c133b4ddd06e296911804",
+            "size": 75832837
           },
           "manifest": {
             "nativecode": [
