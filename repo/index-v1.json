@@ -1,6 +1,6 @@
 {
   "repo": {
-    "timestamp": 1784501699000,
+    "timestamp": 1784501709000,
     "version": 20002,
     "name": "ReVanced F-Droid",
     "icon": "icon.png",
@@ -20,10 +20,10 @@
       "suggestedVersionCode": "183",
       "description": "ReVanced-patched build of com.onelouder.baconreader.\n\nPatches applied:\n- INFO: \"Fix Redgifs API\" succeeded\n- INFO: \"Change package name\" succeeded\n",
       "license": "Unknown",
-      "added": 1784501695000,
+      "added": 1784501706000,
       "icon": "com.onelouder.baconreader.revanced.183.png",
       "packageName": "com.onelouder.baconreader.revanced",
-      "lastUpdated": 1784501695000,
+      "lastUpdated": 1784501706000,
       "localized": {
         "en-US": {
           "name": "BaconReader"
@@ -38,10 +38,10 @@
       "suggestedVersionCode": "220489",
       "description": "ReVanced-patched build of com.bandcamp.android.\n\nPatches applied:\n- INFO: \"Remove play limits\" succeeded\n- INFO: \"Change package name\" succeeded\n",
       "license": "Unknown",
-      "added": 1784501692000,
+      "added": 1784501704000,
       "icon": "com.bandcamp.android.revanced.220489.png",
       "packageName": "com.bandcamp.android.revanced",
-      "lastUpdated": 1784501692000,
+      "lastUpdated": 1784501704000,
       "localized": {
         "en-US": {
           "name": "Bandcamp"
@@ -56,9 +56,9 @@
       "suggestedVersionCode": "2026052703",
       "description": "ReVanced-patched build of at.gv.oe.app.\n\nPatches applied:\n- INFO: \"Remove device integrity checks\" succeeded\n- INFO: \"Spoof signature\" succeeded\n- INFO: \"Change package name\" succeeded\n",
       "license": "Unknown",
-      "added": 1784501687000,
+      "added": 1784501701000,
       "packageName": "at.gv.oe.app.revanced",
-      "lastUpdated": 1784501687000,
+      "lastUpdated": 1784501701000,
       "localized": {
         "en-US": {
           "name": "ID Austria"
@@ -72,10 +72,10 @@
       "suggestedVersionCode": "2147483647",
       "license": "Unknown",
       "name": "Infinity+",
-      "added": 1784501699000,
+      "added": 1784501709000,
       "icon": "ml.docilealligator.infinityforreddit.plus.revanced.224.png",
       "packageName": "ml.docilealligator.infinityforreddit.plus.revanced",
-      "lastUpdated": 1784501699000
+      "lastUpdated": 1784501709000
     },
     {
       "authorName": "ReVanced (patched)",
@@ -85,10 +85,10 @@
       "suggestedVersionCode": "5070839",
       "description": "ReVanced-patched build of com.nis.app.\n\nPatches applied:\n- INFO: \"Hide ads\" succeeded\n- INFO: \"Change package name\" succeeded\n",
       "license": "Unknown",
-      "added": 1784501694000,
+      "added": 1784501705000,
       "icon": "com.nis.app.revanced.5070839.png",
       "packageName": "com.nis.app.revanced",
-      "lastUpdated": 1784501694000,
+      "lastUpdated": 1784501705000,
       "localized": {
         "en-US": {
           "name": "inshorts"
@@ -103,10 +103,10 @@
       "suggestedVersionCode": "2026052101",
       "description": "ReVanced-patched build of eu.faircode.netguard.\n\nPatches applied:\n- INFO: \"Remove broadcasts restriction\" succeeded\n- INFO: \"Change package name\" succeeded\n",
       "license": "Unknown",
-      "added": 1784501698000,
+      "added": 1784501708000,
       "icon": "eu.faircode.netguard.revanced.2026052101.png",
       "packageName": "eu.faircode.netguard.revanced",
-      "lastUpdated": 1784501698000,
+      "lastUpdated": 1784501708000,
       "localized": {
         "en-US": {
           "name": "NetGuard"
@@ -121,10 +121,10 @@
       "suggestedVersionCode": "26071004",
       "description": "ReVanced-patched build of com.pandora.android.\n\nPatches applied:\n- INFO: \"Disable Audio Ads\" succeeded\n- INFO: \"Enable unlimited skips\" succeeded\n- INFO: \"Change package name\" succeeded\n",
       "license": "Unknown",
-      "added": 1784501696000,
+      "added": 1784501707000,
       "icon": "com.pandora.android.revanced.26071004.png",
       "packageName": "com.pandora.android.revanced",
-      "lastUpdated": 1784501696000,
+      "lastUpdated": 1784501707000,
       "localized": {
         "en-US": {
           "name": "Pandora"
@@ -139,10 +139,10 @@
       "suggestedVersionCode": "605194300",
       "description": "ReVanced-patched build of ch.protonvpn.android.\n\nPatches applied:\n- INFO: \"Remove delay\" succeeded\n- INFO: \"Unlock split tunneling\" succeeded\n- INFO: \"Change package name\" succeeded\n",
       "license": "Unknown",
-      "added": 1784501690000,
+      "added": 1784501703000,
       "icon": "ch.protonvpn.android.revanced.605194300.png",
       "packageName": "ch.protonvpn.android.revanced",
-      "lastUpdated": 1784501690000,
+      "lastUpdated": 1784501703000,
       "localized": {
         "en-US": {
           "name": "Proton VPN"
@@ -157,9 +157,9 @@
       "suggestedVersionCode": "1240007000",
       "description": "ReVanced-patched build of com.sec.android.app.fm.\n\nPatches applied:\n- INFO: \"Bypass device checks\" succeeded\n- INFO: \"Fix crashes\" succeeded\n- INFO: \"Change package name\" succeeded\n",
       "license": "Unknown",
-      "added": 1784501697000,
+      "added": 1784501708000,
       "packageName": "com.sec.android.app.fm.revanced",
-      "lastUpdated": 1784501697000,
+      "lastUpdated": 1784501708000,
       "localized": {
         "en-US": {
           "name": "Radio"
@@ -174,10 +174,10 @@
       "suggestedVersionCode": "4622",
       "description": "ReVanced-patched build of com.andrewshu.android.reddit.\n\nPatches applied:\n- INFO: \"Change package name\" succeeded\n",
       "license": "Unknown",
-      "added": 1784501691000,
+      "added": 1784501704000,
       "icon": "com.andrewshu.android.reddit.revanced.4622.png",
       "packageName": "com.andrewshu.android.reddit.revanced",
-      "lastUpdated": 1784501691000,
+      "lastUpdated": 1784501704000,
       "localized": {
         "en-US": {
           "name": "rif is fun"
@@ -192,9 +192,9 @@
       "suggestedVersionCode": "613261",
       "description": "ReVanced-patched build of at.willhaben.\n\nPatches applied:\n- INFO: \"Change package name\" succeeded\n",
       "license": "Unknown",
-      "added": 1784501688000,
+      "added": 1784501701000,
       "packageName": "at.willhaben.revanced",
-      "lastUpdated": 1784501688000,
+      "lastUpdated": 1784501701000,
       "localized": {
         "en-US": {
           "name": "willhaben"
@@ -205,7 +205,7 @@
   "packages": {
     "at.gv.oe.app.revanced": [
       {
-        "added": 1784501687000,
+        "added": 1784501701000,
         "apkName": "at.gv.oe.app_5.5.0_revanced.apk",
         "features": [
           "android.hardware.camera"
@@ -292,7 +292,7 @@
     ],
     "at.willhaben.revanced": [
       {
-        "added": 1784501688000,
+        "added": 1784501701000,
         "apkName": "at.willhaben_8.52.0_revanced.apk",
         "hash": "ea6d3ed60d7c2c79bbb03464a19955bbcdbbf94f2b3b045b31c1be39ae9a17cf",
         "hashType": "sha256",
@@ -400,7 +400,7 @@
     ],
     "ch.protonvpn.android.revanced": [
       {
-        "added": 1784501690000,
+        "added": 1784501703000,
         "apkName": "ch.protonvpn.android_5.19.43.0_revanced.apk",
         "hash": "b6bf26700f1ae15cea309697f8176681ad73e8c1b42adc16626f79cb92dbbe22",
         "hashType": "sha256",
@@ -475,9 +475,9 @@
     ],
     "com.andrewshu.android.reddit.revanced": [
       {
-        "added": 1784501691000,
+        "added": 1784501704000,
         "apkName": "com.andrewshu.android.reddit_5.6.22_revanced.apk",
-        "hash": "973e95817d0925b6a636b40fe855ac20f267572bc9ba2d9beea1972de97722bf",
+        "hash": "d25409f195c23d11d7e4eb1d947232d3add36618f8de78246842012ee7c6ade1",
         "hashType": "sha256",
         "minSdkVersion": 21,
         "nativecode": [
@@ -489,7 +489,7 @@
         "packageName": "com.andrewshu.android.reddit.revanced",
         "sig": "5837ab34622f0917305f6d32bc00ab0a",
         "signer": "990aa515644a3f1528c122f2ce9ceb19f404912532394579ebedaea32c99cde9",
-        "size": 14149489,
+        "size": 14153585,
         "targetSdkVersion": 33,
         "uses-permission": [
           [
@@ -579,9 +579,9 @@
     ],
     "com.bandcamp.android.revanced": [
       {
-        "added": 1784501692000,
+        "added": 1784501704000,
         "apkName": "com.bandcamp.android_3.3.6_revanced.apk",
-        "hash": "31d3807bc814dc27c5fbf8fda36182fd921c90b7cd23459679f95caa2ecd85b4",
+        "hash": "b7b1f5d86d572674b4e01ac7565d36c0dcbaa0b982699268525d389753b51e69",
         "hashType": "sha256",
         "minSdkVersion": 24,
         "nativecode": [
@@ -593,7 +593,7 @@
         "packageName": "com.bandcamp.android.revanced",
         "sig": "5837ab34622f0917305f6d32bc00ab0a",
         "signer": "990aa515644a3f1528c122f2ce9ceb19f404912532394579ebedaea32c99cde9",
-        "size": 15069645,
+        "size": 15077837,
         "targetSdkVersion": 36,
         "uses-permission": [
           [
@@ -679,9 +679,9 @@
     ],
     "com.nis.app.revanced": [
       {
-        "added": 1784501694000,
+        "added": 1784501705000,
         "apkName": "com.nis.app_6.12.26_revanced.apk",
-        "hash": "864b643a6b0a638e0978a08d4d63c61bc990b14f78806e3c84ac39f4fda74394",
+        "hash": "0b93820e3c2333f72e398b95e553fe676759aae36fdf9176a3fda67888ed206a",
         "hashType": "sha256",
         "minSdkVersion": 24,
         "nativecode": [
@@ -690,7 +690,7 @@
         "packageName": "com.nis.app.revanced",
         "sig": "5837ab34622f0917305f6d32bc00ab0a",
         "signer": "990aa515644a3f1528c122f2ce9ceb19f404912532394579ebedaea32c99cde9",
-        "size": 44934206,
+        "size": 44901438,
         "targetSdkVersion": 36,
         "uses-permission": [
           [
@@ -816,7 +816,7 @@
     ],
     "com.onelouder.baconreader.revanced": [
       {
-        "added": 1784501695000,
+        "added": 1784501706000,
         "apkName": "com.onelouder.baconreader_6.1.4_revanced.apk",
         "hash": "5d4eb1798e2ba91f6c5e311a0ba4758baf2d48f46afa2525f5984be2cf57d5f2",
         "hashType": "sha256",
@@ -894,7 +894,7 @@
     ],
     "com.pandora.android.revanced": [
       {
-        "added": 1784501696000,
+        "added": 1784501707000,
         "apkName": "com.pandora.android_2607.1_revanced.apk",
         "hash": "75b17f9fbe1e0e0cabd16b7dfcd4bb44e72467d2fa6cbcd490759dbd9c04737f",
         "hashType": "sha256",
@@ -1040,7 +1040,7 @@
     ],
     "com.sec.android.app.fm.revanced": [
       {
-        "added": 1784501697000,
+        "added": 1784501708000,
         "apkName": "com.sec.android.app.fm_12.4.00.7_revanced.apk",
         "features": [
           "com.samsung.android.api.version.3501",
@@ -1227,7 +1227,7 @@
     ],
     "eu.faircode.netguard.revanced": [
       {
-        "added": 1784501698000,
+        "added": 1784501708000,
         "apkName": "eu.faircode.netguard_2.335_revanced.apk",
         "hash": "924b18e44d67fb3cc96ebef7a1174f067c3a95a28d7668c4ba360cc656bfe04a",
         "hashType": "sha256",
@@ -1303,7 +1303,7 @@
     ],
     "ml.docilealligator.infinityforreddit.plus.revanced": [
       {
-        "added": 1784501699000,
+        "added": 1784501709000,
         "apkName": "ml.docilealligator.infinityforreddit_8.3.0-beta3_revanced.apk",
         "hash": "e453340915c3ab991d9559f0638a6d4be65b3dca5aa0defa7fe6cfe9d8d01f74",
         "hashType": "sha256",
