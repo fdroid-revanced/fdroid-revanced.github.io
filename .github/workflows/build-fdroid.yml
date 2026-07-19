@@ -1,8 +1,7 @@
 name: Build F-Droid repo
 
-# Worker only — schedule/human spam go through "Enqueue F-Droid build".
-# No concurrency group: multiple workers may start (setup + warmup in parallel),
-# then softprops/turnstyle serializes the actual pipeline after caches are warm.
+# Worker. Multiple dispatches start in parallel (setup + warmup), then
+# softprops/turnstyle serializes the pipeline. No concurrency: group.
 on:
   workflow_dispatch:
     inputs:
@@ -13,13 +12,11 @@ on:
 
 permissions:
   contents: write
-  actions: write # drain re-dispatch + turnstyle list runs
-  variables: write
+  actions: read # turnstyle lists other runs
 
 jobs:
   build:
     runs-on: ubuntu-latest
-    # Includes time spent waiting at turnstyle after warmup (hosted max 6h).
     timeout-minutes: 360
     steps:
       - name: Checkout
@@ -48,7 +45,6 @@ jobs:
           set -euo pipefail
           RB="${RUNNER_TEMP}/revancedbot"
           echo "Building revancedbot into ${RB}"
-          # Prefetch module + build cache while we are still free to race others.
           GOPROXY=direct go build -o "$RB" github.com/lucasew/revancedbot/cmd/revancedbot@main
           "$RB" version || "$RB" -v || true
           echo "path=${RB}" >> "$GITHUB_OUTPUT"
@@ -59,7 +55,6 @@ jobs:
           poll-interval-seconds: 30
           same-branch-only: true
           queue-name: build-fdroid
-        # No abort-after-seconds → wait until prior runs finish (within job timeout).
 
       - name: Build F-Droid tree
         env:
@@ -98,32 +93,3 @@ jobs:
           fi
           git commit -m "chore: update F-Droid repo $(date -u +%Y-%m-%dT%H:%MZ)"
           git push
-
-      - name: Drain build queue
-        if: always()
-        env:
-          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          SMOKE: ${{ inputs.smoke == true }}
-        run: |
-          set -euo pipefail
-          REPO="${{ github.repository }}"
-          DEPTH="$(gh variable get FDROID_BUILD_QUEUE -R "$REPO" 2>/dev/null || echo 0)"
-          case "$DEPTH" in
-            ''|*[!0-9]*) DEPTH=0 ;;
-          esac
-          echo "queue depth before consume=$DEPTH"
-          if [ "$DEPTH" -gt 0 ]; then
-            NEW=$((DEPTH - 1))
-            gh variable set FDROID_BUILD_QUEUE -R "$REPO" --body "$NEW"
-            echo "queue depth after consume=$NEW"
-            if [ "$NEW" -gt 0 ]; then
-              echo "Dispatching next worker ($NEW remaining after this kick)"
-              if [ "${SMOKE}" = "true" ]; then
-                gh workflow run build-fdroid.yml -R "$REPO" -f smoke=true
-              else
-                gh workflow run build-fdroid.yml -R "$REPO" -f smoke=false
-              fi
-            fi
-          else
-            echo "Queue empty — no further workers"
-          fi
