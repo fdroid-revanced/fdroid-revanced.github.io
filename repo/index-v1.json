@@ -1,6 +1,6 @@
 {
   "repo": {
-    "timestamp": 1784493828000,
+    "timestamp": 1784494807000,
     "version": 20002,
     "name": "ReVanced F-Droid",
     "icon": "icon.png",
@@ -46,6 +46,42 @@
           "name": "ID Austria"
         }
       }
+    },
+    {
+      "authorName": "ReVanced (patched)",
+      "categories": [
+        "Multimedia"
+      ],
+      "suggestedVersionCode": "5070839",
+      "description": "ReVanced-patched build of com.nis.app.\n\nPatches applied:\n- INFO: \"Hide ads\" succeeded\n- INFO: \"Change package name\" succeeded\n",
+      "license": "Unknown",
+      "added": 1784494805000,
+      "icon": "com.nis.app.revanced.5070839.png",
+      "packageName": "com.nis.app.revanced",
+      "lastUpdated": 1784494805000,
+      "localized": {
+        "en-US": {
+          "name": "inshorts"
+        }
+      }
+    },
+    {
+      "authorName": "ReVanced (patched)",
+      "categories": [
+        "Multimedia"
+      ],
+      "suggestedVersionCode": "26071004",
+      "description": "ReVanced-patched build of com.pandora.android.\n\nPatches applied:\n- INFO: \"Disable Audio Ads\" succeeded\n- INFO: \"Enable unlimited skips\" succeeded\n- INFO: \"Change package name\" succeeded\n",
+      "license": "Unknown",
+      "added": 1784494807000,
+      "icon": "com.pandora.android.revanced.26071004.png",
+      "packageName": "com.pandora.android.revanced",
+      "lastUpdated": 1784494807000,
+      "localized": {
+        "en-US": {
+          "name": "Pandora"
+        }
+      }
     }
   ],
   "packages": {
@@ -56,7 +92,7 @@
         "features": [
           "android.hardware.camera"
         ],
-        "hash": "2add3fe8eba27bcec8d22743093c0cb36423d92edb3994f4386f32402eeb8fb1",
+        "hash": "9a582d02f46aed9040507970b858a1776b13fa9ccfff4c8ee9ab3bd9daf0bec0",
         "hashType": "sha256",
         "minSdkVersion": 31,
         "nativecode": [
@@ -68,7 +104,7 @@
         "packageName": "at.gv.oe.app.revanced",
         "sig": "5837ab34622f0917305f6d32bc00ab0a",
         "signer": "990aa515644a3f1528c122f2ce9ceb19f404912532394579ebedaea32c99cde9",
-        "size": 55504238,
+        "size": 55491950,
         "targetSdkVersion": 35,
         "uses-permission": [
           [
@@ -234,6 +270,289 @@
         ],
         "versionCode": 220489,
         "versionName": "3.3.6"
+      }
+    ],
+    "com.nis.app.revanced": [
+      {
+        "added": 1784494805000,
+        "apkName": "com.nis.app_6.12.26_revanced.apk",
+        "hash": "864b643a6b0a638e0978a08d4d63c61bc990b14f78806e3c84ac39f4fda74394",
+        "hashType": "sha256",
+        "minSdkVersion": 24,
+        "nativecode": [
+          "armeabi-v7a"
+        ],
+        "packageName": "com.nis.app.revanced",
+        "sig": "5837ab34622f0917305f6d32bc00ab0a",
+        "signer": "990aa515644a3f1528c122f2ce9ceb19f404912532394579ebedaea32c99cde9",
+        "size": 44934206,
+        "targetSdkVersion": 36,
+        "uses-permission": [
+          [
+            "android.permission.INTERNET",
+            null
+          ],
+          [
+            "android.permission.USE_CREDENTIALS",
+            null
+          ],
+          [
+            "android.permission.VIBRATE",
+            null
+          ],
+          [
+            "android.permission.ACCESS_NETWORK_STATE",
+            null
+          ],
+          [
+            "android.permission.RECEIVE_BOOT_COMPLETED",
+            null
+          ],
+          [
+            "android.permission.WAKE_LOCK",
+            null
+          ],
+          [
+            "android.permission.ACCESS_WIFI_STATE",
+            null
+          ],
+          [
+            "com.google.android.c2dm.permission.RECEIVE",
+            null
+          ],
+          [
+            "android.permission.ACCESS_COARSE_LOCATION",
+            null
+          ],
+          [
+            "android.permission.ACCESS_FINE_LOCATION",
+            null
+          ],
+          [
+            "android.permission.CAMERA",
+            null
+          ],
+          [
+            "android.permission.RECORD_AUDIO",
+            null
+          ],
+          [
+            "android.permission.MODIFY_AUDIO_SETTINGS",
+            null
+          ],
+          [
+            "android.permission.FOREGROUND_SERVICE",
+            null
+          ],
+          [
+            "android.permission.FOREGROUND_SERVICE_MEDIA_PLAYBACK",
+            null
+          ],
+          [
+            "android.permission.CHANGE_NETWORK_STATE",
+            null
+          ],
+          [
+            "android.permission.READ_PHONE_STATE",
+            null
+          ],
+          [
+            "com.google.android.gms.permission.AD_ID",
+            null
+          ],
+          [
+            "android.permission.USE_BIOMETRIC",
+            null
+          ],
+          [
+            "android.permission.USE_FINGERPRINT",
+            null
+          ],
+          [
+            "android.permission.POST_NOTIFICATIONS",
+            null
+          ],
+          [
+            "com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE",
+            null
+          ],
+          [
+            "com.truecaller.permission.sdk.internal.read_account_state",
+            null
+          ],
+          [
+            "android.permission.ACCESS_ADSERVICES_ATTRIBUTION",
+            null
+          ],
+          [
+            "android.permission.ACCESS_ADSERVICES_AD_ID",
+            null
+          ],
+          [
+            "com.google.android.providers.gsf.permission.READ_GSERVICES",
+            null
+          ],
+          [
+            "android.permission.ACCESS_ADSERVICES_TOPICS",
+            null
+          ],
+          [
+            "android.permission.ACCESS_ADSERVICES_CUSTOM_AUDIENCE",
+            null
+          ],
+          [
+            "com.nis.app.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION",
+            null
+          ]
+        ],
+        "versionCode": 5070839,
+        "versionName": "6.12.26"
+      }
+    ],
+    "com.pandora.android.revanced": [
+      {
+        "added": 1784494807000,
+        "apkName": "com.pandora.android_2607.1_revanced.apk",
+        "hash": "ccbbe5d628048c80684a60e653e84efd0b1a280646d21789ccc95178bbcc7d47",
+        "hashType": "sha256",
+        "minSdkVersion": 24,
+        "nativecode": [
+          "arm64-v8a",
+          "armeabi-v7a",
+          "x86",
+          "x86_64"
+        ],
+        "packageName": "com.pandora.android.revanced",
+        "sig": "5837ab34622f0917305f6d32bc00ab0a",
+        "signer": "990aa515644a3f1528c122f2ce9ceb19f404912532394579ebedaea32c99cde9",
+        "size": 75828741,
+        "targetSdkVersion": 35,
+        "uses-permission": [
+          [
+            "com.google.android.gms.permission.AD_ID",
+            null
+          ],
+          [
+            "android.permission.POST_NOTIFICATIONS",
+            null
+          ],
+          [
+            "android.permission.BLUETOOTH_CONNECT",
+            null
+          ],
+          [
+            "android.permission.INTERNET",
+            null
+          ],
+          [
+            "android.permission.ACCESS_NETWORK_STATE",
+            null
+          ],
+          [
+            "android.permission.ACCESS_WIFI_STATE",
+            null
+          ],
+          [
+            "android.permission.WAKE_LOCK",
+            null
+          ],
+          [
+            "android.permission.BLUETOOTH",
+            null
+          ],
+          [
+            "android.permission.BLUETOOTH_ADMIN",
+            null
+          ],
+          [
+            "android.permission.FOREGROUND_SERVICE",
+            null
+          ],
+          [
+            "android.permission.FOREGROUND_SERVICE_CONNECTED_DEVICE",
+            null
+          ],
+          [
+            "android.permission.FOREGROUND_SERVICE_MEDIA_PLAYBACK",
+            null
+          ],
+          [
+            "android.permission.GET_ACCOUNTS",
+            null
+          ],
+          [
+            "com.google.android.c2dm.permission.RECEIVE",
+            null
+          ],
+          [
+            "android.permission.POST_NOTIFICATIONS",
+            null
+          ],
+          [
+            "android.permission.READ_PHONE_STATE",
+            null
+          ],
+          [
+            "android.permission.WRITE_EXTERNAL_STORAGE",
+            32
+          ],
+          [
+            "android.permission.READ_EXTERNAL_STORAGE",
+            32
+          ],
+          [
+            "android.permission.RECEIVE_BOOT_COMPLETED",
+            null
+          ],
+          [
+            "com.android.launcher.permission.INSTALL_SHORTCUT",
+            null
+          ],
+          [
+            "android.permission.BLUETOOTH_CONNECT",
+            null
+          ],
+          [
+            "com.amazon.privacypass.ATTEST",
+            null
+          ],
+          [
+            "com.google.android.providers.gsf.permission.READ_GSERVICES",
+            null
+          ],
+          [
+            "com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE",
+            null
+          ],
+          [
+            "com.android.vending.BILLING",
+            null
+          ],
+          [
+            "com.android.providers.tv.permission.WRITE_EPG_DATA",
+            null
+          ],
+          [
+            "com.android.providers.tv.permission.READ_EPG_DATA",
+            null
+          ],
+          [
+            "com.pandora.android.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION",
+            null
+          ]
+        ],
+        "uses-permission-sdk-23": [
+          [
+            "android.permission.RECORD_AUDIO",
+            null
+          ],
+          [
+            "android.permission.CHANGE_WIFI_MULTICAST_STATE",
+            null
+          ]
+        ],
+        "versionCode": 26071004,
+        "versionName": "2607.1"
       }
     ]
   }

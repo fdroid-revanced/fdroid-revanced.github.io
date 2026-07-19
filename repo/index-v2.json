@@ -14,7 +14,7 @@
       }
     },
     "address": "https://fdroid-revanced.github.io/repo",
-    "timestamp": 1784493828000,
+    "timestamp": 1784494807000,
     "categories": {
       "Multimedia": {
         "name": {
@@ -41,12 +41,12 @@
         "preferredSigner": "990aa515644a3f1528c122f2ce9ceb19f404912532394579ebedaea32c99cde9"
       },
       "versions": {
-        "2add3fe8eba27bcec8d22743093c0cb36423d92edb3994f4386f32402eeb8fb1": {
+        "9a582d02f46aed9040507970b858a1776b13fa9ccfff4c8ee9ab3bd9daf0bec0": {
           "added": 1784493616000,
           "file": {
             "name": "/at.gv.oe.app_5.5.0_revanced.apk",
-            "sha256": "2add3fe8eba27bcec8d22743093c0cb36423d92edb3994f4386f32402eeb8fb1",
-            "size": 55504238
+            "sha256": "9a582d02f46aed9040507970b858a1776b13fa9ccfff4c8ee9ab3bd9daf0bec0",
+            "size": 55491950
           },
           "manifest": {
             "nativecode": [
@@ -229,6 +229,294 @@
               },
               {
                 "name": "com.bandcamp.android.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+              }
+            ]
+          }
+        }
+      }
+    },
+    "com.nis.app.revanced": {
+      "metadata": {
+        "added": 1784494805000,
+        "categories": [
+          "Multimedia"
+        ],
+        "lastUpdated": 1784494805000,
+        "authorName": "ReVanced (patched)",
+        "name": {
+          "en-US": "inshorts"
+        },
+        "description": {
+          "en-US": "ReVanced-patched build of com.nis.app.\n\nPatches applied:\n- INFO: \"Hide ads\" succeeded\n- INFO: \"Change package name\" succeeded\n"
+        },
+        "icon": {
+          "en-US": {
+            "name": "/icons/com.nis.app.revanced.5070839.png",
+            "sha256": "dac9971c3d5b1ccaf6ce65335836ba7ee86354c8976e43036e5115beb1de7af8",
+            "size": 454
+          }
+        },
+        "preferredSigner": "990aa515644a3f1528c122f2ce9ceb19f404912532394579ebedaea32c99cde9"
+      },
+      "versions": {
+        "864b643a6b0a638e0978a08d4d63c61bc990b14f78806e3c84ac39f4fda74394": {
+          "added": 1784494805000,
+          "file": {
+            "name": "/com.nis.app_6.12.26_revanced.apk",
+            "sha256": "864b643a6b0a638e0978a08d4d63c61bc990b14f78806e3c84ac39f4fda74394",
+            "size": 44934206
+          },
+          "manifest": {
+            "nativecode": [
+              "armeabi-v7a"
+            ],
+            "versionName": "6.12.26",
+            "versionCode": 5070839,
+            "usesSdk": {
+              "minSdkVersion": 24,
+              "targetSdkVersion": 36
+            },
+            "signer": {
+              "sha256": [
+                "990aa515644a3f1528c122f2ce9ceb19f404912532394579ebedaea32c99cde9"
+              ]
+            },
+            "usesPermission": [
+              {
+                "name": "android.permission.INTERNET"
+              },
+              {
+                "name": "android.permission.USE_CREDENTIALS"
+              },
+              {
+                "name": "android.permission.VIBRATE"
+              },
+              {
+                "name": "android.permission.ACCESS_NETWORK_STATE"
+              },
+              {
+                "name": "android.permission.RECEIVE_BOOT_COMPLETED"
+              },
+              {
+                "name": "android.permission.WAKE_LOCK"
+              },
+              {
+                "name": "android.permission.ACCESS_WIFI_STATE"
+              },
+              {
+                "name": "com.google.android.c2dm.permission.RECEIVE"
+              },
+              {
+                "name": "android.permission.ACCESS_COARSE_LOCATION"
+              },
+              {
+                "name": "android.permission.ACCESS_FINE_LOCATION"
+              },
+              {
+                "name": "android.permission.CAMERA"
+              },
+              {
+                "name": "android.permission.RECORD_AUDIO"
+              },
+              {
+                "name": "android.permission.MODIFY_AUDIO_SETTINGS"
+              },
+              {
+                "name": "android.permission.FOREGROUND_SERVICE"
+              },
+              {
+                "name": "android.permission.FOREGROUND_SERVICE_MEDIA_PLAYBACK"
+              },
+              {
+                "name": "android.permission.CHANGE_NETWORK_STATE"
+              },
+              {
+                "name": "android.permission.READ_PHONE_STATE"
+              },
+              {
+                "name": "com.google.android.gms.permission.AD_ID"
+              },
+              {
+                "name": "android.permission.USE_BIOMETRIC"
+              },
+              {
+                "name": "android.permission.USE_FINGERPRINT"
+              },
+              {
+                "name": "android.permission.POST_NOTIFICATIONS"
+              },
+              {
+                "name": "com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE"
+              },
+              {
+                "name": "com.truecaller.permission.sdk.internal.read_account_state"
+              },
+              {
+                "name": "android.permission.ACCESS_ADSERVICES_ATTRIBUTION"
+              },
+              {
+                "name": "android.permission.ACCESS_ADSERVICES_AD_ID"
+              },
+              {
+                "name": "com.google.android.providers.gsf.permission.READ_GSERVICES"
+              },
+              {
+                "name": "android.permission.ACCESS_ADSERVICES_TOPICS"
+              },
+              {
+                "name": "android.permission.ACCESS_ADSERVICES_CUSTOM_AUDIENCE"
+              },
+              {
+                "name": "com.nis.app.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+              }
+            ]
+          }
+        }
+      }
+    },
+    "com.pandora.android.revanced": {
+      "metadata": {
+        "added": 1784494807000,
+        "categories": [
+          "Multimedia"
+        ],
+        "lastUpdated": 1784494807000,
+        "authorName": "ReVanced (patched)",
+        "name": {
+          "en-US": "Pandora"
+        },
+        "description": {
+          "en-US": "ReVanced-patched build of com.pandora.android.\n\nPatches applied:\n- INFO: \"Disable Audio Ads\" succeeded\n- INFO: \"Enable unlimited skips\" succeeded\n- INFO: \"Change package name\" succeeded\n"
+        },
+        "icon": {
+          "en-US": {
+            "name": "/icons/com.pandora.android.revanced.26071004.png",
+            "sha256": "43220ffc3d73dd3624331605ead3ba5fcd7760b5f68704fcc211c58c74c8d6f7",
+            "size": 4187
+          }
+        },
+        "preferredSigner": "990aa515644a3f1528c122f2ce9ceb19f404912532394579ebedaea32c99cde9"
+      },
+      "versions": {
+        "ccbbe5d628048c80684a60e653e84efd0b1a280646d21789ccc95178bbcc7d47": {
+          "added": 1784494807000,
+          "file": {
+            "name": "/com.pandora.android_2607.1_revanced.apk",
+            "sha256": "ccbbe5d628048c80684a60e653e84efd0b1a280646d21789ccc95178bbcc7d47",
+            "size": 75828741
+          },
+          "manifest": {
+            "nativecode": [
+              "arm64-v8a",
+              "armeabi-v7a",
+              "x86",
+              "x86_64"
+            ],
+            "versionName": "2607.1",
+            "versionCode": 26071004,
+            "usesSdk": {
+              "minSdkVersion": 24,
+              "targetSdkVersion": 35
+            },
+            "signer": {
+              "sha256": [
+                "990aa515644a3f1528c122f2ce9ceb19f404912532394579ebedaea32c99cde9"
+              ]
+            },
+            "usesPermission": [
+              {
+                "name": "com.google.android.gms.permission.AD_ID"
+              },
+              {
+                "name": "android.permission.POST_NOTIFICATIONS"
+              },
+              {
+                "name": "android.permission.BLUETOOTH_CONNECT"
+              },
+              {
+                "name": "android.permission.INTERNET"
+              },
+              {
+                "name": "android.permission.ACCESS_NETWORK_STATE"
+              },
+              {
+                "name": "android.permission.ACCESS_WIFI_STATE"
+              },
+              {
+                "name": "android.permission.WAKE_LOCK"
+              },
+              {
+                "name": "android.permission.BLUETOOTH"
+              },
+              {
+                "name": "android.permission.BLUETOOTH_ADMIN"
+              },
+              {
+                "name": "android.permission.FOREGROUND_SERVICE"
+              },
+              {
+                "name": "android.permission.FOREGROUND_SERVICE_CONNECTED_DEVICE"
+              },
+              {
+                "name": "android.permission.FOREGROUND_SERVICE_MEDIA_PLAYBACK"
+              },
+              {
+                "name": "android.permission.GET_ACCOUNTS"
+              },
+              {
+                "name": "com.google.android.c2dm.permission.RECEIVE"
+              },
+              {
+                "name": "android.permission.POST_NOTIFICATIONS"
+              },
+              {
+                "name": "android.permission.READ_PHONE_STATE"
+              },
+              {
+                "name": "android.permission.WRITE_EXTERNAL_STORAGE",
+                "maxSdkVersion": 32
+              },
+              {
+                "name": "android.permission.READ_EXTERNAL_STORAGE",
+                "maxSdkVersion": 32
+              },
+              {
+                "name": "android.permission.RECEIVE_BOOT_COMPLETED"
+              },
+              {
+                "name": "com.android.launcher.permission.INSTALL_SHORTCUT"
+              },
+              {
+                "name": "android.permission.BLUETOOTH_CONNECT"
+              },
+              {
+                "name": "com.amazon.privacypass.ATTEST"
+              },
+              {
+                "name": "com.google.android.providers.gsf.permission.READ_GSERVICES"
+              },
+              {
+                "name": "com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE"
+              },
+              {
+                "name": "com.android.vending.BILLING"
+              },
+              {
+                "name": "com.android.providers.tv.permission.WRITE_EPG_DATA"
+              },
+              {
+                "name": "com.android.providers.tv.permission.READ_EPG_DATA"
+              },
+              {
+                "name": "com.pandora.android.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+              }
+            ],
+            "usesPermissionSdk23": [
+              {
+                "name": "android.permission.RECORD_AUDIO"
+              },
+              {
+                "name": "android.permission.CHANGE_WIFI_MULTICAST_STATE"
               }
             ]
           }
