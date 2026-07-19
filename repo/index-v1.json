@@ -1,6 +1,6 @@
 {
   "repo": {
-    "timestamp": 1784501805000,
+    "timestamp": 1784502280000,
     "version": 20002,
     "name": "ReVanced F-Droid",
     "icon": "icon.png",
@@ -294,7 +294,7 @@
       {
         "added": 1784501796000,
         "apkName": "at.willhaben_8.52.0_revanced.apk",
-        "hash": "fda08b31f4715d8661b42f54612d99ee90a0b7d95782ac44787e08b20db97c0e",
+        "hash": "9ccfcd0ae67754c8892f4cb88a9cd2974df99cf92fcb6145fb979a8dd65bd32c",
         "hashType": "sha256",
         "minSdkVersion": 26,
         "nativecode": [
@@ -402,7 +402,7 @@
       {
         "added": 1784501797000,
         "apkName": "ch.protonvpn.android_5.19.43.0_revanced.apk",
-        "hash": "b6bf26700f1ae15cea309697f8176681ad73e8c1b42adc16626f79cb92dbbe22",
+        "hash": "90b9fe3ff2292d86c53b7061898314e68b3a515532b3e704e5454349ca6629eb",
         "hashType": "sha256",
         "minSdkVersion": 26,
         "nativecode": [
@@ -417,7 +417,7 @@
         "packageName": "ch.protonvpn.android.revanced",
         "sig": "5837ab34622f0917305f6d32bc00ab0a",
         "signer": "990aa515644a3f1528c122f2ce9ceb19f404912532394579ebedaea32c99cde9",
-        "size": 59490104,
+        "size": 59469624,
         "targetSdkVersion": 35,
         "uses-permission": [
           [

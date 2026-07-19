@@ -14,7 +14,7 @@
       }
     },
     "address": "https://fdroid-revanced.github.io/repo",
-    "timestamp": 1784501805000,
+    "timestamp": 1784502280000,
     "categories": {
       "Multimedia": {
         "name": {
@@ -144,11 +144,11 @@
         "preferredSigner": "990aa515644a3f1528c122f2ce9ceb19f404912532394579ebedaea32c99cde9"
       },
       "versions": {
-        "fda08b31f4715d8661b42f54612d99ee90a0b7d95782ac44787e08b20db97c0e": {
+        "9ccfcd0ae67754c8892f4cb88a9cd2974df99cf92fcb6145fb979a8dd65bd32c": {
           "added": 1784501796000,
           "file": {
             "name": "/at.willhaben_8.52.0_revanced.apk",
-            "sha256": "fda08b31f4715d8661b42f54612d99ee90a0b7d95782ac44787e08b20db97c0e",
+            "sha256": "9ccfcd0ae67754c8892f4cb88a9cd2974df99cf92fcb6145fb979a8dd65bd32c",
             "size": 23634953
           },
           "manifest": {
@@ -262,12 +262,12 @@
         "preferredSigner": "990aa515644a3f1528c122f2ce9ceb19f404912532394579ebedaea32c99cde9"
       },
       "versions": {
-        "b6bf26700f1ae15cea309697f8176681ad73e8c1b42adc16626f79cb92dbbe22": {
+        "90b9fe3ff2292d86c53b7061898314e68b3a515532b3e704e5454349ca6629eb": {
           "added": 1784501797000,
           "file": {
             "name": "/ch.protonvpn.android_5.19.43.0_revanced.apk",
-            "sha256": "b6bf26700f1ae15cea309697f8176681ad73e8c1b42adc16626f79cb92dbbe22",
-            "size": 59490104
+            "sha256": "90b9fe3ff2292d86c53b7061898314e68b3a515532b3e704e5454349ca6629eb",
+            "size": 59469624
           },
           "manifest": {
             "nativecode": [
