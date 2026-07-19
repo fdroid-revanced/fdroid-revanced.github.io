@@ -10,23 +10,7 @@
     "-c"
   ],
   "disabled": [],
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-  "endTimestamp": 1784499837464,
-=======
-  "endTimestamp": 1784499855450,
->>>>>>> Stashed changes
-=======
-  "endTimestamp": 1784499872062,
->>>>>>> Stashed changes
-=======
-  "endTimestamp": 1784499885520,
->>>>>>> Stashed changes
-=======
-  "endTimestamp": 1784499949224,
->>>>>>> Stashed changes
+  "endTimestamp": 1784501682656,
   "failedBuilds": {},
   "jarsigner": "/home/runner/.local/share/mise/installs/java/temurin-21.0.7+6.0.LTS/bin/jarsigner",
   "keytool": "/home/runner/.local/share/mise/installs/java/temurin-21.0.7+6.0.LTS/bin/keytool",
@@ -73,62 +57,14 @@
     "ml.docilealligator.infinityforreddit.revanced"
   ],
   "stages": {
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-    "delete_disabled_builds": 1784499827152,
-    "index.make repo": 1784499835290,
-    "prepare_apps repo": 1784499835288,
-    "process_apks": 1784499827152,
-    "read_added_date_from_all_apks": 1784499835288,
-    "remove_apks": 1784499835287,
-    "scan_repo_files": 1784499835287
+    "delete_disabled_builds": 1784501664360,
+    "index.make repo": 1784501680066,
+    "prepare_apps repo": 1784501680063,
+    "process_apks": 1784501664360,
+    "read_added_date_from_all_apks": 1784501680062,
+    "remove_apks": 1784501680061,
+    "scan_repo_files": 1784501680060
   },
-  "startTimestamp": 1784499827000,
-=======
-    "delete_disabled_builds": 1784499843429,
-    "index.make repo": 1784499853275,
-    "prepare_apps repo": 1784499853274,
-    "process_apks": 1784499843429,
-    "read_added_date_from_all_apks": 1784499853273,
-    "remove_apks": 1784499853262,
-    "scan_repo_files": 1784499853262
-  },
-  "startTimestamp": 1784499843000,
->>>>>>> Stashed changes
-=======
-    "delete_disabled_builds": 1784499861529,
-    "index.make repo": 1784499869890,
-    "prepare_apps repo": 1784499869889,
-    "process_apks": 1784499861529,
-    "read_added_date_from_all_apks": 1784499869889,
-    "remove_apks": 1784499869888,
-    "scan_repo_files": 1784499869887
-  },
-  "startTimestamp": 1784499861000,
->>>>>>> Stashed changes
-=======
-    "delete_disabled_builds": 1784499876598,
-    "index.make repo": 1784499883565,
-    "prepare_apps repo": 1784499883564,
-    "process_apks": 1784499876605,
-    "read_added_date_from_all_apks": 1784499883563,
-    "remove_apks": 1784499883563,
-    "scan_repo_files": 1784499883562
-  },
-  "startTimestamp": 1784499876000,
->>>>>>> Stashed changes
-=======
-    "delete_disabled_builds": 1784499938206,
-    "index.make repo": 1784499947260,
-    "prepare_apps repo": 1784499947259,
-    "process_apks": 1784499938474,
-    "read_added_date_from_all_apks": 1784499947259,
-    "remove_apks": 1784499947258,
-    "scan_repo_files": 1784499947258
-  },
-  "startTimestamp": 1784499937000,
->>>>>>> Stashed changes
+  "startTimestamp": 1784501664000,
   "subcommand": "update"
 }
