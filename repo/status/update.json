@@ -10,7 +10,7 @@
     "-c"
   ],
   "disabled": [],
-  "endTimestamp": 1784495648047,
+  "endTimestamp": 1784499139584,
   "failedBuilds": {},
   "jarsigner": "/home/runner/.local/share/mise/installs/java/temurin-21.0.7+6.0.LTS/bin/jarsigner",
   "keytool": "/home/runner/.local/share/mise/installs/java/temurin-21.0.7+6.0.LTS/bin/keytool",
@@ -21,6 +21,7 @@
     "com.nis.app.revanced",
     "com.onelouder.baconreader.revanced",
     "com.pandora.android.revanced",
+    "com.sec.android.app.fm.revanced",
     "eu.faircode.netguard.revanced"
   ],
   "noPackages": [
@@ -30,6 +31,7 @@
     "com.nis.app.revanced",
     "com.onelouder.baconreader.revanced",
     "com.pandora.android.revanced",
+    "com.sec.android.app.fm.revanced",
     "eu.faircode.netguard.revanced"
   ],
   "noUpdateCheck": [
@@ -39,17 +41,18 @@
     "com.nis.app.revanced",
     "com.onelouder.baconreader.revanced",
     "com.pandora.android.revanced",
+    "com.sec.android.app.fm.revanced",
     "eu.faircode.netguard.revanced"
   ],
   "stages": {
-    "delete_disabled_builds": 1784495638378,
-    "index.make repo": 1784495645874,
-    "prepare_apps repo": 1784495645872,
-    "process_apks": 1784495638378,
-    "read_added_date_from_all_apks": 1784495645872,
-    "remove_apks": 1784495645871,
-    "scan_repo_files": 1784495645870
+    "delete_disabled_builds": 1784499129079,
+    "index.make repo": 1784499137412,
+    "prepare_apps repo": 1784499137410,
+    "process_apks": 1784499129079,
+    "read_added_date_from_all_apks": 1784499137410,
+    "remove_apks": 1784499137409,
+    "scan_repo_files": 1784499137408
   },
-  "startTimestamp": 1784495638000,
+  "startTimestamp": 1784499128000,
   "subcommand": "update"
 }

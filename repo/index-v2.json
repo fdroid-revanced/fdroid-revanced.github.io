@@ -14,7 +14,7 @@
       }
     },
     "address": "https://fdroid-revanced.github.io/repo",
-    "timestamp": 1784495645000,
+    "timestamp": 1784499137000,
     "categories": {
       "Multimedia": {
         "name": {
@@ -735,6 +735,186 @@
               },
               {
                 "name": "android.permission.CHANGE_WIFI_MULTICAST_STATE"
+              }
+            ]
+          }
+        }
+      }
+    },
+    "com.sec.android.app.fm.revanced": {
+      "metadata": {
+        "added": 1784499136000,
+        "categories": [
+          "Multimedia"
+        ],
+        "lastUpdated": 1784499136000,
+        "authorName": "ReVanced (patched)",
+        "name": {
+          "en-US": "Radio"
+        },
+        "description": {
+          "en-US": "ReVanced-patched build of com.sec.android.app.fm.\n\nPatches applied:\n- INFO: \"Bypass device checks\" succeeded\n- INFO: \"Fix crashes\" succeeded\n- INFO: \"Change package name\" succeeded\n"
+        },
+        "preferredSigner": "990aa515644a3f1528c122f2ce9ceb19f404912532394579ebedaea32c99cde9"
+      },
+      "versions": {
+        "31aa2cb239ced497d8d38e7a6c48cb79698d1ec53247116584f563e488dcd952": {
+          "added": 1784499136000,
+          "file": {
+            "name": "/com.sec.android.app.fm_12.4.00.7_revanced.apk",
+            "sha256": "31aa2cb239ced497d8d38e7a6c48cb79698d1ec53247116584f563e488dcd952",
+            "size": 5991725
+          },
+          "manifest": {
+            "nativecode": [
+              "arm64-v8a",
+              "armeabi-v7a"
+            ],
+            "versionName": "12.4.00.7",
+            "versionCode": 1240007000,
+            "features": [
+              {
+                "name": "com.samsung.android.api.version.3501"
+              },
+              {
+                "name": "com.samsung.feature.device_category_phone"
+              },
+              {
+                "name": "com.samsung.feature.samsung_experience_mobile"
+              }
+            ],
+            "usesSdk": {
+              "minSdkVersion": 33,
+              "targetSdkVersion": 35
+            },
+            "signer": {
+              "sha256": [
+                "990aa515644a3f1528c122f2ce9ceb19f404912532394579ebedaea32c99cde9"
+              ]
+            },
+            "usesPermission": [
+              {
+                "name": "com.samsung.android.permission.LOCK_TASK_MODE"
+              },
+              {
+                "name": "android.permission.READ_MEDIA_AUDIO"
+              },
+              {
+                "name": "android.permission.READ_EXTERNAL_STORAGE",
+                "maxSdkVersion": 32
+              },
+              {
+                "name": "android.permission.WRITE_EXTERNAL_STORAGE",
+                "maxSdkVersion": 32
+              },
+              {
+                "name": "android.permission.ACCESS_NETWORK_STATE"
+              },
+              {
+                "name": "android.permission.RECORD_AUDIO"
+              },
+              {
+                "name": "android.permission.WRITE_MEDIA_STORAGE",
+                "maxSdkVersion": 32
+              },
+              {
+                "name": "android.permission.WAKE_LOCK"
+              },
+              {
+                "name": "android.permission.ACCESS_WIFI_STATE"
+              },
+              {
+                "name": "android.permission.READ_PRIVILEGED_PHONE_STATE"
+              },
+              {
+                "name": "android.permission.MODIFY_AUDIO_SETTINGS"
+              },
+              {
+                "name": "android.permission.WRITE_SETTINGS"
+              },
+              {
+                "name": "android.permission.GET_TASKS"
+              },
+              {
+                "name": "com.sec.android.app.fm.permission.setproperty"
+              },
+              {
+                "name": "com.sec.android.app.fm.permission.BROADCAST"
+              },
+              {
+                "name": "android.permission.INTERNET"
+              },
+              {
+                "name": "com.wssnps.permission.COM_WSSNPS"
+              },
+              {
+                "name": "android.permission.MANAGE_USERS"
+              },
+              {
+                "name": "android.permission.STATUS_BAR"
+              },
+              {
+                "name": "com.sec.android.settings.permission.SOFT_RESET"
+              },
+              {
+                "name": "com.samsung.android.providers.context.permission.WRITE_USE_APP_FEATURE_SURVEY"
+              },
+              {
+                "name": "android.permission.INTERACT_ACROSS_USERS"
+              },
+              {
+                "name": "android.permission.FOREGROUND_SERVICE"
+              },
+              {
+                "name": "android.permission.FOREGROUND_SERVICE_MEDIA_PLAYBACK"
+              },
+              {
+                "name": "com.samsung.android.app.reminder.permission.action.REGISTER"
+              },
+              {
+                "name": "com.sec.android.app.samsungapps.accesspermission.UPDATE_EXISTS"
+              },
+              {
+                "name": "com.sec.spp.permission.TOKEN_53ce2b8048f86b7d94281a80249f1f59c6df576262ffcdab3ec3676f1093e96663bd4110b8796a098e1a77da651641a9430c8879a82d3cb78aafd90747a7c9742be00dac9a188ab65e62ecd63df448b2f2c215561012ff95e48009161033a7acde8d5eb3835fd53e4aface4988d59789a57dec295dd7873c3b715af66c07093b"
+              },
+              {
+                "name": "com.sec.android.diagmonagent.permission.DIAGMON"
+              },
+              {
+                "name": "com.sec.android.diagmonagent.permission.PROVIDER"
+              },
+              {
+                "name": "android.permission.MANAGE_USB"
+              },
+              {
+                "name": "android.permission.CAPTURE_AUDIO_OUTPUT"
+              },
+              {
+                "name": "com.samsung.android.launcher.permission.READ_SETTINGS"
+              },
+              {
+                "name": "android.permission.READ_SEARCH_INDEXABLES"
+              },
+              {
+                "name": "android.permission.SCHEDULE_EXACT_ALARM"
+              },
+              {
+                "name": "android.permission.START_FOREGROUND_SERVICES_FROM_BACKGROUND"
+              },
+              {
+                "name": "android.permission.FOREGROUND_SERVICE_MICROPHONE"
+              },
+              {
+                "name": "android.permission.POST_NOTIFICATIONS"
+              },
+              {
+                "name": "com.sec.android.app.fm.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+              },
+              {
+                "name": "android.permission.RECEIVE_BOOT_COMPLETED"
+              },
+              {
+                "name": "android.permission.READ_PHONE_STATE"
               }
             ]
           }
