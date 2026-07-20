@@ -1,6 +1,6 @@
 {
   "repo": {
-    "timestamp": 1784544663000,
+    "timestamp": 1784570395000,
     "version": 20002,
     "name": "ReVanced F-Droid",
     "icon": "icon.png",
@@ -437,7 +437,7 @@
       {
         "added": 1784501797000,
         "apkName": "ch.protonvpn.android_5.19.43.0_revanced.apk",
-        "hash": "5cd2fd212c4503f61371912a965d4118ac38a625d6246c6f932dd01470dc0540",
+        "hash": "a20702732884b57301bbd3106619e1c9582da8c0233404d38803edcba5f1e520",
         "hashType": "sha256",
         "minSdkVersion": 26,
         "nativecode": [
@@ -452,7 +452,7 @@
         "packageName": "ch.protonvpn.android.revanced",
         "sig": "5837ab34622f0917305f6d32bc00ab0a",
         "signer": "990aa515644a3f1528c122f2ce9ceb19f404912532394579ebedaea32c99cde9",
-        "size": 59543352,
+        "size": 59547448,
         "targetSdkVersion": 35,
         "uses-permission": [
           [
@@ -853,13 +853,13 @@
       {
         "added": 1784501801000,
         "apkName": "com.onelouder.baconreader_6.1.4_revanced.apk",
-        "hash": "6d8ebb8abf2f579144738f697a5dde46407752353f4c10526654a090e51a9d7c",
+        "hash": "0a738845735318897190e335e5e25024f833cdb422557fce29adf971bf31a92f",
         "hashType": "sha256",
         "minSdkVersion": 22,
         "packageName": "com.onelouder.baconreader.revanced",
         "sig": "5837ab34622f0917305f6d32bc00ab0a",
         "signer": "990aa515644a3f1528c122f2ce9ceb19f404912532394579ebedaea32c99cde9",
-        "size": 20993897,
+        "size": 20969321,
         "targetSdkVersion": 31,
         "uses-permission": [
           [
