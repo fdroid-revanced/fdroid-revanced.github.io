@@ -1,6 +1,6 @@
 {
   "repo": {
-    "timestamp": 1784514984000,
+    "timestamp": 1784544663000,
     "version": 20002,
     "name": "ReVanced F-Droid",
     "icon": "icon.png",
@@ -931,7 +931,7 @@
       {
         "added": 1784501802000,
         "apkName": "com.pandora.android_2607.1_revanced.apk",
-        "hash": "759474e8e05a29112015e0f718db1c75df45159fc11c133b4ddd06e296911804",
+        "hash": "e64e5b953791ebc446ff61883a52035c9467405f2a15463e24fb1442a5d91bcb",
         "hashType": "sha256",
         "minSdkVersion": 24,
         "nativecode": [
@@ -943,7 +943,7 @@
         "packageName": "com.pandora.android.revanced",
         "sig": "5837ab34622f0917305f6d32bc00ab0a",
         "signer": "990aa515644a3f1528c122f2ce9ceb19f404912532394579ebedaea32c99cde9",
-        "size": 75832837,
+        "size": 75877893,
         "targetSdkVersion": 35,
         "uses-permission": [
           [
@@ -1266,7 +1266,7 @@
           "com.samsung.feature.device_category_phone",
           "com.samsung.feature.samsung_experience_mobile"
         ],
-        "hash": "2153ebf9d31bcf4f0fefbaaf8380c6ace871605ab06e86aa3209c08dd0e4aded",
+        "hash": "e2d4fd7007f59e235045f4541a226eae2659af88886da5048fe0181d876fc91d",
         "hashType": "sha256",
         "minSdkVersion": 33,
         "nativecode": [
@@ -1276,7 +1276,7 @@
         "packageName": "com.sec.android.app.fm.revanced",
         "sig": "5837ab34622f0917305f6d32bc00ab0a",
         "signer": "990aa515644a3f1528c122f2ce9ceb19f404912532394579ebedaea32c99cde9",
-        "size": 5987629,
+        "size": 5991725,
         "targetSdkVersion": 35,
         "uses-permission": [
           [
@@ -1448,7 +1448,7 @@
       {
         "added": 1784501803000,
         "apkName": "eu.faircode.netguard_2.335_revanced.apk",
-        "hash": "3bf0586423f73e940cf9e07d4103b97c2fd6a588beb7af30bfa54e1a9a1fde2b",
+        "hash": "e64c81472f267cf274353a877552ab3a780b9cb36a155a5dc8e827423940dea1",
         "hashType": "sha256",
         "minSdkVersion": 22,
         "nativecode": [
@@ -1460,7 +1460,7 @@
         "packageName": "eu.faircode.netguard.revanced",
         "sig": "5837ab34622f0917305f6d32bc00ab0a",
         "signer": "990aa515644a3f1528c122f2ce9ceb19f404912532394579ebedaea32c99cde9",
-        "size": 3469098,
+        "size": 3473194,
         "targetSdkVersion": 35,
         "uses-permission": [
           [

@@ -14,7 +14,7 @@
       }
     },
     "address": "https://fdroid-revanced.github.io/repo",
-    "timestamp": 1784514984000,
+    "timestamp": 1784544663000,
     "categories": {
       "Multimedia": {
         "name": {
@@ -826,12 +826,12 @@
         "preferredSigner": "990aa515644a3f1528c122f2ce9ceb19f404912532394579ebedaea32c99cde9"
       },
       "versions": {
-        "759474e8e05a29112015e0f718db1c75df45159fc11c133b4ddd06e296911804": {
+        "e64e5b953791ebc446ff61883a52035c9467405f2a15463e24fb1442a5d91bcb": {
           "added": 1784501802000,
           "file": {
             "name": "/com.pandora.android_2607.1_revanced.apk",
-            "sha256": "759474e8e05a29112015e0f718db1c75df45159fc11c133b4ddd06e296911804",
-            "size": 75832837
+            "sha256": "e64e5b953791ebc446ff61883a52035c9467405f2a15463e24fb1442a5d91bcb",
+            "size": 75877893
           },
           "manifest": {
             "nativecode": [
@@ -1171,12 +1171,12 @@
         "preferredSigner": "990aa515644a3f1528c122f2ce9ceb19f404912532394579ebedaea32c99cde9"
       },
       "versions": {
-        "2153ebf9d31bcf4f0fefbaaf8380c6ace871605ab06e86aa3209c08dd0e4aded": {
+        "e2d4fd7007f59e235045f4541a226eae2659af88886da5048fe0181d876fc91d": {
           "added": 1784501803000,
           "file": {
             "name": "/com.sec.android.app.fm_12.4.00.7_revanced.apk",
-            "sha256": "2153ebf9d31bcf4f0fefbaaf8380c6ace871605ab06e86aa3209c08dd0e4aded",
-            "size": 5987629
+            "sha256": "e2d4fd7007f59e235045f4541a226eae2659af88886da5048fe0181d876fc91d",
+            "size": 5991725
           },
           "manifest": {
             "nativecode": [
@@ -1358,12 +1358,12 @@
         "preferredSigner": "990aa515644a3f1528c122f2ce9ceb19f404912532394579ebedaea32c99cde9"
       },
       "versions": {
-        "3bf0586423f73e940cf9e07d4103b97c2fd6a588beb7af30bfa54e1a9a1fde2b": {
+        "e64c81472f267cf274353a877552ab3a780b9cb36a155a5dc8e827423940dea1": {
           "added": 1784501803000,
           "file": {
             "name": "/eu.faircode.netguard_2.335_revanced.apk",
-            "sha256": "3bf0586423f73e940cf9e07d4103b97c2fd6a588beb7af30bfa54e1a9a1fde2b",
-            "size": 3469098
+            "sha256": "e64c81472f267cf274353a877552ab3a780b9cb36a155a5dc8e827423940dea1",
+            "size": 3473194
           },
           "manifest": {
             "nativecode": [
