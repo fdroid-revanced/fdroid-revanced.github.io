@@ -1,6 +1,6 @@
 {
   "repo": {
-    "timestamp": 1784504727000,
+    "timestamp": 1784514984000,
     "version": 20002,
     "name": "ReVanced F-Droid",
     "icon": "icon.png",
@@ -245,7 +245,7 @@
         "features": [
           "android.hardware.camera"
         ],
-        "hash": "28c14331493041ef8e6ca17a94cb81979e6a8e12215e2f8bf3c17d98023018bd",
+        "hash": "d48cf8183f5f26ab1137528b9c08914c043192abc7b2b4feaaea3524aca93cdf",
         "hashType": "sha256",
         "minSdkVersion": 31,
         "nativecode": [
@@ -257,7 +257,7 @@
         "packageName": "at.gv.oe.app.revanced",
         "sig": "5837ab34622f0917305f6d32bc00ab0a",
         "signer": "990aa515644a3f1528c122f2ce9ceb19f404912532394579ebedaea32c99cde9",
-        "size": 55532910,
+        "size": 55520622,
         "targetSdkVersion": 35,
         "uses-permission": [
           [
@@ -1266,7 +1266,7 @@
           "com.samsung.feature.device_category_phone",
           "com.samsung.feature.samsung_experience_mobile"
         ],
-        "hash": "e7405ab5073b547cf4d3fab393534bb2b139e6fa6ae6c54f58ccf6e2f5666607",
+        "hash": "2153ebf9d31bcf4f0fefbaaf8380c6ace871605ab06e86aa3209c08dd0e4aded",
         "hashType": "sha256",
         "minSdkVersion": 33,
         "nativecode": [

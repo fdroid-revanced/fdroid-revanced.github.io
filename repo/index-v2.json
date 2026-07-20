@@ -14,7 +14,7 @@
       }
     },
     "address": "https://fdroid-revanced.github.io/repo",
-    "timestamp": 1784504727000,
+    "timestamp": 1784514984000,
     "categories": {
       "Multimedia": {
         "name": {
@@ -46,12 +46,12 @@
         "preferredSigner": "990aa515644a3f1528c122f2ce9ceb19f404912532394579ebedaea32c99cde9"
       },
       "versions": {
-        "28c14331493041ef8e6ca17a94cb81979e6a8e12215e2f8bf3c17d98023018bd": {
+        "d48cf8183f5f26ab1137528b9c08914c043192abc7b2b4feaaea3524aca93cdf": {
           "added": 1784501795000,
           "file": {
             "name": "/at.gv.oe.app_5.5.0_revanced.apk",
-            "sha256": "28c14331493041ef8e6ca17a94cb81979e6a8e12215e2f8bf3c17d98023018bd",
-            "size": 55532910
+            "sha256": "d48cf8183f5f26ab1137528b9c08914c043192abc7b2b4feaaea3524aca93cdf",
+            "size": 55520622
           },
           "manifest": {
             "nativecode": [
@@ -1171,11 +1171,11 @@
         "preferredSigner": "990aa515644a3f1528c122f2ce9ceb19f404912532394579ebedaea32c99cde9"
       },
       "versions": {
-        "e7405ab5073b547cf4d3fab393534bb2b139e6fa6ae6c54f58ccf6e2f5666607": {
+        "2153ebf9d31bcf4f0fefbaaf8380c6ace871605ab06e86aa3209c08dd0e4aded": {
           "added": 1784501803000,
           "file": {
             "name": "/com.sec.android.app.fm_12.4.00.7_revanced.apk",
-            "sha256": "e7405ab5073b547cf4d3fab393534bb2b139e6fa6ae6c54f58ccf6e2f5666607",
+            "sha256": "2153ebf9d31bcf4f0fefbaaf8380c6ace871605ab06e86aa3209c08dd0e4aded",
             "size": 5987629
           },
           "manifest": {
