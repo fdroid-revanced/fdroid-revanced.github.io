@@ -1,6 +1,6 @@
 {
   "repo": {
-    "timestamp": 1784629446000,
+    "timestamp": 1784654182000,
     "version": 20002,
     "name": "ReVanced F-Droid",
     "icon": "icon.png",
@@ -931,7 +931,7 @@
       {
         "added": 1784501802000,
         "apkName": "com.pandora.android_2607.1_revanced.apk",
-        "hash": "a2905aa30a2f11a06c58fb6670a909139f2097ad74e556318ff877214173d47a",
+        "hash": "5647c30d12fd4df8d290166eac80bc51038e9cabc29d2483f757bb29cf44ca56",
         "hashType": "sha256",
         "minSdkVersion": 24,
         "nativecode": [
@@ -943,7 +943,7 @@
         "packageName": "com.pandora.android.revanced",
         "sig": "5837ab34622f0917305f6d32bc00ab0a",
         "signer": "990aa515644a3f1528c122f2ce9ceb19f404912532394579ebedaea32c99cde9",
-        "size": 75783685,
+        "size": 76025349,
         "targetSdkVersion": 35,
         "uses-permission": [
           [
