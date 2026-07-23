@@ -14,7 +14,7 @@
       }
     },
     "address": "https://fdroid-revanced.github.io/repo",
-    "timestamp": 1784801898000,
+    "timestamp": 1784827255000,
     "categories": {
       "Multimedia": {
         "name": {
@@ -975,12 +975,12 @@
         "preferredSigner": "990aa515644a3f1528c122f2ce9ceb19f404912532394579ebedaea32c99cde9"
       },
       "versions": {
-        "862283ff394071974b03e309c0c142cbfdf6514bf3523f962c0fcb432b18cece": {
+        "d54349afba62368be3f4e423258eb8060582d38c39255747906bae1e0137d326": {
           "added": 1784502646000,
           "file": {
             "name": "/com.rubenmayayo.reddit_1.12.12_revanced.apk",
-            "sha256": "862283ff394071974b03e309c0c142cbfdf6514bf3523f962c0fcb432b18cece",
-            "size": 18988125
+            "sha256": "d54349afba62368be3f4e423258eb8060582d38c39255747906bae1e0137d326",
+            "size": 19012701
           },
           "manifest": {
             "nativecode": [
