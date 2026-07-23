@@ -1,6 +1,6 @@
 {
   "repo": {
-    "timestamp": 1784773437000,
+    "timestamp": 1784801898000,
     "version": 20002,
     "name": "ReVanced F-Droid",
     "icon": "icon.png",
@@ -616,7 +616,7 @@
       {
         "added": 1784501799000,
         "apkName": "com.bandcamp.android_3.3.6_revanced.apk",
-        "hash": "1cf3c0a3b00dcc34fcb2506ac4b5caaae73f3fc07090d2121b5521afb49f5d06",
+        "hash": "1e315ffec72b8f04f42000e003e2fdcb7f279452a0286abf3f3efbc3f1d83efb",
         "hashType": "sha256",
         "minSdkVersion": 24,
         "nativecode": [
@@ -628,7 +628,7 @@
         "packageName": "com.bandcamp.android.revanced",
         "sig": "5837ab34622f0917305f6d32bc00ab0a",
         "signer": "990aa515644a3f1528c122f2ce9ceb19f404912532394579ebedaea32c99cde9",
-        "size": 15081933,
+        "size": 15069645,
         "targetSdkVersion": 36,
         "uses-permission": [
           [
@@ -1077,7 +1077,7 @@
       {
         "added": 1784502646000,
         "apkName": "com.rubenmayayo.reddit_1.12.12_revanced.apk",
-        "hash": "2884152c9a1edb49853ad54ca98bee7e6c931d435bf77272d769ef35961effac",
+        "hash": "862283ff394071974b03e309c0c142cbfdf6514bf3523f962c0fcb432b18cece",
         "hashType": "sha256",
         "minSdkVersion": 21,
         "nativecode": [
@@ -1092,7 +1092,7 @@
         "packageName": "com.rubenmayayo.reddit.revanced",
         "sig": "5837ab34622f0917305f6d32bc00ab0a",
         "signer": "990aa515644a3f1528c122f2ce9ceb19f404912532394579ebedaea32c99cde9",
-        "size": 19024989,
+        "size": 18988125,
         "targetSdkVersion": 32,
         "uses-permission": [
           [
