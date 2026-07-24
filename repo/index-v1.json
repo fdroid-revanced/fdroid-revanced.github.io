@@ -1,6 +1,6 @@
 {
   "repo": {
-    "timestamp": 1784859378000,
+    "timestamp": 1784888132000,
     "version": 20002,
     "name": "ReVanced F-Droid",
     "icon": "icon.png",
@@ -245,7 +245,7 @@
         "features": [
           "android.hardware.camera"
         ],
-        "hash": "42a026d1b256224db411c504a9dfb66f6fe35705dc261d670bf62820f6362da9",
+        "hash": "fdde8dd47854033180ca6f81559a268bb806548b9b03884b21e645a63bdc89b4",
         "hashType": "sha256",
         "minSdkVersion": 31,
         "nativecode": [
@@ -257,7 +257,7 @@
         "packageName": "at.gv.oe.app.revanced",
         "sig": "5837ab34622f0917305f6d32bc00ab0a",
         "signer": "990aa515644a3f1528c122f2ce9ceb19f404912532394579ebedaea32c99cde9",
-        "size": 55541102,
+        "size": 55528814,
         "targetSdkVersion": 35,
         "uses-permission": [
           [
