@@ -14,7 +14,7 @@
       }
     },
     "address": "https://fdroid-revanced.github.io/repo",
-    "timestamp": 1784827255000,
+    "timestamp": 1784859378000,
     "categories": {
       "Multimedia": {
         "name": {
@@ -46,12 +46,12 @@
         "preferredSigner": "990aa515644a3f1528c122f2ce9ceb19f404912532394579ebedaea32c99cde9"
       },
       "versions": {
-        "d48cf8183f5f26ab1137528b9c08914c043192abc7b2b4feaaea3524aca93cdf": {
+        "42a026d1b256224db411c504a9dfb66f6fe35705dc261d670bf62820f6362da9": {
           "added": 1784501795000,
           "file": {
             "name": "/at.gv.oe.app_5.5.0_revanced.apk",
-            "sha256": "d48cf8183f5f26ab1137528b9c08914c043192abc7b2b4feaaea3524aca93cdf",
-            "size": 55520622
+            "sha256": "42a026d1b256224db411c504a9dfb66f6fe35705dc261d670bf62820f6362da9",
+            "size": 55541102
           },
           "manifest": {
             "nativecode": [
@@ -729,12 +729,12 @@
         "preferredSigner": "990aa515644a3f1528c122f2ce9ceb19f404912532394579ebedaea32c99cde9"
       },
       "versions": {
-        "0a738845735318897190e335e5e25024f833cdb422557fce29adf971bf31a92f": {
+        "dedf6c82031319ae136c3405df3f37e3a159418b35309799c0b7e898dfd2d477": {
           "added": 1784501801000,
           "file": {
             "name": "/com.onelouder.baconreader_6.1.4_revanced.apk",
-            "sha256": "0a738845735318897190e335e5e25024f833cdb422557fce29adf971bf31a92f",
-            "size": 20969321
+            "sha256": "dedf6c82031319ae136c3405df3f37e3a159418b35309799c0b7e898dfd2d477",
+            "size": 20936553
           },
           "manifest": {
             "versionName": "6.1.4",

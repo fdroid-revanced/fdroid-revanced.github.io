@@ -1,6 +1,6 @@
 {
   "repo": {
-    "timestamp": 1784827255000,
+    "timestamp": 1784859378000,
     "version": 20002,
     "name": "ReVanced F-Droid",
     "icon": "icon.png",
@@ -245,7 +245,7 @@
         "features": [
           "android.hardware.camera"
         ],
-        "hash": "d48cf8183f5f26ab1137528b9c08914c043192abc7b2b4feaaea3524aca93cdf",
+        "hash": "42a026d1b256224db411c504a9dfb66f6fe35705dc261d670bf62820f6362da9",
         "hashType": "sha256",
         "minSdkVersion": 31,
         "nativecode": [
@@ -257,7 +257,7 @@
         "packageName": "at.gv.oe.app.revanced",
         "sig": "5837ab34622f0917305f6d32bc00ab0a",
         "signer": "990aa515644a3f1528c122f2ce9ceb19f404912532394579ebedaea32c99cde9",
-        "size": 55520622,
+        "size": 55541102,
         "targetSdkVersion": 35,
         "uses-permission": [
           [
@@ -853,13 +853,13 @@
       {
         "added": 1784501801000,
         "apkName": "com.onelouder.baconreader_6.1.4_revanced.apk",
-        "hash": "0a738845735318897190e335e5e25024f833cdb422557fce29adf971bf31a92f",
+        "hash": "dedf6c82031319ae136c3405df3f37e3a159418b35309799c0b7e898dfd2d477",
         "hashType": "sha256",
         "minSdkVersion": 22,
         "packageName": "com.onelouder.baconreader.revanced",
         "sig": "5837ab34622f0917305f6d32bc00ab0a",
         "signer": "990aa515644a3f1528c122f2ce9ceb19f404912532394579ebedaea32c99cde9",
-        "size": 20969321,
+        "size": 20936553,
         "targetSdkVersion": 31,
         "uses-permission": [
           [
