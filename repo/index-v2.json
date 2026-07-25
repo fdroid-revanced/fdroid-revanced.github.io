@@ -14,7 +14,7 @@
       }
     },
     "address": "https://fdroid-revanced.github.io/repo",
-    "timestamp": 1784914085000,
+    "timestamp": 1784945756000,
     "categories": {
       "Multimedia": {
         "name": {
@@ -46,12 +46,12 @@
         "preferredSigner": "990aa515644a3f1528c122f2ce9ceb19f404912532394579ebedaea32c99cde9"
       },
       "versions": {
-        "fdde8dd47854033180ca6f81559a268bb806548b9b03884b21e645a63bdc89b4": {
+        "258d2b19dc16fab10f98faacf7e3fa61339efc45f2bbdf79e1a936a59c81138c": {
           "added": 1784501795000,
           "file": {
             "name": "/at.gv.oe.app_5.5.0_revanced.apk",
-            "sha256": "fdde8dd47854033180ca6f81559a268bb806548b9b03884b21e645a63bdc89b4",
-            "size": 55528814
+            "sha256": "258d2b19dc16fab10f98faacf7e3fa61339efc45f2bbdf79e1a936a59c81138c",
+            "size": 55496046
           },
           "manifest": {
             "nativecode": [
@@ -133,7 +133,7 @@
         "categories": [
           "Multimedia"
         ],
-        "lastUpdated": 1784501796000,
+        "lastUpdated": 1784945742000,
         "authorName": "ReVanced (patched)",
         "name": {
           "en-US": "willhaben"
@@ -144,6 +144,98 @@
         "preferredSigner": "990aa515644a3f1528c122f2ce9ceb19f404912532394579ebedaea32c99cde9"
       },
       "versions": {
+        "6d8363edf97c16a34a2691c4c463bb022d32df5db5f90f9fda436ddbc37882d6": {
+          "added": 1784945742000,
+          "file": {
+            "name": "/at.willhaben_8.53.0_revanced.apk",
+            "sha256": "6d8363edf97c16a34a2691c4c463bb022d32df5db5f90f9fda436ddbc37882d6",
+            "size": 23649534
+          },
+          "manifest": {
+            "nativecode": [
+              "arm64-v8a",
+              "armeabi-v7a",
+              "x86",
+              "x86_64"
+            ],
+            "versionName": "8.53.0",
+            "versionCode": 613447,
+            "usesSdk": {
+              "minSdkVersion": 26,
+              "targetSdkVersion": 37
+            },
+            "signer": {
+              "sha256": [
+                "990aa515644a3f1528c122f2ce9ceb19f404912532394579ebedaea32c99cde9"
+              ]
+            },
+            "usesPermission": [
+              {
+                "name": "android.permission.INTERNET"
+              },
+              {
+                "name": "android.permission.ACCESS_NETWORK_STATE"
+              },
+              {
+                "name": "android.permission.ACCESS_WIFI_STATE"
+              },
+              {
+                "name": "android.permission.ACCESS_COARSE_LOCATION"
+              },
+              {
+                "name": "android.permission.ACCESS_FINE_LOCATION"
+              },
+              {
+                "name": "android.permission.REORDER_TASKS"
+              },
+              {
+                "name": "android.permission.CAMERA"
+              },
+              {
+                "name": "android.permission.FLASHLIGHT"
+              },
+              {
+                "name": "android.permission.VIBRATE"
+              },
+              {
+                "name": "com.google.android.gms.permission.AD_ID"
+              },
+              {
+                "name": "android.permission.POST_NOTIFICATIONS"
+              },
+              {
+                "name": "android.permission.USE_BIOMETRIC"
+              },
+              {
+                "name": "android.permission.USE_FINGERPRINT"
+              },
+              {
+                "name": "android.permission.WAKE_LOCK"
+              },
+              {
+                "name": "android.permission.RECEIVE_BOOT_COMPLETED"
+              },
+              {
+                "name": "android.permission.FOREGROUND_SERVICE"
+              },
+              {
+                "name": "com.google.android.c2dm.permission.RECEIVE"
+              },
+              {
+                "name": "com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE"
+              },
+              {
+                "name": "android.permission.ACCESS_ADSERVICES_ATTRIBUTION"
+              },
+              {
+                "name": "android.permission.ACCESS_ADSERVICES_AD_ID"
+              },
+              {
+                "name": "at.willhaben.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+              }
+            ]
+          }
+        },
         "0bf95e200835e74bac3e7bd3937c67c14b9294e25add52fa36ae92a26dcb8518": {
           "added": 1784501796000,
           "file": {
@@ -729,12 +821,12 @@
         "preferredSigner": "990aa515644a3f1528c122f2ce9ceb19f404912532394579ebedaea32c99cde9"
       },
       "versions": {
-        "dedf6c82031319ae136c3405df3f37e3a159418b35309799c0b7e898dfd2d477": {
+        "6624d894a542f70d931661c8325b14776b232da646660b3e9651ed718285c608": {
           "added": 1784501801000,
           "file": {
             "name": "/com.onelouder.baconreader_6.1.4_revanced.apk",
-            "sha256": "dedf6c82031319ae136c3405df3f37e3a159418b35309799c0b7e898dfd2d477",
-            "size": 20936553
+            "sha256": "6624d894a542f70d931661c8325b14776b232da646660b3e9651ed718285c608",
+            "size": 20969321
           },
           "manifest": {
             "versionName": "6.1.4",
@@ -975,12 +1067,12 @@
         "preferredSigner": "990aa515644a3f1528c122f2ce9ceb19f404912532394579ebedaea32c99cde9"
       },
       "versions": {
-        "d54349afba62368be3f4e423258eb8060582d38c39255747906bae1e0137d326": {
+        "13ab698d3ad831f4ddd9c5be2a963435f5c49a7dbf40282c76bf09c47c884d82": {
           "added": 1784502646000,
           "file": {
             "name": "/com.rubenmayayo.reddit_1.12.12_revanced.apk",
-            "sha256": "d54349afba62368be3f4e423258eb8060582d38c39255747906bae1e0137d326",
-            "size": 19012701
+            "sha256": "13ab698d3ad831f4ddd9c5be2a963435f5c49a7dbf40282c76bf09c47c884d82",
+            "size": 19037277
           },
           "manifest": {
             "nativecode": [
