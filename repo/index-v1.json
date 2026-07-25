@@ -1,6 +1,6 @@
 {
   "repo": {
-    "timestamp": 1784972650000,
+    "timestamp": 1784998548000,
     "version": 20002,
     "name": "ReVanced F-Droid",
     "icon": "icon.png",
@@ -106,13 +106,13 @@
       "categories": [
         "Multimedia"
       ],
-      "suggestedVersionCode": "5070839",
+      "suggestedVersionCode": "5070889",
       "description": "ReVanced-patched build of com.nis.app.\n\nPatches applied:\n- INFO: \"Hide ads\" succeeded\n- INFO: \"Change package name\" succeeded\n",
       "license": "Unknown",
       "added": 1784501800000,
-      "icon": "com.nis.app.revanced.5070839.png",
+      "icon": "com.nis.app.revanced.5070889.png",
       "packageName": "com.nis.app.revanced",
-      "lastUpdated": 1784501800000,
+      "lastUpdated": 1784998542000,
       "localized": {
         "en-US": {
           "name": "inshorts"
@@ -245,7 +245,7 @@
         "features": [
           "android.hardware.camera"
         ],
-        "hash": "258d2b19dc16fab10f98faacf7e3fa61339efc45f2bbdf79e1a936a59c81138c",
+        "hash": "6b373aee08a69a222fe3b6a86c8c33112629c3c9d586de880832e5cba14ec232",
         "hashType": "sha256",
         "minSdkVersion": 31,
         "nativecode": [
@@ -257,7 +257,7 @@
         "packageName": "at.gv.oe.app.revanced",
         "sig": "5837ab34622f0917305f6d32bc00ab0a",
         "signer": "990aa515644a3f1528c122f2ce9ceb19f404912532394579ebedaea32c99cde9",
-        "size": 55496046,
+        "size": 55528814,
         "targetSdkVersion": 35,
         "uses-permission": [
           [
@@ -618,7 +618,7 @@
       {
         "added": 1784501798000,
         "apkName": "com.andrewshu.android.reddit_5.6.22_revanced.apk",
-        "hash": "76d73edf08a68a1ccd1cc0bdaf0b10f4b14f78b0492ba477c64f2ec2f31bee1d",
+        "hash": "adb1b3bba0899ca9070a422c7d91a1ef5c447be200f86f92b1f5ba4d379ad407",
         "hashType": "sha256",
         "minSdkVersion": 21,
         "nativecode": [
@@ -630,7 +630,7 @@
         "packageName": "com.andrewshu.android.reddit.revanced",
         "sig": "5837ab34622f0917305f6d32bc00ab0a",
         "signer": "990aa515644a3f1528c122f2ce9ceb19f404912532394579ebedaea32c99cde9",
-        "size": 14145393,
+        "size": 14141297,
         "targetSdkVersion": 33,
         "uses-permission": [
           [
@@ -819,6 +819,141 @@
       }
     ],
     "com.nis.app.revanced": [
+      {
+        "added": 1784998542000,
+        "apkName": "com.nis.app_6.12.28_revanced.apk",
+        "hash": "85367df23aa178d2fce887f170845c8655dfd599d67c7e61688adcd33e069a2c",
+        "hashType": "sha256",
+        "minSdkVersion": 24,
+        "nativecode": [
+          "armeabi-v7a"
+        ],
+        "packageName": "com.nis.app.revanced",
+        "sig": "5837ab34622f0917305f6d32bc00ab0a",
+        "signer": "990aa515644a3f1528c122f2ce9ceb19f404912532394579ebedaea32c99cde9",
+        "size": 44971557,
+        "targetSdkVersion": 36,
+        "uses-permission": [
+          [
+            "android.permission.INTERNET",
+            null
+          ],
+          [
+            "android.permission.USE_CREDENTIALS",
+            null
+          ],
+          [
+            "android.permission.VIBRATE",
+            null
+          ],
+          [
+            "android.permission.ACCESS_NETWORK_STATE",
+            null
+          ],
+          [
+            "android.permission.RECEIVE_BOOT_COMPLETED",
+            null
+          ],
+          [
+            "android.permission.WAKE_LOCK",
+            null
+          ],
+          [
+            "android.permission.ACCESS_WIFI_STATE",
+            null
+          ],
+          [
+            "com.google.android.c2dm.permission.RECEIVE",
+            null
+          ],
+          [
+            "android.permission.ACCESS_COARSE_LOCATION",
+            null
+          ],
+          [
+            "android.permission.ACCESS_FINE_LOCATION",
+            null
+          ],
+          [
+            "android.permission.CAMERA",
+            null
+          ],
+          [
+            "android.permission.RECORD_AUDIO",
+            null
+          ],
+          [
+            "android.permission.MODIFY_AUDIO_SETTINGS",
+            null
+          ],
+          [
+            "android.permission.FOREGROUND_SERVICE",
+            null
+          ],
+          [
+            "android.permission.FOREGROUND_SERVICE_MEDIA_PLAYBACK",
+            null
+          ],
+          [
+            "android.permission.CHANGE_NETWORK_STATE",
+            null
+          ],
+          [
+            "android.permission.READ_PHONE_STATE",
+            null
+          ],
+          [
+            "com.google.android.gms.permission.AD_ID",
+            null
+          ],
+          [
+            "android.permission.USE_BIOMETRIC",
+            null
+          ],
+          [
+            "android.permission.USE_FINGERPRINT",
+            null
+          ],
+          [
+            "android.permission.POST_NOTIFICATIONS",
+            null
+          ],
+          [
+            "com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE",
+            null
+          ],
+          [
+            "com.truecaller.permission.sdk.internal.read_account_state",
+            null
+          ],
+          [
+            "android.permission.ACCESS_ADSERVICES_ATTRIBUTION",
+            null
+          ],
+          [
+            "android.permission.ACCESS_ADSERVICES_AD_ID",
+            null
+          ],
+          [
+            "com.google.android.providers.gsf.permission.READ_GSERVICES",
+            null
+          ],
+          [
+            "android.permission.ACCESS_ADSERVICES_TOPICS",
+            null
+          ],
+          [
+            "android.permission.ACCESS_ADSERVICES_CUSTOM_AUDIENCE",
+            null
+          ],
+          [
+            "com.nis.app.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION",
+            null
+          ]
+        ],
+        "versionCode": 5070889,
+        "versionName": "6.12.28"
+      },
       {
         "added": 1784501800000,
         "apkName": "com.nis.app_6.12.26_revanced.apk",
@@ -1718,7 +1853,7 @@
       {
         "added": 1784501805000,
         "apkName": "ml.docilealligator.infinityforreddit_8.3.0-beta3_revanced.apk",
-        "hash": "7f980f2c4d0aeea6d8814a03e30c99576bd2c5c38eadf6bb1b71d80f120f542c",
+        "hash": "ec2b0e73f18317952a0d46cf3edc629fa5569ec3bda9e3f1f1f80e3f4f520603",
         "hashType": "sha256",
         "minSdkVersion": 21,
         "nativecode": [
@@ -1730,7 +1865,7 @@
         "packageName": "ml.docilealligator.infinityforreddit.plus.revanced",
         "sig": "5837ab34622f0917305f6d32bc00ab0a",
         "signer": "990aa515644a3f1528c122f2ce9ceb19f404912532394579ebedaea32c99cde9",
-        "size": 23612943,
+        "size": 23625231,
         "targetSdkVersion": 35,
         "uses-permission": [
           [
