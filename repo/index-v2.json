@@ -14,7 +14,7 @@
       }
     },
     "address": "https://fdroid-revanced.github.io/repo",
-    "timestamp": 1785032773000,
+    "timestamp": 1785059843000,
     "categories": {
       "Multimedia": {
         "name": {
@@ -1180,12 +1180,12 @@
         "preferredSigner": "990aa515644a3f1528c122f2ce9ceb19f404912532394579ebedaea32c99cde9"
       },
       "versions": {
-        "13ab698d3ad831f4ddd9c5be2a963435f5c49a7dbf40282c76bf09c47c884d82": {
+        "8008bd79de6348f444fffb1b450985e3bb46adf5aaa9bb4a3bde5fc37f41bc89": {
           "added": 1784502646000,
           "file": {
             "name": "/com.rubenmayayo.reddit_1.12.12_revanced.apk",
-            "sha256": "13ab698d3ad831f4ddd9c5be2a963435f5c49a7dbf40282c76bf09c47c884d82",
-            "size": 19037277
+            "sha256": "8008bd79de6348f444fffb1b450985e3bb46adf5aaa9bb4a3bde5fc37f41bc89",
+            "size": 19016797
           },
           "manifest": {
             "nativecode": [
@@ -1563,12 +1563,12 @@
         "preferredSigner": "990aa515644a3f1528c122f2ce9ceb19f404912532394579ebedaea32c99cde9"
       },
       "versions": {
-        "a1ac14f308e4d00599d2d337c3da62fc9ecc799ab4f99e9f2a82dbb7b78525e5": {
+        "5518aad23080b9b72cfaa60b5667d8a63514214c5ebe5c6c507c941a38480e1d": {
           "added": 1784501803000,
           "file": {
             "name": "/eu.faircode.netguard_2.335_revanced.apk",
-            "sha256": "a1ac14f308e4d00599d2d337c3da62fc9ecc799ab4f99e9f2a82dbb7b78525e5",
-            "size": 3465002
+            "sha256": "5518aad23080b9b72cfaa60b5667d8a63514214c5ebe5c6c507c941a38480e1d",
+            "size": 3469098
           },
           "manifest": {
             "nativecode": [

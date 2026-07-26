@@ -1,6 +1,6 @@
 {
   "repo": {
-    "timestamp": 1785032773000,
+    "timestamp": 1785059843000,
     "version": 20002,
     "name": "ReVanced F-Droid",
     "icon": "icon.png",
@@ -1318,7 +1318,7 @@
       {
         "added": 1784502646000,
         "apkName": "com.rubenmayayo.reddit_1.12.12_revanced.apk",
-        "hash": "13ab698d3ad831f4ddd9c5be2a963435f5c49a7dbf40282c76bf09c47c884d82",
+        "hash": "8008bd79de6348f444fffb1b450985e3bb46adf5aaa9bb4a3bde5fc37f41bc89",
         "hashType": "sha256",
         "minSdkVersion": 21,
         "nativecode": [
@@ -1333,7 +1333,7 @@
         "packageName": "com.rubenmayayo.reddit.revanced",
         "sig": "5837ab34622f0917305f6d32bc00ab0a",
         "signer": "990aa515644a3f1528c122f2ce9ceb19f404912532394579ebedaea32c99cde9",
-        "size": 19037277,
+        "size": 19016797,
         "targetSdkVersion": 32,
         "uses-permission": [
           [
@@ -1689,7 +1689,7 @@
       {
         "added": 1784501803000,
         "apkName": "eu.faircode.netguard_2.335_revanced.apk",
-        "hash": "a1ac14f308e4d00599d2d337c3da62fc9ecc799ab4f99e9f2a82dbb7b78525e5",
+        "hash": "5518aad23080b9b72cfaa60b5667d8a63514214c5ebe5c6c507c941a38480e1d",
         "hashType": "sha256",
         "minSdkVersion": 22,
         "nativecode": [
@@ -1701,7 +1701,7 @@
         "packageName": "eu.faircode.netguard.revanced",
         "sig": "5837ab34622f0917305f6d32bc00ab0a",
         "signer": "990aa515644a3f1528c122f2ce9ceb19f404912532394579ebedaea32c99cde9",
-        "size": 3465002,
+        "size": 3469098,
         "targetSdkVersion": 35,
         "uses-permission": [
           [
