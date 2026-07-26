@@ -1,6 +1,6 @@
 {
   "repo": {
-    "timestamp": 1784998548000,
+    "timestamp": 1785032773000,
     "version": 20002,
     "name": "ReVanced F-Droid",
     "icon": "icon.png",
@@ -722,7 +722,7 @@
       {
         "added": 1784501799000,
         "apkName": "com.bandcamp.android_3.3.6_revanced.apk",
-        "hash": "1e315ffec72b8f04f42000e003e2fdcb7f279452a0286abf3f3efbc3f1d83efb",
+        "hash": "e083b0077aaa2a5573206190dba57fd88ed62ed77f40d1e21b36263a52959f04",
         "hashType": "sha256",
         "minSdkVersion": 24,
         "nativecode": [
@@ -734,7 +734,7 @@
         "packageName": "com.bandcamp.android.revanced",
         "sig": "5837ab34622f0917305f6d32bc00ab0a",
         "signer": "990aa515644a3f1528c122f2ce9ceb19f404912532394579ebedaea32c99cde9",
-        "size": 15069645,
+        "size": 15081933,
         "targetSdkVersion": 36,
         "uses-permission": [
           [
@@ -1401,7 +1401,7 @@
       {
         "added": 1784502476000,
         "apkName": "de.simon.openinghours_1.1.02.2_revanced.apk",
-        "hash": "1d2f13def2a552d0febd7b30304e59d9853393ad2773359f3f0888bfb5723cb8",
+        "hash": "50e88f0345bf86a6e79df5e6eb39f1e6e02b5abc71723ca7919c191f13dd4a67",
         "hashType": "sha256",
         "minSdkVersion": 34,
         "nativecode": [
@@ -1410,7 +1410,7 @@
         "packageName": "com.samsung.android.themedesigner.revanced",
         "sig": "5837ab34622f0917305f6d32bc00ab0a",
         "signer": "990aa515644a3f1528c122f2ce9ceb19f404912532394579ebedaea32c99cde9",
-        "size": 30618471,
+        "size": 30622567,
         "targetSdkVersion": 35,
         "uses-permission": [
           [
@@ -1853,7 +1853,7 @@
       {
         "added": 1784501805000,
         "apkName": "ml.docilealligator.infinityforreddit_8.3.0-beta3_revanced.apk",
-        "hash": "ec2b0e73f18317952a0d46cf3edc629fa5569ec3bda9e3f1f1f80e3f4f520603",
+        "hash": "145026ee64a567a561d273705a9aa2f0f295aa3322c55180cdc8a0a65b3d1d40",
         "hashType": "sha256",
         "minSdkVersion": 21,
         "nativecode": [
