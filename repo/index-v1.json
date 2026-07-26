@@ -1,6 +1,6 @@
 {
   "repo": {
-    "timestamp": 1785059843000,
+    "timestamp": 1785085088000,
     "version": 20002,
     "name": "ReVanced F-Droid",
     "icon": "icon.png",
@@ -618,7 +618,7 @@
       {
         "added": 1784501798000,
         "apkName": "com.andrewshu.android.reddit_5.6.22_revanced.apk",
-        "hash": "adb1b3bba0899ca9070a422c7d91a1ef5c447be200f86f92b1f5ba4d379ad407",
+        "hash": "fdecdecd808ca953f8d6ebd59891268eb66a338e808f6b330e5b0ded7a83c3d1",
         "hashType": "sha256",
         "minSdkVersion": 21,
         "nativecode": [
@@ -630,7 +630,7 @@
         "packageName": "com.andrewshu.android.reddit.revanced",
         "sig": "5837ab34622f0917305f6d32bc00ab0a",
         "signer": "990aa515644a3f1528c122f2ce9ceb19f404912532394579ebedaea32c99cde9",
-        "size": 14141297,
+        "size": 14161777,
         "targetSdkVersion": 33,
         "uses-permission": [
           [
@@ -1401,7 +1401,7 @@
       {
         "added": 1784502476000,
         "apkName": "de.simon.openinghours_1.1.02.2_revanced.apk",
-        "hash": "50e88f0345bf86a6e79df5e6eb39f1e6e02b5abc71723ca7919c191f13dd4a67",
+        "hash": "48367af79bd5ca4af2e97a92efde7a173bb6e03242a1fb18d90206ff8a46f5d8",
         "hashType": "sha256",
         "minSdkVersion": 34,
         "nativecode": [
@@ -1410,7 +1410,7 @@
         "packageName": "com.samsung.android.themedesigner.revanced",
         "sig": "5837ab34622f0917305f6d32bc00ab0a",
         "signer": "990aa515644a3f1528c122f2ce9ceb19f404912532394579ebedaea32c99cde9",
-        "size": 30622567,
+        "size": 30593895,
         "targetSdkVersion": 35,
         "uses-permission": [
           [
