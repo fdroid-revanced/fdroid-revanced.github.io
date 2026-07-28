@@ -14,7 +14,7 @@
       }
     },
     "address": "https://fdroid-revanced.github.io/repo",
-    "timestamp": 1785204516000,
+    "timestamp": 1785234877000,
     "categories": {
       "Multimedia": {
         "name": {
@@ -682,12 +682,12 @@
         "preferredSigner": "990aa515644a3f1528c122f2ce9ceb19f404912532394579ebedaea32c99cde9"
       },
       "versions": {
-        "85367df23aa178d2fce887f170845c8655dfd599d67c7e61688adcd33e069a2c": {
+        "472fc2df0c0f697ad0358079e083a647f8323a72db9c2355cdf34d2ca763c034": {
           "added": 1784998542000,
           "file": {
             "name": "/com.nis.app_6.12.28_revanced.apk",
-            "sha256": "85367df23aa178d2fce887f170845c8655dfd599d67c7e61688adcd33e069a2c",
-            "size": 44971557
+            "sha256": "472fc2df0c0f697ad0358079e083a647f8323a72db9c2355cdf34d2ca763c034",
+            "size": 44963365
           },
           "manifest": {
             "nativecode": [
@@ -1180,12 +1180,12 @@
         "preferredSigner": "990aa515644a3f1528c122f2ce9ceb19f404912532394579ebedaea32c99cde9"
       },
       "versions": {
-        "8008bd79de6348f444fffb1b450985e3bb46adf5aaa9bb4a3bde5fc37f41bc89": {
+        "6d257af1704c59424837cc85f6f48ad1db2e6b6fe1a3d38120bb4a780ad99888": {
           "added": 1784502646000,
           "file": {
             "name": "/com.rubenmayayo.reddit_1.12.12_revanced.apk",
-            "sha256": "8008bd79de6348f444fffb1b450985e3bb46adf5aaa9bb4a3bde5fc37f41bc89",
-            "size": 19016797
+            "sha256": "6d257af1704c59424837cc85f6f48ad1db2e6b6fe1a3d38120bb4a780ad99888",
+            "size": 19037335
           },
           "manifest": {
             "nativecode": [
@@ -1657,12 +1657,12 @@
         "preferredSigner": "990aa515644a3f1528c122f2ce9ceb19f404912532394579ebedaea32c99cde9"
       },
       "versions": {
-        "e70c16856b32027774fe043f6d5dd13e82483431a0be1f557c17cf997e1a2c85": {
+        "5a5210fe44912c9df09aab5d22ad9a8bbbfb603ed347759fd4551951e2da9981": {
           "added": 1784504478000,
           "file": {
             "name": "/ml.docilealligator.infinityforreddit.plus_8.3.0-beta3_revanced.apk",
-            "sha256": "e70c16856b32027774fe043f6d5dd13e82483431a0be1f557c17cf997e1a2c85",
-            "size": 23604809
+            "sha256": "5a5210fe44912c9df09aab5d22ad9a8bbbfb603ed347759fd4551951e2da9981",
+            "size": 23596559
           },
           "manifest": {
             "nativecode": [
