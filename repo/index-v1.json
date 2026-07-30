@@ -1,6 +1,6 @@
 {
   "repo": {
-    "timestamp": 1785407050000,
+    "timestamp": 1785432295000,
     "version": 20002,
     "name": "ReVanced F-Droid",
     "icon": "icon.png",
@@ -691,7 +691,7 @@
       {
         "added": 1784501798000,
         "apkName": "com.andrewshu.android.reddit_5.6.22_revanced.apk",
-        "hash": "295489b0475a8b3c154b2aaa5d3c6af1b971d55723f18eeafab70b34762fbdd7",
+        "hash": "9c8724444f3cc542ec9d748fe095bd9fdbe3cd7a8f606a3d804dc2365338e95a",
         "hashType": "sha256",
         "minSdkVersion": 21,
         "nativecode": [
@@ -703,7 +703,7 @@
         "packageName": "com.andrewshu.android.reddit.revanced",
         "sig": "5837ab34622f0917305f6d32bc00ab0a",
         "signer": "990aa515644a3f1528c122f2ce9ceb19f404912532394579ebedaea32c99cde9",
-        "size": 14137201,
+        "size": 14153585,
         "targetSdkVersion": 33,
         "uses-permission": [
           [
@@ -795,7 +795,7 @@
       {
         "added": 1784501799000,
         "apkName": "com.bandcamp.android_3.3.6_revanced.apk",
-        "hash": "e083b0077aaa2a5573206190dba57fd88ed62ed77f40d1e21b36263a52959f04",
+        "hash": "d3353e90bed8d85c7aa1f0a6fa2fca4ad5dfa9265d00efb915371b71f023adca",
         "hashType": "sha256",
         "minSdkVersion": 24,
         "nativecode": [
@@ -807,7 +807,7 @@
         "packageName": "com.bandcamp.android.revanced",
         "sig": "5837ab34622f0917305f6d32bc00ab0a",
         "signer": "990aa515644a3f1528c122f2ce9ceb19f404912532394579ebedaea32c99cde9",
-        "size": 15081933,
+        "size": 15077837,
         "targetSdkVersion": 36,
         "uses-permission": [
           [
@@ -1838,7 +1838,7 @@
       {
         "added": 1784504478000,
         "apkName": "ml.docilealligator.infinityforreddit.plus_8.3.0-beta3_revanced.apk",
-        "hash": "6b71bc6515a1575c92ccbb77fdd768836922d630f6b0460bce1e3c432c471fb4",
+        "hash": "1894e774289f05bfef82fa2d0461fe978d8692ca2dc5e09139ccdbb91e3c6772",
         "hashType": "sha256",
         "minSdkVersion": 21,
         "nativecode": [
@@ -1850,7 +1850,7 @@
         "packageName": "ml.docilealligator.infinityforreddit.plus.revanced",
         "sig": "5837ab34622f0917305f6d32bc00ab0a",
         "signer": "990aa515644a3f1528c122f2ce9ceb19f404912532394579ebedaea32c99cde9",
-        "size": 23612943,
+        "size": 23617039,
         "targetSdkVersion": 35,
         "uses-permission": [
           [
