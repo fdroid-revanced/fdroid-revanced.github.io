@@ -14,7 +14,7 @@
       }
     },
     "address": "https://fdroid-revanced.github.io/repo",
-    "timestamp": 1785345741000,
+    "timestamp": 1785376850000,
     "categories": {
       "Multimedia": {
         "name": {
@@ -46,12 +46,12 @@
         "preferredSigner": "990aa515644a3f1528c122f2ce9ceb19f404912532394579ebedaea32c99cde9"
       },
       "versions": {
-        "6b373aee08a69a222fe3b6a86c8c33112629c3c9d586de880832e5cba14ec232": {
+        "2e35fa1ae789014056cbf3b6c69b0a5e1c3d8838291e0b7fb887e70326d3c16c": {
           "added": 1784501795000,
           "file": {
             "name": "/at.gv.oe.app_5.5.0_revanced.apk",
-            "sha256": "6b373aee08a69a222fe3b6a86c8c33112629c3c9d586de880832e5cba14ec232",
-            "size": 55528814
+            "sha256": "2e35fa1ae789014056cbf3b6c69b0a5e1c3d8838291e0b7fb887e70326d3c16c",
+            "size": 55483758
           },
           "manifest": {
             "nativecode": [
