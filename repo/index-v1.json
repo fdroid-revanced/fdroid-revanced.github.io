@@ -1,6 +1,6 @@
 {
   "repo": {
-    "timestamp": 1785551230000,
+    "timestamp": 1785578217000,
     "version": 20002,
     "name": "ReVanced F-Droid",
     "icon": "icon.png",
@@ -245,7 +245,7 @@
         "features": [
           "android.hardware.camera"
         ],
-        "hash": "0cc8245ffbc865edbc2778ef714d7e3ee99ebc67b16bb43b78ae2ac834d5172c",
+        "hash": "d4f07d179e51d487ab25f199db11a96d5e248cc820fbb28b37e289f5289b6f1a",
         "hashType": "sha256",
         "minSdkVersion": 31,
         "nativecode": [
@@ -257,7 +257,7 @@
         "packageName": "at.gv.oe.app.revanced",
         "sig": "5837ab34622f0917305f6d32bc00ab0a",
         "signer": "990aa515644a3f1528c122f2ce9ceb19f404912532394579ebedaea32c99cde9",
-        "size": 55479662,
+        "size": 55537006,
         "targetSdkVersion": 35,
         "uses-permission": [
           [
@@ -1762,7 +1762,7 @@
       {
         "added": 1784501803000,
         "apkName": "eu.faircode.netguard_2.335_revanced.apk",
-        "hash": "cca80795a658bb629725b82837a147fb9b433c65ec54f6004d824674b3e74cf8",
+        "hash": "b5e6725baa9828ca7ff25f82470a4287e0582e534e2861605894d0398d4354c8",
         "hashType": "sha256",
         "minSdkVersion": 22,
         "nativecode": [
