@@ -1,6 +1,6 @@
 {
   "repo": {
-    "timestamp": 1785518860000,
+    "timestamp": 1785551230000,
     "version": 20002,
     "name": "ReVanced F-Droid",
     "icon": "icon.png",
@@ -1762,7 +1762,7 @@
       {
         "added": 1784501803000,
         "apkName": "eu.faircode.netguard_2.335_revanced.apk",
-        "hash": "e5ddef5089fd2f091c3146b74613314b478fb0806b1aca87324c63e72557fc24",
+        "hash": "cca80795a658bb629725b82837a147fb9b433c65ec54f6004d824674b3e74cf8",
         "hashType": "sha256",
         "minSdkVersion": 22,
         "nativecode": [
@@ -1774,7 +1774,7 @@
         "packageName": "eu.faircode.netguard.revanced",
         "sig": "5837ab34622f0917305f6d32bc00ab0a",
         "signer": "990aa515644a3f1528c122f2ce9ceb19f404912532394579ebedaea32c99cde9",
-        "size": 3465002,
+        "size": 3469098,
         "targetSdkVersion": 35,
         "uses-permission": [
           [
@@ -1838,7 +1838,7 @@
       {
         "added": 1784504478000,
         "apkName": "ml.docilealligator.infinityforreddit.plus_8.3.0-beta3_revanced.apk",
-        "hash": "1894e774289f05bfef82fa2d0461fe978d8692ca2dc5e09139ccdbb91e3c6772",
+        "hash": "af54e2c8954c5da738976ae8d9015d7721225c4ed185857d6c2a6d7d6624368f",
         "hashType": "sha256",
         "minSdkVersion": 21,
         "nativecode": [
@@ -1850,7 +1850,7 @@
         "packageName": "ml.docilealligator.infinityforreddit.plus.revanced",
         "sig": "5837ab34622f0917305f6d32bc00ab0a",
         "signer": "990aa515644a3f1528c122f2ce9ceb19f404912532394579ebedaea32c99cde9",
-        "size": 23617039,
+        "size": 23608847,
         "targetSdkVersion": 35,
         "uses-permission": [
           [
