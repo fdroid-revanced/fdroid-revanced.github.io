@@ -14,7 +14,7 @@
       }
     },
     "address": "https://fdroid-revanced.github.io/repo",
-    "timestamp": 1785664500000,
+    "timestamp": 1785689790000,
     "categories": {
       "Multimedia": {
         "name": {
@@ -1002,12 +1002,12 @@
         "preferredSigner": "990aa515644a3f1528c122f2ce9ceb19f404912532394579ebedaea32c99cde9"
       },
       "versions": {
-        "865bd25511e9dd5665c225ea4385ceb63f683cba47d4b0cd90ea471a10fc6f57": {
+        "456737674e6e6c444aff7b0df979e11ec138fec40d769c62ecbc702ca044bcc1": {
           "added": 1784501801000,
           "file": {
             "name": "/com.onelouder.baconreader_6.1.4_revanced.apk",
-            "sha256": "865bd25511e9dd5665c225ea4385ceb63f683cba47d4b0cd90ea471a10fc6f57",
-            "size": 20928361
+            "sha256": "456737674e6e6c444aff7b0df979e11ec138fec40d769c62ecbc702ca044bcc1",
+            "size": 20924265
           },
           "manifest": {
             "versionName": "6.1.4",
