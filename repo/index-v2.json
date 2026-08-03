@@ -14,7 +14,7 @@
       }
     },
     "address": "https://fdroid-revanced.github.io/repo",
-    "timestamp": 1785756053000,
+    "timestamp": 1785779400000,
     "categories": {
       "Multimedia": {
         "name": {
@@ -1631,12 +1631,12 @@
         "preferredSigner": "990aa515644a3f1528c122f2ce9ceb19f404912532394579ebedaea32c99cde9"
       },
       "versions": {
-        "b5e6725baa9828ca7ff25f82470a4287e0582e534e2861605894d0398d4354c8": {
+        "f4f8c5d14cc6c282e79d726b429f7a56adaf523f30cb7c59b7cf5120a927a285": {
           "added": 1784501803000,
           "file": {
             "name": "/eu.faircode.netguard_2.335_revanced.apk",
-            "sha256": "b5e6725baa9828ca7ff25f82470a4287e0582e534e2861605894d0398d4354c8",
-            "size": 3469098
+            "sha256": "f4f8c5d14cc6c282e79d726b429f7a56adaf523f30cb7c59b7cf5120a927a285",
+            "size": 3465002
           },
           "manifest": {
             "nativecode": [
