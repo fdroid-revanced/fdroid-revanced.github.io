@@ -14,7 +14,7 @@
       }
     },
     "address": "https://fdroid-revanced.github.io/repo",
-    "timestamp": 1785689790000,
+    "timestamp": 1785724066000,
     "categories": {
       "Multimedia": {
         "name": {
@@ -516,12 +516,12 @@
         "preferredSigner": "990aa515644a3f1528c122f2ce9ceb19f404912532394579ebedaea32c99cde9"
       },
       "versions": {
-        "59ed4e24a69ea326f5929e13f6173149df16b41bb8491f2f999e753283b0b1f4": {
+        "d1db88c0cc33d71d3d1d34514f270057b81240419a6bbeadfd4ca95cfed5ad26": {
           "added": 1784501798000,
           "file": {
             "name": "/com.andrewshu.android.reddit_5.6.22_revanced.apk",
-            "sha256": "59ed4e24a69ea326f5929e13f6173149df16b41bb8491f2f999e753283b0b1f4",
-            "size": 14153585
+            "sha256": "d1db88c0cc33d71d3d1d34514f270057b81240419a6bbeadfd4ca95cfed5ad26",
+            "size": 14157681
           },
           "manifest": {
             "nativecode": [
@@ -1002,12 +1002,12 @@
         "preferredSigner": "990aa515644a3f1528c122f2ce9ceb19f404912532394579ebedaea32c99cde9"
       },
       "versions": {
-        "456737674e6e6c444aff7b0df979e11ec138fec40d769c62ecbc702ca044bcc1": {
+        "26f15a134d0deeff5f5e70797eca3e2bb2e499429801e20b54a8e13854436684": {
           "added": 1784501801000,
           "file": {
             "name": "/com.onelouder.baconreader_6.1.4_revanced.apk",
-            "sha256": "456737674e6e6c444aff7b0df979e11ec138fec40d769c62ecbc702ca044bcc1",
-            "size": 20924265
+            "sha256": "26f15a134d0deeff5f5e70797eca3e2bb2e499429801e20b54a8e13854436684",
+            "size": 21006185
           },
           "manifest": {
             "versionName": "6.1.4",
