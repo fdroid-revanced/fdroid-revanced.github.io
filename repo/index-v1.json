@@ -1,6 +1,6 @@
 {
   "repo": {
-    "timestamp": 1785809238000,
+    "timestamp": 1785839791000,
     "version": 20002,
     "name": "ReVanced F-Droid",
     "icon": "icon.png",
@@ -88,13 +88,13 @@
       "categories": [
         "Multimedia"
       ],
-      "suggestedVersionCode": "224",
+      "suggestedVersionCode": "226",
       "description": "ReVanced-patched build of ml.docilealligator.infinityforreddit.plus.\n\nPatches applied:\n- INFO: \"Change package name\" succeeded\n",
       "license": "Unknown",
       "added": 1784501805000,
-      "icon": "ml.docilealligator.infinityforreddit.plus.revanced.224.png",
+      "icon": "ml.docilealligator.infinityforreddit.plus.revanced.226.png",
       "packageName": "ml.docilealligator.infinityforreddit.plus.revanced",
-      "lastUpdated": 1784504478000,
+      "lastUpdated": 1785839791000,
       "localized": {
         "en-US": {
           "name": "Infinity+"
@@ -245,7 +245,7 @@
         "features": [
           "android.hardware.camera"
         ],
-        "hash": "d325831cfc13d150d8d2f594118c64e96d949b8416334666b105ab9c5e7348c1",
+        "hash": "180d43e59cc7f8bcfa5394f735cb63e8cba0b6d9de54da6680063ba75bfde5f6",
         "hashType": "sha256",
         "minSdkVersion": 31,
         "nativecode": [
@@ -257,7 +257,7 @@
         "packageName": "at.gv.oe.app.revanced",
         "sig": "5837ab34622f0917305f6d32bc00ab0a",
         "signer": "990aa515644a3f1528c122f2ce9ceb19f404912532394579ebedaea32c99cde9",
-        "size": 55524718,
+        "size": 55541102,
         "targetSdkVersion": 35,
         "uses-permission": [
           [
@@ -895,7 +895,7 @@
       {
         "added": 1784998542000,
         "apkName": "com.nis.app_6.12.28_revanced.apk",
-        "hash": "d724ed7ff183b9c889055d1d7e648359b80c9309d3114fa551af385a61faad3c",
+        "hash": "3be8278d7fd61c010b0d4417de3e99456c30890cf553da6ba1ebf9c0ee3cacde",
         "hashType": "sha256",
         "minSdkVersion": 24,
         "nativecode": [
@@ -904,7 +904,7 @@
         "packageName": "com.nis.app.revanced",
         "sig": "5837ab34622f0917305f6d32bc00ab0a",
         "signer": "990aa515644a3f1528c122f2ce9ceb19f404912532394579ebedaea32c99cde9",
-        "size": 44938789,
+        "size": 44959269,
         "targetSdkVersion": 36,
         "uses-permission": [
           [
@@ -1835,6 +1835,94 @@
       }
     ],
     "ml.docilealligator.infinityforreddit.plus.revanced": [
+      {
+        "added": 1785839791000,
+        "apkName": "ml.docilealligator.infinityforreddit_8.3.0-beta5_revanced.apk",
+        "hash": "293a7ee02aefca83f331b6353910c36fdb8fe8ffdee705d48bba60661e9b781c",
+        "hashType": "sha256",
+        "minSdkVersion": 21,
+        "nativecode": [
+          "arm64-v8a",
+          "armeabi-v7a",
+          "x86",
+          "x86_64"
+        ],
+        "packageName": "ml.docilealligator.infinityforreddit.plus.revanced",
+        "sig": "5837ab34622f0917305f6d32bc00ab0a",
+        "signer": "990aa515644a3f1528c122f2ce9ceb19f404912532394579ebedaea32c99cde9",
+        "size": 23768753,
+        "targetSdkVersion": 36,
+        "uses-permission": [
+          [
+            "android.permission.ACCESS_NETWORK_STATE",
+            null
+          ],
+          [
+            "android.permission.INTERNET",
+            null
+          ],
+          [
+            "android.permission.SET_WALLPAPER",
+            null
+          ],
+          [
+            "android.permission.SET_WALLPAPER_HINTS",
+            null
+          ],
+          [
+            "android.permission.WRITE_EXTERNAL_STORAGE",
+            22
+          ],
+          [
+            "android.permission.FOREGROUND_SERVICE",
+            null
+          ],
+          [
+            "android.permission.WAKE_LOCK",
+            null
+          ],
+          [
+            "android.permission.POST_NOTIFICATIONS",
+            null
+          ],
+          [
+            "android.permission.RUN_USER_INITIATED_JOBS",
+            null
+          ],
+          [
+            "android.permission.RECEIVE_BOOT_COMPLETED",
+            null
+          ],
+          [
+            "android.permission.USE_BIOMETRIC",
+            null
+          ],
+          [
+            "android.permission.USE_FINGERPRINT",
+            null
+          ],
+          [
+            "com.android.vending.BILLING",
+            null
+          ],
+          [
+            "ml.docilealligator.infinityforreddit.plus.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION",
+            null
+          ],
+          [
+            "android.permission.READ_EXTERNAL_STORAGE",
+            22
+          ]
+        ],
+        "uses-permission-sdk-23": [
+          [
+            "android.permission.WRITE_EXTERNAL_STORAGE",
+            28
+          ]
+        ],
+        "versionCode": 226,
+        "versionName": "8.3.0-beta5"
+      },
       {
         "added": 1784504478000,
         "apkName": "ml.docilealligator.infinityforreddit.plus_8.3.0-beta3_revanced.apk",
