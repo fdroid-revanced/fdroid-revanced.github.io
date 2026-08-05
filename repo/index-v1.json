@@ -1,6 +1,6 @@
 {
   "repo": {
-    "timestamp": 1785839791000,
+    "timestamp": 1785895567000,
     "version": 20002,
     "name": "ReVanced F-Droid",
     "icon": "icon.png",
@@ -1762,7 +1762,7 @@
       {
         "added": 1784501803000,
         "apkName": "eu.faircode.netguard_2.335_revanced.apk",
-        "hash": "f4f8c5d14cc6c282e79d726b429f7a56adaf523f30cb7c59b7cf5120a927a285",
+        "hash": "b56202aee7b5fe3282ebdaf249474ca4b12563620eadb86cec406f021ee416e1",
         "hashType": "sha256",
         "minSdkVersion": 22,
         "nativecode": [
@@ -1774,7 +1774,7 @@
         "packageName": "eu.faircode.netguard.revanced",
         "sig": "5837ab34622f0917305f6d32bc00ab0a",
         "signer": "990aa515644a3f1528c122f2ce9ceb19f404912532394579ebedaea32c99cde9",
-        "size": 3465002,
+        "size": 3469098,
         "targetSdkVersion": 35,
         "uses-permission": [
           [
