@@ -14,7 +14,7 @@
       }
     },
     "address": "https://fdroid-revanced.github.io/repo",
-    "timestamp": 1785895567000,
+    "timestamp": 1785926070000,
     "categories": {
       "Multimedia": {
         "name": {
@@ -35,7 +35,7 @@
         "categories": [
           "Multimedia"
         ],
-        "lastUpdated": 1784501795000,
+        "lastUpdated": 1785926042000,
         "authorName": "ReVanced (patched)",
         "name": {
           "en-US": "ID Austria"
@@ -46,6 +46,85 @@
         "preferredSigner": "990aa515644a3f1528c122f2ce9ceb19f404912532394579ebedaea32c99cde9"
       },
       "versions": {
+        "7b63bf67bc326922028869aeab348082b8f58e9bc70ca8e7e7de729fe26d23f0": {
+          "added": 1785926042000,
+          "file": {
+            "name": "/at.gv.oe.app_5.6.0_revanced.apk",
+            "sha256": "7b63bf67bc326922028869aeab348082b8f58e9bc70ca8e7e7de729fe26d23f0",
+            "size": 56139960
+          },
+          "manifest": {
+            "nativecode": [
+              "arm64-v8a",
+              "armeabi-v7a",
+              "x86",
+              "x86_64"
+            ],
+            "versionName": "5.6.0",
+            "versionCode": 2026071002,
+            "features": [
+              {
+                "name": "android.hardware.camera"
+              }
+            ],
+            "usesSdk": {
+              "minSdkVersion": 31,
+              "targetSdkVersion": 35
+            },
+            "signer": {
+              "sha256": [
+                "990aa515644a3f1528c122f2ce9ceb19f404912532394579ebedaea32c99cde9"
+              ]
+            },
+            "usesPermission": [
+              {
+                "name": "android.permission.INTERNET"
+              },
+              {
+                "name": "android.permission.POST_NOTIFICATIONS"
+              },
+              {
+                "name": "android.permission.CAMERA"
+              },
+              {
+                "name": "android.permission.ACCESS_NETWORK_STATE"
+              },
+              {
+                "name": "com.google.android.c2dm.permission.RECEIVE"
+              },
+              {
+                "name": "android.permission.WAKE_LOCK"
+              },
+              {
+                "name": "android.permission.VIBRATE"
+              },
+              {
+                "name": "android.permission.USE_FINGERPRINT"
+              },
+              {
+                "name": "android.permission.USE_BIOMETRIC"
+              },
+              {
+                "name": "android.permission.REQUEST_PASSWORD_COMPLEXITY"
+              },
+              {
+                "name": "android.permission.MANAGE_DEVICE_POLICY_LOCK_CREDENTIALS"
+              },
+              {
+                "name": "android.permission.FLASHLIGHT"
+              },
+              {
+                "name": "android.permission.RECEIVE_BOOT_COMPLETED"
+              },
+              {
+                "name": "android.permission.FOREGROUND_SERVICE"
+              },
+              {
+                "name": "at.gv.oe.app.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+              }
+            ]
+          }
+        },
         "180d43e59cc7f8bcfa5394f735cb63e8cba0b6d9de54da6680063ba75bfde5f6": {
           "added": 1784501795000,
           "file": {
@@ -732,7 +811,7 @@
         "categories": [
           "Multimedia"
         ],
-        "lastUpdated": 1784998542000,
+        "lastUpdated": 1785926056000,
         "authorName": "ReVanced (patched)",
         "name": {
           "en-US": "inshorts"
@@ -742,7 +821,7 @@
         },
         "icon": {
           "en-US": {
-            "name": "/icons/com.nis.app.revanced.5070889.png",
+            "name": "/icons/com.nis.app.revanced.5070914.png",
             "sha256": "dac9971c3d5b1ccaf6ce65335836ba7ee86354c8976e43036e5115beb1de7af8",
             "size": 454
           }
@@ -750,6 +829,119 @@
         "preferredSigner": "990aa515644a3f1528c122f2ce9ceb19f404912532394579ebedaea32c99cde9"
       },
       "versions": {
+        "e4379f5b21b094d9d44c83d8703196c24b75a37fb52da0f5e050066666747200": {
+          "added": 1785926056000,
+          "file": {
+            "name": "/com.nis.app_6.12.29_revanced.apk",
+            "sha256": "e4379f5b21b094d9d44c83d8703196c24b75a37fb52da0f5e050066666747200",
+            "size": 44989091
+          },
+          "manifest": {
+            "nativecode": [
+              "armeabi-v7a"
+            ],
+            "versionName": "6.12.29",
+            "versionCode": 5070914,
+            "usesSdk": {
+              "minSdkVersion": 24,
+              "targetSdkVersion": 36
+            },
+            "signer": {
+              "sha256": [
+                "990aa515644a3f1528c122f2ce9ceb19f404912532394579ebedaea32c99cde9"
+              ]
+            },
+            "usesPermission": [
+              {
+                "name": "android.permission.INTERNET"
+              },
+              {
+                "name": "android.permission.USE_CREDENTIALS"
+              },
+              {
+                "name": "android.permission.VIBRATE"
+              },
+              {
+                "name": "android.permission.ACCESS_NETWORK_STATE"
+              },
+              {
+                "name": "android.permission.RECEIVE_BOOT_COMPLETED"
+              },
+              {
+                "name": "android.permission.WAKE_LOCK"
+              },
+              {
+                "name": "android.permission.ACCESS_WIFI_STATE"
+              },
+              {
+                "name": "com.google.android.c2dm.permission.RECEIVE"
+              },
+              {
+                "name": "android.permission.ACCESS_COARSE_LOCATION"
+              },
+              {
+                "name": "android.permission.ACCESS_FINE_LOCATION"
+              },
+              {
+                "name": "android.permission.CAMERA"
+              },
+              {
+                "name": "android.permission.RECORD_AUDIO"
+              },
+              {
+                "name": "android.permission.MODIFY_AUDIO_SETTINGS"
+              },
+              {
+                "name": "android.permission.FOREGROUND_SERVICE"
+              },
+              {
+                "name": "android.permission.FOREGROUND_SERVICE_MEDIA_PLAYBACK"
+              },
+              {
+                "name": "android.permission.CHANGE_NETWORK_STATE"
+              },
+              {
+                "name": "android.permission.READ_PHONE_STATE"
+              },
+              {
+                "name": "com.google.android.gms.permission.AD_ID"
+              },
+              {
+                "name": "android.permission.USE_BIOMETRIC"
+              },
+              {
+                "name": "android.permission.USE_FINGERPRINT"
+              },
+              {
+                "name": "android.permission.POST_NOTIFICATIONS"
+              },
+              {
+                "name": "com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE"
+              },
+              {
+                "name": "com.truecaller.permission.sdk.internal.read_account_state"
+              },
+              {
+                "name": "android.permission.ACCESS_ADSERVICES_ATTRIBUTION"
+              },
+              {
+                "name": "android.permission.ACCESS_ADSERVICES_AD_ID"
+              },
+              {
+                "name": "com.google.android.providers.gsf.permission.READ_GSERVICES"
+              },
+              {
+                "name": "android.permission.ACCESS_ADSERVICES_TOPICS"
+              },
+              {
+                "name": "android.permission.ACCESS_ADSERVICES_CUSTOM_AUDIENCE"
+              },
+              {
+                "name": "com.nis.app.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+              }
+            ]
+          }
+        },
         "3be8278d7fd61c010b0d4417de3e99456c30890cf553da6ba1ebf9c0ee3cacde": {
           "added": 1784998542000,
           "file": {
@@ -1444,12 +1636,12 @@
         "preferredSigner": "990aa515644a3f1528c122f2ce9ceb19f404912532394579ebedaea32c99cde9"
       },
       "versions": {
-        "11eedb2080dde5aaad59079a15f0c65da4a00c0b30906656bf2e596e70743b04": {
+        "18154a75911d7ddc50f96e72d37032ac0e8ca911e74218a8711f57d47938908f": {
           "added": 1784501803000,
           "file": {
             "name": "/com.sec.android.app.fm_12.4.00.7_revanced.apk",
-            "sha256": "11eedb2080dde5aaad59079a15f0c65da4a00c0b30906656bf2e596e70743b04",
-            "size": 5979437
+            "sha256": "18154a75911d7ddc50f96e72d37032ac0e8ca911e74218a8711f57d47938908f",
+            "size": 5999917
           },
           "manifest": {
             "nativecode": [
@@ -1707,7 +1899,7 @@
         "categories": [
           "Multimedia"
         ],
-        "lastUpdated": 1785839791000,
+        "lastUpdated": 1785926066000,
         "authorName": "ReVanced (patched)",
         "name": {
           "en-US": "Infinity+"
@@ -1725,6 +1917,88 @@
         "preferredSigner": "990aa515644a3f1528c122f2ce9ceb19f404912532394579ebedaea32c99cde9"
       },
       "versions": {
+        "88c9494e04b296cf6a0d3a1b6a9424618debd05d19c1c4bb8b8713d1b40ec531": {
+          "added": 1785926066000,
+          "file": {
+            "name": "/ml.docilealligator.infinityforreddit.plus_8.3.0-beta5_revanced.apk",
+            "sha256": "88c9494e04b296cf6a0d3a1b6a9424618debd05d19c1c4bb8b8713d1b40ec531",
+            "size": 23772849
+          },
+          "manifest": {
+            "nativecode": [
+              "arm64-v8a",
+              "armeabi-v7a",
+              "x86",
+              "x86_64"
+            ],
+            "versionName": "8.3.0-beta5",
+            "versionCode": 226,
+            "usesSdk": {
+              "minSdkVersion": 21,
+              "targetSdkVersion": 36
+            },
+            "signer": {
+              "sha256": [
+                "990aa515644a3f1528c122f2ce9ceb19f404912532394579ebedaea32c99cde9"
+              ]
+            },
+            "usesPermission": [
+              {
+                "name": "android.permission.ACCESS_NETWORK_STATE"
+              },
+              {
+                "name": "android.permission.INTERNET"
+              },
+              {
+                "name": "android.permission.SET_WALLPAPER"
+              },
+              {
+                "name": "android.permission.SET_WALLPAPER_HINTS"
+              },
+              {
+                "name": "android.permission.WRITE_EXTERNAL_STORAGE",
+                "maxSdkVersion": 22
+              },
+              {
+                "name": "android.permission.FOREGROUND_SERVICE"
+              },
+              {
+                "name": "android.permission.WAKE_LOCK"
+              },
+              {
+                "name": "android.permission.POST_NOTIFICATIONS"
+              },
+              {
+                "name": "android.permission.RUN_USER_INITIATED_JOBS"
+              },
+              {
+                "name": "android.permission.RECEIVE_BOOT_COMPLETED"
+              },
+              {
+                "name": "android.permission.USE_BIOMETRIC"
+              },
+              {
+                "name": "android.permission.USE_FINGERPRINT"
+              },
+              {
+                "name": "com.android.vending.BILLING"
+              },
+              {
+                "name": "ml.docilealligator.infinityforreddit.plus.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+              },
+              {
+                "name": "android.permission.READ_EXTERNAL_STORAGE",
+                "maxSdkVersion": 22
+              }
+            ],
+            "usesPermissionSdk23": [
+              {
+                "name": "android.permission.WRITE_EXTERNAL_STORAGE",
+                "maxSdkVersion": 28
+              }
+            ]
+          }
+        },
         "293a7ee02aefca83f331b6353910c36fdb8fe8ffdee705d48bba60661e9b781c": {
           "added": 1785839791000,
           "file": {
