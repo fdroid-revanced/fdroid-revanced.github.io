@@ -1,6 +1,6 @@
 {
   "repo": {
-    "timestamp": 1785982256000,
+    "timestamp": 1786012668000,
     "version": 20002,
     "name": "ReVanced F-Droid",
     "icon": "icon.png",
@@ -2058,7 +2058,7 @@
       {
         "added": 1785926066000,
         "apkName": "ml.docilealligator.infinityforreddit.plus_8.3.0-beta5_revanced.apk",
-        "hash": "88c9494e04b296cf6a0d3a1b6a9424618debd05d19c1c4bb8b8713d1b40ec531",
+        "hash": "f882bee1e289ed2b47bc71727272d557f4d4357184754f784cab9730cbf68e15",
         "hashType": "sha256",
         "minSdkVersion": 21,
         "nativecode": [
