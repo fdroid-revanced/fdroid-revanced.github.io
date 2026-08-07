@@ -1,6 +1,6 @@
 {
   "repo": {
-    "timestamp": 1786069772000,
+    "timestamp": 1786093002000,
     "version": 20002,
     "name": "ReVanced F-Droid",
     "icon": "icon.png",
@@ -880,7 +880,7 @@
       {
         "added": 1784501799000,
         "apkName": "com.bandcamp.android_3.3.6_revanced.apk",
-        "hash": "dda989e46a07148596b367dd4847deeacec3286273222b0c908c7bd0cdd00637",
+        "hash": "78124c5fce2eb3df4cfbeacac6fd6bb029eb1d9d9b8b63621d660a3360f24357",
         "hashType": "sha256",
         "minSdkVersion": 24,
         "nativecode": [
@@ -892,7 +892,7 @@
         "packageName": "com.bandcamp.android.revanced",
         "sig": "5837ab34622f0917305f6d32bc00ab0a",
         "signer": "990aa515644a3f1528c122f2ce9ceb19f404912532394579ebedaea32c99cde9",
-        "size": 15061453,
+        "size": 15069645,
         "targetSdkVersion": 36,
         "uses-permission": [
           [
