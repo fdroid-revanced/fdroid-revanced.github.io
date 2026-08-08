@@ -14,7 +14,7 @@
       }
     },
     "address": "https://fdroid-revanced.github.io/repo",
-    "timestamp": 1786124928000,
+    "timestamp": 1786151914000,
     "categories": {
       "Multimedia": {
         "name": {
@@ -35,7 +35,7 @@
         "categories": [
           "Multimedia"
         ],
-        "lastUpdated": 1785926042000,
+        "lastUpdated": 1786151896000,
         "authorName": "ReVanced (patched)",
         "name": {
           "en-US": "ID Austria"
@@ -46,6 +46,85 @@
         "preferredSigner": "990aa515644a3f1528c122f2ce9ceb19f404912532394579ebedaea32c99cde9"
       },
       "versions": {
+        "ead1b97b8951e4a54994a49d1c03db03fb6ed7df3cb501bc4115ec1d09855ed1": {
+          "added": 1786151896000,
+          "file": {
+            "name": "/at.gv.oe.app_5.6.1_revanced.apk",
+            "sha256": "ead1b97b8951e4a54994a49d1c03db03fb6ed7df3cb501bc4115ec1d09855ed1",
+            "size": 56078520
+          },
+          "manifest": {
+            "nativecode": [
+              "arm64-v8a",
+              "armeabi-v7a",
+              "x86",
+              "x86_64"
+            ],
+            "versionName": "5.6.1",
+            "versionCode": 2026072403,
+            "features": [
+              {
+                "name": "android.hardware.camera"
+              }
+            ],
+            "usesSdk": {
+              "minSdkVersion": 31,
+              "targetSdkVersion": 35
+            },
+            "signer": {
+              "sha256": [
+                "990aa515644a3f1528c122f2ce9ceb19f404912532394579ebedaea32c99cde9"
+              ]
+            },
+            "usesPermission": [
+              {
+                "name": "android.permission.INTERNET"
+              },
+              {
+                "name": "android.permission.POST_NOTIFICATIONS"
+              },
+              {
+                "name": "android.permission.CAMERA"
+              },
+              {
+                "name": "android.permission.ACCESS_NETWORK_STATE"
+              },
+              {
+                "name": "com.google.android.c2dm.permission.RECEIVE"
+              },
+              {
+                "name": "android.permission.WAKE_LOCK"
+              },
+              {
+                "name": "android.permission.VIBRATE"
+              },
+              {
+                "name": "android.permission.USE_FINGERPRINT"
+              },
+              {
+                "name": "android.permission.USE_BIOMETRIC"
+              },
+              {
+                "name": "android.permission.REQUEST_PASSWORD_COMPLEXITY"
+              },
+              {
+                "name": "android.permission.MANAGE_DEVICE_POLICY_LOCK_CREDENTIALS"
+              },
+              {
+                "name": "android.permission.FLASHLIGHT"
+              },
+              {
+                "name": "android.permission.RECEIVE_BOOT_COMPLETED"
+              },
+              {
+                "name": "android.permission.FOREGROUND_SERVICE"
+              },
+              {
+                "name": "at.gv.oe.app.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+              }
+            ]
+          }
+        },
         "7b63bf67bc326922028869aeab348082b8f58e9bc70ca8e7e7de729fe26d23f0": {
           "added": 1785926042000,
           "file": {
@@ -716,12 +795,12 @@
         "preferredSigner": "990aa515644a3f1528c122f2ce9ceb19f404912532394579ebedaea32c99cde9"
       },
       "versions": {
-        "78124c5fce2eb3df4cfbeacac6fd6bb029eb1d9d9b8b63621d660a3360f24357": {
+        "104d30fbbfe1171cb6e4e4b5b7c95eedb9f6b128c96448016a29a63d622b0bf2": {
           "added": 1784501799000,
           "file": {
             "name": "/com.bandcamp.android_3.3.6_revanced.apk",
-            "sha256": "78124c5fce2eb3df4cfbeacac6fd6bb029eb1d9d9b8b63621d660a3360f24357",
-            "size": 15069645
+            "sha256": "104d30fbbfe1171cb6e4e4b5b7c95eedb9f6b128c96448016a29a63d622b0bf2",
+            "size": 15061453
           },
           "manifest": {
             "nativecode": [
