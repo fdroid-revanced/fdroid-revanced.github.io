@@ -14,7 +14,7 @@
       }
     },
     "address": "https://fdroid-revanced.github.io/repo",
-    "timestamp": 1786178250000,
+    "timestamp": 1786206637000,
     "categories": {
       "Multimedia": {
         "name": {
@@ -494,7 +494,7 @@
         "categories": [
           "Multimedia"
         ],
-        "lastUpdated": 1785407040000,
+        "lastUpdated": 1786206618000,
         "authorName": "ReVanced (patched)",
         "name": {
           "en-US": "Proton VPN"
@@ -504,7 +504,7 @@
         },
         "icon": {
           "en-US": {
-            "name": "/icons/ch.protonvpn.android.revanced.605196100.png",
+            "name": "/icons/ch.protonvpn.android.revanced.605197200.png",
             "sha256": "53ec349c7e0fd932570df860473330fb7574a2fec28c4ac51934888ded3e73fd",
             "size": 1532
           }
@@ -512,6 +512,74 @@
         "preferredSigner": "990aa515644a3f1528c122f2ce9ceb19f404912532394579ebedaea32c99cde9"
       },
       "versions": {
+        "2da6bb3de6110feb73f06e9542085427a5e3e1ebcb5cad8bc297724d4406bb3b": {
+          "added": 1786206618000,
+          "file": {
+            "name": "/ch.protonvpn.android_5.19.72.0_revanced.apk",
+            "sha256": "2da6bb3de6110feb73f06e9542085427a5e3e1ebcb5cad8bc297724d4406bb3b",
+            "size": 65335096
+          },
+          "manifest": {
+            "nativecode": [
+              "arm64-v8a",
+              "armeabi",
+              "armeabi-v7a",
+              "mips",
+              "mips64",
+              "x86",
+              "x86_64"
+            ],
+            "versionName": "5.19.72.0",
+            "versionCode": 605197200,
+            "usesSdk": {
+              "minSdkVersion": 26,
+              "targetSdkVersion": 36
+            },
+            "signer": {
+              "sha256": [
+                "990aa515644a3f1528c122f2ce9ceb19f404912532394579ebedaea32c99cde9"
+              ]
+            },
+            "usesPermission": [
+              {
+                "name": "android.permission.INTERNET"
+              },
+              {
+                "name": "android.permission.ACCESS_NETWORK_STATE"
+              },
+              {
+                "name": "android.permission.RECEIVE_BOOT_COMPLETED"
+              },
+              {
+                "name": "android.permission.FOREGROUND_SERVICE"
+              },
+              {
+                "name": "android.permission.QUERY_ALL_PACKAGES"
+              },
+              {
+                "name": "android.permission.WAKE_LOCK"
+              },
+              {
+                "name": "android.permission.POST_NOTIFICATIONS"
+              },
+              {
+                "name": "android.permission.FOREGROUND_SERVICE_SYSTEM_EXEMPTED"
+              },
+              {
+                "name": "android.permission.USE_BIOMETRIC"
+              },
+              {
+                "name": "android.permission.USE_FINGERPRINT"
+              },
+              {
+                "name": "ch.protonvpn.android.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+              },
+              {
+                "name": "android.permission.CAMERA"
+              }
+            ]
+          }
+        },
         "411d64e61a68a64fcaa9975cbcc826a7ff71b0398297a4c354a37c085d1b1416": {
           "added": 1785407040000,
           "file": {
