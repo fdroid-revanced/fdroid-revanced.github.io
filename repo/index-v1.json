@@ -1,6 +1,6 @@
 {
   "repo": {
-    "timestamp": 1786238508000,
+    "timestamp": 1786264807000,
     "version": 20002,
     "name": "ReVanced F-Droid",
     "icon": "icon.png",
@@ -224,12 +224,12 @@
       "categories": [
         "Multimedia"
       ],
-      "suggestedVersionCode": "613447",
+      "suggestedVersionCode": "613675",
       "description": "ReVanced-patched build of at.willhaben.\n\nPatches applied:\n- INFO: \"Change package name\" succeeded\n",
       "license": "Unknown",
       "added": 1784501796000,
       "packageName": "at.willhaben.revanced",
-      "lastUpdated": 1784945742000,
+      "lastUpdated": 1786264785000,
       "localized": {
         "en-US": {
           "name": "willhaben"
@@ -496,6 +496,112 @@
       }
     ],
     "at.willhaben.revanced": [
+      {
+        "added": 1786264785000,
+        "apkName": "at.willhaben_8.55.0_revanced.apk",
+        "hash": "f3343f5b06ca94302de24d3ad85bbfece13196645da7ad9f68a0a13407ee9792",
+        "hashType": "sha256",
+        "minSdkVersion": 26,
+        "nativecode": [
+          "arm64-v8a",
+          "armeabi-v7a",
+          "x86",
+          "x86_64"
+        ],
+        "packageName": "at.willhaben.revanced",
+        "sig": "5837ab34622f0917305f6d32bc00ab0a",
+        "signer": "990aa515644a3f1528c122f2ce9ceb19f404912532394579ebedaea32c99cde9",
+        "size": 23747944,
+        "targetSdkVersion": 37,
+        "uses-permission": [
+          [
+            "android.permission.INTERNET",
+            null
+          ],
+          [
+            "android.permission.ACCESS_NETWORK_STATE",
+            null
+          ],
+          [
+            "android.permission.ACCESS_WIFI_STATE",
+            null
+          ],
+          [
+            "android.permission.ACCESS_COARSE_LOCATION",
+            null
+          ],
+          [
+            "android.permission.ACCESS_FINE_LOCATION",
+            null
+          ],
+          [
+            "android.permission.REORDER_TASKS",
+            null
+          ],
+          [
+            "android.permission.CAMERA",
+            null
+          ],
+          [
+            "android.permission.FLASHLIGHT",
+            null
+          ],
+          [
+            "android.permission.VIBRATE",
+            null
+          ],
+          [
+            "com.google.android.gms.permission.AD_ID",
+            null
+          ],
+          [
+            "android.permission.POST_NOTIFICATIONS",
+            null
+          ],
+          [
+            "android.permission.USE_BIOMETRIC",
+            null
+          ],
+          [
+            "android.permission.USE_FINGERPRINT",
+            null
+          ],
+          [
+            "android.permission.WAKE_LOCK",
+            null
+          ],
+          [
+            "android.permission.RECEIVE_BOOT_COMPLETED",
+            null
+          ],
+          [
+            "android.permission.FOREGROUND_SERVICE",
+            null
+          ],
+          [
+            "com.google.android.c2dm.permission.RECEIVE",
+            null
+          ],
+          [
+            "com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE",
+            null
+          ],
+          [
+            "android.permission.ACCESS_ADSERVICES_ATTRIBUTION",
+            null
+          ],
+          [
+            "android.permission.ACCESS_ADSERVICES_AD_ID",
+            null
+          ],
+          [
+            "at.willhaben.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION",
+            null
+          ]
+        ],
+        "versionCode": 613675,
+        "versionName": "8.55.0"
+      },
       {
         "added": 1784945742000,
         "apkName": "at.willhaben_8.53.0_revanced.apk",
@@ -1138,7 +1244,7 @@
       {
         "added": 1785926056000,
         "apkName": "com.nis.app_6.12.29_revanced.apk",
-        "hash": "d5840c0fae0edc040c7efda07500acc4b241f7ce760b2c20cef402714e152957",
+        "hash": "1291a2af25a6529acc64e1cf7145feca7f95ca31b340f6a5018e013ebf607972",
         "hashType": "sha256",
         "minSdkVersion": 24,
         "nativecode": [
@@ -1147,7 +1253,7 @@
         "packageName": "com.nis.app.revanced",
         "sig": "5837ab34622f0917305f6d32bc00ab0a",
         "signer": "990aa515644a3f1528c122f2ce9ceb19f404912532394579ebedaea32c99cde9",
-        "size": 45005475,
+        "size": 45034147,
         "targetSdkVersion": 36,
         "uses-permission": [
           [
@@ -1545,13 +1651,13 @@
       {
         "added": 1784501801000,
         "apkName": "com.onelouder.baconreader_6.1.4_revanced.apk",
-        "hash": "e5fafec72e330c79dda6db5cad9ee21787c962be6c28cc03e47ee87642fb5f10",
+        "hash": "46b8ef9e4a0f13dcdb9eb1a1593999d01e1d829304c5af1f6a93b1080647b7c4",
         "hashType": "sha256",
         "minSdkVersion": 22,
         "packageName": "com.onelouder.baconreader.revanced",
         "sig": "5837ab34622f0917305f6d32bc00ab0a",
         "signer": "990aa515644a3f1528c122f2ce9ceb19f404912532394579ebedaea32c99cde9",
-        "size": 20842345,
+        "size": 20985705,
         "targetSdkVersion": 31,
         "uses-permission": [
           [

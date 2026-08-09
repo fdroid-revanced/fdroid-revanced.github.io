@@ -14,7 +14,7 @@
       }
     },
     "address": "https://fdroid-revanced.github.io/repo",
-    "timestamp": 1786238508000,
+    "timestamp": 1786264807000,
     "categories": {
       "Multimedia": {
         "name": {
@@ -291,7 +291,7 @@
         "categories": [
           "Multimedia"
         ],
-        "lastUpdated": 1784945742000,
+        "lastUpdated": 1786264785000,
         "authorName": "ReVanced (patched)",
         "name": {
           "en-US": "willhaben"
@@ -302,6 +302,98 @@
         "preferredSigner": "990aa515644a3f1528c122f2ce9ceb19f404912532394579ebedaea32c99cde9"
       },
       "versions": {
+        "f3343f5b06ca94302de24d3ad85bbfece13196645da7ad9f68a0a13407ee9792": {
+          "added": 1786264785000,
+          "file": {
+            "name": "/at.willhaben_8.55.0_revanced.apk",
+            "sha256": "f3343f5b06ca94302de24d3ad85bbfece13196645da7ad9f68a0a13407ee9792",
+            "size": 23747944
+          },
+          "manifest": {
+            "nativecode": [
+              "arm64-v8a",
+              "armeabi-v7a",
+              "x86",
+              "x86_64"
+            ],
+            "versionName": "8.55.0",
+            "versionCode": 613675,
+            "usesSdk": {
+              "minSdkVersion": 26,
+              "targetSdkVersion": 37
+            },
+            "signer": {
+              "sha256": [
+                "990aa515644a3f1528c122f2ce9ceb19f404912532394579ebedaea32c99cde9"
+              ]
+            },
+            "usesPermission": [
+              {
+                "name": "android.permission.INTERNET"
+              },
+              {
+                "name": "android.permission.ACCESS_NETWORK_STATE"
+              },
+              {
+                "name": "android.permission.ACCESS_WIFI_STATE"
+              },
+              {
+                "name": "android.permission.ACCESS_COARSE_LOCATION"
+              },
+              {
+                "name": "android.permission.ACCESS_FINE_LOCATION"
+              },
+              {
+                "name": "android.permission.REORDER_TASKS"
+              },
+              {
+                "name": "android.permission.CAMERA"
+              },
+              {
+                "name": "android.permission.FLASHLIGHT"
+              },
+              {
+                "name": "android.permission.VIBRATE"
+              },
+              {
+                "name": "com.google.android.gms.permission.AD_ID"
+              },
+              {
+                "name": "android.permission.POST_NOTIFICATIONS"
+              },
+              {
+                "name": "android.permission.USE_BIOMETRIC"
+              },
+              {
+                "name": "android.permission.USE_FINGERPRINT"
+              },
+              {
+                "name": "android.permission.WAKE_LOCK"
+              },
+              {
+                "name": "android.permission.RECEIVE_BOOT_COMPLETED"
+              },
+              {
+                "name": "android.permission.FOREGROUND_SERVICE"
+              },
+              {
+                "name": "com.google.android.c2dm.permission.RECEIVE"
+              },
+              {
+                "name": "com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE"
+              },
+              {
+                "name": "android.permission.ACCESS_ADSERVICES_ATTRIBUTION"
+              },
+              {
+                "name": "android.permission.ACCESS_ADSERVICES_AD_ID"
+              },
+              {
+                "name": "at.willhaben.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+              }
+            ]
+          }
+        },
         "6d8363edf97c16a34a2691c4c463bb022d32df5db5f90f9fda436ddbc37882d6": {
           "added": 1784945742000,
           "file": {
@@ -976,12 +1068,12 @@
         "preferredSigner": "990aa515644a3f1528c122f2ce9ceb19f404912532394579ebedaea32c99cde9"
       },
       "versions": {
-        "d5840c0fae0edc040c7efda07500acc4b241f7ce760b2c20cef402714e152957": {
+        "1291a2af25a6529acc64e1cf7145feca7f95ca31b340f6a5018e013ebf607972": {
           "added": 1785926056000,
           "file": {
             "name": "/com.nis.app_6.12.29_revanced.apk",
-            "sha256": "d5840c0fae0edc040c7efda07500acc4b241f7ce760b2c20cef402714e152957",
-            "size": 45005475
+            "sha256": "1291a2af25a6529acc64e1cf7145feca7f95ca31b340f6a5018e013ebf607972",
+            "size": 45034147
           },
           "manifest": {
             "nativecode": [
@@ -1341,12 +1433,12 @@
         "preferredSigner": "990aa515644a3f1528c122f2ce9ceb19f404912532394579ebedaea32c99cde9"
       },
       "versions": {
-        "e5fafec72e330c79dda6db5cad9ee21787c962be6c28cc03e47ee87642fb5f10": {
+        "46b8ef9e4a0f13dcdb9eb1a1593999d01e1d829304c5af1f6a93b1080647b7c4": {
           "added": 1784501801000,
           "file": {
             "name": "/com.onelouder.baconreader_6.1.4_revanced.apk",
-            "sha256": "e5fafec72e330c79dda6db5cad9ee21787c962be6c28cc03e47ee87642fb5f10",
-            "size": 20842345
+            "sha256": "46b8ef9e4a0f13dcdb9eb1a1593999d01e1d829304c5af1f6a93b1080647b7c4",
+            "size": 20985705
           },
           "manifest": {
             "versionName": "6.1.4",
