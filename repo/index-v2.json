@@ -14,7 +14,7 @@
       }
     },
     "address": "https://fdroid-revanced.github.io/repo",
-    "timestamp": 1786206637000,
+    "timestamp": 1786238508000,
     "categories": {
       "Multimedia": {
         "name": {
@@ -976,12 +976,12 @@
         "preferredSigner": "990aa515644a3f1528c122f2ce9ceb19f404912532394579ebedaea32c99cde9"
       },
       "versions": {
-        "ef938d8c70fb4014fe0f012daccfbf2903380613b747db74a89c707cfccab99e": {
+        "d5840c0fae0edc040c7efda07500acc4b241f7ce760b2c20cef402714e152957": {
           "added": 1785926056000,
           "file": {
             "name": "/com.nis.app_6.12.29_revanced.apk",
-            "sha256": "ef938d8c70fb4014fe0f012daccfbf2903380613b747db74a89c707cfccab99e",
-            "size": 45038243
+            "sha256": "d5840c0fae0edc040c7efda07500acc4b241f7ce760b2c20cef402714e152957",
+            "size": 45005475
           },
           "manifest": {
             "nativecode": [

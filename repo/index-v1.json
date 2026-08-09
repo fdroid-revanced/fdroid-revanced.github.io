@@ -1,6 +1,6 @@
 {
   "repo": {
-    "timestamp": 1786206637000,
+    "timestamp": 1786238508000,
     "version": 20002,
     "name": "ReVanced F-Droid",
     "icon": "icon.png",
@@ -1138,7 +1138,7 @@
       {
         "added": 1785926056000,
         "apkName": "com.nis.app_6.12.29_revanced.apk",
-        "hash": "ef938d8c70fb4014fe0f012daccfbf2903380613b747db74a89c707cfccab99e",
+        "hash": "d5840c0fae0edc040c7efda07500acc4b241f7ce760b2c20cef402714e152957",
         "hashType": "sha256",
         "minSdkVersion": 24,
         "nativecode": [
@@ -1147,7 +1147,7 @@
         "packageName": "com.nis.app.revanced",
         "sig": "5837ab34622f0917305f6d32bc00ab0a",
         "signer": "990aa515644a3f1528c122f2ce9ceb19f404912532394579ebedaea32c99cde9",
-        "size": 45038243,
+        "size": 45005475,
         "targetSdkVersion": 36,
         "uses-permission": [
           [
