@@ -1,6 +1,6 @@
 {
   "repo": {
-    "timestamp": 1786293159000,
+    "timestamp": 1786325017000,
     "version": 20002,
     "name": "ReVanced F-Droid",
     "icon": "icon.png",
@@ -2064,7 +2064,7 @@
           "com.samsung.feature.device_category_phone",
           "com.samsung.feature.samsung_experience_mobile"
         ],
-        "hash": "b3c42db8633d692e0ec1d5259c2960404956453cba8f1259747521dbf7b796e2",
+        "hash": "6b2c794be1cea1e6d501fb9b3cd4878175ebda0a0ca60a3c9d923f3135790e80",
         "hashType": "sha256",
         "minSdkVersion": 33,
         "nativecode": [
@@ -2074,7 +2074,7 @@
         "packageName": "com.sec.android.app.fm.revanced",
         "sig": "5837ab34622f0917305f6d32bc00ab0a",
         "signer": "990aa515644a3f1528c122f2ce9ceb19f404912532394579ebedaea32c99cde9",
-        "size": 5983533,
+        "size": 5987629,
         "targetSdkVersion": 35,
         "uses-permission": [
           [
