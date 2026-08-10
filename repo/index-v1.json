@@ -1,6 +1,6 @@
 {
   "repo": {
-    "timestamp": 1786353478000,
+    "timestamp": 1786380854000,
     "version": 20002,
     "name": "ReVanced F-Droid",
     "icon": "icon.png",
@@ -499,7 +499,7 @@
       {
         "added": 1786264785000,
         "apkName": "at.willhaben_8.55.0_revanced.apk",
-        "hash": "f3343f5b06ca94302de24d3ad85bbfece13196645da7ad9f68a0a13407ee9792",
+        "hash": "dcde94b934cce62007288b1711429c0352ab3cbd4bb6cfa40d7b42e5f07a9730",
         "hashType": "sha256",
         "minSdkVersion": 26,
         "nativecode": [
@@ -511,7 +511,7 @@
         "packageName": "at.willhaben.revanced",
         "sig": "5837ab34622f0917305f6d32bc00ab0a",
         "signer": "990aa515644a3f1528c122f2ce9ceb19f404912532394579ebedaea32c99cde9",
-        "size": 23747944,
+        "size": 23743848,
         "targetSdkVersion": 37,
         "uses-permission": [
           [
@@ -1144,7 +1144,7 @@
       {
         "added": 1784501799000,
         "apkName": "com.bandcamp.android_3.3.6_revanced.apk",
-        "hash": "104d30fbbfe1171cb6e4e4b5b7c95eedb9f6b128c96448016a29a63d622b0bf2",
+        "hash": "f6a0ec39814c7dcaacf2e441568443d870e1ec1e1700f98bc8769d82269206da",
         "hashType": "sha256",
         "minSdkVersion": 24,
         "nativecode": [
@@ -1156,7 +1156,7 @@
         "packageName": "com.bandcamp.android.revanced",
         "sig": "5837ab34622f0917305f6d32bc00ab0a",
         "signer": "990aa515644a3f1528c122f2ce9ceb19f404912532394579ebedaea32c99cde9",
-        "size": 15061453,
+        "size": 15069645,
         "targetSdkVersion": 36,
         "uses-permission": [
           [
