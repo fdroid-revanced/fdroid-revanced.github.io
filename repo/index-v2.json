@@ -14,7 +14,7 @@
       }
     },
     "address": "https://fdroid-revanced.github.io/repo",
-    "timestamp": 1786325017000,
+    "timestamp": 1786353478000,
     "categories": {
       "Multimedia": {
         "name": {
@@ -2156,12 +2156,12 @@
         "preferredSigner": "990aa515644a3f1528c122f2ce9ceb19f404912532394579ebedaea32c99cde9"
       },
       "versions": {
-        "16d7e33c4d1363184389def52b83e51ae8ba0456ab956de87ced3884f3cd89b3": {
+        "ca27397fd8d137f40926d775ad52ae08fdbb94138789d70164a8d813406c8265": {
           "added": 1785926066000,
           "file": {
             "name": "/ml.docilealligator.infinityforreddit.plus_8.3.0-beta5_revanced.apk",
-            "sha256": "16d7e33c4d1363184389def52b83e51ae8ba0456ab956de87ced3884f3cd89b3",
-            "size": 23772849
+            "sha256": "ca27397fd8d137f40926d775ad52ae08fdbb94138789d70164a8d813406c8265",
+            "size": 23760561
           },
           "manifest": {
             "nativecode": [
