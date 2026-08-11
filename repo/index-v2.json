@@ -14,7 +14,7 @@
       }
     },
     "address": "https://fdroid-revanced.github.io/repo",
-    "timestamp": 1786438354000,
+    "timestamp": 1786467483000,
     "categories": {
       "Multimedia": {
         "name": {
@@ -302,12 +302,12 @@
         "preferredSigner": "990aa515644a3f1528c122f2ce9ceb19f404912532394579ebedaea32c99cde9"
       },
       "versions": {
-        "dcde94b934cce62007288b1711429c0352ab3cbd4bb6cfa40d7b42e5f07a9730": {
+        "bf629251f74af866cf7b9d4e9f4837e89abc2bdb2913446c5dccb4a62e9864ab": {
           "added": 1786264785000,
           "file": {
             "name": "/at.willhaben_8.55.0_revanced.apk",
-            "sha256": "dcde94b934cce62007288b1711429c0352ab3cbd4bb6cfa40d7b42e5f07a9730",
-            "size": 23743848
+            "sha256": "bf629251f74af866cf7b9d4e9f4837e89abc2bdb2913446c5dccb4a62e9864ab",
+            "size": 23747944
           },
           "manifest": {
             "nativecode": [
@@ -1875,12 +1875,12 @@
         "preferredSigner": "990aa515644a3f1528c122f2ce9ceb19f404912532394579ebedaea32c99cde9"
       },
       "versions": {
-        "6b2c794be1cea1e6d501fb9b3cd4878175ebda0a0ca60a3c9d923f3135790e80": {
+        "dd0e9cefc88a212cfdc31a3d70ebe61ce777f3eaa3613668ee5809ac4ddd9a90": {
           "added": 1784501803000,
           "file": {
             "name": "/com.sec.android.app.fm_12.4.00.7_revanced.apk",
-            "sha256": "6b2c794be1cea1e6d501fb9b3cd4878175ebda0a0ca60a3c9d923f3135790e80",
-            "size": 5987629
+            "sha256": "dd0e9cefc88a212cfdc31a3d70ebe61ce777f3eaa3613668ee5809ac4ddd9a90",
+            "size": 5991725
           },
           "manifest": {
             "nativecode": [
@@ -2238,12 +2238,12 @@
             ]
           }
         },
-        "293a7ee02aefca83f331b6353910c36fdb8fe8ffdee705d48bba60661e9b781c": {
+        "d92a710bf9f31dcef6694461940b9db673d31be969c6a2befb99c452c0d48356": {
           "added": 1785839791000,
           "file": {
             "name": "/ml.docilealligator.infinityforreddit_8.3.0-beta5_revanced.apk",
-            "sha256": "293a7ee02aefca83f331b6353910c36fdb8fe8ffdee705d48bba60661e9b781c",
-            "size": 23768753
+            "sha256": "d92a710bf9f31dcef6694461940b9db673d31be969c6a2befb99c452c0d48356",
+            "size": 23756465
           },
           "manifest": {
             "nativecode": [

@@ -1,6 +1,6 @@
 {
   "repo": {
-    "timestamp": 1786438354000,
+    "timestamp": 1786467483000,
     "version": 20002,
     "name": "ReVanced F-Droid",
     "icon": "icon.png",
@@ -499,7 +499,7 @@
       {
         "added": 1786264785000,
         "apkName": "at.willhaben_8.55.0_revanced.apk",
-        "hash": "dcde94b934cce62007288b1711429c0352ab3cbd4bb6cfa40d7b42e5f07a9730",
+        "hash": "bf629251f74af866cf7b9d4e9f4837e89abc2bdb2913446c5dccb4a62e9864ab",
         "hashType": "sha256",
         "minSdkVersion": 26,
         "nativecode": [
@@ -511,7 +511,7 @@
         "packageName": "at.willhaben.revanced",
         "sig": "5837ab34622f0917305f6d32bc00ab0a",
         "signer": "990aa515644a3f1528c122f2ce9ceb19f404912532394579ebedaea32c99cde9",
-        "size": 23743848,
+        "size": 23747944,
         "targetSdkVersion": 37,
         "uses-permission": [
           [
@@ -2064,7 +2064,7 @@
           "com.samsung.feature.device_category_phone",
           "com.samsung.feature.samsung_experience_mobile"
         ],
-        "hash": "6b2c794be1cea1e6d501fb9b3cd4878175ebda0a0ca60a3c9d923f3135790e80",
+        "hash": "dd0e9cefc88a212cfdc31a3d70ebe61ce777f3eaa3613668ee5809ac4ddd9a90",
         "hashType": "sha256",
         "minSdkVersion": 33,
         "nativecode": [
@@ -2074,7 +2074,7 @@
         "packageName": "com.sec.android.app.fm.revanced",
         "sig": "5837ab34622f0917305f6d32bc00ab0a",
         "signer": "990aa515644a3f1528c122f2ce9ceb19f404912532394579ebedaea32c99cde9",
-        "size": 5987629,
+        "size": 5991725,
         "targetSdkVersion": 35,
         "uses-permission": [
           [
@@ -2410,7 +2410,7 @@
       {
         "added": 1785839791000,
         "apkName": "ml.docilealligator.infinityforreddit_8.3.0-beta5_revanced.apk",
-        "hash": "293a7ee02aefca83f331b6353910c36fdb8fe8ffdee705d48bba60661e9b781c",
+        "hash": "d92a710bf9f31dcef6694461940b9db673d31be969c6a2befb99c452c0d48356",
         "hashType": "sha256",
         "minSdkVersion": 21,
         "nativecode": [
@@ -2422,7 +2422,7 @@
         "packageName": "ml.docilealligator.infinityforreddit.plus.revanced",
         "sig": "5837ab34622f0917305f6d32bc00ab0a",
         "signer": "990aa515644a3f1528c122f2ce9ceb19f404912532394579ebedaea32c99cde9",
-        "size": 23768753,
+        "size": 23756465,
         "targetSdkVersion": 36,
         "uses-permission": [
           [
