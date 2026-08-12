@@ -14,7 +14,7 @@
       }
     },
     "address": "https://fdroid-revanced.github.io/repo",
-    "timestamp": 1786467483000,
+    "timestamp": 1786525892000,
     "categories": {
       "Multimedia": {
         "name": {
@@ -834,12 +834,12 @@
         "preferredSigner": "990aa515644a3f1528c122f2ce9ceb19f404912532394579ebedaea32c99cde9"
       },
       "versions": {
-        "b1c472f09389da06a421f0b4fb0cbff7c7ba0923207ac9188cb2678164b414c9": {
+        "104d998552b9e7070935bbaace256a77bcab9cfd46f7c4aacb1fb60b54b00aa1": {
           "added": 1784501798000,
           "file": {
             "name": "/com.andrewshu.android.reddit_5.6.22_revanced.apk",
-            "sha256": "b1c472f09389da06a421f0b4fb0cbff7c7ba0923207ac9188cb2678164b414c9",
-            "size": 14145393
+            "sha256": "104d998552b9e7070935bbaace256a77bcab9cfd46f7c4aacb1fb60b54b00aa1",
+            "size": 14149489
           },
           "manifest": {
             "nativecode": [
@@ -2238,12 +2238,12 @@
             ]
           }
         },
-        "d92a710bf9f31dcef6694461940b9db673d31be969c6a2befb99c452c0d48356": {
+        "a29821f733ee59d37bb114703918b807b0cf62b198663a7f6ac4e149298e3e66": {
           "added": 1785839791000,
           "file": {
             "name": "/ml.docilealligator.infinityforreddit_8.3.0-beta5_revanced.apk",
-            "sha256": "d92a710bf9f31dcef6694461940b9db673d31be969c6a2befb99c452c0d48356",
-            "size": 23756465
+            "sha256": "a29821f733ee59d37bb114703918b807b0cf62b198663a7f6ac4e149298e3e66",
+            "size": 23776945
           },
           "manifest": {
             "nativecode": [
