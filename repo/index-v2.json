@@ -14,7 +14,7 @@
       }
     },
     "address": "https://fdroid-revanced.github.io/repo",
-    "timestamp": 1786612293000,
+    "timestamp": 1786640227000,
     "categories": {
       "Multimedia": {
         "name": {
@@ -834,12 +834,12 @@
         "preferredSigner": "990aa515644a3f1528c122f2ce9ceb19f404912532394579ebedaea32c99cde9"
       },
       "versions": {
-        "104d998552b9e7070935bbaace256a77bcab9cfd46f7c4aacb1fb60b54b00aa1": {
+        "fbb1b3c0cdf6358e9cd83f673897f437d897332590431a7d2faf7fb6adbf88dc": {
           "added": 1784501798000,
           "file": {
             "name": "/com.andrewshu.android.reddit_5.6.22_revanced.apk",
-            "sha256": "104d998552b9e7070935bbaace256a77bcab9cfd46f7c4aacb1fb60b54b00aa1",
-            "size": 14149489
+            "sha256": "fbb1b3c0cdf6358e9cd83f673897f437d897332590431a7d2faf7fb6adbf88dc",
+            "size": 14169969
           },
           "manifest": {
             "nativecode": [
@@ -1068,11 +1068,11 @@
         "preferredSigner": "990aa515644a3f1528c122f2ce9ceb19f404912532394579ebedaea32c99cde9"
       },
       "versions": {
-        "d9aa46c5585a9d9b13b9cd2dfc80790f52a82e5b55e9de430f1dc5c813479ec8": {
+        "dc486916b40e16fa4b0dc4477ca09fc8f7ddfa7f56537cf139ad39f2f0606636": {
           "added": 1786612282000,
           "file": {
             "name": "/com.nis.app_6.12.30_revanced.apk",
-            "sha256": "d9aa46c5585a9d9b13b9cd2dfc80790f52a82e5b55e9de430f1dc5c813479ec8",
+            "sha256": "dc486916b40e16fa4b0dc4477ca09fc8f7ddfa7f56537cf139ad39f2f0606636",
             "size": 45140643
           },
           "manifest": {
@@ -1546,12 +1546,12 @@
         "preferredSigner": "990aa515644a3f1528c122f2ce9ceb19f404912532394579ebedaea32c99cde9"
       },
       "versions": {
-        "052408e7e5fcf7956e6a1e072eb3b766bf240aea12c9b44a307db5aaa6fb55c3": {
+        "634c36723c2d1e4c7f043211913215d6a1181215acb22b2ebe4a6a77afcf3b12": {
           "added": 1784501801000,
           "file": {
             "name": "/com.onelouder.baconreader_6.1.4_revanced.apk",
-            "sha256": "052408e7e5fcf7956e6a1e072eb3b766bf240aea12c9b44a307db5aaa6fb55c3",
-            "size": 20948841
+            "sha256": "634c36723c2d1e4c7f043211913215d6a1181215acb22b2ebe4a6a77afcf3b12",
+            "size": 20981609
           },
           "manifest": {
             "versionName": "6.1.4",
@@ -1792,12 +1792,12 @@
         "preferredSigner": "990aa515644a3f1528c122f2ce9ceb19f404912532394579ebedaea32c99cde9"
       },
       "versions": {
-        "080f23b1e6d74422dc73051eb9ced202e2364087ed9561c46fdcd6789f5cc58c": {
+        "dd090c9ace869430888219d5608392997e8c1f9f97951192719da355e1b77970": {
           "added": 1784502646000,
           "file": {
             "name": "/com.rubenmayayo.reddit_1.12.12_revanced.apk",
-            "sha256": "080f23b1e6d74422dc73051eb9ced202e2364087ed9561c46fdcd6789f5cc58c",
-            "size": 19016797
+            "sha256": "dd090c9ace869430888219d5608392997e8c1f9f97951192719da355e1b77970",
+            "size": 19004509
           },
           "manifest": {
             "nativecode": [

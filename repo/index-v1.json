@@ -1,6 +1,6 @@
 {
   "repo": {
-    "timestamp": 1786612293000,
+    "timestamp": 1786640227000,
     "version": 20002,
     "name": "ReVanced F-Droid",
     "icon": "icon.png",
@@ -1040,7 +1040,7 @@
       {
         "added": 1784501798000,
         "apkName": "com.andrewshu.android.reddit_5.6.22_revanced.apk",
-        "hash": "104d998552b9e7070935bbaace256a77bcab9cfd46f7c4aacb1fb60b54b00aa1",
+        "hash": "fbb1b3c0cdf6358e9cd83f673897f437d897332590431a7d2faf7fb6adbf88dc",
         "hashType": "sha256",
         "minSdkVersion": 21,
         "nativecode": [
@@ -1052,7 +1052,7 @@
         "packageName": "com.andrewshu.android.reddit.revanced",
         "sig": "5837ab34622f0917305f6d32bc00ab0a",
         "signer": "990aa515644a3f1528c122f2ce9ceb19f404912532394579ebedaea32c99cde9",
-        "size": 14149489,
+        "size": 14169969,
         "targetSdkVersion": 33,
         "uses-permission": [
           [
@@ -1244,7 +1244,7 @@
       {
         "added": 1786612282000,
         "apkName": "com.nis.app_6.12.30_revanced.apk",
-        "hash": "d9aa46c5585a9d9b13b9cd2dfc80790f52a82e5b55e9de430f1dc5c813479ec8",
+        "hash": "dc486916b40e16fa4b0dc4477ca09fc8f7ddfa7f56537cf139ad39f2f0606636",
         "hashType": "sha256",
         "minSdkVersion": 24,
         "nativecode": [
@@ -1786,13 +1786,13 @@
       {
         "added": 1784501801000,
         "apkName": "com.onelouder.baconreader_6.1.4_revanced.apk",
-        "hash": "052408e7e5fcf7956e6a1e072eb3b766bf240aea12c9b44a307db5aaa6fb55c3",
+        "hash": "634c36723c2d1e4c7f043211913215d6a1181215acb22b2ebe4a6a77afcf3b12",
         "hashType": "sha256",
         "minSdkVersion": 22,
         "packageName": "com.onelouder.baconreader.revanced",
         "sig": "5837ab34622f0917305f6d32bc00ab0a",
         "signer": "990aa515644a3f1528c122f2ce9ceb19f404912532394579ebedaea32c99cde9",
-        "size": 20948841,
+        "size": 20981609,
         "targetSdkVersion": 31,
         "uses-permission": [
           [
@@ -2010,7 +2010,7 @@
       {
         "added": 1784502646000,
         "apkName": "com.rubenmayayo.reddit_1.12.12_revanced.apk",
-        "hash": "080f23b1e6d74422dc73051eb9ced202e2364087ed9561c46fdcd6789f5cc58c",
+        "hash": "dd090c9ace869430888219d5608392997e8c1f9f97951192719da355e1b77970",
         "hashType": "sha256",
         "minSdkVersion": 21,
         "nativecode": [
@@ -2025,7 +2025,7 @@
         "packageName": "com.rubenmayayo.reddit.revanced",
         "sig": "5837ab34622f0917305f6d32bc00ab0a",
         "signer": "990aa515644a3f1528c122f2ce9ceb19f404912532394579ebedaea32c99cde9",
-        "size": 19016797,
+        "size": 19004509,
         "targetSdkVersion": 32,
         "uses-permission": [
           [
