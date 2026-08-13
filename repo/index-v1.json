@@ -1,6 +1,6 @@
 {
   "repo": {
-    "timestamp": 1786584766000,
+    "timestamp": 1786612293000,
     "version": 20002,
     "name": "ReVanced F-Droid",
     "icon": "icon.png",
@@ -106,13 +106,13 @@
       "categories": [
         "Multimedia"
       ],
-      "suggestedVersionCode": "5070914",
+      "suggestedVersionCode": "5070939",
       "description": "ReVanced-patched build of com.nis.app.\n\nPatches applied:\n- INFO: \"Hide ads\" succeeded\n- INFO: \"Change package name\" succeeded\n",
       "license": "Unknown",
       "added": 1784501800000,
-      "icon": "com.nis.app.revanced.5070914.png",
+      "icon": "com.nis.app.revanced.5070939.png",
       "packageName": "com.nis.app.revanced",
-      "lastUpdated": 1785926056000,
+      "lastUpdated": 1786612282000,
       "localized": {
         "en-US": {
           "name": "inshorts"
@@ -1242,6 +1242,141 @@
     ],
     "com.nis.app.revanced": [
       {
+        "added": 1786612282000,
+        "apkName": "com.nis.app_6.12.30_revanced.apk",
+        "hash": "d9aa46c5585a9d9b13b9cd2dfc80790f52a82e5b55e9de430f1dc5c813479ec8",
+        "hashType": "sha256",
+        "minSdkVersion": 24,
+        "nativecode": [
+          "armeabi-v7a"
+        ],
+        "packageName": "com.nis.app.revanced",
+        "sig": "5837ab34622f0917305f6d32bc00ab0a",
+        "signer": "990aa515644a3f1528c122f2ce9ceb19f404912532394579ebedaea32c99cde9",
+        "size": 45140643,
+        "targetSdkVersion": 36,
+        "uses-permission": [
+          [
+            "android.permission.INTERNET",
+            null
+          ],
+          [
+            "android.permission.USE_CREDENTIALS",
+            null
+          ],
+          [
+            "android.permission.VIBRATE",
+            null
+          ],
+          [
+            "android.permission.ACCESS_NETWORK_STATE",
+            null
+          ],
+          [
+            "android.permission.RECEIVE_BOOT_COMPLETED",
+            null
+          ],
+          [
+            "android.permission.WAKE_LOCK",
+            null
+          ],
+          [
+            "android.permission.ACCESS_WIFI_STATE",
+            null
+          ],
+          [
+            "com.google.android.c2dm.permission.RECEIVE",
+            null
+          ],
+          [
+            "android.permission.ACCESS_COARSE_LOCATION",
+            null
+          ],
+          [
+            "android.permission.ACCESS_FINE_LOCATION",
+            null
+          ],
+          [
+            "android.permission.CAMERA",
+            null
+          ],
+          [
+            "android.permission.RECORD_AUDIO",
+            null
+          ],
+          [
+            "android.permission.MODIFY_AUDIO_SETTINGS",
+            null
+          ],
+          [
+            "android.permission.FOREGROUND_SERVICE",
+            null
+          ],
+          [
+            "android.permission.FOREGROUND_SERVICE_MEDIA_PLAYBACK",
+            null
+          ],
+          [
+            "android.permission.CHANGE_NETWORK_STATE",
+            null
+          ],
+          [
+            "android.permission.READ_PHONE_STATE",
+            null
+          ],
+          [
+            "com.google.android.gms.permission.AD_ID",
+            null
+          ],
+          [
+            "android.permission.USE_BIOMETRIC",
+            null
+          ],
+          [
+            "android.permission.USE_FINGERPRINT",
+            null
+          ],
+          [
+            "android.permission.POST_NOTIFICATIONS",
+            null
+          ],
+          [
+            "com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE",
+            null
+          ],
+          [
+            "com.truecaller.permission.sdk.internal.read_account_state",
+            null
+          ],
+          [
+            "android.permission.ACCESS_ADSERVICES_ATTRIBUTION",
+            null
+          ],
+          [
+            "android.permission.ACCESS_ADSERVICES_AD_ID",
+            null
+          ],
+          [
+            "com.google.android.providers.gsf.permission.READ_GSERVICES",
+            null
+          ],
+          [
+            "android.permission.ACCESS_ADSERVICES_TOPICS",
+            null
+          ],
+          [
+            "android.permission.ACCESS_ADSERVICES_CUSTOM_AUDIENCE",
+            null
+          ],
+          [
+            "com.nis.app.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION",
+            null
+          ]
+        ],
+        "versionCode": 5070939,
+        "versionName": "6.12.30"
+      },
+      {
         "added": 1785926056000,
         "apkName": "com.nis.app_6.12.29_revanced.apk",
         "hash": "1291a2af25a6529acc64e1cf7145feca7f95ca31b340f6a5018e013ebf607972",
@@ -1651,13 +1786,13 @@
       {
         "added": 1784501801000,
         "apkName": "com.onelouder.baconreader_6.1.4_revanced.apk",
-        "hash": "46b8ef9e4a0f13dcdb9eb1a1593999d01e1d829304c5af1f6a93b1080647b7c4",
+        "hash": "052408e7e5fcf7956e6a1e072eb3b766bf240aea12c9b44a307db5aaa6fb55c3",
         "hashType": "sha256",
         "minSdkVersion": 22,
         "packageName": "com.onelouder.baconreader.revanced",
         "sig": "5837ab34622f0917305f6d32bc00ab0a",
         "signer": "990aa515644a3f1528c122f2ce9ceb19f404912532394579ebedaea32c99cde9",
-        "size": 20985705,
+        "size": 20948841,
         "targetSdkVersion": 31,
         "uses-permission": [
           [
