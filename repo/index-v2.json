@@ -14,7 +14,7 @@
       }
     },
     "address": "https://fdroid-revanced.github.io/repo",
-    "timestamp": 1786640227000,
+    "timestamp": 1786671152000,
     "categories": {
       "Multimedia": {
         "name": {
@@ -291,7 +291,7 @@
         "categories": [
           "Multimedia"
         ],
-        "lastUpdated": 1786264785000,
+        "lastUpdated": 1786671126000,
         "authorName": "ReVanced (patched)",
         "name": {
           "en-US": "willhaben"
@@ -302,6 +302,98 @@
         "preferredSigner": "990aa515644a3f1528c122f2ce9ceb19f404912532394579ebedaea32c99cde9"
       },
       "versions": {
+        "2a0c67deff58a2a38c05f54fd06d2405cc30891bda6a1e0b9cd23deae3dc885a": {
+          "added": 1786671126000,
+          "file": {
+            "name": "/at.willhaben_8.56.0_revanced.apk",
+            "sha256": "2a0c67deff58a2a38c05f54fd06d2405cc30891bda6a1e0b9cd23deae3dc885a",
+            "size": 23607976
+          },
+          "manifest": {
+            "nativecode": [
+              "arm64-v8a",
+              "armeabi-v7a",
+              "x86",
+              "x86_64"
+            ],
+            "versionName": "8.56.0",
+            "versionCode": 613812,
+            "usesSdk": {
+              "minSdkVersion": 26,
+              "targetSdkVersion": 37
+            },
+            "signer": {
+              "sha256": [
+                "990aa515644a3f1528c122f2ce9ceb19f404912532394579ebedaea32c99cde9"
+              ]
+            },
+            "usesPermission": [
+              {
+                "name": "android.permission.INTERNET"
+              },
+              {
+                "name": "android.permission.ACCESS_NETWORK_STATE"
+              },
+              {
+                "name": "android.permission.ACCESS_WIFI_STATE"
+              },
+              {
+                "name": "android.permission.ACCESS_COARSE_LOCATION"
+              },
+              {
+                "name": "android.permission.ACCESS_FINE_LOCATION"
+              },
+              {
+                "name": "android.permission.REORDER_TASKS"
+              },
+              {
+                "name": "android.permission.CAMERA"
+              },
+              {
+                "name": "android.permission.FLASHLIGHT"
+              },
+              {
+                "name": "android.permission.VIBRATE"
+              },
+              {
+                "name": "com.google.android.gms.permission.AD_ID"
+              },
+              {
+                "name": "android.permission.POST_NOTIFICATIONS"
+              },
+              {
+                "name": "android.permission.USE_BIOMETRIC"
+              },
+              {
+                "name": "android.permission.USE_FINGERPRINT"
+              },
+              {
+                "name": "android.permission.WAKE_LOCK"
+              },
+              {
+                "name": "android.permission.RECEIVE_BOOT_COMPLETED"
+              },
+              {
+                "name": "android.permission.FOREGROUND_SERVICE"
+              },
+              {
+                "name": "com.google.android.c2dm.permission.RECEIVE"
+              },
+              {
+                "name": "com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE"
+              },
+              {
+                "name": "android.permission.ACCESS_ADSERVICES_ATTRIBUTION"
+              },
+              {
+                "name": "android.permission.ACCESS_ADSERVICES_AD_ID"
+              },
+              {
+                "name": "at.willhaben.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+              }
+            ]
+          }
+        },
         "bf629251f74af866cf7b9d4e9f4837e89abc2bdb2913446c5dccb4a62e9864ab": {
           "added": 1786264785000,
           "file": {
@@ -1792,12 +1884,12 @@
         "preferredSigner": "990aa515644a3f1528c122f2ce9ceb19f404912532394579ebedaea32c99cde9"
       },
       "versions": {
-        "dd090c9ace869430888219d5608392997e8c1f9f97951192719da355e1b77970": {
+        "dac3e04402645ecfa72d7f6b4c4d579f80faa281ece5cee0f4f1f8c17b7d1d6a": {
           "added": 1784502646000,
           "file": {
             "name": "/com.rubenmayayo.reddit_1.12.12_revanced.apk",
-            "sha256": "dd090c9ace869430888219d5608392997e8c1f9f97951192719da355e1b77970",
-            "size": 19004509
+            "sha256": "dac3e04402645ecfa72d7f6b4c4d579f80faa281ece5cee0f4f1f8c17b7d1d6a",
+            "size": 19045527
           },
           "manifest": {
             "nativecode": [
@@ -2251,7 +2343,7 @@
         "categories": [
           "Multimedia"
         ],
-        "lastUpdated": 1785926066000,
+        "lastUpdated": 1786671152000,
         "authorName": "ReVanced (patched)",
         "name": {
           "en-US": "Infinity+"
@@ -2261,7 +2353,7 @@
         },
         "icon": {
           "en-US": {
-            "name": "/icons/ml.docilealligator.infinityforreddit.plus.revanced.226.png",
+            "name": "/icons/ml.docilealligator.infinityforreddit.plus.revanced.227.png",
             "sha256": "373e156f18e7d1ac1ae678e15bbf17a49e0d10794d6399c18d72d8d005dedbd3",
             "size": 3073
           }
@@ -2269,6 +2361,88 @@
         "preferredSigner": "990aa515644a3f1528c122f2ce9ceb19f404912532394579ebedaea32c99cde9"
       },
       "versions": {
+        "eee0f73f58599b587fb5e0f4eccc4d4b259d7344a689d70948dfe02822e8a6e0": {
+          "added": 1786671152000,
+          "file": {
+            "name": "/ml.docilealligator.infinityforreddit_8.3.0-beta6_revanced.apk",
+            "sha256": "eee0f73f58599b587fb5e0f4eccc4d4b259d7344a689d70948dfe02822e8a6e0",
+            "size": 23781041
+          },
+          "manifest": {
+            "nativecode": [
+              "arm64-v8a",
+              "armeabi-v7a",
+              "x86",
+              "x86_64"
+            ],
+            "versionName": "8.3.0-beta6",
+            "versionCode": 227,
+            "usesSdk": {
+              "minSdkVersion": 21,
+              "targetSdkVersion": 36
+            },
+            "signer": {
+              "sha256": [
+                "990aa515644a3f1528c122f2ce9ceb19f404912532394579ebedaea32c99cde9"
+              ]
+            },
+            "usesPermission": [
+              {
+                "name": "android.permission.ACCESS_NETWORK_STATE"
+              },
+              {
+                "name": "android.permission.INTERNET"
+              },
+              {
+                "name": "android.permission.SET_WALLPAPER"
+              },
+              {
+                "name": "android.permission.SET_WALLPAPER_HINTS"
+              },
+              {
+                "name": "android.permission.WRITE_EXTERNAL_STORAGE",
+                "maxSdkVersion": 22
+              },
+              {
+                "name": "android.permission.FOREGROUND_SERVICE"
+              },
+              {
+                "name": "android.permission.WAKE_LOCK"
+              },
+              {
+                "name": "android.permission.POST_NOTIFICATIONS"
+              },
+              {
+                "name": "android.permission.RUN_USER_INITIATED_JOBS"
+              },
+              {
+                "name": "android.permission.RECEIVE_BOOT_COMPLETED"
+              },
+              {
+                "name": "android.permission.USE_BIOMETRIC"
+              },
+              {
+                "name": "android.permission.USE_FINGERPRINT"
+              },
+              {
+                "name": "com.android.vending.BILLING"
+              },
+              {
+                "name": "ml.docilealligator.infinityforreddit.plus.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+              },
+              {
+                "name": "android.permission.READ_EXTERNAL_STORAGE",
+                "maxSdkVersion": 22
+              }
+            ],
+            "usesPermissionSdk23": [
+              {
+                "name": "android.permission.WRITE_EXTERNAL_STORAGE",
+                "maxSdkVersion": 28
+              }
+            ]
+          }
+        },
         "ca27397fd8d137f40926d775ad52ae08fdbb94138789d70164a8d813406c8265": {
           "added": 1785926066000,
           "file": {
