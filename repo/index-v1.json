@@ -1,6 +1,6 @@
 {
   "repo": {
-    "timestamp": 1786671152000,
+    "timestamp": 1786698418000,
     "version": 20002,
     "name": "ReVanced F-Droid",
     "icon": "icon.png",
@@ -1892,13 +1892,13 @@
       {
         "added": 1784501801000,
         "apkName": "com.onelouder.baconreader_6.1.4_revanced.apk",
-        "hash": "634c36723c2d1e4c7f043211913215d6a1181215acb22b2ebe4a6a77afcf3b12",
+        "hash": "b4b5427f27f2457c08c16ebe891b55472ca2bbd2f41008efd33e3b06f45b6b0e",
         "hashType": "sha256",
         "minSdkVersion": 22,
         "packageName": "com.onelouder.baconreader.revanced",
         "sig": "5837ab34622f0917305f6d32bc00ab0a",
         "signer": "990aa515644a3f1528c122f2ce9ceb19f404912532394579ebedaea32c99cde9",
-        "size": 20981609,
+        "size": 21006185,
         "targetSdkVersion": 31,
         "uses-permission": [
           [
