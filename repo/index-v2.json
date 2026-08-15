@@ -14,7 +14,7 @@
       }
     },
     "address": "https://fdroid-revanced.github.io/repo",
-    "timestamp": 1786726402000,
+    "timestamp": 1786755671000,
     "categories": {
       "Multimedia": {
         "name": {
@@ -2343,7 +2343,7 @@
         "categories": [
           "Multimedia"
         ],
-        "lastUpdated": 1786671152000,
+        "lastUpdated": 1786755666000,
         "authorName": "ReVanced (patched)",
         "name": {
           "en-US": "Infinity+"
@@ -2361,6 +2361,88 @@
         "preferredSigner": "990aa515644a3f1528c122f2ce9ceb19f404912532394579ebedaea32c99cde9"
       },
       "versions": {
+        "12c651cf37566010344ec3f6d78605adea525303909aeba1cde834c5503ff88a": {
+          "added": 1786755666000,
+          "file": {
+            "name": "/ml.docilealligator.infinityforreddit.plus_8.3.0-beta6_revanced.apk",
+            "sha256": "12c651cf37566010344ec3f6d78605adea525303909aeba1cde834c5503ff88a",
+            "size": 23789233
+          },
+          "manifest": {
+            "nativecode": [
+              "arm64-v8a",
+              "armeabi-v7a",
+              "x86",
+              "x86_64"
+            ],
+            "versionName": "8.3.0-beta6",
+            "versionCode": 227,
+            "usesSdk": {
+              "minSdkVersion": 21,
+              "targetSdkVersion": 36
+            },
+            "signer": {
+              "sha256": [
+                "990aa515644a3f1528c122f2ce9ceb19f404912532394579ebedaea32c99cde9"
+              ]
+            },
+            "usesPermission": [
+              {
+                "name": "android.permission.ACCESS_NETWORK_STATE"
+              },
+              {
+                "name": "android.permission.INTERNET"
+              },
+              {
+                "name": "android.permission.SET_WALLPAPER"
+              },
+              {
+                "name": "android.permission.SET_WALLPAPER_HINTS"
+              },
+              {
+                "name": "android.permission.WRITE_EXTERNAL_STORAGE",
+                "maxSdkVersion": 22
+              },
+              {
+                "name": "android.permission.FOREGROUND_SERVICE"
+              },
+              {
+                "name": "android.permission.WAKE_LOCK"
+              },
+              {
+                "name": "android.permission.POST_NOTIFICATIONS"
+              },
+              {
+                "name": "android.permission.RUN_USER_INITIATED_JOBS"
+              },
+              {
+                "name": "android.permission.RECEIVE_BOOT_COMPLETED"
+              },
+              {
+                "name": "android.permission.USE_BIOMETRIC"
+              },
+              {
+                "name": "android.permission.USE_FINGERPRINT"
+              },
+              {
+                "name": "com.android.vending.BILLING"
+              },
+              {
+                "name": "ml.docilealligator.infinityforreddit.plus.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+              },
+              {
+                "name": "android.permission.READ_EXTERNAL_STORAGE",
+                "maxSdkVersion": 22
+              }
+            ],
+            "usesPermissionSdk23": [
+              {
+                "name": "android.permission.WRITE_EXTERNAL_STORAGE",
+                "maxSdkVersion": 28
+              }
+            ]
+          }
+        },
         "eee0f73f58599b587fb5e0f4eccc4d4b259d7344a689d70948dfe02822e8a6e0": {
           "added": 1786671152000,
           "file": {
