@@ -14,7 +14,7 @@
       }
     },
     "address": "https://fdroid-revanced.github.io/repo",
-    "timestamp": 1786928562000,
+    "timestamp": 1786956032000,
     "categories": {
       "Multimedia": {
         "name": {
@@ -2080,12 +2080,12 @@
         "preferredSigner": "990aa515644a3f1528c122f2ce9ceb19f404912532394579ebedaea32c99cde9"
       },
       "versions": {
-        "f6bcb3f8815ec8255e1b256a485089decbefd3f946ee63cf5810c584b28fd36a": {
+        "979e02f0abdf40dae4c330bdc1aa197c8840c0048a9a8794fbad9ae1e96103fe": {
           "added": 1784501803000,
           "file": {
             "name": "/com.sec.android.app.fm_12.4.00.7_revanced.apk",
-            "sha256": "f6bcb3f8815ec8255e1b256a485089decbefd3f946ee63cf5810c584b28fd36a",
-            "size": 5987629
+            "sha256": "979e02f0abdf40dae4c330bdc1aa197c8840c0048a9a8794fbad9ae1e96103fe",
+            "size": 5983533
           },
           "manifest": {
             "nativecode": [
