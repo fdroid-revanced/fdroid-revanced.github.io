@@ -14,7 +14,7 @@
       }
     },
     "address": "https://fdroid-revanced.github.io/repo",
-    "timestamp": 1787014901000,
+    "timestamp": 1787042107000,
     "categories": {
       "Multimedia": {
         "name": {
@@ -302,12 +302,12 @@
         "preferredSigner": "990aa515644a3f1528c122f2ce9ceb19f404912532394579ebedaea32c99cde9"
       },
       "versions": {
-        "6a9da6e83b1d3c38d2e807a7124a0182b1ba1df405d0f30562200838abc18fbd": {
+        "89a89bbf667a3732fcf7fdc6a968a5a5b1945725ce0f7409e7832345f085ad17": {
           "added": 1786671126000,
           "file": {
             "name": "/at.willhaben_8.56.0_revanced.apk",
-            "sha256": "6a9da6e83b1d3c38d2e807a7124a0182b1ba1df405d0f30562200838abc18fbd",
-            "size": 23595746
+            "sha256": "89a89bbf667a3732fcf7fdc6a968a5a5b1945725ce0f7409e7832345f085ad17",
+            "size": 23595688
           },
           "manifest": {
             "nativecode": [
@@ -926,12 +926,12 @@
         "preferredSigner": "990aa515644a3f1528c122f2ce9ceb19f404912532394579ebedaea32c99cde9"
       },
       "versions": {
-        "fbb1b3c0cdf6358e9cd83f673897f437d897332590431a7d2faf7fb6adbf88dc": {
+        "6e783c15622c5a7b071d74884da8437d473da0a77e488d8df92f82ace8bcf79e": {
           "added": 1784501798000,
           "file": {
             "name": "/com.andrewshu.android.reddit_5.6.22_revanced.apk",
-            "sha256": "fbb1b3c0cdf6358e9cd83f673897f437d897332590431a7d2faf7fb6adbf88dc",
-            "size": 14169969
+            "sha256": "6e783c15622c5a7b071d74884da8437d473da0a77e488d8df92f82ace8bcf79e",
+            "size": 14153585
           },
           "manifest": {
             "nativecode": [
@@ -1047,12 +1047,12 @@
         "preferredSigner": "990aa515644a3f1528c122f2ce9ceb19f404912532394579ebedaea32c99cde9"
       },
       "versions": {
-        "f6a0ec39814c7dcaacf2e441568443d870e1ec1e1700f98bc8769d82269206da": {
+        "ebdfeca46ff04a0e683c6ac59e5d2594ae79c4ac0b9744139d98bbd857b960e1": {
           "added": 1784501799000,
           "file": {
             "name": "/com.bandcamp.android_3.3.6_revanced.apk",
-            "sha256": "f6a0ec39814c7dcaacf2e441568443d870e1ec1e1700f98bc8769d82269206da",
-            "size": 15069645
+            "sha256": "ebdfeca46ff04a0e683c6ac59e5d2594ae79c4ac0b9744139d98bbd857b960e1",
+            "size": 15077837
           },
           "manifest": {
             "nativecode": [

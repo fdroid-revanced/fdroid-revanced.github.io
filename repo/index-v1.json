@@ -1,6 +1,6 @@
 {
   "repo": {
-    "timestamp": 1787014901000,
+    "timestamp": 1787042107000,
     "version": 20002,
     "name": "ReVanced F-Droid",
     "icon": "icon.png",
@@ -499,7 +499,7 @@
       {
         "added": 1786671126000,
         "apkName": "at.willhaben_8.56.0_revanced.apk",
-        "hash": "6a9da6e83b1d3c38d2e807a7124a0182b1ba1df405d0f30562200838abc18fbd",
+        "hash": "89a89bbf667a3732fcf7fdc6a968a5a5b1945725ce0f7409e7832345f085ad17",
         "hashType": "sha256",
         "minSdkVersion": 26,
         "nativecode": [
@@ -511,7 +511,7 @@
         "packageName": "at.willhaben.revanced",
         "sig": "5837ab34622f0917305f6d32bc00ab0a",
         "signer": "990aa515644a3f1528c122f2ce9ceb19f404912532394579ebedaea32c99cde9",
-        "size": 23595746,
+        "size": 23595688,
         "targetSdkVersion": 37,
         "uses-permission": [
           [
@@ -1146,7 +1146,7 @@
       {
         "added": 1784501798000,
         "apkName": "com.andrewshu.android.reddit_5.6.22_revanced.apk",
-        "hash": "fbb1b3c0cdf6358e9cd83f673897f437d897332590431a7d2faf7fb6adbf88dc",
+        "hash": "6e783c15622c5a7b071d74884da8437d473da0a77e488d8df92f82ace8bcf79e",
         "hashType": "sha256",
         "minSdkVersion": 21,
         "nativecode": [
@@ -1158,7 +1158,7 @@
         "packageName": "com.andrewshu.android.reddit.revanced",
         "sig": "5837ab34622f0917305f6d32bc00ab0a",
         "signer": "990aa515644a3f1528c122f2ce9ceb19f404912532394579ebedaea32c99cde9",
-        "size": 14169969,
+        "size": 14153585,
         "targetSdkVersion": 33,
         "uses-permission": [
           [
@@ -1250,7 +1250,7 @@
       {
         "added": 1784501799000,
         "apkName": "com.bandcamp.android_3.3.6_revanced.apk",
-        "hash": "f6a0ec39814c7dcaacf2e441568443d870e1ec1e1700f98bc8769d82269206da",
+        "hash": "ebdfeca46ff04a0e683c6ac59e5d2594ae79c4ac0b9744139d98bbd857b960e1",
         "hashType": "sha256",
         "minSdkVersion": 24,
         "nativecode": [
@@ -1262,7 +1262,7 @@
         "packageName": "com.bandcamp.android.revanced",
         "sig": "5837ab34622f0917305f6d32bc00ab0a",
         "signer": "990aa515644a3f1528c122f2ce9ceb19f404912532394579ebedaea32c99cde9",
-        "size": 15069645,
+        "size": 15077837,
         "targetSdkVersion": 36,
         "uses-permission": [
           [
