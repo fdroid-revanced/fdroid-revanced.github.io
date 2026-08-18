@@ -14,7 +14,7 @@
       }
     },
     "address": "https://fdroid-revanced.github.io/repo",
-    "timestamp": 1787063560000,
+    "timestamp": 1787064778000,
     "categories": {
       "Multimedia": {
         "name": {
@@ -2243,6 +2243,88 @@
         }
       }
     },
+    "com.ticktick.task.revanced": {
+      "metadata": {
+        "added": 1787064768000,
+        "categories": [
+          "Multimedia"
+        ],
+        "lastUpdated": 1787064768000,
+        "authorName": "ReVanced (patched)",
+        "name": {
+          "en-US": "TickTick"
+        },
+        "description": {
+          "en-US": "ReVanced-patched build of com.ticktick.task.\n\nPatches applied:\n- INFO: \"Change package name\" succeeded\n"
+        },
+        "icon": {
+          "en-US": {
+            "name": "/icons/com.ticktick.task.revanced.30.png",
+            "sha256": "2554c0ad5a497d35c3bad05e3a0ae2193c929d961a3d94da2f3c78e562dbef9d",
+            "size": 1207
+          }
+        },
+        "preferredSigner": "990aa515644a3f1528c122f2ce9ceb19f404912532394579ebedaea32c99cde9"
+      },
+      "versions": {
+        "9851a043d1b8a4029bfcf671d4a0d95c49ddf4742c10b369de0680b8a12d179a": {
+          "added": 1787064768000,
+          "file": {
+            "name": "/com.ticktick.task_3.0_revanced.apk",
+            "sha256": "9851a043d1b8a4029bfcf671d4a0d95c49ddf4742c10b369de0680b8a12d179a",
+            "size": 4526696
+          },
+          "manifest": {
+            "nativecode": [
+              "arm64-v8a",
+              "armeabi-v7a",
+              "x86",
+              "x86_64"
+            ],
+            "versionName": "3.0",
+            "versionCode": 30,
+            "features": [
+              {
+                "name": "android.hardware.type.watch"
+              }
+            ],
+            "usesSdk": {
+              "minSdkVersion": 25,
+              "targetSdkVersion": 36
+            },
+            "signer": {
+              "sha256": [
+                "990aa515644a3f1528c122f2ce9ceb19f404912532394579ebedaea32c99cde9"
+              ]
+            },
+            "usesPermission": [
+              {
+                "name": "android.permission.ACCESS_NETWORK_STATE"
+              },
+              {
+                "name": "android.permission.INTERNET"
+              },
+              {
+                "name": "android.permission.POST_NOTIFICATIONS"
+              },
+              {
+                "name": "android.permission.SCHEDULE_EXACT_ALARM",
+                "maxSdkVersion": 32
+              },
+              {
+                "name": "android.permission.USE_EXACT_ALARM"
+              },
+              {
+                "name": "android.permission.WAKE_LOCK"
+              },
+              {
+                "name": "com.ticktick.task.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+              }
+            ]
+          }
+        }
+      }
+    },
     "eu.faircode.netguard.revanced": {
       "metadata": {
         "added": 1784501803000,
@@ -2482,12 +2564,12 @@
         "preferredSigner": "990aa515644a3f1528c122f2ce9ceb19f404912532394579ebedaea32c99cde9"
       },
       "versions": {
-        "8935193af4214da103e2dd6fcfb8979cc8a75e835091c15e63996d6e52f429ec": {
+        "007bc9ea824a0962821bceb077eedc1d776afdb7756c0fbb987239b853944795": {
           "added": 1786755666000,
           "file": {
             "name": "/ml.docilealligator.infinityforreddit.plus_8.3.0-beta6_revanced.apk",
-            "sha256": "8935193af4214da103e2dd6fcfb8979cc8a75e835091c15e63996d6e52f429ec",
-            "size": 23772849
+            "sha256": "007bc9ea824a0962821bceb077eedc1d776afdb7756c0fbb987239b853944795",
+            "size": 23789233
           },
           "manifest": {
             "nativecode": [

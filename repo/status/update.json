@@ -10,7 +10,7 @@
     "-c"
   ],
   "disabled": [],
-  "endTimestamp": 1787063562742,
+  "endTimestamp": 1787064781148,
   "failedBuilds": {},
   "jarsigner": "/home/runner/.local/share/mise/installs/java/temurin-21.0.7+6.0.LTS/bin/jarsigner",
   "keytool": "/home/runner/.local/share/mise/installs/java/temurin-21.0.7+6.0.LTS/bin/keytool",
@@ -26,6 +26,7 @@
     "com.rubenmayayo.reddit.revanced",
     "com.samsung.android.themedesigner.revanced",
     "com.sec.android.app.fm.revanced",
+    "com.ticktick.task.revanced",
     "de.simon.openinghours.revanced",
     "eu.faircode.netguard.revanced",
     "jp.pxv.android.revanced",
@@ -44,6 +45,7 @@
     "com.rubenmayayo.reddit.revanced",
     "com.samsung.android.themedesigner.revanced",
     "com.sec.android.app.fm.revanced",
+    "com.ticktick.task.revanced",
     "de.simon.openinghours.revanced",
     "eu.faircode.netguard.revanced",
     "jp.pxv.android.revanced",
@@ -62,6 +64,7 @@
     "com.rubenmayayo.reddit.revanced",
     "com.samsung.android.themedesigner.revanced",
     "com.sec.android.app.fm.revanced",
+    "com.ticktick.task.revanced",
     "de.simon.openinghours.revanced",
     "eu.faircode.netguard.revanced",
     "jp.pxv.android.revanced",
@@ -69,14 +72,14 @@
     "ml.docilealligator.infinityforreddit.revanced"
   ],
   "stages": {
-    "delete_disabled_builds": 1787063525771,
-    "index.make repo": 1787063560557,
-    "prepare_apps repo": 1787063560556,
-    "process_apks": 1787063525771,
-    "read_added_date_from_all_apks": 1787063560555,
-    "remove_apks": 1787063560553,
-    "scan_repo_files": 1787063560552
+    "delete_disabled_builds": 1787064747697,
+    "index.make repo": 1787064778965,
+    "prepare_apps repo": 1787064778963,
+    "process_apks": 1787064747697,
+    "read_added_date_from_all_apks": 1787064778963,
+    "remove_apks": 1787064778961,
+    "scan_repo_files": 1787064778960
   },
-  "startTimestamp": 1787063525000,
+  "startTimestamp": 1787064747000,
   "subcommand": "update"
 }
