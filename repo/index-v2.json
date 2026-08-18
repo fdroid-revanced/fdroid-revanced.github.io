@@ -14,7 +14,7 @@
       }
     },
     "address": "https://fdroid-revanced.github.io/repo",
-    "timestamp": 1787042107000,
+    "timestamp": 1787063560000,
     "categories": {
       "Multimedia": {
         "name": {
@@ -2337,6 +2337,127 @@
         }
       }
     },
+    "jp.pxv.android.revanced": {
+      "metadata": {
+        "added": 1787063551000,
+        "categories": [
+          "Multimedia"
+        ],
+        "lastUpdated": 1787063551000,
+        "authorName": "ReVanced (patched)",
+        "name": {
+          "en-US": "pixiv"
+        },
+        "description": {
+          "en-US": "ReVanced-patched build of jp.pxv.android.\n\nPatches applied:\n- INFO: \"Hide ads\" succeeded\n- INFO: \"Change package name\" succeeded\n"
+        },
+        "icon": {
+          "en-US": {
+            "name": "/icons/jp.pxv.android.revanced.56869.png",
+            "sha256": "7e4247e59155356afdbdbd6529d023fe90ec491c86c08b35170e32564b1d39dc",
+            "size": 1277
+          }
+        },
+        "preferredSigner": "990aa515644a3f1528c122f2ce9ceb19f404912532394579ebedaea32c99cde9"
+      },
+      "versions": {
+        "00d1c3752bfaa9b795ec24a03f024810563377a40861de696e7b72cd8386f46a": {
+          "added": 1787063551000,
+          "file": {
+            "name": "/jp.pxv.android_6.141.1_revanced.apk",
+            "sha256": "00d1c3752bfaa9b795ec24a03f024810563377a40861de696e7b72cd8386f46a",
+            "size": 55219279
+          },
+          "manifest": {
+            "nativecode": [
+              "arm64-v8a",
+              "armeabi",
+              "armeabi-v7a",
+              "x86",
+              "x86_64"
+            ],
+            "versionName": "6.141.1",
+            "versionCode": 56869,
+            "usesSdk": {
+              "minSdkVersion": 23,
+              "targetSdkVersion": 34
+            },
+            "signer": {
+              "sha256": [
+                "990aa515644a3f1528c122f2ce9ceb19f404912532394579ebedaea32c99cde9"
+              ]
+            },
+            "usesPermission": [
+              {
+                "name": "android.permission.INTERNET"
+              },
+              {
+                "name": "android.permission.READ_EXTERNAL_STORAGE",
+                "maxSdkVersion": 28
+              },
+              {
+                "name": "android.permission.WRITE_EXTERNAL_STORAGE",
+                "maxSdkVersion": 28
+              },
+              {
+                "name": "android.permission.ACCESS_NETWORK_STATE"
+              },
+              {
+                "name": "android.permission.WAKE_LOCK"
+              },
+              {
+                "name": "android.permission.VIBRATE"
+              },
+              {
+                "name": "android.permission.USE_CREDENTIALS"
+              },
+              {
+                "name": "com.android.vending.BILLING"
+              },
+              {
+                "name": "android.permission.ACCESS_WIFI_STATE"
+              },
+              {
+                "name": "android.permission.RECEIVE_BOOT_COMPLETED"
+              },
+              {
+                "name": "com.google.android.gms.permission.AD_ID"
+              },
+              {
+                "name": "android.permission.FOREGROUND_SERVICE"
+              },
+              {
+                "name": "android.permission.FOREGROUND_SERVICE_DATA_SYNC"
+              },
+              {
+                "name": "android.permission.POST_NOTIFICATIONS"
+              },
+              {
+                "name": "com.applovin.array.apphub.permission.BIND_APPHUB_SERVICE"
+              },
+              {
+                "name": "com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE"
+              },
+              {
+                "name": "android.permission.ACCESS_ADSERVICES_ATTRIBUTION"
+              },
+              {
+                "name": "android.permission.ACCESS_ADSERVICES_AD_ID"
+              },
+              {
+                "name": "com.google.android.c2dm.permission.RECEIVE"
+              },
+              {
+                "name": "android.permission.ACCESS_ADSERVICES_TOPICS"
+              },
+              {
+                "name": "jp.pxv.android.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+              }
+            ]
+          }
+        }
+      }
+    },
     "ml.docilealligator.infinityforreddit.plus.revanced": {
       "metadata": {
         "added": 1784501805000,
@@ -2361,12 +2482,12 @@
         "preferredSigner": "990aa515644a3f1528c122f2ce9ceb19f404912532394579ebedaea32c99cde9"
       },
       "versions": {
-        "7a0eb8ab1181d83524be20747f488a3ffa06ec65810bc18cb2f1f8615dcb1d6f": {
+        "8935193af4214da103e2dd6fcfb8979cc8a75e835091c15e63996d6e52f429ec": {
           "added": 1786755666000,
           "file": {
             "name": "/ml.docilealligator.infinityforreddit.plus_8.3.0-beta6_revanced.apk",
-            "sha256": "7a0eb8ab1181d83524be20747f488a3ffa06ec65810bc18cb2f1f8615dcb1d6f",
-            "size": 23776945
+            "sha256": "8935193af4214da103e2dd6fcfb8979cc8a75e835091c15e63996d6e52f429ec",
+            "size": 23772849
           },
           "manifest": {
             "nativecode": [

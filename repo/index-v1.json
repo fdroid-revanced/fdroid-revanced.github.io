@@ -1,6 +1,6 @@
 {
   "repo": {
-    "timestamp": 1787042107000,
+    "timestamp": 1787063560000,
     "version": 20002,
     "name": "ReVanced F-Droid",
     "icon": "icon.png",
@@ -152,6 +152,24 @@
       "localized": {
         "en-US": {
           "name": "Pandora"
+        }
+      }
+    },
+    {
+      "authorName": "ReVanced (patched)",
+      "categories": [
+        "Multimedia"
+      ],
+      "suggestedVersionCode": "56869",
+      "description": "ReVanced-patched build of jp.pxv.android.\n\nPatches applied:\n- INFO: \"Hide ads\" succeeded\n- INFO: \"Change package name\" succeeded\n",
+      "license": "Unknown",
+      "added": 1787063551000,
+      "icon": "jp.pxv.android.revanced.56869.png",
+      "packageName": "jp.pxv.android.revanced",
+      "lastUpdated": 1787063551000,
+      "localized": {
+        "en-US": {
+          "name": "pixiv"
         }
       }
     },
@@ -2559,11 +2577,120 @@
         "versionName": "2.335"
       }
     ],
+    "jp.pxv.android.revanced": [
+      {
+        "added": 1787063551000,
+        "apkName": "jp.pxv.android_6.141.1_revanced.apk",
+        "hash": "00d1c3752bfaa9b795ec24a03f024810563377a40861de696e7b72cd8386f46a",
+        "hashType": "sha256",
+        "minSdkVersion": 23,
+        "nativecode": [
+          "arm64-v8a",
+          "armeabi",
+          "armeabi-v7a",
+          "x86",
+          "x86_64"
+        ],
+        "packageName": "jp.pxv.android.revanced",
+        "sig": "5837ab34622f0917305f6d32bc00ab0a",
+        "signer": "990aa515644a3f1528c122f2ce9ceb19f404912532394579ebedaea32c99cde9",
+        "size": 55219279,
+        "targetSdkVersion": 34,
+        "uses-permission": [
+          [
+            "android.permission.INTERNET",
+            null
+          ],
+          [
+            "android.permission.READ_EXTERNAL_STORAGE",
+            28
+          ],
+          [
+            "android.permission.WRITE_EXTERNAL_STORAGE",
+            28
+          ],
+          [
+            "android.permission.ACCESS_NETWORK_STATE",
+            null
+          ],
+          [
+            "android.permission.WAKE_LOCK",
+            null
+          ],
+          [
+            "android.permission.VIBRATE",
+            null
+          ],
+          [
+            "android.permission.USE_CREDENTIALS",
+            null
+          ],
+          [
+            "com.android.vending.BILLING",
+            null
+          ],
+          [
+            "android.permission.ACCESS_WIFI_STATE",
+            null
+          ],
+          [
+            "android.permission.RECEIVE_BOOT_COMPLETED",
+            null
+          ],
+          [
+            "com.google.android.gms.permission.AD_ID",
+            null
+          ],
+          [
+            "android.permission.FOREGROUND_SERVICE",
+            null
+          ],
+          [
+            "android.permission.FOREGROUND_SERVICE_DATA_SYNC",
+            null
+          ],
+          [
+            "android.permission.POST_NOTIFICATIONS",
+            null
+          ],
+          [
+            "com.applovin.array.apphub.permission.BIND_APPHUB_SERVICE",
+            null
+          ],
+          [
+            "com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE",
+            null
+          ],
+          [
+            "android.permission.ACCESS_ADSERVICES_ATTRIBUTION",
+            null
+          ],
+          [
+            "android.permission.ACCESS_ADSERVICES_AD_ID",
+            null
+          ],
+          [
+            "com.google.android.c2dm.permission.RECEIVE",
+            null
+          ],
+          [
+            "android.permission.ACCESS_ADSERVICES_TOPICS",
+            null
+          ],
+          [
+            "jp.pxv.android.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION",
+            null
+          ]
+        ],
+        "versionCode": 56869,
+        "versionName": "6.141.1"
+      }
+    ],
     "ml.docilealligator.infinityforreddit.plus.revanced": [
       {
         "added": 1786755666000,
         "apkName": "ml.docilealligator.infinityforreddit.plus_8.3.0-beta6_revanced.apk",
-        "hash": "7a0eb8ab1181d83524be20747f488a3ffa06ec65810bc18cb2f1f8615dcb1d6f",
+        "hash": "8935193af4214da103e2dd6fcfb8979cc8a75e835091c15e63996d6e52f429ec",
         "hashType": "sha256",
         "minSdkVersion": 21,
         "nativecode": [
@@ -2575,7 +2702,7 @@
         "packageName": "ml.docilealligator.infinityforreddit.plus.revanced",
         "sig": "5837ab34622f0917305f6d32bc00ab0a",
         "signer": "990aa515644a3f1528c122f2ce9ceb19f404912532394579ebedaea32c99cde9",
-        "size": 23776945,
+        "size": 23772849,
         "targetSdkVersion": 36,
         "uses-permission": [
           [

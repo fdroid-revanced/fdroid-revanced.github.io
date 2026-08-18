@@ -10,7 +10,7 @@
     "-c"
   ],
   "disabled": [],
-  "endTimestamp": 1787042109727,
+  "endTimestamp": 1787063562742,
   "failedBuilds": {},
   "jarsigner": "/home/runner/.local/share/mise/installs/java/temurin-21.0.7+6.0.LTS/bin/jarsigner",
   "keytool": "/home/runner/.local/share/mise/installs/java/temurin-21.0.7+6.0.LTS/bin/keytool",
@@ -28,6 +28,7 @@
     "com.sec.android.app.fm.revanced",
     "de.simon.openinghours.revanced",
     "eu.faircode.netguard.revanced",
+    "jp.pxv.android.revanced",
     "ml.docilealligator.infinityforreddit.plus.revanced",
     "ml.docilealligator.infinityforreddit.revanced"
   ],
@@ -45,6 +46,7 @@
     "com.sec.android.app.fm.revanced",
     "de.simon.openinghours.revanced",
     "eu.faircode.netguard.revanced",
+    "jp.pxv.android.revanced",
     "ml.docilealligator.infinityforreddit.plus.revanced",
     "ml.docilealligator.infinityforreddit.revanced"
   ],
@@ -62,18 +64,19 @@
     "com.sec.android.app.fm.revanced",
     "de.simon.openinghours.revanced",
     "eu.faircode.netguard.revanced",
+    "jp.pxv.android.revanced",
     "ml.docilealligator.infinityforreddit.plus.revanced",
     "ml.docilealligator.infinityforreddit.revanced"
   ],
   "stages": {
-    "delete_disabled_builds": 1787042079633,
-    "index.make repo": 1787042107555,
-    "prepare_apps repo": 1787042107554,
-    "process_apks": 1787042079633,
-    "read_added_date_from_all_apks": 1787042107554,
-    "remove_apks": 1787042107552,
-    "scan_repo_files": 1787042107551
+    "delete_disabled_builds": 1787063525771,
+    "index.make repo": 1787063560557,
+    "prepare_apps repo": 1787063560556,
+    "process_apks": 1787063525771,
+    "read_added_date_from_all_apks": 1787063560555,
+    "remove_apks": 1787063560553,
+    "scan_repo_files": 1787063560552
   },
-  "startTimestamp": 1787042079000,
+  "startTimestamp": 1787063525000,
   "subcommand": "update"
 }
