@@ -1,9 +1,8 @@
 name: Enqueue F-Droid build
 
-# Dispatches N Build workers. Each warms up then waits on turnstyle (FIFO).
+# Dispatches N Build runs. They sit in the fdroid-publish concurrency queue
+# (no runner) and drain FIFO. Cron lives on build-fdroid.yml.
 on:
-  schedule:
-    - cron: "0 */8 * * *"
   workflow_dispatch:
     inputs:
       count:
@@ -36,9 +35,6 @@ jobs:
           COUNT="$(printf '%.0f' "$COUNT")"
           if [ "$COUNT" -lt 1 ]; then COUNT=1; fi
           SMOKE="${{ inputs.smoke }}"
-          if [ "${{ github.event_name }}" = "schedule" ]; then
-            SMOKE=false
-          fi
           echo "Dispatching $COUNT worker(s) smoke=${SMOKE}"
           for i in $(seq 1 "$COUNT"); do
             if [ "${SMOKE}" = "true" ]; then
