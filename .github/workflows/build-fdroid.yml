@@ -1,9 +1,12 @@
 name: Build F-Droid repo
 
-# Workers setup+warmup in parallel, then turnstyle. After winning the lock, hard-reset
-# to origin so SeedStage sees the latest happy-path tree, then run the bot and publish
-# with retry (backup tree — never leave partial push).
+# One publish at a time. Extra runs sit pending (no runner) and drain FIFO.
+# Do not cancel a running job: revancedbot run + commit is not restart-safe.
+# After the lock, hard-reset to origin so SeedStage sees the latest happy-path
+# tree (this run's github.sha is from dispatch time), then publish with retry.
 on:
+  schedule:
+    - cron: "0 */8 * * *"
   workflow_dispatch:
     inputs:
       smoke:
@@ -11,9 +14,13 @@ on:
         type: boolean
         default: false
 
+concurrency:
+  group: fdroid-publish
+  cancel-in-progress: false
+  queue: max
+
 permissions:
   contents: write
-  actions: read # turnstyle lists other runs
 
 jobs:
   build:
@@ -40,23 +47,10 @@ jobs:
             exit 1
           fi
 
-      - name: Warm up revancedbot (module + compile cache before queue wait)
+      - name: Warm up revancedbot (module + compile cache)
         run: |
           set -euo pipefail
           GOPROXY=direct go run github.com/lucasew/revancedbot/cmd/revancedbot@main help
-
-      # softprops/turnstyle is NOT a global mutex. It polls the Actions API and
-      # waits until older runs of *this workflow* (lower run id) leave
-      # queued/in_progress. Do not set queue-name unless the run title contains
-      # that exact substring — we used queue-name: build-fdroid before and it
-      # matched zero runs (title is "Build F-Droid repo"), so every waiter passed.
-      - name: FIFO turnstyle (wait for earlier builds — after env is warm)
-        uses: softprops/turnstyle@afaccda0f3c0136fb7cb4a734b9b96be03599948 # v3.3.2
-        with:
-          poll-interval-seconds: 30
-          same-branch-only: true
-          # Wait for the whole "build" job of older runs to finish (not just this step).
-          job-to-wait-for: build
 
       - name: Sync working tree to origin (seed must see latest happy path)
         run: |
