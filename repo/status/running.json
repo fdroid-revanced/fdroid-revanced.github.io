@@ -1,5 +1,5 @@
 {
-  "/etc/issue.net": "Ubuntu 24.04.5 LTS",
+  "/etc/issue.net": "Ubuntu 24.04.4 LTS",
   "antiFeatures": {},
   "apksigner": "/home/runner/work/_temp/revancedbot-cache/shims/apksigner",
   "archivePolicy0": [],
@@ -10,7 +10,7 @@
     "-c"
   ],
   "disabled": [],
-  "endTimestamp": 1788894833703,
+  "endTimestamp": 1788920007762,
   "failedBuilds": {},
   "jarsigner": "/home/runner/.local/share/mise/installs/java/temurin-21.0.7+6.0.LTS/bin/jarsigner",
   "keytool": "/home/runner/.local/share/mise/installs/java/temurin-21.0.7+6.0.LTS/bin/keytool",
@@ -72,14 +72,14 @@
     "ml.docilealligator.infinityforreddit.revanced"
   ],
   "stages": {
-    "delete_disabled_builds": 1788894803163,
-    "index.make repo": 1788894831734,
-    "prepare_apps repo": 1788894831733,
-    "process_apks": 1788894803164,
-    "read_added_date_from_all_apks": 1788894831733,
-    "remove_apks": 1788894831731,
-    "scan_repo_files": 1788894831730
+    "delete_disabled_builds": 1788919970587,
+    "index.make repo": 1788920005575,
+    "prepare_apps repo": 1788920005573,
+    "process_apks": 1788919970587,
+    "read_added_date_from_all_apks": 1788920005573,
+    "remove_apks": 1788920005570,
+    "scan_repo_files": 1788920005569
   },
-  "startTimestamp": 1788894802000,
+  "startTimestamp": 1788919970000,
   "subcommand": "update"
 }
