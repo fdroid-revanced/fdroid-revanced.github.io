@@ -10,7 +10,7 @@
     "-c"
   ],
   "disabled": [],
-  "endTimestamp": 1791641415977,
+  "endTimestamp": 1791661333413,
   "failedBuilds": {},
   "jarsigner": "/home/runner/.local/share/mise/installs/java/temurin-21.0.7+6.0.LTS/bin/jarsigner",
   "keytool": "/home/runner/.local/share/mise/installs/java/temurin-21.0.7+6.0.LTS/bin/keytool",
@@ -72,14 +72,14 @@
     "ml.docilealligator.infinityforreddit.revanced"
   ],
   "stages": {
-    "delete_disabled_builds": 1791641378543,
-    "index.make repo": 1791641413787,
-    "prepare_apps repo": 1791641413786,
-    "process_apks": 1791641378543,
-    "read_added_date_from_all_apks": 1791641413785,
-    "remove_apks": 1791641413782,
-    "scan_repo_files": 1791641413782
+    "delete_disabled_builds": 1791661309221,
+    "index.make repo": 1791661331656,
+    "prepare_apps repo": 1791661331652,
+    "process_apks": 1791661309221,
+    "read_added_date_from_all_apks": 1791661331649,
+    "remove_apks": 1791661331647,
+    "scan_repo_files": 1791661331646
   },
-  "startTimestamp": 1791641378000,
+  "startTimestamp": 1791661309000,
   "subcommand": "update"
 }
