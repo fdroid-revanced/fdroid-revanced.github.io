@@ -14,7 +14,7 @@
       }
     },
     "address": "https://fdroid-revanced.github.io/repo",
-    "timestamp": 1794801193000,
+    "timestamp": 1794851786000,
     "categories": {
       "Multimedia": {
         "name": {
@@ -29,6 +29,205 @@
     }
   },
   "packages": {
+    "at.gv.bka.serviceportal.revanced": {
+      "metadata": {
+        "added": 1794851740000,
+        "categories": [
+          "Multimedia"
+        ],
+        "lastUpdated": 1794851740000,
+        "authorName": "ReVanced (patched)",
+        "name": {
+          "en-US": "Serviceportal"
+        },
+        "description": {
+          "en-US": "ReVanced-patched build of at.gv.bka.serviceportal.\n\nPatches applied:\n- INFO: \"Remove root detection\" succeeded\n- INFO: \"Change package name\" succeeded\n"
+        },
+        "preferredSigner": "990aa515644a3f1528c122f2ce9ceb19f404912532394579ebedaea32c99cde9"
+      },
+      "versions": {
+        "8df3d7af3a5f3afe07c481f3ff4f54ac609b8f6fd1da69f7f3dfc8278daa06fe": {
+          "added": 1794851740000,
+          "file": {
+            "name": "/at.gv.bka.serviceportal_1.8.2_revanced.apk",
+            "sha256": "8df3d7af3a5f3afe07c481f3ff4f54ac609b8f6fd1da69f7f3dfc8278daa06fe",
+            "size": 24789700
+          },
+          "manifest": {
+            "versionName": "1.8.2",
+            "versionCode": 2025092443,
+            "features": [
+              {
+                "name": "android.hardware.camera"
+              }
+            ],
+            "usesSdk": {
+              "minSdkVersion": 27,
+              "targetSdkVersion": 35
+            },
+            "signer": {
+              "sha256": [
+                "990aa515644a3f1528c122f2ce9ceb19f404912532394579ebedaea32c99cde9"
+              ]
+            },
+            "usesPermission": [
+              {
+                "name": "android.permission.INTERNET"
+              },
+              {
+                "name": "android.permission.ACCESS_NETWORK_STATE"
+              },
+              {
+                "name": "android.permission.VIBRATE"
+              },
+              {
+                "name": "android.permission.REQUEST_PASSWORD_COMPLEXITY"
+              },
+              {
+                "name": "android.permission.CALL_PHONE"
+              },
+              {
+                "name": "android.permission.WAKE_LOCK"
+              },
+              {
+                "name": "android.permission.CAMERA"
+              },
+              {
+                "name": "android.permission.USE_FINGERPRINT"
+              },
+              {
+                "name": "android.permission.USE_BIOMETRIC"
+              },
+              {
+                "name": "android.permission.FLASHLIGHT"
+              },
+              {
+                "name": "android.permission.WRITE_EXTERNAL_STORAGE",
+                "maxSdkVersion": 32
+              },
+              {
+                "name": "android.permission.READ_EXTERNAL_STORAGE"
+              },
+              {
+                "name": "android.permission.ACCESS_MEDIA_LOCATION"
+              },
+              {
+                "name": "android.permission.READ_PHONE_STATE"
+              },
+              {
+                "name": "android.permission.POST_NOTIFICATIONS"
+              },
+              {
+                "name": "com.google.android.c2dm.permission.RECEIVE"
+              },
+              {
+                "name": "at.gv.bka.serviceportal.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+              },
+              {
+                "name": "android.permission.ACCESS_ADSERVICES_ATTRIBUTION"
+              },
+              {
+                "name": "android.permission.ACCESS_ADSERVICES_AD_ID"
+              },
+              {
+                "name": "com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE"
+              },
+              {
+                "name": "com.google.android.providers.gsf.permission.READ_GSERVICES"
+              },
+              {
+                "name": "com.android.vending.CHECK_LICENSE"
+              }
+            ]
+          }
+        }
+      }
+    },
+    "at.gv.bmf.bmf2go.revanced": {
+      "metadata": {
+        "added": 1794851741000,
+        "categories": [
+          "Multimedia"
+        ],
+        "lastUpdated": 1794851741000,
+        "authorName": "ReVanced (patched)",
+        "name": {
+          "en-US": "FON [+]"
+        },
+        "description": {
+          "en-US": "ReVanced-patched build of at.gv.bmf.bmf2go.\n\nPatches applied:\n- INFO: \"Remove root detection\" succeeded\n- INFO: \"Change package name\" succeeded\n"
+        },
+        "icon": {
+          "en-US": {
+            "name": "/icons/at.gv.bmf.bmf2go.revanced.314.png",
+            "sha256": "4ca75d511f5e4d74a90a0582ad4523cd83353f514b6202db162aa25282646b62",
+            "size": 1192
+          }
+        },
+        "preferredSigner": "990aa515644a3f1528c122f2ce9ceb19f404912532394579ebedaea32c99cde9"
+      },
+      "versions": {
+        "12e767b27f3ae33943b4db0ca31eee5a9beebe2d80c87a3f7d9c753544eb46e9": {
+          "added": 1794851741000,
+          "file": {
+            "name": "/at.gv.bmf.bmf2go_4.0.7_revanced.apk",
+            "sha256": "12e767b27f3ae33943b4db0ca31eee5a9beebe2d80c87a3f7d9c753544eb46e9",
+            "size": 19888325
+          },
+          "manifest": {
+            "nativecode": [
+              "arm64-v8a",
+              "armeabi-v7a",
+              "x86",
+              "x86_64"
+            ],
+            "versionName": "4.0.7",
+            "versionCode": 314,
+            "usesSdk": {
+              "minSdkVersion": 29,
+              "targetSdkVersion": 35
+            },
+            "signer": {
+              "sha256": [
+                "990aa515644a3f1528c122f2ce9ceb19f404912532394579ebedaea32c99cde9"
+              ]
+            },
+            "usesPermission": [
+              {
+                "name": "android.permission.INTERNET"
+              },
+              {
+                "name": "android.permission.CAMERA"
+              },
+              {
+                "name": "android.permission.CALL_PHONE"
+              },
+              {
+                "name": "android.permission.RECEIVE_BOOT_COMPLETED"
+              },
+              {
+                "name": "android.permission.ACCESS_NETWORK_STATE"
+              },
+              {
+                "name": "android.permission.READ_EXTERNAL_STORAGE"
+              },
+              {
+                "name": "android.permission.POST_NOTIFICATIONS"
+              },
+              {
+                "name": "android.permission.USE_BIOMETRIC"
+              },
+              {
+                "name": "android.permission.USE_FINGERPRINT"
+              },
+              {
+                "name": "at.gv.bmf.bmf2go.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+              }
+            ]
+          }
+        }
+      }
+    },
     "at.gv.oe.app.revanced": {
       "metadata": {
         "added": 1784501795000,
@@ -46,12 +245,12 @@
         "preferredSigner": "990aa515644a3f1528c122f2ce9ceb19f404912532394579ebedaea32c99cde9"
       },
       "versions": {
-        "51976afed12ea04056e59cbebb691aa6728c76fa3dbe007e23927b3b08be0b38": {
+        "146c22320de0a3903103d5d311bd27872c8efdf6ae232a2a239af225b01fe8c8": {
           "added": 1786151896000,
           "file": {
             "name": "/at.gv.oe.app_5.6.1_revanced.apk",
-            "sha256": "51976afed12ea04056e59cbebb691aa6728c76fa3dbe007e23927b3b08be0b38",
-            "size": 56180920
+            "sha256": "146c22320de0a3903103d5d311bd27872c8efdf6ae232a2a239af225b01fe8c8",
+            "size": 56139960
           },
           "manifest": {
             "nativecode": [
@@ -902,6 +1101,100 @@
         }
       }
     },
+    "com.adobe.photoshopmix.revanced": {
+      "metadata": {
+        "added": 1794851749000,
+        "categories": [
+          "Multimedia"
+        ],
+        "lastUpdated": 1794851749000,
+        "authorName": "ReVanced (patched)",
+        "name": {
+          "en-US": "Adobe Photoshop Mix"
+        },
+        "description": {
+          "en-US": "ReVanced-patched build of com.adobe.photoshopmix.\n\nPatches applied:\n- INFO: \"Bypass login\" succeeded\n- INFO: \"Change package name\" succeeded\n"
+        },
+        "icon": {
+          "en-US": {
+            "name": "/icons/com.adobe.photoshopmix.revanced.57.png",
+            "sha256": "f728dc019b22a19f99afd1d3eb35caa5ea6bd20e9585961a628cbde44da4b1d7",
+            "size": 1917
+          }
+        },
+        "preferredSigner": "990aa515644a3f1528c122f2ce9ceb19f404912532394579ebedaea32c99cde9"
+      },
+      "versions": {
+        "c1c89aab16586d1e1dee3c9b3fdb4c0e02650e47d9820ffb085a6b16ce2fa073": {
+          "added": 1794851749000,
+          "file": {
+            "name": "/com.adobe.photoshopmix_2.6.3_revanced.apk",
+            "sha256": "c1c89aab16586d1e1dee3c9b3fdb4c0e02650e47d9820ffb085a6b16ce2fa073",
+            "size": 53433342
+          },
+          "manifest": {
+            "nativecode": [
+              "arm64-v8a"
+            ],
+            "versionName": "2.6.3",
+            "versionCode": 57,
+            "features": [
+              {
+                "name": "android.hardware.camera"
+              }
+            ],
+            "usesSdk": {
+              "minSdkVersion": 28,
+              "targetSdkVersion": 30
+            },
+            "signer": {
+              "sha256": [
+                "990aa515644a3f1528c122f2ce9ceb19f404912532394579ebedaea32c99cde9"
+              ]
+            },
+            "usesPermission": [
+              {
+                "name": "android.permission.WRITE_EXTERNAL_STORAGE",
+                "maxSdkVersion": 28
+              },
+              {
+                "name": "android.permission.INTERNET"
+              },
+              {
+                "name": "android.permission.AUTHENTICATE_ACCOUNTS"
+              },
+              {
+                "name": "android.permission.USE_CREDENTIALS"
+              },
+              {
+                "name": "android.permission.GET_ACCOUNTS"
+              },
+              {
+                "name": "android.permission.MANAGE_ACCOUNTS"
+              },
+              {
+                "name": "android.permission.ACCESS_WIFI_STATE"
+              },
+              {
+                "name": "android.permission.READ_EXTERNAL_STORAGE"
+              },
+              {
+                "name": "android.permission.ACCESS_NETWORK_STATE"
+              },
+              {
+                "name": "com.samsung.android.iap.permission.BILLING"
+              },
+              {
+                "name": "com.android.vending.BILLING"
+              },
+              {
+                "name": "com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE"
+              }
+            ]
+          }
+        }
+      }
+    },
     "com.andrewshu.android.reddit.revanced": {
       "metadata": {
         "added": 1784501798000,
@@ -926,12 +1219,12 @@
         "preferredSigner": "990aa515644a3f1528c122f2ce9ceb19f404912532394579ebedaea32c99cde9"
       },
       "versions": {
-        "6e783c15622c5a7b071d74884da8437d473da0a77e488d8df92f82ace8bcf79e": {
+        "44a708e4dc2803962ec42eb8265e0fec698f2a111f330fe97c9c190cc409abf6": {
           "added": 1784501798000,
           "file": {
             "name": "/com.andrewshu.android.reddit_5.6.22_revanced.apk",
-            "sha256": "6e783c15622c5a7b071d74884da8437d473da0a77e488d8df92f82ace8bcf79e",
-            "size": 14153585
+            "sha256": "44a708e4dc2803962ec42eb8265e0fec698f2a111f330fe97c9c190cc409abf6",
+            "size": 14149489
           },
           "manifest": {
             "nativecode": [
@@ -1047,12 +1340,12 @@
         "preferredSigner": "990aa515644a3f1528c122f2ce9ceb19f404912532394579ebedaea32c99cde9"
       },
       "versions": {
-        "ebdfeca46ff04a0e683c6ac59e5d2594ae79c4ac0b9744139d98bbd857b960e1": {
+        "1ac2894109064efc6f44d7fb2802c13f2b3d10a34866138021739d33ac228c1b": {
           "added": 1784501799000,
           "file": {
             "name": "/com.bandcamp.android_3.3.6_revanced.apk",
-            "sha256": "ebdfeca46ff04a0e683c6ac59e5d2594ae79c4ac0b9744139d98bbd857b960e1",
-            "size": 15077837
+            "sha256": "1ac2894109064efc6f44d7fb2802c13f2b3d10a34866138021739d33ac228c1b",
+            "size": 15081933
           },
           "manifest": {
             "nativecode": [
@@ -1136,13 +1429,521 @@
         }
       }
     },
+    "com.google.android.apps.recorder.revanced": {
+      "metadata": {
+        "added": 1794851751000,
+        "categories": [
+          "Multimedia"
+        ],
+        "lastUpdated": 1794851751000,
+        "authorName": "ReVanced (patched)",
+        "name": {
+          "en-US": "Recorder"
+        },
+        "description": {
+          "en-US": "ReVanced-patched build of com.google.android.apps.recorder.\n\nPatches applied:\n- INFO: \"Remove device restrictions\" succeeded\n- INFO: \"Change package name\" succeeded\n"
+        },
+        "preferredSigner": "990aa515644a3f1528c122f2ce9ceb19f404912532394579ebedaea32c99cde9"
+      },
+      "versions": {
+        "7eb9cfc907fe80dbf2fdadfa87ce6b6c0f9907eab56767b658a7b01a37b8acb6": {
+          "added": 1794851751000,
+          "file": {
+            "name": "/com.google.android.apps.recorder_4.2.20261001.1019894446_revanced.apk",
+            "sha256": "7eb9cfc907fe80dbf2fdadfa87ce6b6c0f9907eab56767b658a7b01a37b8acb6",
+            "size": 51161076
+          },
+          "manifest": {
+            "nativecode": [
+              "arm64-v8a"
+            ],
+            "versionName": "4.2.20261001.1019894446",
+            "versionCode": 42451313,
+            "features": [
+              {
+                "name": "com.google.android.feature.PIXEL_2017_EXPERIENCE"
+              }
+            ],
+            "usesSdk": {
+              "minSdkVersion": 29,
+              "targetSdkVersion": 37
+            },
+            "signer": {
+              "sha256": [
+                "990aa515644a3f1528c122f2ce9ceb19f404912532394579ebedaea32c99cde9"
+              ]
+            },
+            "usesPermission": [
+              {
+                "name": "com.google.android.apps.recorder.permission.RECORDER_ORIGIN"
+              },
+              {
+                "name": "android.permission.ACCESS_FINE_LOCATION"
+              },
+              {
+                "name": "android.permission.ACCESS_COARSE_LOCATION"
+              },
+              {
+                "name": "android.permission.ACCESS_NETWORK_STATE"
+              },
+              {
+                "name": "android.permission.FOREGROUND_SERVICE"
+              },
+              {
+                "name": "android.permission.RECEIVE_BOOT_COMPLETED"
+              },
+              {
+                "name": "android.permission.INTERNET"
+              },
+              {
+                "name": "android.permission.RECORD_AUDIO"
+              },
+              {
+                "name": "android.permission.WAKE_LOCK"
+              },
+              {
+                "name": "com.google.android.providers.gsf.permission.READ_GSERVICES"
+              },
+              {
+                "name": "android.permission.GET_PACKAGE_SIZE"
+              },
+              {
+                "name": "android.permission.BLUETOOTH",
+                "maxSdkVersion": 30
+              },
+              {
+                "name": "android.permission.BLUETOOTH_CONNECT"
+              },
+              {
+                "name": "android.permission.READ_CONTACTS"
+              },
+              {
+                "name": "android.permission.POST_NOTIFICATIONS"
+              },
+              {
+                "name": "android.permission.FOREGROUND_SERVICE_DATA_SYNC"
+              },
+              {
+                "name": "android.permission.FOREGROUND_SERVICE_MEDIA_PLAYBACK"
+              },
+              {
+                "name": "android.permission.FOREGROUND_SERVICE_MICROPHONE"
+              },
+              {
+                "name": "android.permission.RUN_USER_INITIATED_JOBS"
+              },
+              {
+                "name": "android.permission.FOREGROUND_SERVICE_MEDIA_PROCESSING"
+              },
+              {
+                "name": "com.google.android.c2dm.permission.RECEIVE"
+              },
+              {
+                "name": "com.google.android.apps.aicore.service.BIND_SERVICE"
+              }
+            ],
+            "usesPermissionSdk23": [
+              {
+                "name": "com.android.vending.BILLING"
+              }
+            ]
+          }
+        }
+      }
+    },
+    "com.laurencedawson.reddit_sync.revanced": {
+      "metadata": {
+        "added": 1794851752000,
+        "categories": [
+          "Multimedia"
+        ],
+        "lastUpdated": 1794851752000,
+        "authorName": "ReVanced (patched)",
+        "name": {
+          "en-US": "Sync"
+        },
+        "description": {
+          "en-US": "ReVanced-patched build of com.laurencedawson.reddit_sync.\n\nPatches applied:\n- INFO: \"Disable Sync for Lemmy bottom sheet\" succeeded\n- INFO: \"Disable ads\" succeeded\n- INFO: \"Fix /s/ links\" succeeded\n- INFO: \"Fix Redgifs API\" succeeded\n- INFO: \"Fix post thumbnails\" succeeded\n- INFO: \"Fix video downloads\" succeeded\n- INFO: \"Change package name\" succeeded\n"
+        },
+        "icon": {
+          "en-US": {
+            "name": "/icons/com.laurencedawson.reddit_sync.revanced.23033.png",
+            "sha256": "351d02b70ddebf69f91ed4761f333cb6c38bc3b197e0455c5d43100da1d4f668",
+            "size": 3211
+          }
+        },
+        "preferredSigner": "990aa515644a3f1528c122f2ce9ceb19f404912532394579ebedaea32c99cde9"
+      },
+      "versions": {
+        "7d0c71552930fddec6959f8d4cae0ebfd360ca08e4b2fc3cd6b9d443e791037c": {
+          "added": 1794851752000,
+          "file": {
+            "name": "/com.laurencedawson.reddit_sync_v23.06.30-13_39_revanced.apk",
+            "sha256": "7d0c71552930fddec6959f8d4cae0ebfd360ca08e4b2fc3cd6b9d443e791037c",
+            "size": 15454442
+          },
+          "manifest": {
+            "versionName": "v23.06.30-13:39",
+            "versionCode": 23033,
+            "usesSdk": {
+              "minSdkVersion": 23,
+              "targetSdkVersion": 33
+            },
+            "signer": {
+              "sha256": [
+                "990aa515644a3f1528c122f2ce9ceb19f404912532394579ebedaea32c99cde9"
+              ]
+            },
+            "usesPermission": [
+              {
+                "name": "android.permission.INTERNET"
+              },
+              {
+                "name": "android.permission.ACCESS_NETWORK_STATE"
+              },
+              {
+                "name": "android.permission.RECEIVE_BOOT_COMPLETED"
+              },
+              {
+                "name": "android.permission.WAKE_LOCK"
+              },
+              {
+                "name": "com.android.vending.BILLING"
+              },
+              {
+                "name": "android.permission.ACCESS_WIFI_STATE"
+              },
+              {
+                "name": "com.google.android.providers.gsf.permission.READ_GSERVICES"
+              },
+              {
+                "name": "com.android.vending.CHECK_LICENSE"
+              },
+              {
+                "name": "android.permission.FOREGROUND_SERVICE"
+              },
+              {
+                "name": "android.permission.VIBRATE"
+              },
+              {
+                "name": "com.google.android.gms.permission.AD_ID"
+              },
+              {
+                "name": "android.permission.POST_NOTIFICATIONS"
+              },
+              {
+                "name": "com.google.android.c2dm.permission.RECEIVE"
+              },
+              {
+                "name": "com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE"
+              },
+              {
+                "name": "android.permission.USE_BIOMETRIC"
+              },
+              {
+                "name": "android.permission.USE_FINGERPRINT"
+              },
+              {
+                "name": "com.laurencedawson.reddit_sync.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+              }
+            ]
+          }
+        }
+      }
+    },
+    "com.microblink.photomath.revanced": {
+      "metadata": {
+        "added": 1794851753000,
+        "categories": [
+          "Multimedia"
+        ],
+        "lastUpdated": 1794851753000,
+        "authorName": "ReVanced (patched)",
+        "name": {
+          "en-US": "Photomath"
+        },
+        "description": {
+          "en-US": "ReVanced-patched build of com.microblink.photomath.\n\nPatches applied:\n- INFO: \"Hide update popup\" succeeded\n- INFO: \"Spoof device ID\" succeeded\n- INFO: \"Unlock plus\" succeeded\n- INFO: \"Change package name\" succeeded\n"
+        },
+        "icon": {
+          "en-US": {
+            "name": "/icons/com.microblink.photomath.revanced.70001016.png",
+            "sha256": "7ebe3ea8833b46414bbf1e4ff540265de2ebbb12f3ee244106353f5b052fa95e",
+            "size": 1582
+          }
+        },
+        "preferredSigner": "990aa515644a3f1528c122f2ce9ceb19f404912532394579ebedaea32c99cde9"
+      },
+      "versions": {
+        "a5cda3e05366db65fe0e6596e534d9cae42fc39039db3796bc1b76cf1f50bb68": {
+          "added": 1794851753000,
+          "file": {
+            "name": "/com.microblink.photomath_8.48.0_revanced.apk",
+            "sha256": "a5cda3e05366db65fe0e6596e534d9cae42fc39039db3796bc1b76cf1f50bb68",
+            "size": 10875055
+          },
+          "manifest": {
+            "versionName": "8.48.0",
+            "versionCode": 70001016,
+            "features": [
+              {
+                "name": "android.hardware.camera"
+              },
+              {
+                "name": "android.hardware.camera.autofocus"
+              }
+            ],
+            "usesSdk": {
+              "minSdkVersion": 21,
+              "targetSdkVersion": 35
+            },
+            "signer": {
+              "sha256": [
+                "990aa515644a3f1528c122f2ce9ceb19f404912532394579ebedaea32c99cde9"
+              ]
+            },
+            "usesPermission": [
+              {
+                "name": "android.permission.INTERNET"
+              },
+              {
+                "name": "android.permission.ACCESS_NETWORK_STATE"
+              },
+              {
+                "name": "android.permission.CAMERA"
+              },
+              {
+                "name": "android.permission.VIBRATE"
+              },
+              {
+                "name": "android.permission.POST_NOTIFICATIONS"
+              },
+              {
+                "name": "android.permission.WAKE_LOCK"
+              },
+              {
+                "name": "com.google.android.c2dm.permission.RECEIVE"
+              },
+              {
+                "name": "com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE"
+              },
+              {
+                "name": "com.google.android.gms.permission.AD_ID"
+              },
+              {
+                "name": "android.permission.ACCESS_ADSERVICES_ATTRIBUTION"
+              },
+              {
+                "name": "android.permission.ACCESS_ADSERVICES_AD_ID"
+              },
+              {
+                "name": "com.android.vending.BILLING"
+              },
+              {
+                "name": "com.microblink.photomath.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+              }
+            ]
+          }
+        }
+      }
+    },
+    "com.microsoft.office.officelens.revanced": {
+      "metadata": {
+        "added": 1794851756000,
+        "categories": [
+          "Multimedia"
+        ],
+        "lastUpdated": 1794851756000,
+        "authorName": "ReVanced (patched)",
+        "name": {
+          "en-US": "Lens"
+        },
+        "description": {
+          "en-US": "ReVanced-patched build of com.microsoft.office.officelens.\n\nPatches applied:\n- INFO: \"Hide OneDrive migration\" succeeded\n- INFO: \"Change package name\" succeeded\n"
+        },
+        "icon": {
+          "en-US": {
+            "name": "/icons/com.microsoft.office.officelens.revanced.2004969699.png",
+            "sha256": "9af96d27430de14c272d5aee3d993ffef45e8669fe5bae52b8254b159b702de0",
+            "size": 1347
+          }
+        },
+        "preferredSigner": "990aa515644a3f1528c122f2ce9ceb19f404912532394579ebedaea32c99cde9"
+      },
+      "versions": {
+        "a52c7e1721f513d8a1ee21a7b4e8907cdcfe570d1bd25a70b33756f7813b4873": {
+          "added": 1794851756000,
+          "file": {
+            "name": "/com.microsoft.office.officelens_16.0.19628.20008_revanced.apk",
+            "sha256": "a52c7e1721f513d8a1ee21a7b4e8907cdcfe570d1bd25a70b33756f7813b4873",
+            "size": 74241528
+          },
+          "manifest": {
+            "nativecode": [
+              "arm64-v8a"
+            ],
+            "versionName": "16.0.19628.20008",
+            "versionCode": 2004969699,
+            "features": [
+              {
+                "name": "android.hardware.camera"
+              }
+            ],
+            "usesSdk": {
+              "minSdkVersion": 24,
+              "targetSdkVersion": 35
+            },
+            "signer": {
+              "sha256": [
+                "990aa515644a3f1528c122f2ce9ceb19f404912532394579ebedaea32c99cde9"
+              ]
+            },
+            "usesPermission": [
+              {
+                "name": "android.permission.CAMERA"
+              },
+              {
+                "name": "android.permission.READ_MEDIA_IMAGES"
+              },
+              {
+                "name": "android.permission.READ_EXTERNAL_STORAGE"
+              },
+              {
+                "name": "android.permission.WRITE_EXTERNAL_STORAGE"
+              },
+              {
+                "name": "android.permission.RECEIVE_BOOT_COMPLETED"
+              },
+              {
+                "name": "android.permission.INTERNET"
+              },
+              {
+                "name": "android.permission.ACCESS_NETWORK_STATE"
+              },
+              {
+                "name": "android.permission.ACCESS_DOWNLOAD_MANAGER"
+              },
+              {
+                "name": "android.permission.DOWNLOAD_WITHOUT_NOTIFICATION"
+              },
+              {
+                "name": "android.permission.AUTHENTICATE_ACCOUNTS"
+              },
+              {
+                "name": "android.permission.USE_CREDENTIALS"
+              },
+              {
+                "name": "android.permission.MANAGE_ACCOUNTS"
+              },
+              {
+                "name": "android.permission.WAKE_LOCK"
+              },
+              {
+                "name": "android.permission.FOREGROUND_SERVICE"
+              },
+              {
+                "name": "android.permission.VIBRATE"
+              },
+              {
+                "name": "android.permission.READ_MEDIA_VIDEO"
+              },
+              {
+                "name": "android.permission.READ_MEDIA_VISUAL_USER_SELECTED"
+              },
+              {
+                "name": "com.android.vending.CHECK_LICENSE"
+              },
+              {
+                "name": "android.permission.ACCESS_WIFI_STATE"
+              },
+              {
+                "name": "android.permission.NFC"
+              }
+            ]
+          }
+        }
+      }
+    },
+    "com.myprog.hexedit.revanced": {
+      "metadata": {
+        "added": 1794851757000,
+        "categories": [
+          "Multimedia"
+        ],
+        "lastUpdated": 1794851757000,
+        "authorName": "ReVanced (patched)",
+        "name": {
+          "en-US": "HEX Editor"
+        },
+        "description": {
+          "en-US": "ReVanced-patched build of com.myprog.hexedit.\n\nPatches applied:\n- INFO: \"Disable ads\" succeeded\n- INFO: \"Change package name\" succeeded\n"
+        },
+        "icon": {
+          "en-US": {
+            "name": "/icons/com.myprog.hexedit.revanced.122.png",
+            "sha256": "1901eb6979c89efab9ffc5a642626df6195909d3acca8105ca5ad9e390807ab8",
+            "size": 844
+          }
+        },
+        "preferredSigner": "990aa515644a3f1528c122f2ce9ceb19f404912532394579ebedaea32c99cde9"
+      },
+      "versions": {
+        "cf83d1d7f8748152a860220dd2c95bba2452fe930e133cf2faab5c7e6907bd4e": {
+          "added": 1794851757000,
+          "file": {
+            "name": "/com.myprog.hexedit_2.8.5_revanced.apk",
+            "sha256": "cf83d1d7f8748152a860220dd2c95bba2452fe930e133cf2faab5c7e6907bd4e",
+            "size": 4069413
+          },
+          "manifest": {
+            "nativecode": [
+              "arm64-v8a",
+              "armeabi",
+              "x86",
+              "x86_64"
+            ],
+            "versionName": "2.8.5",
+            "versionCode": 122,
+            "usesSdk": {
+              "minSdkVersion": 18,
+              "targetSdkVersion": 29
+            },
+            "signer": {
+              "sha256": [
+                "990aa515644a3f1528c122f2ce9ceb19f404912532394579ebedaea32c99cde9"
+              ]
+            },
+            "usesPermission": [
+              {
+                "name": "com.android.vending.BILLING"
+              },
+              {
+                "name": "android.permission.ACCESS_SUPERUSER"
+              },
+              {
+                "name": "android.permission.READ_EXTERNAL_STORAGE"
+              },
+              {
+                "name": "android.permission.WRITE_EXTERNAL_STORAGE"
+              },
+              {
+                "name": "android.permission.INTERNET"
+              },
+              {
+                "name": "android.permission.ACCESS_NETWORK_STATE"
+              }
+            ]
+          }
+        }
+      }
+    },
     "com.nis.app.revanced": {
       "metadata": {
         "added": 1784501800000,
         "categories": [
           "Multimedia"
         ],
-        "lastUpdated": 1786612282000,
+        "lastUpdated": 1794851758000,
         "authorName": "ReVanced (patched)",
         "name": {
           "en-US": "inshorts"
@@ -1152,7 +1953,7 @@
         },
         "icon": {
           "en-US": {
-            "name": "/icons/com.nis.app.revanced.5070939.png",
+            "name": "/icons/com.nis.app.revanced.5197713.png",
             "sha256": "dac9971c3d5b1ccaf6ce65335836ba7ee86354c8976e43036e5115beb1de7af8",
             "size": 454
           }
@@ -1160,6 +1961,98 @@
         "preferredSigner": "990aa515644a3f1528c122f2ce9ceb19f404912532394579ebedaea32c99cde9"
       },
       "versions": {
+        "6de36754ea97ba7fb995b035df6432f529f80709ecb9b494031e9aa26c21b6bb": {
+          "added": 1794851758000,
+          "file": {
+            "name": "/com.nis.app_6.1.0-huawei_revanced.apk",
+            "sha256": "6de36754ea97ba7fb995b035df6432f529f80709ecb9b494031e9aa26c21b6bb",
+            "size": 30203147
+          },
+          "manifest": {
+            "nativecode": [
+              "arm64-v8a",
+              "armeabi-v7a",
+              "x86",
+              "x86_64"
+            ],
+            "versionName": "6.1.0-huawei",
+            "versionCode": 5197713,
+            "usesSdk": {
+              "minSdkVersion": 19,
+              "targetSdkVersion": 28
+            },
+            "signer": {
+              "sha256": [
+                "990aa515644a3f1528c122f2ce9ceb19f404912532394579ebedaea32c99cde9"
+              ]
+            },
+            "usesPermission": [
+              {
+                "name": "android.permission.READ_PHONE_STATE"
+              },
+              {
+                "name": "android.permission.INTERNET"
+              },
+              {
+                "name": "android.permission.USE_CREDENTIALS"
+              },
+              {
+                "name": "android.permission.VIBRATE"
+              },
+              {
+                "name": "android.permission.WRITE_EXTERNAL_STORAGE"
+              },
+              {
+                "name": "android.permission.READ_EXTERNAL_STORAGE"
+              },
+              {
+                "name": "android.permission.ACCESS_NETWORK_STATE"
+              },
+              {
+                "name": "android.permission.RECEIVE_BOOT_COMPLETED"
+              },
+              {
+                "name": "android.permission.WAKE_LOCK"
+              },
+              {
+                "name": "android.permission.ACCESS_WIFI_STATE"
+              },
+              {
+                "name": "com.google.android.c2dm.permission.RECEIVE"
+              },
+              {
+                "name": "android.permission.ACCESS_COARSE_LOCATION"
+              },
+              {
+                "name": "android.permission.ACCESS_FINE_LOCATION"
+              },
+              {
+                "name": "android.permission.CAMERA"
+              },
+              {
+                "name": "android.permission.RECORD_AUDIO"
+              },
+              {
+                "name": "com.huawei.appmarket.service.commondata.permission.GET_COMMON_DATA"
+              },
+              {
+                "name": "com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE"
+              },
+              {
+                "name": "com.nis.app.permission.PROCESS_PUSH_MSG"
+              },
+              {
+                "name": "com.nis.app.permission.PUSH_PROVIDER"
+              },
+              {
+                "name": "android.permission.REQUEST_INSTALL_PACKAGES"
+              },
+              {
+                "name": "android.permission.BROADCAST_STICKY"
+              }
+            ]
+          }
+        },
         "dc486916b40e16fa4b0dc4477ca09fc8f7ddfa7f56537cf139ad39f2f0606636": {
           "added": 1786612282000,
           "file": {
@@ -1614,6 +2507,99 @@
         }
       }
     },
+    "com.nousguide.android.orftvthek.revanced": {
+      "metadata": {
+        "added": 1794851763000,
+        "categories": [
+          "Multimedia"
+        ],
+        "lastUpdated": 1794851763000,
+        "authorName": "ReVanced (patched)",
+        "name": {
+          "en-US": "ORF ON"
+        },
+        "description": {
+          "en-US": "ReVanced-patched build of com.nousguide.android.orftvthek.\n\nPatches applied:\n- INFO: \"Remove root detection\" succeeded\n- INFO: \"Change package name\" succeeded\n"
+        },
+        "icon": {
+          "en-US": {
+            "name": "/icons/com.nousguide.android.orftvthek.revanced.5000190.png",
+            "sha256": "4db12ba48f1622ff92b8be0fb03ae5d92afac684da7f67d34ff0756931f71dcb",
+            "size": 2315
+          }
+        },
+        "preferredSigner": "990aa515644a3f1528c122f2ce9ceb19f404912532394579ebedaea32c99cde9"
+      },
+      "versions": {
+        "13383d3758d10186a99133ea66fccc5f0643445432285270d7ecb554474bbd31": {
+          "added": 1794851763000,
+          "file": {
+            "name": "/com.nousguide.android.orftvthek_6.14.18-tv_revanced.apk",
+            "sha256": "13383d3758d10186a99133ea66fccc5f0643445432285270d7ecb554474bbd31",
+            "size": 19451177
+          },
+          "manifest": {
+            "versionName": "6.14.18-tv",
+            "versionCode": 5000190,
+            "features": [
+              {
+                "name": "android.software.leanback"
+              }
+            ],
+            "usesSdk": {
+              "minSdkVersion": 23,
+              "targetSdkVersion": 35
+            },
+            "signer": {
+              "sha256": [
+                "990aa515644a3f1528c122f2ce9ceb19f404912532394579ebedaea32c99cde9"
+              ]
+            },
+            "usesPermission": [
+              {
+                "name": "android.permission.ACCESS_NETWORK_STATE"
+              },
+              {
+                "name": "com.google.android.gms.permission.AD_ID"
+              },
+              {
+                "name": "android.permission.POST_NOTIFICATIONS"
+              },
+              {
+                "name": "android.permission.INTERNET"
+              },
+              {
+                "name": "android.permission.FOREGROUND_SERVICE"
+              },
+              {
+                "name": "android.permission.USE_LOOPBACK_INTERFACE"
+              },
+              {
+                "name": "android.permission.ACCESS_ADSERVICES_ATTRIBUTION"
+              },
+              {
+                "name": "android.permission.ACCESS_ADSERVICES_AD_ID"
+              },
+              {
+                "name": "android.permission.AD_SERVICES_CONFIG"
+              },
+              {
+                "name": "android.permission.FOREGROUND_SERVICE_MEDIA_PLAYBACK"
+              },
+              {
+                "name": "android.permission.RECEIVE_BOOT_COMPLETED"
+              },
+              {
+                "name": "android.permission.WAKE_LOCK"
+              },
+              {
+                "name": "com.nousguide.android.orftvthek.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+              }
+            ]
+          }
+        }
+      }
+    },
     "com.onelouder.baconreader.revanced": {
       "metadata": {
         "added": 1784501801000,
@@ -1638,12 +2624,12 @@
         "preferredSigner": "990aa515644a3f1528c122f2ce9ceb19f404912532394579ebedaea32c99cde9"
       },
       "versions": {
-        "b4b5427f27f2457c08c16ebe891b55472ca2bbd2f41008efd33e3b06f45b6b0e": {
+        "c337b61bf216aabf3306a6cb2d192ca32264814259f757ebc72f4a9281f6292c": {
           "added": 1784501801000,
           "file": {
             "name": "/com.onelouder.baconreader_6.1.4_revanced.apk",
-            "sha256": "b4b5427f27f2457c08c16ebe891b55472ca2bbd2f41008efd33e3b06f45b6b0e",
-            "size": 21006185
+            "sha256": "c337b61bf216aabf3306a6cb2d192ca32264814259f757ebc72f4a9281f6292c",
+            "size": 20952937
           },
           "manifest": {
             "versionName": "6.1.4",
@@ -1717,7 +2703,7 @@
         "categories": [
           "Multimedia"
         ],
-        "lastUpdated": 1784501802000,
+        "lastUpdated": 1794851766000,
         "authorName": "ReVanced (patched)",
         "name": {
           "en-US": "Pandora"
@@ -1727,7 +2713,7 @@
         },
         "icon": {
           "en-US": {
-            "name": "/icons/com.pandora.android.revanced.26071004.png",
+            "name": "/icons/com.pandora.android.revanced.27001731.png",
             "sha256": "43220ffc3d73dd3624331605ead3ba5fcd7760b5f68704fcc211c58c74c8d6f7",
             "size": 4187
           }
@@ -1735,6 +2721,129 @@
         "preferredSigner": "990aa515644a3f1528c122f2ce9ceb19f404912532394579ebedaea32c99cde9"
       },
       "versions": {
+        "beffb9818cd5b3549b7e21d456314778a000d90792fdd679d045bbcc46b3fdad": {
+          "added": 1794851766000,
+          "file": {
+            "name": "/com.pandora.android_2611.1_revanced.apk",
+            "sha256": "beffb9818cd5b3549b7e21d456314778a000d90792fdd679d045bbcc46b3fdad",
+            "size": 80843731
+          },
+          "manifest": {
+            "nativecode": [
+              "arm64-v8a",
+              "armeabi-v7a",
+              "x86",
+              "x86_64"
+            ],
+            "versionName": "2611.1",
+            "versionCode": 27001731,
+            "usesSdk": {
+              "minSdkVersion": 24,
+              "targetSdkVersion": 36
+            },
+            "signer": {
+              "sha256": [
+                "990aa515644a3f1528c122f2ce9ceb19f404912532394579ebedaea32c99cde9"
+              ]
+            },
+            "usesPermission": [
+              {
+                "name": "com.google.android.gms.permission.AD_ID"
+              },
+              {
+                "name": "android.permission.POST_NOTIFICATIONS"
+              },
+              {
+                "name": "android.permission.BLUETOOTH_CONNECT"
+              },
+              {
+                "name": "android.permission.INTERNET"
+              },
+              {
+                "name": "android.permission.ACCESS_NETWORK_STATE"
+              },
+              {
+                "name": "android.permission.ACCESS_WIFI_STATE"
+              },
+              {
+                "name": "android.permission.WAKE_LOCK"
+              },
+              {
+                "name": "android.permission.BLUETOOTH"
+              },
+              {
+                "name": "android.permission.BLUETOOTH_ADMIN"
+              },
+              {
+                "name": "android.permission.FOREGROUND_SERVICE"
+              },
+              {
+                "name": "android.permission.FOREGROUND_SERVICE_CONNECTED_DEVICE"
+              },
+              {
+                "name": "android.permission.FOREGROUND_SERVICE_MEDIA_PLAYBACK"
+              },
+              {
+                "name": "android.permission.GET_ACCOUNTS"
+              },
+              {
+                "name": "com.google.android.c2dm.permission.RECEIVE"
+              },
+              {
+                "name": "android.permission.POST_NOTIFICATIONS"
+              },
+              {
+                "name": "android.permission.READ_PHONE_STATE"
+              },
+              {
+                "name": "android.permission.WRITE_EXTERNAL_STORAGE",
+                "maxSdkVersion": 32
+              },
+              {
+                "name": "android.permission.READ_EXTERNAL_STORAGE",
+                "maxSdkVersion": 32
+              },
+              {
+                "name": "android.permission.RECEIVE_BOOT_COMPLETED"
+              },
+              {
+                "name": "com.android.launcher.permission.INSTALL_SHORTCUT"
+              },
+              {
+                "name": "android.permission.BLUETOOTH_CONNECT"
+              },
+              {
+                "name": "com.google.android.providers.gsf.permission.READ_GSERVICES"
+              },
+              {
+                "name": "com.android.vending.BILLING"
+              },
+              {
+                "name": "com.amazon.privacypass.ATTEST"
+              },
+              {
+                "name": "com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE"
+              },
+              {
+                "name": "com.android.providers.tv.permission.WRITE_EPG_DATA"
+              },
+              {
+                "name": "com.android.providers.tv.permission.READ_EPG_DATA"
+              },
+              {
+                "name": "com.pandora.android.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+              }
+            ],
+            "usesPermissionSdk23": [
+              {
+                "name": "android.permission.RECORD_AUDIO"
+              },
+              {
+                "name": "android.permission.CHANGE_WIFI_MULTICAST_STATE"
+              }
+            ]
+          }
+        },
         "5647c30d12fd4df8d290166eac80bc51038e9cabc29d2483f757bb29cf44ca56": {
           "added": 1784501802000,
           "file": {
@@ -1854,6 +2963,94 @@
               },
               {
                 "name": "android.permission.CHANGE_WIFI_MULTICAST_STATE"
+              }
+            ]
+          }
+        }
+      }
+    },
+    "com.rarlab.rar.revanced": {
+      "metadata": {
+        "added": 1794851766000,
+        "categories": [
+          "Multimedia"
+        ],
+        "lastUpdated": 1794851766000,
+        "authorName": "ReVanced (patched)",
+        "name": {
+          "en-US": "RAR"
+        },
+        "description": {
+          "en-US": "ReVanced-patched build of com.rarlab.rar.\n\nPatches applied:\n- INFO: \"Hide purchase reminder\" succeeded\n- INFO: \"Change package name\" succeeded\n"
+        },
+        "icon": {
+          "en-US": {
+            "name": "/icons/com.rarlab.rar.revanced.134.png",
+            "sha256": "881b6012031bf9d636dff44afd9e4607db6ba2f5768f52986fc693c39d21d725",
+            "size": 1494
+          }
+        },
+        "preferredSigner": "990aa515644a3f1528c122f2ce9ceb19f404912532394579ebedaea32c99cde9"
+      },
+      "versions": {
+        "b26de8553adc193639298a789e08d3faccdae76d8acba6a87ffd6384685f886d": {
+          "added": 1794851766000,
+          "file": {
+            "name": "/com.rarlab.rar_7.23.build134_revanced.apk",
+            "sha256": "b26de8553adc193639298a789e08d3faccdae76d8acba6a87ffd6384685f886d",
+            "size": 2527990
+          },
+          "manifest": {
+            "versionName": "7.23.build134",
+            "versionCode": 134,
+            "usesSdk": {
+              "minSdkVersion": 23,
+              "targetSdkVersion": 36
+            },
+            "signer": {
+              "sha256": [
+                "990aa515644a3f1528c122f2ce9ceb19f404912532394579ebedaea32c99cde9"
+              ]
+            },
+            "usesPermission": [
+              {
+                "name": "android.permission.INTERNET"
+              },
+              {
+                "name": "android.permission.ACCESS_NETWORK_STATE"
+              },
+              {
+                "name": "android.permission.MANAGE_EXTERNAL_STORAGE"
+              },
+              {
+                "name": "android.permission.POST_NOTIFICATIONS"
+              },
+              {
+                "name": "android.permission.WRITE_EXTERNAL_STORAGE"
+              },
+              {
+                "name": "android.permission.WAKE_LOCK"
+              },
+              {
+                "name": "android.permission.REQUEST_INSTALL_PACKAGES"
+              },
+              {
+                "name": "android.permission.HIDE_OVERLAY_WINDOWS"
+              },
+              {
+                "name": "com.android.vending.BILLING"
+              },
+              {
+                "name": "android.permission.RECEIVE_BOOT_COMPLETED"
+              },
+              {
+                "name": "android.permission.FOREGROUND_SERVICE"
+              },
+              {
+                "name": "com.rarlab.rar.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+              },
+              {
+                "name": "android.permission.READ_EXTERNAL_STORAGE"
               }
             ]
           }
@@ -2325,13 +3522,306 @@
         }
       }
     },
+    "com.tumblr.revanced": {
+      "metadata": {
+        "added": 1794851769000,
+        "categories": [
+          "Multimedia"
+        ],
+        "lastUpdated": 1794851769000,
+        "authorName": "ReVanced (patched)",
+        "name": {
+          "en-US": "Tumblr"
+        },
+        "description": {
+          "en-US": "ReVanced-patched build of com.tumblr.\n\nPatches applied:\n- INFO: \"Disable blog notification reminder\" succeeded\n- INFO: \"Change package name\" succeeded\n"
+        },
+        "preferredSigner": "990aa515644a3f1528c122f2ce9ceb19f404912532394579ebedaea32c99cde9"
+      },
+      "versions": {
+        "025c69b31c485c9ed5bc327869f25b88f5a323673c124bc93aee5ca2d929e75c": {
+          "added": 1794851769000,
+          "file": {
+            "name": "/com.tumblr_47.1.0.109_revanced.apk",
+            "sha256": "025c69b31c485c9ed5bc327869f25b88f5a323673c124bc93aee5ca2d929e75c",
+            "size": 39456888
+          },
+          "manifest": {
+            "versionName": "47.1.0.109",
+            "versionCode": 1470100109,
+            "usesSdk": {
+              "minSdkVersion": 26,
+              "targetSdkVersion": 36
+            },
+            "signer": {
+              "sha256": [
+                "990aa515644a3f1528c122f2ce9ceb19f404912532394579ebedaea32c99cde9"
+              ]
+            },
+            "usesPermission": [
+              {
+                "name": "android.permission.INTERNET"
+              },
+              {
+                "name": "android.permission.WRITE_EXTERNAL_STORAGE",
+                "maxSdkVersion": 32
+              },
+              {
+                "name": "android.permission.ACCESS_NETWORK_STATE"
+              },
+              {
+                "name": "android.permission.READ_SYNC_SETTINGS"
+              },
+              {
+                "name": "android.permission.WRITE_SYNC_SETTINGS"
+              },
+              {
+                "name": "android.permission.CAMERA"
+              },
+              {
+                "name": "android.permission.RECORD_AUDIO"
+              },
+              {
+                "name": "com.android.launcher.permission.INSTALL_SHORTCUT"
+              },
+              {
+                "name": "android.permission.ACCESS_WIFI_STATE"
+              },
+              {
+                "name": "android.permission.RECEIVE_BOOT_COMPLETED"
+              },
+              {
+                "name": "android.permission.FOREGROUND_SERVICE"
+              },
+              {
+                "name": "com.google.android.gms.permission.AD_ID"
+              },
+              {
+                "name": "android.permission.READ_MEDIA_IMAGES"
+              },
+              {
+                "name": "android.permission.READ_MEDIA_VIDEO"
+              },
+              {
+                "name": "android.permission.READ_EXTERNAL_STORAGE",
+                "maxSdkVersion": 32
+              },
+              {
+                "name": "android.permission.POST_NOTIFICATIONS"
+              },
+              {
+                "name": "com.tumblr.permissions.RECEIVER"
+              },
+              {
+                "name": "android.permission.DETECT_SCREEN_CAPTURE"
+              },
+              {
+                "name": "android.permission.FOREGROUND_SERVICE_MEDIA_PLAYBACK"
+              },
+              {
+                "name": "android.permission.DOWNLOAD_WITHOUT_NOTIFICATION"
+              },
+              {
+                "name": "android.permission.USE_BIOMETRIC"
+              },
+              {
+                "name": "android.permission.USE_FINGERPRINT"
+              },
+              {
+                "name": "android.permission.ACCESS_ADSERVICES_AD_ID"
+              },
+              {
+                "name": "android.permission.ACCESS_ADSERVICES_ATTRIBUTION"
+              },
+              {
+                "name": "android.permission.ACCESS_ADSERVICES_TOPICS"
+              },
+              {
+                "name": "android.permission.WAKE_LOCK"
+              },
+              {
+                "name": "com.android.vending.BILLING"
+              },
+              {
+                "name": "com.google.android.c2dm.permission.RECEIVE"
+              },
+              {
+                "name": "com.tumblr.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+              },
+              {
+                "name": "com.amazon.privacypass.ATTEST"
+              },
+              {
+                "name": "com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE"
+              },
+              {
+                "name": "com.sec.android.provider.badge.permission.READ"
+              },
+              {
+                "name": "com.sec.android.provider.badge.permission.WRITE"
+              },
+              {
+                "name": "com.htc.launcher.permission.READ_SETTINGS"
+              },
+              {
+                "name": "com.htc.launcher.permission.UPDATE_SHORTCUT"
+              },
+              {
+                "name": "com.sonyericsson.home.permission.BROADCAST_BADGE"
+              },
+              {
+                "name": "com.sonymobile.home.permission.PROVIDER_INSERT_BADGE"
+              },
+              {
+                "name": "com.anddoes.launcher.permission.UPDATE_COUNT"
+              },
+              {
+                "name": "com.majeur.launcher.permission.UPDATE_BADGE"
+              },
+              {
+                "name": "com.huawei.android.launcher.permission.CHANGE_BADGE"
+              },
+              {
+                "name": "com.huawei.android.launcher.permission.READ_SETTINGS"
+              },
+              {
+                "name": "com.huawei.android.launcher.permission.WRITE_SETTINGS"
+              },
+              {
+                "name": "android.permission.READ_APP_BADGE"
+              },
+              {
+                "name": "com.oppo.launcher.permission.READ_SETTINGS"
+              },
+              {
+                "name": "com.oppo.launcher.permission.WRITE_SETTINGS"
+              },
+              {
+                "name": "me.everything.badger.permission.BADGE_COUNT_READ"
+              },
+              {
+                "name": "me.everything.badger.permission.BADGE_COUNT_WRITE"
+              }
+            ]
+          }
+        }
+      }
+    },
+    "de.tudortmund.app.revanced": {
+      "metadata": {
+        "added": 1794851770000,
+        "categories": [
+          "Multimedia"
+        ],
+        "lastUpdated": 1794851770000,
+        "authorName": "ReVanced (patched)",
+        "name": {
+          "en-US": "TU Dortmund"
+        },
+        "description": {
+          "en-US": "ReVanced-patched build of de.tudortmund.app.\n\nPatches applied:\n- INFO: \"Change package name\" succeeded\n"
+        },
+        "icon": {
+          "en-US": {
+            "name": "/icons/de.tudortmund.app.revanced.200005396.png",
+            "sha256": "d6d60c061348fbc64fbc9f002a7a6af94806ec6ec11e5f8d1d9a8368f5515118",
+            "size": 972
+          }
+        },
+        "preferredSigner": "990aa515644a3f1528c122f2ce9ceb19f404912532394579ebedaea32c99cde9"
+      },
+      "versions": {
+        "d2adf23fbe12eb2a3653aeb6be5ce73da2dffb2e83d12120f141f32be13ee0d2": {
+          "added": 1794851770000,
+          "file": {
+            "name": "/de.tudortmund.app_6.0.3_revanced.apk",
+            "sha256": "d2adf23fbe12eb2a3653aeb6be5ce73da2dffb2e83d12120f141f32be13ee0d2",
+            "size": 18684201
+          },
+          "manifest": {
+            "versionName": "6.0.3",
+            "versionCode": 200005396,
+            "features": [
+              {
+                "name": "android.hardware.location.gps"
+              },
+              {
+                "name": "android.hardware.camera"
+              },
+              {
+                "name": "android.hardware.camera.autofocus"
+              }
+            ],
+            "usesSdk": {
+              "minSdkVersion": 24,
+              "targetSdkVersion": 36
+            },
+            "signer": {
+              "sha256": [
+                "990aa515644a3f1528c122f2ce9ceb19f404912532394579ebedaea32c99cde9"
+              ]
+            },
+            "usesPermission": [
+              {
+                "name": "android.permission.INTERNET"
+              },
+              {
+                "name": "android.permission.READ_EXTERNAL_STORAGE"
+              },
+              {
+                "name": "android.permission.WRITE_EXTERNAL_STORAGE"
+              },
+              {
+                "name": "android.permission.ACCESS_COARSE_LOCATION"
+              },
+              {
+                "name": "android.permission.ACCESS_FINE_LOCATION"
+              },
+              {
+                "name": "android.permission.READ_CONTACTS"
+              },
+              {
+                "name": "android.permission.WRITE_CONTACTS"
+              },
+              {
+                "name": "android.permission.CAMERA"
+              },
+              {
+                "name": "android.permission.VIBRATE"
+              },
+              {
+                "name": "android.permission.READ_CALENDAR"
+              },
+              {
+                "name": "android.permission.WRITE_CALENDAR"
+              },
+              {
+                "name": "android.permission.ACCESS_NETWORK_STATE"
+              },
+              {
+                "name": "android.permission.POST_NOTIFICATIONS"
+              },
+              {
+                "name": "android.permission.WAKE_LOCK"
+              },
+              {
+                "name": "com.google.android.c2dm.permission.RECEIVE"
+              },
+              {
+                "name": "de.tudortmund.app.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+              }
+            ]
+          }
+        }
+      }
+    },
     "eu.faircode.netguard.revanced": {
       "metadata": {
         "added": 1784501803000,
         "categories": [
           "Multimedia"
         ],
-        "lastUpdated": 1784501803000,
+        "lastUpdated": 1794851771000,
         "authorName": "ReVanced (patched)",
         "name": {
           "en-US": "NetGuard"
@@ -2341,7 +3831,7 @@
         },
         "icon": {
           "en-US": {
-            "name": "/icons/eu.faircode.netguard.revanced.2026052101.png",
+            "name": "/icons/eu.faircode.netguard.revanced.2026080101.png",
             "sha256": "fc7b9e7c8276d08047267503b4b41047f1690525a4b7072132810dd7b016d0c8",
             "size": 1463
           }
@@ -2349,6 +3839,74 @@
         "preferredSigner": "990aa515644a3f1528c122f2ce9ceb19f404912532394579ebedaea32c99cde9"
       },
       "versions": {
+        "fed42009fbb0381e6b35029089d9030c9861fb2af78bdfb4170553b16a5ccfc7": {
+          "added": 1794851771000,
+          "file": {
+            "name": "/eu.faircode.netguard_2.337_revanced.apk",
+            "sha256": "fed42009fbb0381e6b35029089d9030c9861fb2af78bdfb4170553b16a5ccfc7",
+            "size": 3514172
+          },
+          "manifest": {
+            "nativecode": [
+              "arm64-v8a",
+              "armeabi-v7a",
+              "x86",
+              "x86_64"
+            ],
+            "versionName": "2.337",
+            "versionCode": 2026080101,
+            "usesSdk": {
+              "minSdkVersion": 23,
+              "targetSdkVersion": 36
+            },
+            "signer": {
+              "sha256": [
+                "990aa515644a3f1528c122f2ce9ceb19f404912532394579ebedaea32c99cde9"
+              ]
+            },
+            "usesPermission": [
+              {
+                "name": "android.permission.ACCESS_NETWORK_STATE"
+              },
+              {
+                "name": "android.permission.READ_PHONE_STATE"
+              },
+              {
+                "name": "android.permission.ACCESS_WIFI_STATE"
+              },
+              {
+                "name": "android.permission.RECEIVE_BOOT_COMPLETED"
+              },
+              {
+                "name": "android.permission.WAKE_LOCK"
+              },
+              {
+                "name": "com.android.vending.BILLING"
+              },
+              {
+                "name": "android.permission.INTERNET"
+              },
+              {
+                "name": "android.permission.VIBRATE"
+              },
+              {
+                "name": "android.permission.FOREGROUND_SERVICE"
+              },
+              {
+                "name": "android.permission.POST_NOTIFICATIONS"
+              },
+              {
+                "name": "android.permission.FOREGROUND_SERVICE_SPECIAL_USE"
+              },
+              {
+                "name": "eu.faircode.netguard.permission.ADMIN"
+              },
+              {
+                "name": "eu.faircode.netguard.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+              }
+            ]
+          }
+        },
         "727e3d95ec2a239a6c11ba65bfd866cca80e888e38c425380fd4d0ca1e21eb31": {
           "added": 1784501803000,
           "file": {
@@ -2413,6 +3971,210 @@
               },
               {
                 "name": "eu.faircode.netguard.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+              }
+            ]
+          }
+        }
+      }
+    },
+    "free.reddit.news.revanced": {
+      "metadata": {
+        "added": 1794851771000,
+        "categories": [
+          "Multimedia"
+        ],
+        "lastUpdated": 1794851771000,
+        "authorName": "ReVanced (patched)",
+        "name": {
+          "en-US": "Relay"
+        },
+        "description": {
+          "en-US": "ReVanced-patched build of free.reddit.news.\n\nPatches applied:\n- INFO: \"Change package name\" succeeded\n"
+        },
+        "icon": {
+          "en-US": {
+            "name": "/icons/free.reddit.news.revanced.641.png",
+            "sha256": "213c3307f1d7d8976e4d8725c08a4bd76a9e81ab0dac8b0f00999c045102bcba",
+            "size": 3299
+          }
+        },
+        "preferredSigner": "990aa515644a3f1528c122f2ce9ceb19f404912532394579ebedaea32c99cde9"
+      },
+      "versions": {
+        "1ae9f06647616e551a90921b538641a2dd447901431930f1292135fae5606b7d": {
+          "added": 1794851771000,
+          "file": {
+            "name": "/free.reddit.news_10.2.40_revanced.apk",
+            "sha256": "1ae9f06647616e551a90921b538641a2dd447901431930f1292135fae5606b7d",
+            "size": 18734267
+          },
+          "manifest": {
+            "nativecode": [
+              "arm64-v8a",
+              "armeabi-v7a",
+              "x86",
+              "x86_64"
+            ],
+            "versionName": "10.2.40",
+            "versionCode": 641,
+            "usesSdk": {
+              "minSdkVersion": 23,
+              "targetSdkVersion": 33
+            },
+            "signer": {
+              "sha256": [
+                "990aa515644a3f1528c122f2ce9ceb19f404912532394579ebedaea32c99cde9"
+              ]
+            },
+            "usesPermission": [
+              {
+                "name": "com.google.android.gms.permission.AD_ID"
+              },
+              {
+                "name": "android.permission.INTERNET"
+              },
+              {
+                "name": "android.permission.ACCESS_NETWORK_STATE"
+              },
+              {
+                "name": "android.permission.ACCESS_WIFI_STATE"
+              },
+              {
+                "name": "android.permission.VIBRATE"
+              },
+              {
+                "name": "android.permission.READ_EXTERNAL_STORAGE",
+                "maxSdkVersion": 29
+              },
+              {
+                "name": "android.permission.WRITE_EXTERNAL_STORAGE",
+                "maxSdkVersion": 29
+              },
+              {
+                "name": "android.permission.POST_NOTIFICATIONS"
+              },
+              {
+                "name": "com.applovin.array.apphub.permission.BIND_APPHUB_SERVICE"
+              },
+              {
+                "name": "android.permission.WAKE_LOCK"
+              },
+              {
+                "name": "com.google.android.c2dm.permission.RECEIVE"
+              },
+              {
+                "name": "com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE"
+              },
+              {
+                "name": "android.permission.FOREGROUND_SERVICE"
+              },
+              {
+                "name": "free.reddit.news.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+              },
+              {
+                "name": "com.android.vending.BILLING"
+              }
+            ]
+          }
+        }
+      }
+    },
+    "io.syncapps.lemmy_sync.revanced": {
+      "metadata": {
+        "added": 1794851772000,
+        "categories": [
+          "Multimedia"
+        ],
+        "lastUpdated": 1794851772000,
+        "authorName": "ReVanced (patched)",
+        "name": {
+          "en-US": "Sync"
+        },
+        "description": {
+          "en-US": "ReVanced-patched build of io.syncapps.lemmy_sync.\n\nPatches applied:\n- INFO: \"Disable ads\" succeeded\n- INFO: \"Change package name\" succeeded\n"
+        },
+        "preferredSigner": "990aa515644a3f1528c122f2ce9ceb19f404912532394579ebedaea32c99cde9"
+      },
+      "versions": {
+        "448f6be416bddb4b53047afb54d0982025f759dc3e0d09996ea21fd9a620683f": {
+          "added": 1794851772000,
+          "file": {
+            "name": "/io.syncapps.lemmy_sync_v24.03.26-14_56_revanced.apk",
+            "sha256": "448f6be416bddb4b53047afb54d0982025f759dc3e0d09996ea21fd9a620683f",
+            "size": 14596707
+          },
+          "manifest": {
+            "versionName": "v24.03.26-14:56",
+            "versionCode": 122,
+            "usesSdk": {
+              "minSdkVersion": 26,
+              "targetSdkVersion": 34
+            },
+            "signer": {
+              "sha256": [
+                "990aa515644a3f1528c122f2ce9ceb19f404912532394579ebedaea32c99cde9"
+              ]
+            },
+            "usesPermission": [
+              {
+                "name": "android.permission.INTERNET"
+              },
+              {
+                "name": "android.permission.ACCESS_NETWORK_STATE"
+              },
+              {
+                "name": "android.permission.RECEIVE_BOOT_COMPLETED"
+              },
+              {
+                "name": "android.permission.WAKE_LOCK"
+              },
+              {
+                "name": "com.android.vending.BILLING"
+              },
+              {
+                "name": "android.permission.ACCESS_WIFI_STATE"
+              },
+              {
+                "name": "com.google.android.providers.gsf.permission.READ_GSERVICES"
+              },
+              {
+                "name": "com.android.vending.CHECK_LICENSE"
+              },
+              {
+                "name": "android.permission.FOREGROUND_SERVICE"
+              },
+              {
+                "name": "android.permission.VIBRATE"
+              },
+              {
+                "name": "com.google.android.gms.permission.AD_ID"
+              },
+              {
+                "name": "com.google.android.c2dm.permission.RECEIVE"
+              },
+              {
+                "name": "com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE"
+              },
+              {
+                "name": "android.permission.POST_NOTIFICATIONS"
+              },
+              {
+                "name": "android.permission.USE_BIOMETRIC"
+              },
+              {
+                "name": "android.permission.USE_FINGERPRINT"
+              },
+              {
+                "name": "android.permission.ACCESS_ADSERVICES_AD_ID"
+              },
+              {
+                "name": "android.permission.ACCESS_ADSERVICES_ATTRIBUTION"
+              },
+              {
+                "name": "android.permission.ACCESS_ADSERVICES_TOPICS"
+              },
+              {
+                "name": "io.syncapps.lemmy_sync.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
               }
             ]
           }
@@ -2534,6 +4296,76 @@
               },
               {
                 "name": "jp.pxv.android.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+              }
+            ]
+          }
+        }
+      }
+    },
+    "me.ccrama.redditslide.revanced": {
+      "metadata": {
+        "added": 1794851774000,
+        "categories": [
+          "Multimedia"
+        ],
+        "lastUpdated": 1794851774000,
+        "authorName": "ReVanced (patched)",
+        "name": {
+          "en-US": "Slide"
+        },
+        "description": {
+          "en-US": "ReVanced-patched build of me.ccrama.redditslide.\n\nPatches applied:\n- INFO: \"Change package name\" succeeded\n"
+        },
+        "icon": {
+          "en-US": {
+            "name": "/icons/me.ccrama.redditslide.revanced.337.png",
+            "sha256": "6fd772481916da08bdefbcffaa092dc17b9c969b2141e45c3b88858ee9ca6827",
+            "size": 1972
+          }
+        },
+        "preferredSigner": "990aa515644a3f1528c122f2ce9ceb19f404912532394579ebedaea32c99cde9"
+      },
+      "versions": {
+        "0e2c41152b6b530ce1a1f1a3fc89d8975f67b2d64846bd14a072a29c9cca2968": {
+          "added": 1794851774000,
+          "file": {
+            "name": "/me.ccrama.redditslide_6.7.1_revanced.apk",
+            "sha256": "0e2c41152b6b530ce1a1f1a3fc89d8975f67b2d64846bd14a072a29c9cca2968",
+            "size": 14213098
+          },
+          "manifest": {
+            "versionName": "6.7.1",
+            "versionCode": 337,
+            "usesSdk": {
+              "minSdkVersion": 16,
+              "targetSdkVersion": 29
+            },
+            "signer": {
+              "sha256": [
+                "990aa515644a3f1528c122f2ce9ceb19f404912532394579ebedaea32c99cde9"
+              ]
+            },
+            "usesPermission": [
+              {
+                "name": "android.permission.INTERNET"
+              },
+              {
+                "name": "android.permission.NFC"
+              },
+              {
+                "name": "android.permission.WRITE_EXTERNAL_STORAGE"
+              },
+              {
+                "name": "com.android.vending.BILLING"
+              },
+              {
+                "name": "android.permission.ACCESS_NETWORK_STATE"
+              },
+              {
+                "name": "android.permission.ACCESS_WIFI_STATE"
+              },
+              {
+                "name": "android.permission.READ_EXTERNAL_STORAGE"
               }
             ]
           }
@@ -3052,6 +4884,671 @@
               {
                 "name": "android.permission.WRITE_EXTERNAL_STORAGE",
                 "maxSdkVersion": 28
+              }
+            ]
+          }
+        }
+      }
+    },
+    "ml.docilealligator.infinityforreddit.revanced": {
+      "metadata": {
+        "added": 1794851779000,
+        "categories": [
+          "Multimedia"
+        ],
+        "lastUpdated": 1794851779000,
+        "authorName": "ReVanced (patched)",
+        "name": {
+          "en-US": "Infinity"
+        },
+        "description": {
+          "en-US": "ReVanced-patched build of ml.docilealligator.infinityforreddit.\n\nPatches applied:\n- INFO: \"Change package name\" succeeded\n"
+        },
+        "icon": {
+          "en-US": {
+            "name": "/icons/ml.docilealligator.infinityforreddit.revanced.188.png",
+            "sha256": "373e156f18e7d1ac1ae678e15bbf17a49e0d10794d6399c18d72d8d005dedbd3",
+            "size": 3073
+          }
+        },
+        "preferredSigner": "990aa515644a3f1528c122f2ce9ceb19f404912532394579ebedaea32c99cde9"
+      },
+      "versions": {
+        "9d60e78c154e298f894b9f610877acb8200c9095ac0b0b6450c9b3f697460349": {
+          "added": 1794851779000,
+          "file": {
+            "name": "/ml.docilealligator.infinityforreddit_7.4.1_revanced.apk",
+            "sha256": "9d60e78c154e298f894b9f610877acb8200c9095ac0b0b6450c9b3f697460349",
+            "size": 12818482
+          },
+          "manifest": {
+            "versionName": "7.4.1",
+            "versionCode": 188,
+            "usesSdk": {
+              "minSdkVersion": 21,
+              "targetSdkVersion": 34
+            },
+            "signer": {
+              "sha256": [
+                "990aa515644a3f1528c122f2ce9ceb19f404912532394579ebedaea32c99cde9"
+              ]
+            },
+            "usesPermission": [
+              {
+                "name": "android.permission.ACCESS_NETWORK_STATE"
+              },
+              {
+                "name": "android.permission.INTERNET"
+              },
+              {
+                "name": "android.permission.SET_WALLPAPER"
+              },
+              {
+                "name": "android.permission.SET_WALLPAPER_HINTS"
+              },
+              {
+                "name": "android.permission.WRITE_EXTERNAL_STORAGE",
+                "maxSdkVersion": 22
+              },
+              {
+                "name": "android.permission.FOREGROUND_SERVICE"
+              },
+              {
+                "name": "android.permission.WAKE_LOCK"
+              },
+              {
+                "name": "android.permission.POST_NOTIFICATIONS"
+              },
+              {
+                "name": "android.permission.RUN_USER_INITIATED_JOBS"
+              },
+              {
+                "name": "android.permission.USE_BIOMETRIC"
+              },
+              {
+                "name": "android.permission.USE_FINGERPRINT"
+              },
+              {
+                "name": "com.android.vending.BILLING"
+              },
+              {
+                "name": "android.permission.RECEIVE_BOOT_COMPLETED"
+              },
+              {
+                "name": "ml.docilealligator.infinityforreddit.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+              },
+              {
+                "name": "android.permission.READ_EXTERNAL_STORAGE",
+                "maxSdkVersion": 22
+              }
+            ],
+            "usesPermissionSdk23": [
+              {
+                "name": "android.permission.WRITE_EXTERNAL_STORAGE",
+                "maxSdkVersion": 28
+              }
+            ]
+          }
+        }
+      }
+    },
+    "net.binarymode.android.irplus.revanced": {
+      "metadata": {
+        "added": 1794851783000,
+        "categories": [
+          "Multimedia"
+        ],
+        "lastUpdated": 1794851783000,
+        "authorName": "ReVanced (patched)",
+        "name": {
+          "en-US": "irplus"
+        },
+        "description": {
+          "en-US": "ReVanced-patched build of net.binarymode.android.irplus.\n\nPatches applied:\n- INFO: \"Remove ads\" succeeded\n- INFO: \"Change package name\" succeeded\n"
+        },
+        "icon": {
+          "en-US": {
+            "name": "/icons/net.binarymode.android.irplus.revanced.322.png",
+            "sha256": "96990a3aaeb32ea9bc1ab94a9e583c53a13f09686894d444117ac9d6ff8ec247",
+            "size": 1001
+          }
+        },
+        "preferredSigner": "990aa515644a3f1528c122f2ce9ceb19f404912532394579ebedaea32c99cde9"
+      },
+      "versions": {
+        "40ef3f30bb73e9b50252d036c89b49941ad0554d9cf19328564dedc42ffb8517": {
+          "added": 1794851783000,
+          "file": {
+            "name": "/net.binarymode.android.irplus_1.10_revanced.apk",
+            "sha256": "40ef3f30bb73e9b50252d036c89b49941ad0554d9cf19328564dedc42ffb8517",
+            "size": 9059463
+          },
+          "manifest": {
+            "versionName": "1.10",
+            "versionCode": 322,
+            "usesSdk": {
+              "minSdkVersion": 16,
+              "targetSdkVersion": 34
+            },
+            "signer": {
+              "sha256": [
+                "990aa515644a3f1528c122f2ce9ceb19f404912532394579ebedaea32c99cde9"
+              ]
+            },
+            "usesPermission": [
+              {
+                "name": "android.permission.ACCESS_NETWORK_STATE"
+              },
+              {
+                "name": "android.permission.INTERNET"
+              },
+              {
+                "name": "android.permission.TRANSMIT_IR"
+              },
+              {
+                "name": "android.permission.READ_INTERNAL_STORAGE"
+              },
+              {
+                "name": "android.permission.READ_EXTERNAL_STORAGE"
+              },
+              {
+                "name": "android.permission.VIBRATE"
+              },
+              {
+                "name": "android.permission.WAKE_LOCK"
+              },
+              {
+                "name": "android.permission.WRITE_EXTERNAL_STORAGE"
+              },
+              {
+                "name": "android.permission.FOREGROUND_SERVICE"
+              },
+              {
+                "name": "com.google.android.gms.permission.AD_ID"
+              },
+              {
+                "name": "com.samsung.android.providers.context.permission.WRITE_USE_APP_FEATURE_SURVEY"
+              }
+            ]
+          }
+        }
+      }
+    },
+    "nl.sanomamedia.android.nu.revanced": {
+      "metadata": {
+        "added": 1794851783000,
+        "categories": [
+          "Multimedia"
+        ],
+        "lastUpdated": 1794851783000,
+        "authorName": "ReVanced (patched)",
+        "name": {
+          "en-US": "NU.nl"
+        },
+        "description": {
+          "en-US": "ReVanced-patched build of nl.sanomamedia.android.nu.\n\nPatches applied:\n- INFO: \"Spoof certificate\" succeeded\n- INFO: \"Change package name\" succeeded\n"
+        },
+        "icon": {
+          "en-US": {
+            "name": "/icons/nl.sanomamedia.android.nu.revanced.210163.png",
+            "sha256": "b87536285f64f5e4414e0b61ed632ac8da2a51656f8b0ba3173b7a4e576df5fd",
+            "size": 1776
+          }
+        },
+        "preferredSigner": "990aa515644a3f1528c122f2ce9ceb19f404912532394579ebedaea32c99cde9"
+      },
+      "versions": {
+        "357d087ac622c1f3614138d4105c43cf36962af4e8ef233abf222b8d63180ae0": {
+          "added": 1794851783000,
+          "file": {
+            "name": "/nl.sanomamedia.android.nu_26.10.0_revanced.apk",
+            "sha256": "357d087ac622c1f3614138d4105c43cf36962af4e8ef233abf222b8d63180ae0",
+            "size": 51528769
+          },
+          "manifest": {
+            "versionName": "26.10.0",
+            "versionCode": 210163,
+            "usesSdk": {
+              "minSdkVersion": 29,
+              "targetSdkVersion": 37
+            },
+            "signer": {
+              "sha256": [
+                "990aa515644a3f1528c122f2ce9ceb19f404912532394579ebedaea32c99cde9"
+              ]
+            },
+            "usesPermission": [
+              {
+                "name": "android.permission.RECEIVE_BOOT_COMPLETED"
+              },
+              {
+                "name": "android.permission.INTERNET"
+              },
+              {
+                "name": "android.permission.ACCESS_NETWORK_STATE"
+              },
+              {
+                "name": "android.permission.READ_EXTERNAL_STORAGE"
+              },
+              {
+                "name": "com.google.android.gms.permission.AD_ID"
+              },
+              {
+                "name": "android.permission.WAKE_LOCK"
+              },
+              {
+                "name": "android.permission.POST_NOTIFICATIONS"
+              },
+              {
+                "name": "android.permission.CAMERA"
+              },
+              {
+                "name": "net.persgroep.persgroepidentificatieplatformoidcandroidsdk.SESSION_PROVIDER"
+              },
+              {
+                "name": "net.persgroep.persgroepidentificatieplatformoidcandroidsdk.second.SESSION_PROVIDER"
+              },
+              {
+                "name": "net.persgroep.persgroepidentificatieplatformoidcandroidsdk.third.SESSION_PROVIDER"
+              },
+              {
+                "name": "net.persgroep.persgroepidentificatieplatformoidcandroidsdk.fourth.SESSION_PROVIDER"
+              },
+              {
+                "name": "dpg.identity.account.SESSION_PROVIDER"
+              },
+              {
+                "name": "android.permission.USE_CREDENTIALS"
+              },
+              {
+                "name": "android.permission.GET_ACCOUNTS"
+              },
+              {
+                "name": "android.permission.MANAGE_ACCOUNTS"
+              },
+              {
+                "name": "android.permission.AUTHENTICATE_ACCOUNTS"
+              },
+              {
+                "name": "android.permission.ACCESS_WIFI_STATE"
+              },
+              {
+                "name": "android.permission.ACCESS_ADSERVICES_ATTRIBUTION"
+              },
+              {
+                "name": "android.permission.ACCESS_ADSERVICES_AD_ID"
+              },
+              {
+                "name": "android.permission.AD_SERVICES_CONFIG"
+              },
+              {
+                "name": "nl.sanomamedia.android.nu.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+              },
+              {
+                "name": "com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE"
+              },
+              {
+                "name": "com.google.android.c2dm.permission.RECEIVE"
+              },
+              {
+                "name": "android.permission.ACCESS_ADSERVICES_TOPICS"
+              },
+              {
+                "name": "android.permission.FOREGROUND_SERVICE"
+              }
+            ]
+          }
+        }
+      }
+    },
+    "o.o.joey.revanced": {
+      "metadata": {
+        "added": 1794851784000,
+        "categories": [
+          "Multimedia"
+        ],
+        "lastUpdated": 1794851784000,
+        "authorName": "ReVanced (patched)",
+        "name": {
+          "en-US": "Joey"
+        },
+        "description": {
+          "en-US": "ReVanced-patched build of o.o.joey.\n\nPatches applied:\n- INFO: \"Disable ads\" succeeded\n- INFO: \"Change package name\" succeeded\n"
+        },
+        "icon": {
+          "en-US": {
+            "name": "/icons/o.o.joey.revanced.500.png",
+            "sha256": "165388739e4a543fc8e18522875bfaa71bcd84bcd0b4775ebfd60314d40b7731",
+            "size": 2649
+          }
+        },
+        "preferredSigner": "990aa515644a3f1528c122f2ce9ceb19f404912532394579ebedaea32c99cde9"
+      },
+      "versions": {
+        "c9cdce10b94475e83a01d83bb0e1375b78b47d47cbb95958ba81d146be2b6320": {
+          "added": 1794851784000,
+          "file": {
+            "name": "/o.o.joey_2.1.6.5_revanced.apk",
+            "sha256": "c9cdce10b94475e83a01d83bb0e1375b78b47d47cbb95958ba81d146be2b6320",
+            "size": 21300006
+          },
+          "manifest": {
+            "nativecode": [
+              "arm64-v8a",
+              "armeabi-v7a",
+              "x86",
+              "x86_64"
+            ],
+            "versionName": "2.1.6.5",
+            "versionCode": 500,
+            "usesSdk": {
+              "minSdkVersion": 21,
+              "targetSdkVersion": 34
+            },
+            "signer": {
+              "sha256": [
+                "990aa515644a3f1528c122f2ce9ceb19f404912532394579ebedaea32c99cde9"
+              ]
+            },
+            "usesPermission": [
+              {
+                "name": "android.permission.POST_NOTIFICATIONS"
+              },
+              {
+                "name": "android.permission.INTERNET"
+              },
+              {
+                "name": "android.permission.FOREGROUND_SERVICE"
+              },
+              {
+                "name": "android.permission.ACCESS_NETWORK_STATE"
+              },
+              {
+                "name": "android.permission.ACCESS_WIFI_STATE"
+              },
+              {
+                "name": "android.permission.RECEIVE_BOOT_COMPLETED"
+              },
+              {
+                "name": "android.permission.WAKE_LOCK"
+              },
+              {
+                "name": "com.google.android.gms.permission.AD_ID"
+              },
+              {
+                "name": "com.android.vending.CHECK_LICENSE"
+              },
+              {
+                "name": "com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE"
+              },
+              {
+                "name": "com.applovin.array.apphub.permission.BIND_APPHUB_SERVICE"
+              },
+              {
+                "name": "o.o.joey.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+              },
+              {
+                "name": "com.android.vending.BILLING"
+              }
+            ]
+          }
+        }
+      }
+    },
+    "pl.solidexplorer2.revanced": {
+      "metadata": {
+        "added": 1794851786000,
+        "categories": [
+          "Multimedia"
+        ],
+        "lastUpdated": 1794851786000,
+        "authorName": "ReVanced (patched)",
+        "name": {
+          "en-US": "Solid Explorer"
+        },
+        "description": {
+          "en-US": "ReVanced-patched build of pl.solidexplorer2.\n\nPatches applied:\n- INFO: \"Change package name\" succeeded\n"
+        },
+        "icon": {
+          "en-US": {
+            "name": "/icons/pl.solidexplorer2.revanced.306041.png",
+            "sha256": "c0a868e4559a305f3dc35d3afbcf6e27ff5480776656cbdcd6f0c701f869fc79",
+            "size": 1708
+          }
+        },
+        "preferredSigner": "990aa515644a3f1528c122f2ce9ceb19f404912532394579ebedaea32c99cde9"
+      },
+      "versions": {
+        "a0f3d51294a36e870071c083f1d513e320a4b3f42106f71ad277c0250079b855": {
+          "added": 1794851786000,
+          "file": {
+            "name": "/pl.solidexplorer2_3.6.4_revanced.apk",
+            "sha256": "a0f3d51294a36e870071c083f1d513e320a4b3f42106f71ad277c0250079b855",
+            "size": 26740057
+          },
+          "manifest": {
+            "versionName": "3.6.4",
+            "versionCode": 306041,
+            "usesSdk": {
+              "minSdkVersion": 23,
+              "targetSdkVersion": 36
+            },
+            "signer": {
+              "sha256": [
+                "990aa515644a3f1528c122f2ce9ceb19f404912532394579ebedaea32c99cde9"
+              ]
+            },
+            "usesPermission": [
+              {
+                "name": "android.permission.INTERNET"
+              },
+              {
+                "name": "android.permission.WRITE_EXTERNAL_STORAGE"
+              },
+              {
+                "name": "android.permission.MANAGE_EXTERNAL_STORAGE"
+              },
+              {
+                "name": "android.permission.ACCESS_WIFI_STATE"
+              },
+              {
+                "name": "android.permission.ACCESS_NETWORK_STATE"
+              },
+              {
+                "name": "android.permission.WAKE_LOCK"
+              },
+              {
+                "name": "android.permission.CHANGE_WIFI_STATE"
+              },
+              {
+                "name": "android.permission.VIBRATE"
+              },
+              {
+                "name": "com.android.launcher.permission.INSTALL_SHORTCUT"
+              },
+              {
+                "name": "android.permission.GET_ACCOUNTS"
+              },
+              {
+                "name": "android.permission.READ_PHONE_STATE"
+              },
+              {
+                "name": "android.permission.SET_WALLPAPER"
+              },
+              {
+                "name": "android.permission.NFC"
+              },
+              {
+                "name": "com.android.vending.CHECK_LICENSE"
+              },
+              {
+                "name": "android.permission.USE_FINGERPRINT"
+              },
+              {
+                "name": "android.permission.WRITE_SETTINGS"
+              },
+              {
+                "name": "android.permission.REQUEST_INSTALL_PACKAGES"
+              },
+              {
+                "name": "android.permission.FOREGROUND_SERVICE"
+              },
+              {
+                "name": "android.permission.REQUEST_DELETE_PACKAGES"
+              },
+              {
+                "name": "android.permission.QUERY_ALL_PACKAGES"
+              },
+              {
+                "name": "android.permission.POST_NOTIFICATIONS"
+              },
+              {
+                "name": "android.permission.RUN_USER_INITIATED_JOBS"
+              },
+              {
+                "name": "android.permission.FOREGROUND_SERVICE_DATA_SYNC"
+              },
+              {
+                "name": "android.permission.FOREGROUND_SERVICE_MEDIA_PLAYBACK"
+              },
+              {
+                "name": "android.permission.PACKAGE_USAGE_STATS"
+              },
+              {
+                "name": "android.permission.READ_EXTERNAL_STORAGE",
+                "maxSdkVersion": 18
+              },
+              {
+                "name": "com.google.android.gms.permission.AD_ID"
+              },
+              {
+                "name": "android.permission.ACCESS_ADSERVICES_AD_ID"
+              },
+              {
+                "name": "android.permission.ACCESS_ADSERVICES_ATTRIBUTION"
+              },
+              {
+                "name": "android.permission.ACCESS_ADSERVICES_TOPICS"
+              },
+              {
+                "name": "com.google.android.c2dm.permission.RECEIVE"
+              },
+              {
+                "name": "com.android.vending.BILLING"
+              },
+              {
+                "name": "android.permission.USE_BIOMETRIC"
+              },
+              {
+                "name": "com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE"
+              },
+              {
+                "name": "com.google.android.providers.gsf.permission.READ_GSERVICES"
+              },
+              {
+                "name": "pl.solidexplorer2.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+              },
+              {
+                "name": "moe.shizuku.manager.permission.API_V23"
+              }
+            ]
+          }
+        }
+      }
+    },
+    "reddit.news.revanced": {
+      "metadata": {
+        "added": 1794851786000,
+        "categories": [
+          "Multimedia"
+        ],
+        "lastUpdated": 1794851786000,
+        "authorName": "ReVanced (patched)",
+        "name": {
+          "en-US": "Relay"
+        },
+        "description": {
+          "en-US": "ReVanced-patched build of reddit.news.\n\nPatches applied:\n- INFO: \"Change package name\" succeeded\n"
+        },
+        "icon": {
+          "en-US": {
+            "name": "/icons/reddit.news.revanced.761.png",
+            "sha256": "213c3307f1d7d8976e4d8725c08a4bd76a9e81ab0dac8b0f00999c045102bcba",
+            "size": 3299
+          }
+        },
+        "preferredSigner": "990aa515644a3f1528c122f2ce9ceb19f404912532394579ebedaea32c99cde9"
+      },
+      "versions": {
+        "eb00b3f47214ae179024fec66bf7d697b617e11736903ecc1a31d1c431207a8d": {
+          "added": 1794851786000,
+          "file": {
+            "name": "/reddit.news_13.1.09_revanced.apk",
+            "sha256": "eb00b3f47214ae179024fec66bf7d697b617e11736903ecc1a31d1c431207a8d",
+            "size": 18097877
+          },
+          "manifest": {
+            "versionName": "13.1.09",
+            "versionCode": 761,
+            "usesSdk": {
+              "minSdkVersion": 29,
+              "targetSdkVersion": 35
+            },
+            "signer": {
+              "sha256": [
+                "990aa515644a3f1528c122f2ce9ceb19f404912532394579ebedaea32c99cde9"
+              ]
+            },
+            "usesPermission": [
+              {
+                "name": "android.permission.VIBRATE"
+              },
+              {
+                "name": "android.permission.READ_EXTERNAL_STORAGE",
+                "maxSdkVersion": 29
+              },
+              {
+                "name": "android.permission.WRITE_EXTERNAL_STORAGE",
+                "maxSdkVersion": 29
+              },
+              {
+                "name": "android.permission.POST_NOTIFICATIONS"
+              },
+              {
+                "name": "android.permission.INTERNET"
+              },
+              {
+                "name": "android.permission.ACCESS_NETWORK_STATE"
+              },
+              {
+                "name": "android.permission.WAKE_LOCK"
+              },
+              {
+                "name": "com.google.android.c2dm.permission.RECEIVE"
+              },
+              {
+                "name": "com.android.vending.BILLING"
+              },
+              {
+                "name": "android.permission.ACCESS_ADSERVICES_ATTRIBUTION"
+              },
+              {
+                "name": "android.permission.ACCESS_ADSERVICES_AD_ID"
+              },
+              {
+                "name": "android.permission.RECEIVE_BOOT_COMPLETED"
+              },
+              {
+                "name": "android.permission.FOREGROUND_SERVICE"
+              },
+              {
+                "name": "com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE"
+              },
+              {
+                "name": "reddit.news.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+              },
+              {
+                "name": "com.android.vending.CHECK_LICENSE"
               }
             ]
           }

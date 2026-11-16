@@ -1,0 +1,12 @@
+Categories:
+  - Multimedia
+License: Unknown
+AuthorName: ReVanced (patched)
+Description: |
+  ReVanced-patched build of com.microblink.photomath.
+
+  Patches applied:
+  - INFO: "Hide update popup" succeeded
+  - INFO: "Spoof device ID" succeeded
+  - INFO: "Unlock plus" succeeded
+  - INFO: "Change package name" succeeded

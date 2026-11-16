@@ -1,8 +1,46 @@
 <?xml version="1.0" encoding="utf-8"?>
 <fdroid>
-	<repo icon="icon.png" name="ReVanced F-Droid" pubkey="308203843082026ca0030201020209008ff6b12b8bb8dec1300d06092a864886f70d01010c0500306f310b30090603550406130255533110300e06035504081307556e6b6e6f776e3110300e06035504071307556e6b6e6f776e31143012060355040a130b726576616e636564626f743110300e060355040b1307462d44726f6964311430120603550403130b726576616e636564626f743020170d3236303731393139353930315a180f32303533313230343139353930315a306f310b30090603550406130255533110300e06035504081307556e6b6e6f776e3110300e06035504071307556e6b6e6f776e31143012060355040a130b726576616e636564626f743110300e060355040b1307462d44726f6964311430120603550403130b726576616e636564626f7430820122300d06092a864886f70d01010105000382010f003082010a0282010100d751c3d499c555da6646cf761066fcc62e6e5841b14dbcf13863c830bda61fdb29eaba3c7d4e13932e4776ec38f3b61f658e7324989de9500d51a12dfc16b1750183686ecf2c470902bb89dc458636dfc3242f003aa7aa94198b8c5fd9160974f2146f1a43a1c819b6c77a3223349a7875c37804ce85a18000f49542f9aa7da1b2f7519182e8abae5a7b813a79ea0c9526d116e38d088ae533e0998ddd3fc5fcc673d6a855a62220c3d2f411a413f6560e902009b264ed631f130c9575b4e5fff8884e598cd2a02ab808efec9a62dc103fcc63f5b8e92ef1697e8654b4f8f3065936e1ffd4822271d83398ad957061e2349dc0c856f361708dc06b2656eb58970203010001a321301f301d0603551d0e041604143e7dcf8a11387332fc45f05389fbf70649df821d300d06092a864886f70d01010c050003820101002107522f45f6163562fbe8e1cea447942928bbb35c8881dce239f27b47592a6292e8f4ab45bd05b9ad002df5345cd69c781916e3c5c9b62439118e9f233c47061af8cf5835aa7747315ddc04998adabd331e813a2a31b495ba0e3c0b94d1dae306423e57f1390c9a09c2a1c2fad186b00127259fddbfc1c3dcf1176da37408f59001dabc9f26e5c6320346bf9e6e6644a80d0880187afe88880a7ab7d67909493ec99c4e3f0eda8a4d0b023f0165037965e14a4411a69a7eab977ca00eff97d812456fa2cff5a6f6308e80298b0f321c2518078c498f6e699accf13255d0815ef71db57e1c6f67e26c087c3bd77ffa8daefb5a162811ef569192d446be958e4c" timestamp="1794801193" url="https://fdroid-revanced.github.io/repo" version="20002">
+	<repo icon="icon.png" name="ReVanced F-Droid" pubkey="308203843082026ca0030201020209008ff6b12b8bb8dec1300d06092a864886f70d01010c0500306f310b30090603550406130255533110300e06035504081307556e6b6e6f776e3110300e06035504071307556e6b6e6f776e31143012060355040a130b726576616e636564626f743110300e060355040b1307462d44726f6964311430120603550403130b726576616e636564626f743020170d3236303731393139353930315a180f32303533313230343139353930315a306f310b30090603550406130255533110300e06035504081307556e6b6e6f776e3110300e06035504071307556e6b6e6f776e31143012060355040a130b726576616e636564626f743110300e060355040b1307462d44726f6964311430120603550403130b726576616e636564626f7430820122300d06092a864886f70d01010105000382010f003082010a0282010100d751c3d499c555da6646cf761066fcc62e6e5841b14dbcf13863c830bda61fdb29eaba3c7d4e13932e4776ec38f3b61f658e7324989de9500d51a12dfc16b1750183686ecf2c470902bb89dc458636dfc3242f003aa7aa94198b8c5fd9160974f2146f1a43a1c819b6c77a3223349a7875c37804ce85a18000f49542f9aa7da1b2f7519182e8abae5a7b813a79ea0c9526d116e38d088ae533e0998ddd3fc5fcc673d6a855a62220c3d2f411a413f6560e902009b264ed631f130c9575b4e5fff8884e598cd2a02ab808efec9a62dc103fcc63f5b8e92ef1697e8654b4f8f3065936e1ffd4822271d83398ad957061e2349dc0c856f361708dc06b2656eb58970203010001a321301f301d0603551d0e041604143e7dcf8a11387332fc45f05389fbf70649df821d300d06092a864886f70d01010c050003820101002107522f45f6163562fbe8e1cea447942928bbb35c8881dce239f27b47592a6292e8f4ab45bd05b9ad002df5345cd69c781916e3c5c9b62439118e9f233c47061af8cf5835aa7747315ddc04998adabd331e813a2a31b495ba0e3c0b94d1dae306423e57f1390c9a09c2a1c2fad186b00127259fddbfc1c3dcf1176da37408f59001dabc9f26e5c6320346bf9e6e6644a80d0880187afe88880a7ab7d67909493ec99c4e3f0eda8a4d0b023f0165037965e14a4411a69a7eab977ca00eff97d812456fa2cff5a6f6308e80298b0f321c2518078c498f6e699accf13255d0815ef71db57e1c6f67e26c087c3bd77ffa8daefb5a162811ef569192d446be958e4c" timestamp="1794851786" url="https://fdroid-revanced.github.io/repo" version="20002">
 		<description>Unofficial F-Droid simple-binary repository of ReVanced-patched applications, built by revancedbot on GitHub Actions.</description>
 	</repo>
+	<application id="com.adobe.photoshopmix.revanced">
+		<id>com.adobe.photoshopmix.revanced</id>
+		<added>2026-11-16</added>
+		<lastupdated>2026-11-16</lastupdated>
+		<name>Adobe Photoshop Mix</name>
+		<summary></summary>
+		<icon>com.adobe.photoshopmix.revanced.57.png</icon>
+		<desc>ReVanced-patched build of com.adobe.photoshopmix.
+
+Patches applied:
+- INFO: &quot;Bypass login&quot; succeeded
+- INFO: &quot;Change package name&quot; succeeded
+</desc>
+		<license>Unknown</license>
+		<categories>Multimedia</categories>
+		<category>Multimedia</category>
+		<web></web>
+		<source></source>
+		<tracker></tracker>
+		<author>ReVanced (patched)</author>
+		<marketversion></marketversion>
+		<marketvercode>57</marketvercode>
+		<package>
+			<version>2.6.3</version>
+			<versioncode>57</versioncode>
+			<apkname>com.adobe.photoshopmix_2.6.3_revanced.apk</apkname>
+			<hash type="sha256">c1c89aab16586d1e1dee3c9b3fdb4c0e02650e47d9820ffb085a6b16ce2fa073</hash>
+			<size>53433342</size>
+			<sdkver>28</sdkver>
+			<targetSdkVersion>30</targetSdkVersion>
+			<added>2026-11-16</added>
+			<sig>5837ab34622f0917305f6d32bc00ab0a</sig>
+			<permissions>ACCESS_NETWORK_STATE,ACCESS_WIFI_STATE,AUTHENTICATE_ACCOUNTS,GET_ACCOUNTS,INTERNET,MANAGE_ACCOUNTS,READ_EXTERNAL_STORAGE,USE_CREDENTIALS,WRITE_EXTERNAL_STORAGE,com.android.vending.BILLING,com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE,com.samsung.android.iap.permission.BILLING</permissions>
+			<uses-permission maxSdkVersion="28" name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+			<nativecode>arm64-v8a</nativecode>
+			<features>android.hardware.camera</features>
+		</package>
+	</application>
 	<application id="com.onelouder.baconreader.revanced">
 		<id>com.onelouder.baconreader.revanced</id>
 		<added>2026-07-19</added>
@@ -29,8 +67,8 @@ Patches applied:
 			<version>6.1.4</version>
 			<versioncode>183</versioncode>
 			<apkname>com.onelouder.baconreader_6.1.4_revanced.apk</apkname>
-			<hash type="sha256">b4b5427f27f2457c08c16ebe891b55472ca2bbd2f41008efd33e3b06f45b6b0e</hash>
-			<size>21006185</size>
+			<hash type="sha256">c337b61bf216aabf3306a6cb2d192ca32264814259f757ebc72f4a9281f6292c</hash>
+			<size>20952937</size>
 			<sdkver>22</sdkver>
 			<targetSdkVersion>31</targetSdkVersion>
 			<added>2026-07-19</added>
@@ -67,8 +105,8 @@ Patches applied:
 			<version>3.3.6</version>
 			<versioncode>220489</versioncode>
 			<apkname>com.bandcamp.android_3.3.6_revanced.apk</apkname>
-			<hash type="sha256">ebdfeca46ff04a0e683c6ac59e5d2594ae79c4ac0b9744139d98bbd857b960e1</hash>
-			<size>15077837</size>
+			<hash type="sha256">1ac2894109064efc6f44d7fb2802c13f2b3d10a34866138021739d33ac228c1b</hash>
+			<size>15081933</size>
 			<sdkver>24</sdkver>
 			<targetSdkVersion>36</targetSdkVersion>
 			<added>2026-07-19</added>
@@ -119,6 +157,78 @@ Patches applied:
 			<nativecode>arm64-v8a,armeabi,armeabi-v7a,mips,mips64,x86,x86_64</nativecode>
 		</package>
 	</application>
+	<application id="at.gv.bmf.bmf2go.revanced">
+		<id>at.gv.bmf.bmf2go.revanced</id>
+		<added>2026-11-16</added>
+		<lastupdated>2026-11-16</lastupdated>
+		<name>FON [+]</name>
+		<summary></summary>
+		<icon>at.gv.bmf.bmf2go.revanced.314.png</icon>
+		<desc>ReVanced-patched build of at.gv.bmf.bmf2go.
+
+Patches applied:
+- INFO: &quot;Remove root detection&quot; succeeded
+- INFO: &quot;Change package name&quot; succeeded
+</desc>
+		<license>Unknown</license>
+		<categories>Multimedia</categories>
+		<category>Multimedia</category>
+		<web></web>
+		<source></source>
+		<tracker></tracker>
+		<author>ReVanced (patched)</author>
+		<marketversion></marketversion>
+		<marketvercode>314</marketvercode>
+		<package>
+			<version>4.0.7</version>
+			<versioncode>314</versioncode>
+			<apkname>at.gv.bmf.bmf2go_4.0.7_revanced.apk</apkname>
+			<hash type="sha256">12e767b27f3ae33943b4db0ca31eee5a9beebe2d80c87a3f7d9c753544eb46e9</hash>
+			<size>19888325</size>
+			<sdkver>29</sdkver>
+			<targetSdkVersion>35</targetSdkVersion>
+			<added>2026-11-16</added>
+			<sig>5837ab34622f0917305f6d32bc00ab0a</sig>
+			<permissions>ACCESS_NETWORK_STATE,CALL_PHONE,CAMERA,INTERNET,POST_NOTIFICATIONS,READ_EXTERNAL_STORAGE,RECEIVE_BOOT_COMPLETED,USE_BIOMETRIC,USE_FINGERPRINT,at.gv.bmf.bmf2go.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION</permissions>
+			<nativecode>arm64-v8a,armeabi-v7a,x86,x86_64</nativecode>
+		</package>
+	</application>
+	<application id="com.myprog.hexedit.revanced">
+		<id>com.myprog.hexedit.revanced</id>
+		<added>2026-11-16</added>
+		<lastupdated>2026-11-16</lastupdated>
+		<name>HEX Editor</name>
+		<summary></summary>
+		<icon>com.myprog.hexedit.revanced.122.png</icon>
+		<desc>ReVanced-patched build of com.myprog.hexedit.
+
+Patches applied:
+- INFO: &quot;Disable ads&quot; succeeded
+- INFO: &quot;Change package name&quot; succeeded
+</desc>
+		<license>Unknown</license>
+		<categories>Multimedia</categories>
+		<category>Multimedia</category>
+		<web></web>
+		<source></source>
+		<tracker></tracker>
+		<author>ReVanced (patched)</author>
+		<marketversion></marketversion>
+		<marketvercode>122</marketvercode>
+		<package>
+			<version>2.8.5</version>
+			<versioncode>122</versioncode>
+			<apkname>com.myprog.hexedit_2.8.5_revanced.apk</apkname>
+			<hash type="sha256">cf83d1d7f8748152a860220dd2c95bba2452fe930e133cf2faab5c7e6907bd4e</hash>
+			<size>4069413</size>
+			<sdkver>18</sdkver>
+			<targetSdkVersion>29</targetSdkVersion>
+			<added>2026-11-16</added>
+			<sig>5837ab34622f0917305f6d32bc00ab0a</sig>
+			<permissions>ACCESS_NETWORK_STATE,ACCESS_SUPERUSER,INTERNET,READ_EXTERNAL_STORAGE,WRITE_EXTERNAL_STORAGE,com.android.vending.BILLING</permissions>
+			<nativecode>arm64-v8a,armeabi,x86,x86_64</nativecode>
+		</package>
+	</application>
 	<application id="at.gv.oe.app.revanced">
 		<id>at.gv.oe.app.revanced</id>
 		<added>2026-07-19</added>
@@ -145,8 +255,8 @@ Patches applied:
 			<version>5.6.1</version>
 			<versioncode>2026072403</versioncode>
 			<apkname>at.gv.oe.app_5.6.1_revanced.apk</apkname>
-			<hash type="sha256">51976afed12ea04056e59cbebb691aa6728c76fa3dbe007e23927b3b08be0b38</hash>
-			<size>56180920</size>
+			<hash type="sha256">146c22320de0a3903103d5d311bd27872c8efdf6ae232a2a239af225b01fe8c8</hash>
+			<size>56139960</size>
 			<sdkver>31</sdkver>
 			<targetSdkVersion>35</targetSdkVersion>
 			<added>2026-08-08</added>
@@ -182,6 +292,43 @@ Patches applied:
 			<permissions>ACCESS_NETWORK_STATE,CAMERA,FLASHLIGHT,FOREGROUND_SERVICE,INTERNET,MANAGE_DEVICE_POLICY_LOCK_CREDENTIALS,POST_NOTIFICATIONS,RECEIVE_BOOT_COMPLETED,REQUEST_PASSWORD_COMPLEXITY,USE_BIOMETRIC,USE_FINGERPRINT,VIBRATE,WAKE_LOCK,at.gv.oe.app.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION,com.google.android.c2dm.permission.RECEIVE</permissions>
 			<nativecode>arm64-v8a,armeabi-v7a,x86,x86_64</nativecode>
 			<features>android.hardware.camera</features>
+		</package>
+	</application>
+	<application id="ml.docilealligator.infinityforreddit.revanced">
+		<id>ml.docilealligator.infinityforreddit.revanced</id>
+		<added>2026-11-16</added>
+		<lastupdated>2026-11-16</lastupdated>
+		<name>Infinity</name>
+		<summary></summary>
+		<icon>ml.docilealligator.infinityforreddit.revanced.188.png</icon>
+		<desc>ReVanced-patched build of ml.docilealligator.infinityforreddit.
+
+Patches applied:
+- INFO: &quot;Change package name&quot; succeeded
+</desc>
+		<license>Unknown</license>
+		<categories>Multimedia</categories>
+		<category>Multimedia</category>
+		<web></web>
+		<source></source>
+		<tracker></tracker>
+		<author>ReVanced (patched)</author>
+		<marketversion></marketversion>
+		<marketvercode>188</marketvercode>
+		<package>
+			<version>7.4.1</version>
+			<versioncode>188</versioncode>
+			<apkname>ml.docilealligator.infinityforreddit_7.4.1_revanced.apk</apkname>
+			<hash type="sha256">9d60e78c154e298f894b9f610877acb8200c9095ac0b0b6450c9b3f697460349</hash>
+			<size>12818482</size>
+			<sdkver>21</sdkver>
+			<targetSdkVersion>34</targetSdkVersion>
+			<added>2026-11-16</added>
+			<sig>5837ab34622f0917305f6d32bc00ab0a</sig>
+			<permissions>ACCESS_NETWORK_STATE,FOREGROUND_SERVICE,INTERNET,POST_NOTIFICATIONS,READ_EXTERNAL_STORAGE,RECEIVE_BOOT_COMPLETED,RUN_USER_INITIATED_JOBS,SET_WALLPAPER,SET_WALLPAPER_HINTS,USE_BIOMETRIC,USE_FINGERPRINT,WAKE_LOCK,WRITE_EXTERNAL_STORAGE,com.android.vending.BILLING,ml.docilealligator.infinityforreddit.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION</permissions>
+			<uses-permission maxSdkVersion="22" name="android.permission.READ_EXTERNAL_STORAGE"/>
+			<uses-permission maxSdkVersion="22" name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+			<uses-permission-sdk-23 maxSdkVersion="28" name="android.permission.WRITE_EXTERNAL_STORAGE"/>
 		</package>
 	</application>
 	<application id="ml.docilealligator.infinityforreddit.plus.revanced">
@@ -257,10 +404,10 @@ Patches applied:
 	<application id="com.nis.app.revanced">
 		<id>com.nis.app.revanced</id>
 		<added>2026-07-19</added>
-		<lastupdated>2026-08-13</lastupdated>
+		<lastupdated>2026-11-16</lastupdated>
 		<name>inshorts</name>
 		<summary></summary>
-		<icon>com.nis.app.revanced.5070939.png</icon>
+		<icon>com.nis.app.revanced.5197713.png</icon>
 		<desc>ReVanced-patched build of com.nis.app.
 
 Patches applied:
@@ -275,7 +422,20 @@ Patches applied:
 		<tracker></tracker>
 		<author>ReVanced (patched)</author>
 		<marketversion></marketversion>
-		<marketvercode>5070939</marketvercode>
+		<marketvercode>5197713</marketvercode>
+		<package>
+			<version>6.1.0-huawei</version>
+			<versioncode>5197713</versioncode>
+			<apkname>com.nis.app_6.1.0-huawei_revanced.apk</apkname>
+			<hash type="sha256">6de36754ea97ba7fb995b035df6432f529f80709ecb9b494031e9aa26c21b6bb</hash>
+			<size>30203147</size>
+			<sdkver>19</sdkver>
+			<targetSdkVersion>28</targetSdkVersion>
+			<added>2026-11-16</added>
+			<sig>5837ab34622f0917305f6d32bc00ab0a</sig>
+			<permissions>ACCESS_COARSE_LOCATION,ACCESS_FINE_LOCATION,ACCESS_NETWORK_STATE,ACCESS_WIFI_STATE,BROADCAST_STICKY,CAMERA,INTERNET,READ_EXTERNAL_STORAGE,READ_PHONE_STATE,RECEIVE_BOOT_COMPLETED,RECORD_AUDIO,REQUEST_INSTALL_PACKAGES,USE_CREDENTIALS,VIBRATE,WAKE_LOCK,WRITE_EXTERNAL_STORAGE,com.google.android.c2dm.permission.RECEIVE,com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE,com.huawei.appmarket.service.commondata.permission.GET_COMMON_DATA,com.nis.app.permission.PROCESS_PUSH_MSG,com.nis.app.permission.PUSH_PROVIDER</permissions>
+			<nativecode>arm64-v8a,armeabi-v7a,x86,x86_64</nativecode>
+		</package>
 		<package>
 			<version>6.12.30</version>
 			<versioncode>5070939</versioncode>
@@ -329,13 +489,121 @@ Patches applied:
 			<nativecode>armeabi-v7a</nativecode>
 		</package>
 	</application>
+	<application id="net.binarymode.android.irplus.revanced">
+		<id>net.binarymode.android.irplus.revanced</id>
+		<added>2026-11-16</added>
+		<lastupdated>2026-11-16</lastupdated>
+		<name>irplus</name>
+		<summary></summary>
+		<icon>net.binarymode.android.irplus.revanced.322.png</icon>
+		<desc>ReVanced-patched build of net.binarymode.android.irplus.
+
+Patches applied:
+- INFO: &quot;Remove ads&quot; succeeded
+- INFO: &quot;Change package name&quot; succeeded
+</desc>
+		<license>Unknown</license>
+		<categories>Multimedia</categories>
+		<category>Multimedia</category>
+		<web></web>
+		<source></source>
+		<tracker></tracker>
+		<author>ReVanced (patched)</author>
+		<marketversion></marketversion>
+		<marketvercode>322</marketvercode>
+		<package>
+			<version>1.10</version>
+			<versioncode>322</versioncode>
+			<apkname>net.binarymode.android.irplus_1.10_revanced.apk</apkname>
+			<hash type="sha256">40ef3f30bb73e9b50252d036c89b49941ad0554d9cf19328564dedc42ffb8517</hash>
+			<size>9059463</size>
+			<sdkver>16</sdkver>
+			<targetSdkVersion>34</targetSdkVersion>
+			<added>2026-11-16</added>
+			<sig>5837ab34622f0917305f6d32bc00ab0a</sig>
+			<permissions>ACCESS_NETWORK_STATE,FOREGROUND_SERVICE,INTERNET,READ_EXTERNAL_STORAGE,READ_INTERNAL_STORAGE,TRANSMIT_IR,VIBRATE,WAKE_LOCK,WRITE_EXTERNAL_STORAGE,com.google.android.gms.permission.AD_ID,com.samsung.android.providers.context.permission.WRITE_USE_APP_FEATURE_SURVEY</permissions>
+		</package>
+	</application>
+	<application id="o.o.joey.revanced">
+		<id>o.o.joey.revanced</id>
+		<added>2026-11-16</added>
+		<lastupdated>2026-11-16</lastupdated>
+		<name>Joey</name>
+		<summary></summary>
+		<icon>o.o.joey.revanced.500.png</icon>
+		<desc>ReVanced-patched build of o.o.joey.
+
+Patches applied:
+- INFO: &quot;Disable ads&quot; succeeded
+- INFO: &quot;Change package name&quot; succeeded
+</desc>
+		<license>Unknown</license>
+		<categories>Multimedia</categories>
+		<category>Multimedia</category>
+		<web></web>
+		<source></source>
+		<tracker></tracker>
+		<author>ReVanced (patched)</author>
+		<marketversion></marketversion>
+		<marketvercode>500</marketvercode>
+		<package>
+			<version>2.1.6.5</version>
+			<versioncode>500</versioncode>
+			<apkname>o.o.joey_2.1.6.5_revanced.apk</apkname>
+			<hash type="sha256">c9cdce10b94475e83a01d83bb0e1375b78b47d47cbb95958ba81d146be2b6320</hash>
+			<size>21300006</size>
+			<sdkver>21</sdkver>
+			<targetSdkVersion>34</targetSdkVersion>
+			<added>2026-11-16</added>
+			<sig>5837ab34622f0917305f6d32bc00ab0a</sig>
+			<permissions>ACCESS_NETWORK_STATE,ACCESS_WIFI_STATE,FOREGROUND_SERVICE,INTERNET,POST_NOTIFICATIONS,RECEIVE_BOOT_COMPLETED,WAKE_LOCK,com.android.vending.BILLING,com.android.vending.CHECK_LICENSE,com.applovin.array.apphub.permission.BIND_APPHUB_SERVICE,com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE,com.google.android.gms.permission.AD_ID,o.o.joey.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION</permissions>
+			<nativecode>arm64-v8a,armeabi-v7a,x86,x86_64</nativecode>
+		</package>
+	</application>
+	<application id="com.microsoft.office.officelens.revanced">
+		<id>com.microsoft.office.officelens.revanced</id>
+		<added>2026-11-16</added>
+		<lastupdated>2026-11-16</lastupdated>
+		<name>Lens</name>
+		<summary></summary>
+		<icon>com.microsoft.office.officelens.revanced.2004969699.png</icon>
+		<desc>ReVanced-patched build of com.microsoft.office.officelens.
+
+Patches applied:
+- INFO: &quot;Hide OneDrive migration&quot; succeeded
+- INFO: &quot;Change package name&quot; succeeded
+</desc>
+		<license>Unknown</license>
+		<categories>Multimedia</categories>
+		<category>Multimedia</category>
+		<web></web>
+		<source></source>
+		<tracker></tracker>
+		<author>ReVanced (patched)</author>
+		<marketversion></marketversion>
+		<marketvercode>2004969699</marketvercode>
+		<package>
+			<version>16.0.19628.20008</version>
+			<versioncode>2004969699</versioncode>
+			<apkname>com.microsoft.office.officelens_16.0.19628.20008_revanced.apk</apkname>
+			<hash type="sha256">a52c7e1721f513d8a1ee21a7b4e8907cdcfe570d1bd25a70b33756f7813b4873</hash>
+			<size>74241528</size>
+			<sdkver>24</sdkver>
+			<targetSdkVersion>35</targetSdkVersion>
+			<added>2026-11-16</added>
+			<sig>5837ab34622f0917305f6d32bc00ab0a</sig>
+			<permissions>ACCESS_DOWNLOAD_MANAGER,ACCESS_NETWORK_STATE,ACCESS_WIFI_STATE,AUTHENTICATE_ACCOUNTS,CAMERA,DOWNLOAD_WITHOUT_NOTIFICATION,FOREGROUND_SERVICE,INTERNET,MANAGE_ACCOUNTS,NFC,READ_EXTERNAL_STORAGE,READ_MEDIA_IMAGES,READ_MEDIA_VIDEO,READ_MEDIA_VISUAL_USER_SELECTED,RECEIVE_BOOT_COMPLETED,USE_CREDENTIALS,VIBRATE,WAKE_LOCK,WRITE_EXTERNAL_STORAGE,com.android.vending.CHECK_LICENSE</permissions>
+			<nativecode>arm64-v8a</nativecode>
+			<features>android.hardware.camera</features>
+		</package>
+	</application>
 	<application id="eu.faircode.netguard.revanced">
 		<id>eu.faircode.netguard.revanced</id>
 		<added>2026-07-19</added>
-		<lastupdated>2026-07-19</lastupdated>
+		<lastupdated>2026-11-16</lastupdated>
 		<name>NetGuard</name>
 		<summary></summary>
-		<icon>eu.faircode.netguard.revanced.2026052101.png</icon>
+		<icon>eu.faircode.netguard.revanced.2026080101.png</icon>
 		<desc>ReVanced-patched build of eu.faircode.netguard.
 
 Patches applied:
@@ -350,7 +618,20 @@ Patches applied:
 		<tracker></tracker>
 		<author>ReVanced (patched)</author>
 		<marketversion></marketversion>
-		<marketvercode>2026052101</marketvercode>
+		<marketvercode>2026080101</marketvercode>
+		<package>
+			<version>2.337</version>
+			<versioncode>2026080101</versioncode>
+			<apkname>eu.faircode.netguard_2.337_revanced.apk</apkname>
+			<hash type="sha256">fed42009fbb0381e6b35029089d9030c9861fb2af78bdfb4170553b16a5ccfc7</hash>
+			<size>3514172</size>
+			<sdkver>23</sdkver>
+			<targetSdkVersion>36</targetSdkVersion>
+			<added>2026-11-16</added>
+			<sig>5837ab34622f0917305f6d32bc00ab0a</sig>
+			<permissions>ACCESS_NETWORK_STATE,ACCESS_WIFI_STATE,FOREGROUND_SERVICE,FOREGROUND_SERVICE_SPECIAL_USE,INTERNET,POST_NOTIFICATIONS,READ_PHONE_STATE,RECEIVE_BOOT_COMPLETED,VIBRATE,WAKE_LOCK,com.android.vending.BILLING,eu.faircode.netguard.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION,eu.faircode.netguard.permission.ADMIN</permissions>
+			<nativecode>arm64-v8a,armeabi-v7a,x86,x86_64</nativecode>
+		</package>
 		<package>
 			<version>2.335</version>
 			<versioncode>2026052101</versioncode>
@@ -365,13 +646,84 @@ Patches applied:
 			<nativecode>arm64-v8a,armeabi-v7a,x86,x86_64</nativecode>
 		</package>
 	</application>
+	<application id="nl.sanomamedia.android.nu.revanced">
+		<id>nl.sanomamedia.android.nu.revanced</id>
+		<added>2026-11-16</added>
+		<lastupdated>2026-11-16</lastupdated>
+		<name>NU.nl</name>
+		<summary></summary>
+		<icon>nl.sanomamedia.android.nu.revanced.210163.png</icon>
+		<desc>ReVanced-patched build of nl.sanomamedia.android.nu.
+
+Patches applied:
+- INFO: &quot;Spoof certificate&quot; succeeded
+- INFO: &quot;Change package name&quot; succeeded
+</desc>
+		<license>Unknown</license>
+		<categories>Multimedia</categories>
+		<category>Multimedia</category>
+		<web></web>
+		<source></source>
+		<tracker></tracker>
+		<author>ReVanced (patched)</author>
+		<marketversion></marketversion>
+		<marketvercode>210163</marketvercode>
+		<package>
+			<version>26.10.0</version>
+			<versioncode>210163</versioncode>
+			<apkname>nl.sanomamedia.android.nu_26.10.0_revanced.apk</apkname>
+			<hash type="sha256">357d087ac622c1f3614138d4105c43cf36962af4e8ef233abf222b8d63180ae0</hash>
+			<size>51528769</size>
+			<sdkver>29</sdkver>
+			<targetSdkVersion>37</targetSdkVersion>
+			<added>2026-11-16</added>
+			<sig>5837ab34622f0917305f6d32bc00ab0a</sig>
+			<permissions>ACCESS_ADSERVICES_AD_ID,ACCESS_ADSERVICES_ATTRIBUTION,ACCESS_ADSERVICES_TOPICS,ACCESS_NETWORK_STATE,ACCESS_WIFI_STATE,AD_SERVICES_CONFIG,AUTHENTICATE_ACCOUNTS,CAMERA,FOREGROUND_SERVICE,GET_ACCOUNTS,INTERNET,MANAGE_ACCOUNTS,POST_NOTIFICATIONS,READ_EXTERNAL_STORAGE,RECEIVE_BOOT_COMPLETED,USE_CREDENTIALS,WAKE_LOCK,com.google.android.c2dm.permission.RECEIVE,com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE,com.google.android.gms.permission.AD_ID,dpg.identity.account.SESSION_PROVIDER,net.persgroep.persgroepidentificatieplatformoidcandroidsdk.SESSION_PROVIDER,net.persgroep.persgroepidentificatieplatformoidcandroidsdk.fourth.SESSION_PROVIDER,net.persgroep.persgroepidentificatieplatformoidcandroidsdk.second.SESSION_PROVIDER,net.persgroep.persgroepidentificatieplatformoidcandroidsdk.third.SESSION_PROVIDER,nl.sanomamedia.android.nu.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION</permissions>
+		</package>
+	</application>
+	<application id="com.nousguide.android.orftvthek.revanced">
+		<id>com.nousguide.android.orftvthek.revanced</id>
+		<added>2026-11-16</added>
+		<lastupdated>2026-11-16</lastupdated>
+		<name>ORF ON</name>
+		<summary></summary>
+		<icon>com.nousguide.android.orftvthek.revanced.5000190.png</icon>
+		<desc>ReVanced-patched build of com.nousguide.android.orftvthek.
+
+Patches applied:
+- INFO: &quot;Remove root detection&quot; succeeded
+- INFO: &quot;Change package name&quot; succeeded
+</desc>
+		<license>Unknown</license>
+		<categories>Multimedia</categories>
+		<category>Multimedia</category>
+		<web></web>
+		<source></source>
+		<tracker></tracker>
+		<author>ReVanced (patched)</author>
+		<marketversion></marketversion>
+		<marketvercode>5000190</marketvercode>
+		<package>
+			<version>6.14.18-tv</version>
+			<versioncode>5000190</versioncode>
+			<apkname>com.nousguide.android.orftvthek_6.14.18-tv_revanced.apk</apkname>
+			<hash type="sha256">13383d3758d10186a99133ea66fccc5f0643445432285270d7ecb554474bbd31</hash>
+			<size>19451177</size>
+			<sdkver>23</sdkver>
+			<targetSdkVersion>35</targetSdkVersion>
+			<added>2026-11-16</added>
+			<sig>5837ab34622f0917305f6d32bc00ab0a</sig>
+			<permissions>ACCESS_ADSERVICES_AD_ID,ACCESS_ADSERVICES_ATTRIBUTION,ACCESS_NETWORK_STATE,AD_SERVICES_CONFIG,FOREGROUND_SERVICE,FOREGROUND_SERVICE_MEDIA_PLAYBACK,INTERNET,POST_NOTIFICATIONS,RECEIVE_BOOT_COMPLETED,USE_LOOPBACK_INTERFACE,WAKE_LOCK,com.google.android.gms.permission.AD_ID,com.nousguide.android.orftvthek.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION</permissions>
+			<features>android.software.leanback</features>
+		</package>
+	</application>
 	<application id="com.pandora.android.revanced">
 		<id>com.pandora.android.revanced</id>
 		<added>2026-07-19</added>
-		<lastupdated>2026-07-19</lastupdated>
+		<lastupdated>2026-11-16</lastupdated>
 		<name>Pandora</name>
 		<summary></summary>
-		<icon>com.pandora.android.revanced.26071004.png</icon>
+		<icon>com.pandora.android.revanced.27001731.png</icon>
 		<desc>ReVanced-patched build of com.pandora.android.
 
 Patches applied:
@@ -387,7 +739,22 @@ Patches applied:
 		<tracker></tracker>
 		<author>ReVanced (patched)</author>
 		<marketversion></marketversion>
-		<marketvercode>26071004</marketvercode>
+		<marketvercode>27001731</marketvercode>
+		<package>
+			<version>2611.1</version>
+			<versioncode>27001731</versioncode>
+			<apkname>com.pandora.android_2611.1_revanced.apk</apkname>
+			<hash type="sha256">beffb9818cd5b3549b7e21d456314778a000d90792fdd679d045bbcc46b3fdad</hash>
+			<size>80843731</size>
+			<sdkver>24</sdkver>
+			<targetSdkVersion>36</targetSdkVersion>
+			<added>2026-11-16</added>
+			<sig>5837ab34622f0917305f6d32bc00ab0a</sig>
+			<permissions>ACCESS_NETWORK_STATE,ACCESS_WIFI_STATE,BLUETOOTH,BLUETOOTH_ADMIN,BLUETOOTH_CONNECT,FOREGROUND_SERVICE,FOREGROUND_SERVICE_CONNECTED_DEVICE,FOREGROUND_SERVICE_MEDIA_PLAYBACK,GET_ACCOUNTS,INTERNET,POST_NOTIFICATIONS,READ_EXTERNAL_STORAGE,READ_PHONE_STATE,RECEIVE_BOOT_COMPLETED,WAKE_LOCK,WRITE_EXTERNAL_STORAGE,com.amazon.privacypass.ATTEST,com.android.launcher.permission.INSTALL_SHORTCUT,com.android.providers.tv.permission.READ_EPG_DATA,com.android.providers.tv.permission.WRITE_EPG_DATA,com.android.vending.BILLING,com.google.android.c2dm.permission.RECEIVE,com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE,com.google.android.gms.permission.AD_ID,com.google.android.providers.gsf.permission.READ_GSERVICES,com.pandora.android.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION</permissions>
+			<uses-permission maxSdkVersion="32" name="android.permission.READ_EXTERNAL_STORAGE"/>
+			<uses-permission maxSdkVersion="32" name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+			<nativecode>arm64-v8a,armeabi-v7a,x86,x86_64</nativecode>
+		</package>
 		<package>
 			<version>2607.1</version>
 			<versioncode>26071004</versioncode>
@@ -402,6 +769,44 @@ Patches applied:
 			<uses-permission maxSdkVersion="32" name="android.permission.READ_EXTERNAL_STORAGE"/>
 			<uses-permission maxSdkVersion="32" name="android.permission.WRITE_EXTERNAL_STORAGE"/>
 			<nativecode>arm64-v8a,armeabi-v7a,x86,x86_64</nativecode>
+		</package>
+	</application>
+	<application id="com.microblink.photomath.revanced">
+		<id>com.microblink.photomath.revanced</id>
+		<added>2026-11-16</added>
+		<lastupdated>2026-11-16</lastupdated>
+		<name>Photomath</name>
+		<summary></summary>
+		<icon>com.microblink.photomath.revanced.70001016.png</icon>
+		<desc>ReVanced-patched build of com.microblink.photomath.
+
+Patches applied:
+- INFO: &quot;Hide update popup&quot; succeeded
+- INFO: &quot;Spoof device ID&quot; succeeded
+- INFO: &quot;Unlock plus&quot; succeeded
+- INFO: &quot;Change package name&quot; succeeded
+</desc>
+		<license>Unknown</license>
+		<categories>Multimedia</categories>
+		<category>Multimedia</category>
+		<web></web>
+		<source></source>
+		<tracker></tracker>
+		<author>ReVanced (patched)</author>
+		<marketversion></marketversion>
+		<marketvercode>70001016</marketvercode>
+		<package>
+			<version>8.48.0</version>
+			<versioncode>70001016</versioncode>
+			<apkname>com.microblink.photomath_8.48.0_revanced.apk</apkname>
+			<hash type="sha256">a5cda3e05366db65fe0e6596e534d9cae42fc39039db3796bc1b76cf1f50bb68</hash>
+			<size>10875055</size>
+			<sdkver>21</sdkver>
+			<targetSdkVersion>35</targetSdkVersion>
+			<added>2026-11-16</added>
+			<sig>5837ab34622f0917305f6d32bc00ab0a</sig>
+			<permissions>ACCESS_ADSERVICES_AD_ID,ACCESS_ADSERVICES_ATTRIBUTION,ACCESS_NETWORK_STATE,CAMERA,INTERNET,POST_NOTIFICATIONS,VIBRATE,WAKE_LOCK,com.android.vending.BILLING,com.google.android.c2dm.permission.RECEIVE,com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE,com.google.android.gms.permission.AD_ID,com.microblink.photomath.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION</permissions>
+			<features>android.hardware.camera,android.hardware.camera.autofocus</features>
 		</package>
 	</application>
 	<application id="jp.pxv.android.revanced">
@@ -545,6 +950,151 @@ Patches applied:
 			<features>com.samsung.android.api.version.3501,com.samsung.feature.device_category_phone,com.samsung.feature.samsung_experience_mobile</features>
 		</package>
 	</application>
+	<application id="com.rarlab.rar.revanced">
+		<id>com.rarlab.rar.revanced</id>
+		<added>2026-11-16</added>
+		<lastupdated>2026-11-16</lastupdated>
+		<name>RAR</name>
+		<summary></summary>
+		<icon>com.rarlab.rar.revanced.134.png</icon>
+		<desc>ReVanced-patched build of com.rarlab.rar.
+
+Patches applied:
+- INFO: &quot;Hide purchase reminder&quot; succeeded
+- INFO: &quot;Change package name&quot; succeeded
+</desc>
+		<license>Unknown</license>
+		<categories>Multimedia</categories>
+		<category>Multimedia</category>
+		<web></web>
+		<source></source>
+		<tracker></tracker>
+		<author>ReVanced (patched)</author>
+		<marketversion></marketversion>
+		<marketvercode>134</marketvercode>
+		<package>
+			<version>7.23.build134</version>
+			<versioncode>134</versioncode>
+			<apkname>com.rarlab.rar_7.23.build134_revanced.apk</apkname>
+			<hash type="sha256">b26de8553adc193639298a789e08d3faccdae76d8acba6a87ffd6384685f886d</hash>
+			<size>2527990</size>
+			<sdkver>23</sdkver>
+			<targetSdkVersion>36</targetSdkVersion>
+			<added>2026-11-16</added>
+			<sig>5837ab34622f0917305f6d32bc00ab0a</sig>
+			<permissions>ACCESS_NETWORK_STATE,FOREGROUND_SERVICE,HIDE_OVERLAY_WINDOWS,INTERNET,MANAGE_EXTERNAL_STORAGE,POST_NOTIFICATIONS,READ_EXTERNAL_STORAGE,RECEIVE_BOOT_COMPLETED,REQUEST_INSTALL_PACKAGES,WAKE_LOCK,WRITE_EXTERNAL_STORAGE,com.android.vending.BILLING,com.rarlab.rar.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION</permissions>
+		</package>
+	</application>
+	<application id="com.google.android.apps.recorder.revanced">
+		<id>com.google.android.apps.recorder.revanced</id>
+		<added>2026-11-16</added>
+		<lastupdated>2026-11-16</lastupdated>
+		<name>Recorder</name>
+		<summary></summary>
+		<desc>ReVanced-patched build of com.google.android.apps.recorder.
+
+Patches applied:
+- INFO: &quot;Remove device restrictions&quot; succeeded
+- INFO: &quot;Change package name&quot; succeeded
+</desc>
+		<license>Unknown</license>
+		<categories>Multimedia</categories>
+		<category>Multimedia</category>
+		<web></web>
+		<source></source>
+		<tracker></tracker>
+		<author>ReVanced (patched)</author>
+		<marketversion></marketversion>
+		<marketvercode>42451313</marketvercode>
+		<package>
+			<version>4.2.20261001.1019894446</version>
+			<versioncode>42451313</versioncode>
+			<apkname>com.google.android.apps.recorder_4.2.20261001.1019894446_revanced.apk</apkname>
+			<hash type="sha256">7eb9cfc907fe80dbf2fdadfa87ce6b6c0f9907eab56767b658a7b01a37b8acb6</hash>
+			<size>51161076</size>
+			<sdkver>29</sdkver>
+			<targetSdkVersion>37</targetSdkVersion>
+			<added>2026-11-16</added>
+			<sig>5837ab34622f0917305f6d32bc00ab0a</sig>
+			<permissions>ACCESS_COARSE_LOCATION,ACCESS_FINE_LOCATION,ACCESS_NETWORK_STATE,BLUETOOTH,BLUETOOTH_CONNECT,FOREGROUND_SERVICE,FOREGROUND_SERVICE_DATA_SYNC,FOREGROUND_SERVICE_MEDIA_PLAYBACK,FOREGROUND_SERVICE_MEDIA_PROCESSING,FOREGROUND_SERVICE_MICROPHONE,GET_PACKAGE_SIZE,INTERNET,POST_NOTIFICATIONS,READ_CONTACTS,RECEIVE_BOOT_COMPLETED,RECORD_AUDIO,RUN_USER_INITIATED_JOBS,WAKE_LOCK,com.google.android.apps.aicore.service.BIND_SERVICE,com.google.android.apps.recorder.permission.RECORDER_ORIGIN,com.google.android.c2dm.permission.RECEIVE,com.google.android.providers.gsf.permission.READ_GSERVICES</permissions>
+			<uses-permission maxSdkVersion="30" name="android.permission.BLUETOOTH"/>
+			<nativecode>arm64-v8a</nativecode>
+			<features>com.google.android.feature.PIXEL_2017_EXPERIENCE</features>
+		</package>
+	</application>
+	<application id="free.reddit.news.revanced">
+		<id>free.reddit.news.revanced</id>
+		<added>2026-11-16</added>
+		<lastupdated>2026-11-16</lastupdated>
+		<name>Relay</name>
+		<summary></summary>
+		<icon>free.reddit.news.revanced.641.png</icon>
+		<desc>ReVanced-patched build of free.reddit.news.
+
+Patches applied:
+- INFO: &quot;Change package name&quot; succeeded
+</desc>
+		<license>Unknown</license>
+		<categories>Multimedia</categories>
+		<category>Multimedia</category>
+		<web></web>
+		<source></source>
+		<tracker></tracker>
+		<author>ReVanced (patched)</author>
+		<marketversion></marketversion>
+		<marketvercode>641</marketvercode>
+		<package>
+			<version>10.2.40</version>
+			<versioncode>641</versioncode>
+			<apkname>free.reddit.news_10.2.40_revanced.apk</apkname>
+			<hash type="sha256">1ae9f06647616e551a90921b538641a2dd447901431930f1292135fae5606b7d</hash>
+			<size>18734267</size>
+			<sdkver>23</sdkver>
+			<targetSdkVersion>33</targetSdkVersion>
+			<added>2026-11-16</added>
+			<sig>5837ab34622f0917305f6d32bc00ab0a</sig>
+			<permissions>ACCESS_NETWORK_STATE,ACCESS_WIFI_STATE,FOREGROUND_SERVICE,INTERNET,POST_NOTIFICATIONS,READ_EXTERNAL_STORAGE,VIBRATE,WAKE_LOCK,WRITE_EXTERNAL_STORAGE,com.android.vending.BILLING,com.applovin.array.apphub.permission.BIND_APPHUB_SERVICE,com.google.android.c2dm.permission.RECEIVE,com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE,com.google.android.gms.permission.AD_ID,free.reddit.news.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION</permissions>
+			<uses-permission maxSdkVersion="29" name="android.permission.READ_EXTERNAL_STORAGE"/>
+			<uses-permission maxSdkVersion="29" name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+			<nativecode>arm64-v8a,armeabi-v7a,x86,x86_64</nativecode>
+		</package>
+	</application>
+	<application id="reddit.news.revanced">
+		<id>reddit.news.revanced</id>
+		<added>2026-11-16</added>
+		<lastupdated>2026-11-16</lastupdated>
+		<name>Relay</name>
+		<summary></summary>
+		<icon>reddit.news.revanced.761.png</icon>
+		<desc>ReVanced-patched build of reddit.news.
+
+Patches applied:
+- INFO: &quot;Change package name&quot; succeeded
+</desc>
+		<license>Unknown</license>
+		<categories>Multimedia</categories>
+		<category>Multimedia</category>
+		<web></web>
+		<source></source>
+		<tracker></tracker>
+		<author>ReVanced (patched)</author>
+		<marketversion></marketversion>
+		<marketvercode>761</marketvercode>
+		<package>
+			<version>13.1.09</version>
+			<versioncode>761</versioncode>
+			<apkname>reddit.news_13.1.09_revanced.apk</apkname>
+			<hash type="sha256">eb00b3f47214ae179024fec66bf7d697b617e11736903ecc1a31d1c431207a8d</hash>
+			<size>18097877</size>
+			<sdkver>29</sdkver>
+			<targetSdkVersion>35</targetSdkVersion>
+			<added>2026-11-16</added>
+			<sig>5837ab34622f0917305f6d32bc00ab0a</sig>
+			<permissions>ACCESS_ADSERVICES_AD_ID,ACCESS_ADSERVICES_ATTRIBUTION,ACCESS_NETWORK_STATE,FOREGROUND_SERVICE,INTERNET,POST_NOTIFICATIONS,READ_EXTERNAL_STORAGE,RECEIVE_BOOT_COMPLETED,VIBRATE,WAKE_LOCK,WRITE_EXTERNAL_STORAGE,com.android.vending.BILLING,com.android.vending.CHECK_LICENSE,com.google.android.c2dm.permission.RECEIVE,com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE,reddit.news.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION</permissions>
+			<uses-permission maxSdkVersion="29" name="android.permission.READ_EXTERNAL_STORAGE"/>
+			<uses-permission maxSdkVersion="29" name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+		</package>
+	</application>
 	<application id="com.andrewshu.android.reddit.revanced">
 		<id>com.andrewshu.android.reddit.revanced</id>
 		<added>2026-07-19</added>
@@ -570,8 +1120,8 @@ Patches applied:
 			<version>5.6.22</version>
 			<versioncode>4622</versioncode>
 			<apkname>com.andrewshu.android.reddit_5.6.22_revanced.apk</apkname>
-			<hash type="sha256">6e783c15622c5a7b071d74884da8437d473da0a77e488d8df92f82ace8bcf79e</hash>
-			<size>14153585</size>
+			<hash type="sha256">44a708e4dc2803962ec42eb8265e0fec698f2a111f330fe97c9c190cc409abf6</hash>
+			<size>14149489</size>
 			<sdkver>21</sdkver>
 			<targetSdkVersion>33</targetSdkVersion>
 			<added>2026-07-19</added>
@@ -584,6 +1134,185 @@ Patches applied:
 			<uses-permission maxSdkVersion="22" name="android.permission.USE_CREDENTIALS"/>
 			<uses-permission maxSdkVersion="29" name="android.permission.WRITE_EXTERNAL_STORAGE"/>
 			<nativecode>arm64-v8a,armeabi-v7a,x86,x86_64</nativecode>
+		</package>
+	</application>
+	<application id="at.gv.bka.serviceportal.revanced">
+		<id>at.gv.bka.serviceportal.revanced</id>
+		<added>2026-11-16</added>
+		<lastupdated>2026-11-16</lastupdated>
+		<name>Serviceportal</name>
+		<summary></summary>
+		<desc>ReVanced-patched build of at.gv.bka.serviceportal.
+
+Patches applied:
+- INFO: &quot;Remove root detection&quot; succeeded
+- INFO: &quot;Change package name&quot; succeeded
+</desc>
+		<license>Unknown</license>
+		<categories>Multimedia</categories>
+		<category>Multimedia</category>
+		<web></web>
+		<source></source>
+		<tracker></tracker>
+		<author>ReVanced (patched)</author>
+		<marketversion></marketversion>
+		<marketvercode>2025092443</marketvercode>
+		<package>
+			<version>1.8.2</version>
+			<versioncode>2025092443</versioncode>
+			<apkname>at.gv.bka.serviceportal_1.8.2_revanced.apk</apkname>
+			<hash type="sha256">8df3d7af3a5f3afe07c481f3ff4f54ac609b8f6fd1da69f7f3dfc8278daa06fe</hash>
+			<size>24789700</size>
+			<sdkver>27</sdkver>
+			<targetSdkVersion>35</targetSdkVersion>
+			<added>2026-11-16</added>
+			<sig>5837ab34622f0917305f6d32bc00ab0a</sig>
+			<permissions>ACCESS_ADSERVICES_AD_ID,ACCESS_ADSERVICES_ATTRIBUTION,ACCESS_MEDIA_LOCATION,ACCESS_NETWORK_STATE,CALL_PHONE,CAMERA,FLASHLIGHT,INTERNET,POST_NOTIFICATIONS,READ_EXTERNAL_STORAGE,READ_PHONE_STATE,REQUEST_PASSWORD_COMPLEXITY,USE_BIOMETRIC,USE_FINGERPRINT,VIBRATE,WAKE_LOCK,WRITE_EXTERNAL_STORAGE,at.gv.bka.serviceportal.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION,com.android.vending.CHECK_LICENSE,com.google.android.c2dm.permission.RECEIVE,com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE,com.google.android.providers.gsf.permission.READ_GSERVICES</permissions>
+			<uses-permission maxSdkVersion="32" name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+			<features>android.hardware.camera</features>
+		</package>
+	</application>
+	<application id="me.ccrama.redditslide.revanced">
+		<id>me.ccrama.redditslide.revanced</id>
+		<added>2026-11-16</added>
+		<lastupdated>2026-11-16</lastupdated>
+		<name>Slide</name>
+		<summary></summary>
+		<icon>me.ccrama.redditslide.revanced.337.png</icon>
+		<desc>ReVanced-patched build of me.ccrama.redditslide.
+
+Patches applied:
+- INFO: &quot;Change package name&quot; succeeded
+</desc>
+		<license>Unknown</license>
+		<categories>Multimedia</categories>
+		<category>Multimedia</category>
+		<web></web>
+		<source></source>
+		<tracker></tracker>
+		<author>ReVanced (patched)</author>
+		<marketversion></marketversion>
+		<marketvercode>337</marketvercode>
+		<package>
+			<version>6.7.1</version>
+			<versioncode>337</versioncode>
+			<apkname>me.ccrama.redditslide_6.7.1_revanced.apk</apkname>
+			<hash type="sha256">0e2c41152b6b530ce1a1f1a3fc89d8975f67b2d64846bd14a072a29c9cca2968</hash>
+			<size>14213098</size>
+			<sdkver>16</sdkver>
+			<targetSdkVersion>29</targetSdkVersion>
+			<added>2026-11-16</added>
+			<sig>5837ab34622f0917305f6d32bc00ab0a</sig>
+			<permissions>ACCESS_NETWORK_STATE,ACCESS_WIFI_STATE,INTERNET,NFC,READ_EXTERNAL_STORAGE,WRITE_EXTERNAL_STORAGE,com.android.vending.BILLING</permissions>
+		</package>
+	</application>
+	<application id="pl.solidexplorer2.revanced">
+		<id>pl.solidexplorer2.revanced</id>
+		<added>2026-11-16</added>
+		<lastupdated>2026-11-16</lastupdated>
+		<name>Solid Explorer</name>
+		<summary></summary>
+		<icon>pl.solidexplorer2.revanced.306041.png</icon>
+		<desc>ReVanced-patched build of pl.solidexplorer2.
+
+Patches applied:
+- INFO: &quot;Change package name&quot; succeeded
+</desc>
+		<license>Unknown</license>
+		<categories>Multimedia</categories>
+		<category>Multimedia</category>
+		<web></web>
+		<source></source>
+		<tracker></tracker>
+		<author>ReVanced (patched)</author>
+		<marketversion></marketversion>
+		<marketvercode>306041</marketvercode>
+		<package>
+			<version>3.6.4</version>
+			<versioncode>306041</versioncode>
+			<apkname>pl.solidexplorer2_3.6.4_revanced.apk</apkname>
+			<hash type="sha256">a0f3d51294a36e870071c083f1d513e320a4b3f42106f71ad277c0250079b855</hash>
+			<size>26740057</size>
+			<sdkver>23</sdkver>
+			<targetSdkVersion>36</targetSdkVersion>
+			<added>2026-11-16</added>
+			<sig>5837ab34622f0917305f6d32bc00ab0a</sig>
+			<permissions>ACCESS_ADSERVICES_AD_ID,ACCESS_ADSERVICES_ATTRIBUTION,ACCESS_ADSERVICES_TOPICS,ACCESS_NETWORK_STATE,ACCESS_WIFI_STATE,CHANGE_WIFI_STATE,FOREGROUND_SERVICE,FOREGROUND_SERVICE_DATA_SYNC,FOREGROUND_SERVICE_MEDIA_PLAYBACK,GET_ACCOUNTS,INTERNET,MANAGE_EXTERNAL_STORAGE,NFC,PACKAGE_USAGE_STATS,POST_NOTIFICATIONS,QUERY_ALL_PACKAGES,READ_EXTERNAL_STORAGE,READ_PHONE_STATE,REQUEST_DELETE_PACKAGES,REQUEST_INSTALL_PACKAGES,RUN_USER_INITIATED_JOBS,SET_WALLPAPER,USE_BIOMETRIC,USE_FINGERPRINT,VIBRATE,WAKE_LOCK,WRITE_EXTERNAL_STORAGE,WRITE_SETTINGS,com.android.launcher.permission.INSTALL_SHORTCUT,com.android.vending.BILLING,com.android.vending.CHECK_LICENSE,com.google.android.c2dm.permission.RECEIVE,com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE,com.google.android.gms.permission.AD_ID,com.google.android.providers.gsf.permission.READ_GSERVICES,moe.shizuku.manager.permission.API_V23,pl.solidexplorer2.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION</permissions>
+			<uses-permission maxSdkVersion="18" name="android.permission.READ_EXTERNAL_STORAGE"/>
+		</package>
+	</application>
+	<application id="com.laurencedawson.reddit_sync.revanced">
+		<id>com.laurencedawson.reddit_sync.revanced</id>
+		<added>2026-11-16</added>
+		<lastupdated>2026-11-16</lastupdated>
+		<name>Sync</name>
+		<summary></summary>
+		<icon>com.laurencedawson.reddit_sync.revanced.23033.png</icon>
+		<desc>ReVanced-patched build of com.laurencedawson.reddit_sync.
+
+Patches applied:
+- INFO: &quot;Disable Sync for Lemmy bottom sheet&quot; succeeded
+- INFO: &quot;Disable ads&quot; succeeded
+- INFO: &quot;Fix /s/ links&quot; succeeded
+- INFO: &quot;Fix Redgifs API&quot; succeeded
+- INFO: &quot;Fix post thumbnails&quot; succeeded
+- INFO: &quot;Fix video downloads&quot; succeeded
+- INFO: &quot;Change package name&quot; succeeded
+</desc>
+		<license>Unknown</license>
+		<categories>Multimedia</categories>
+		<category>Multimedia</category>
+		<web></web>
+		<source></source>
+		<tracker></tracker>
+		<author>ReVanced (patched)</author>
+		<marketversion></marketversion>
+		<marketvercode>23033</marketvercode>
+		<package>
+			<version>v23.06.30-13:39</version>
+			<versioncode>23033</versioncode>
+			<apkname>com.laurencedawson.reddit_sync_v23.06.30-13_39_revanced.apk</apkname>
+			<hash type="sha256">7d0c71552930fddec6959f8d4cae0ebfd360ca08e4b2fc3cd6b9d443e791037c</hash>
+			<size>15454442</size>
+			<sdkver>23</sdkver>
+			<targetSdkVersion>33</targetSdkVersion>
+			<added>2026-11-16</added>
+			<sig>5837ab34622f0917305f6d32bc00ab0a</sig>
+			<permissions>ACCESS_NETWORK_STATE,ACCESS_WIFI_STATE,FOREGROUND_SERVICE,INTERNET,POST_NOTIFICATIONS,RECEIVE_BOOT_COMPLETED,USE_BIOMETRIC,USE_FINGERPRINT,VIBRATE,WAKE_LOCK,com.android.vending.BILLING,com.android.vending.CHECK_LICENSE,com.google.android.c2dm.permission.RECEIVE,com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE,com.google.android.gms.permission.AD_ID,com.google.android.providers.gsf.permission.READ_GSERVICES,com.laurencedawson.reddit_sync.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION</permissions>
+		</package>
+	</application>
+	<application id="io.syncapps.lemmy_sync.revanced">
+		<id>io.syncapps.lemmy_sync.revanced</id>
+		<added>2026-11-16</added>
+		<lastupdated>2026-11-16</lastupdated>
+		<name>Sync</name>
+		<summary></summary>
+		<desc>ReVanced-patched build of io.syncapps.lemmy_sync.
+
+Patches applied:
+- INFO: &quot;Disable ads&quot; succeeded
+- INFO: &quot;Change package name&quot; succeeded
+</desc>
+		<license>Unknown</license>
+		<categories>Multimedia</categories>
+		<category>Multimedia</category>
+		<web></web>
+		<source></source>
+		<tracker></tracker>
+		<author>ReVanced (patched)</author>
+		<marketversion></marketversion>
+		<marketvercode>122</marketvercode>
+		<package>
+			<version>v24.03.26-14:56</version>
+			<versioncode>122</versioncode>
+			<apkname>io.syncapps.lemmy_sync_v24.03.26-14_56_revanced.apk</apkname>
+			<hash type="sha256">448f6be416bddb4b53047afb54d0982025f759dc3e0d09996ea21fd9a620683f</hash>
+			<size>14596707</size>
+			<sdkver>26</sdkver>
+			<targetSdkVersion>34</targetSdkVersion>
+			<added>2026-11-16</added>
+			<sig>5837ab34622f0917305f6d32bc00ab0a</sig>
+			<permissions>ACCESS_ADSERVICES_AD_ID,ACCESS_ADSERVICES_ATTRIBUTION,ACCESS_ADSERVICES_TOPICS,ACCESS_NETWORK_STATE,ACCESS_WIFI_STATE,FOREGROUND_SERVICE,INTERNET,POST_NOTIFICATIONS,RECEIVE_BOOT_COMPLETED,USE_BIOMETRIC,USE_FINGERPRINT,VIBRATE,WAKE_LOCK,com.android.vending.BILLING,com.android.vending.CHECK_LICENSE,com.google.android.c2dm.permission.RECEIVE,com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE,com.google.android.gms.permission.AD_ID,com.google.android.providers.gsf.permission.READ_GSERVICES,io.syncapps.lemmy_sync.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION</permissions>
 		</package>
 	</application>
 	<application id="com.samsung.android.themedesigner.revanced">
@@ -650,6 +1379,77 @@ Patches applied:
 			<uses-permission maxSdkVersion="32" name="android.permission.SCHEDULE_EXACT_ALARM"/>
 			<nativecode>arm64-v8a,armeabi-v7a,x86,x86_64</nativecode>
 			<features>android.hardware.type.watch</features>
+		</package>
+	</application>
+	<application id="de.tudortmund.app.revanced">
+		<id>de.tudortmund.app.revanced</id>
+		<added>2026-11-16</added>
+		<lastupdated>2026-11-16</lastupdated>
+		<name>TU Dortmund</name>
+		<summary></summary>
+		<icon>de.tudortmund.app.revanced.200005396.png</icon>
+		<desc>ReVanced-patched build of de.tudortmund.app.
+
+Patches applied:
+- INFO: &quot;Change package name&quot; succeeded
+</desc>
+		<license>Unknown</license>
+		<categories>Multimedia</categories>
+		<category>Multimedia</category>
+		<web></web>
+		<source></source>
+		<tracker></tracker>
+		<author>ReVanced (patched)</author>
+		<marketversion></marketversion>
+		<marketvercode>200005396</marketvercode>
+		<package>
+			<version>6.0.3</version>
+			<versioncode>200005396</versioncode>
+			<apkname>de.tudortmund.app_6.0.3_revanced.apk</apkname>
+			<hash type="sha256">d2adf23fbe12eb2a3653aeb6be5ce73da2dffb2e83d12120f141f32be13ee0d2</hash>
+			<size>18684201</size>
+			<sdkver>24</sdkver>
+			<targetSdkVersion>36</targetSdkVersion>
+			<added>2026-11-16</added>
+			<sig>5837ab34622f0917305f6d32bc00ab0a</sig>
+			<permissions>ACCESS_COARSE_LOCATION,ACCESS_FINE_LOCATION,ACCESS_NETWORK_STATE,CAMERA,INTERNET,POST_NOTIFICATIONS,READ_CALENDAR,READ_CONTACTS,READ_EXTERNAL_STORAGE,VIBRATE,WAKE_LOCK,WRITE_CALENDAR,WRITE_CONTACTS,WRITE_EXTERNAL_STORAGE,com.google.android.c2dm.permission.RECEIVE,de.tudortmund.app.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION</permissions>
+			<features>android.hardware.camera,android.hardware.camera.autofocus,android.hardware.location.gps</features>
+		</package>
+	</application>
+	<application id="com.tumblr.revanced">
+		<id>com.tumblr.revanced</id>
+		<added>2026-11-16</added>
+		<lastupdated>2026-11-16</lastupdated>
+		<name>Tumblr</name>
+		<summary></summary>
+		<desc>ReVanced-patched build of com.tumblr.
+
+Patches applied:
+- INFO: &quot;Disable blog notification reminder&quot; succeeded
+- INFO: &quot;Change package name&quot; succeeded
+</desc>
+		<license>Unknown</license>
+		<categories>Multimedia</categories>
+		<category>Multimedia</category>
+		<web></web>
+		<source></source>
+		<tracker></tracker>
+		<author>ReVanced (patched)</author>
+		<marketversion></marketversion>
+		<marketvercode>1470100109</marketvercode>
+		<package>
+			<version>47.1.0.109</version>
+			<versioncode>1470100109</versioncode>
+			<apkname>com.tumblr_47.1.0.109_revanced.apk</apkname>
+			<hash type="sha256">025c69b31c485c9ed5bc327869f25b88f5a323673c124bc93aee5ca2d929e75c</hash>
+			<size>39456888</size>
+			<sdkver>26</sdkver>
+			<targetSdkVersion>36</targetSdkVersion>
+			<added>2026-11-16</added>
+			<sig>5837ab34622f0917305f6d32bc00ab0a</sig>
+			<permissions>ACCESS_ADSERVICES_AD_ID,ACCESS_ADSERVICES_ATTRIBUTION,ACCESS_ADSERVICES_TOPICS,ACCESS_NETWORK_STATE,ACCESS_WIFI_STATE,CAMERA,DETECT_SCREEN_CAPTURE,DOWNLOAD_WITHOUT_NOTIFICATION,FOREGROUND_SERVICE,FOREGROUND_SERVICE_MEDIA_PLAYBACK,INTERNET,POST_NOTIFICATIONS,READ_APP_BADGE,READ_EXTERNAL_STORAGE,READ_MEDIA_IMAGES,READ_MEDIA_VIDEO,READ_SYNC_SETTINGS,RECEIVE_BOOT_COMPLETED,RECORD_AUDIO,USE_BIOMETRIC,USE_FINGERPRINT,WAKE_LOCK,WRITE_EXTERNAL_STORAGE,WRITE_SYNC_SETTINGS,com.amazon.privacypass.ATTEST,com.anddoes.launcher.permission.UPDATE_COUNT,com.android.launcher.permission.INSTALL_SHORTCUT,com.android.vending.BILLING,com.google.android.c2dm.permission.RECEIVE,com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE,com.google.android.gms.permission.AD_ID,com.htc.launcher.permission.READ_SETTINGS,com.htc.launcher.permission.UPDATE_SHORTCUT,com.huawei.android.launcher.permission.CHANGE_BADGE,com.huawei.android.launcher.permission.READ_SETTINGS,com.huawei.android.launcher.permission.WRITE_SETTINGS,com.majeur.launcher.permission.UPDATE_BADGE,com.oppo.launcher.permission.READ_SETTINGS,com.oppo.launcher.permission.WRITE_SETTINGS,com.sec.android.provider.badge.permission.READ,com.sec.android.provider.badge.permission.WRITE,com.sonyericsson.home.permission.BROADCAST_BADGE,com.sonymobile.home.permission.PROVIDER_INSERT_BADGE,com.tumblr.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION,com.tumblr.permissions.RECEIVER,me.everything.badger.permission.BADGE_COUNT_READ,me.everything.badger.permission.BADGE_COUNT_WRITE</permissions>
+			<uses-permission maxSdkVersion="32" name="android.permission.READ_EXTERNAL_STORAGE"/>
+			<uses-permission maxSdkVersion="32" name="android.permission.WRITE_EXTERNAL_STORAGE"/>
 		</package>
 	</application>
 	<application id="at.willhaben.revanced">
